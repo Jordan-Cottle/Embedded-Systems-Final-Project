@@ -67,9 +67,9 @@
 // CS   - PA3 TFT_CS, active low to enable TFT
 // *CS  - (NC) SDC_CS, active low to enable SDC
 // MISO - (NC) MISO SPI data from SDC to microcontroller
-// SDA  – (NC) I2C data for ADXL345 accelerometer
-// SCL  – (NC) I2C clock for ADXL345 accelerometer
-// SDO  – (NC) I2C alternate address for ADXL345 accelerometer
+// SDA  â€“ (NC) I2C data for ADXL345 accelerometer
+// SCL  â€“ (NC) I2C clock for ADXL345 accelerometer
+// SDO  â€“ (NC) I2C alternate address for ADXL345 accelerometer
 // Backlight + - Light, backlight connected to +3.3 V
 
 // **********wide.hk ST7735R with ADXL335 accelerometer *******************
@@ -83,15 +83,17 @@
 // CS   - PA3 TFT_CS, active low to enable TFT
 // *CS  - (NC) SDC_CS, active low to enable SDC
 // MISO - (NC) MISO SPI data from SDC to microcontroller
-// X– (NC) analog input X-axis from ADXL335 accelerometer
-// Y– (NC) analog input Y-axis from ADXL335 accelerometer
-// Z– (NC) analog input Z-axis from ADXL335 accelerometer
+// Xâ€“ (NC) analog input X-axis from ADXL335 accelerometer
+// Yâ€“ (NC) analog input Y-axis from ADXL335 accelerometer
+// Zâ€“ (NC) analog input Z-axis from ADXL335 accelerometer
 // Backlight + - Light, backlight connected to +3.3 V
 
 #include <stdio.h>
 #include <stdint.h>
 #include "ST7735.h"
 #include "inc/tm4c123gh6pm.h"
+#include "functions.h"
+#include "driverlib/gpio.h"
 
 // 16 rows (0 to 15) and 21 characters (0 to 20)
 // Requires (11 + size*size*6*8) bytes of transmission for each character
@@ -144,16 +146,6 @@ uint16_t StTextColor = ST7735_YELLOW;
 
 #define ST7735_GMCTRP1 0xE0
 #define ST7735_GMCTRN1 0xE1
-
-#define TFT_CS                  (*((volatile uint32_t *)0x40004020))
-#define TFT_CS_LOW              0           // CS normally controlled by hardware
-#define TFT_CS_HIGH             0x08
-#define DC                      (*((volatile uint32_t *)0x40004100))
-#define DC_COMMAND              0
-#define DC_DATA                 0x40
-#define RESET                   (*((volatile uint32_t *)0x40004200))
-#define RESET_LOW               0
-#define RESET_HIGH              0x80
 
 #define SSI_CR0_SCR_M           0x0000FF00  // SSI Serial Clock Rate
 #define SSI_CR0_SPH             0x00000080  // SSI Serial Clock Phase
@@ -509,20 +501,36 @@ static int16_t _height = ST7735_TFTHEIGHT;
 // NOTE: These functions will crash or stall indefinitely if
 // the SSI0 module is not initialized and enabled.
 void static writecommand(uint8_t c) {
-                                        // wait until SSI0 not busy/transmit FIFO empty
-  while((SSI0_SR_R&SSI_SR_BSY)==SSI_SR_BSY){};
-  DC = DC_COMMAND;
-  SSI0_DR_R = c;                        // data out
-                                        // wait until SSI0 not busy/transmit FIFO empty
-  while((SSI0_SR_R&SSI_SR_BSY)==SSI_SR_BSY){};
+  // wait no longer necessary
+  //while((SSI0_SR_R&SSI_SR_BSY)==SSI_SR_BSY){};
+
+  // Write to slave select pin using PDL
+  GPIOPinWrite(SS_PORT, SS_PIN, 0);
+  //DC = DC_COMMAND;
+
+  // Send command data to LCD through SSI
+  SSIDataPut(SSI_BASE, c);
+  //SSI0_DR_R = c;
+
+  // wait no longer necessary
+  //while((SSI0_SR_R&SSI_SR_BSY)==SSI_SR_BSY){};
 }
 
 
 void static writedata(uint8_t c) {
-  while((SSI0_SR_R&SSI_SR_TNF)==0){};   // wait until transmit FIFO not full
-  DC = DC_DATA;
-  SSI0_DR_R = c;                        // data out
+  // wait no longer necessary
+  //while((SSI0_SR_R&SSI_SR_BSY)==SSI_SR_BSY){};
+
+  // Write to slave select pin using PDL
+  GPIOPinWrite(SS_PORT, SS_PIN, SS_PIN);
+  //DC = DC_COMMAND;
+
+  // Send data to LCD through SSI
+  SSIDataPut(SSI_BASE, c);
+  //SSI0_DR_R = c;
 }
+
+
 // Subroutine to wait 1 msec
 // Inputs: None
 // Outputs: None
@@ -707,18 +715,27 @@ void static commonInit(const uint8_t *cmdList) {
   volatile uint32_t delay;
   ColStart  = RowStart = 0; // May be overridden in init func
 
-  SYSCTL_RCGCSSI_R |= 0x01;  // activate SSI0
-  SYSCTL_RCGCGPIO_R |= 0x01; // activate port A
-  while((SYSCTL_PRGPIO_R&0x01)==0){}; // allow time for clock to start
+  //SYSCTL_RCGCSSI_R |= 0x01;  // activate SSI0
+  //SYSCTL_RCGCGPIO_R |= 0x01; // activate port A
+  //while((SYSCTL_PRGPIO_R&0x01)==0){}; // allow time for clock to start
+
+
+  // Not sure if this is necessary
+  //initOutput(CS_PERIPH, CS_PORT, CS_PIN);
+  //GPIOPinWrite(CS_PORT, CS_PIN, 0);
+
+  // Also not sure if this is required
+  //initOutput(RESET_PERIPH, RESET_PORT, RESET_PIN);
+  //GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);
+  //Delay1ms(500);
+  //GPIOPinWrite(RESET_PORT, RESET_PIN, 0);
+  //Delay1ms(500);
+  //GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);
+  //Delay1ms(500);
+
 
   // toggle RST low to reset; CS low so it'll listen to us
-  // SSI0Fss is temporarily used as GPIO
-  GPIO_PORTA_DIR_R |= 0xC8;             // make PA3,6,7 out
-  GPIO_PORTA_AFSEL_R &= ~0xC8;          // disable alt funct on PA3,6,7
-  GPIO_PORTA_DEN_R |= 0xC8;             // enable digital I/O on PA3,6,7
-                                        // configure PA3,6,7 as GPIO
-  GPIO_PORTA_PCTL_R = (GPIO_PORTA_PCTL_R&0x00FF0FFF)+0x00000000;
-  GPIO_PORTA_AMSEL_R &= ~0xC8;          // disable analog functionality on PA3,6,7
+  /*
   TFT_CS = TFT_CS_LOW;
   RESET = RESET_HIGH;
   Delay1ms(500);
@@ -726,31 +743,57 @@ void static commonInit(const uint8_t *cmdList) {
   Delay1ms(500);
   RESET = RESET_HIGH;
   Delay1ms(500);
+   */
 
-  // initialize SSI0
-  GPIO_PORTA_AFSEL_R |= 0x2C;           // enable alt funct on PA2,3,5
-  GPIO_PORTA_DEN_R |= 0x2C;             // enable digital I/O on PA2,3,5
+
+  // SSI0Fss is temporarily used as GPIO
+    //GPIO_PORTA_DIR_R |= 0xC8;             // make PA3,6,7 out
+    //GPIO_PORTA_AFSEL_R &= ~0xC8;          // disable alt funct on PA3,6,7
+    //GPIO_PORTA_DEN_R |= 0xC8;             // enable digital I/O on PA3,6,7
+                                          // configure PA3,6,7 as GPIO
+    //GPIO_PORTA_PCTL_R = (GPIO_PORTA_PCTL_R&0x00FF0FFF)+0x00000000;
+    //GPIO_PORTA_AMSEL_R &= ~0xC8;          // disable analog functionality on PA3,6,7
+  initOutput(SS_PERIPH, SS_PORT, SS_PIN);
+
+  initSSI(SSI_PERIPH, SSI_BASE, BAUD_RATE, DATA_WIDTH);
+  if(SSI_BASE == SSI0_BASE){
+      initPeriph(SYSCTL_PERIPH_GPIOA);
+      GPIOPinConfigure(GPIO_PA2_SSI0CLK);
+      GPIOPinConfigure(GPIO_PA3_SSI0FSS);
+      GPIOPinConfigure(GPIO_PA5_SSI0TX);
+      GPIOPinTypeSSI(GPIO_PORTA_BASE, GPIO_PIN_2 | GPIO_PIN_3 | GPIO_PIN_5);
+  }else{
+      initPeriph(SYSCTL_PERIPH_GPIOB);
+      GPIOPinConfigure(GPIO_PB4_SSI2CLK);
+      GPIOPinConfigure(GPIO_PB5_SSI2FSS);
+      GPIOPinConfigure(GPIO_PB7_SSI2TX);
+      GPIOPinTypeSSI(GPIO_PORTB_BASE, GPIO_PIN_4 | GPIO_PIN_5 | GPIO_PIN_7);
+  }
+
+  //GPIO_PORTA_AFSEL_R |= 0x20 | 0x8;// | 0x4;           // enable alt funct on PA2,3,5
+  //GPIO_PORTA_DEN_R |= 0x2C;             // enable digital I/O on PA2,3,5
+  //GPIO_PORTA_AMSEL_R &= ~0x2C;          // disable analog functionality on PA2,3,5
                                         // configure PA2,3,5 as SSI
-  GPIO_PORTA_PCTL_R = (GPIO_PORTA_PCTL_R&0xFF0F00FF)+0x00202200;
-  GPIO_PORTA_AMSEL_R &= ~0x2C;          // disable analog functionality on PA2,3,5
-  SSI0_CR1_R &= ~SSI_CR1_SSE;           // disable SSI
-  SSI0_CR1_R &= ~SSI_CR1_MS;            // master mode
+  //GPIO_PORTA_PCTL_R = (GPIO_PORTA_PCTL_R&0xFF0F00FF)+0x00202200;
+
+  //SSI0_CR1_R &= ~SSI_CR1_SSE;           // disable SSI
+  //SSI0_CR1_R &= ~SSI_CR1_MS;            // master mode
                                         // configure for system clock/PLL baud clock source
-  SSI0_CC_R = (SSI0_CC_R&~SSI_CC_CS_M)+SSI_CC_CS_SYSPLL;
+  //SSI0_CC_R = (SSI0_CC_R&~SSI_CC_CS_M)+SSI_CC_CS_SYSPLL;
 //                                        // clock divider for 3.125 MHz SSIClk (50 MHz PIOSC/16)
 //  SSI0_CPSR_R = (SSI0_CPSR_R&~SSI_CPSR_CPSDVSR_M)+16;
                                         // clock divider for 8 MHz SSIClk (80 MHz PLL/24)
                                         // SysClk/(CPSDVSR*(1+SCR))
                                         // 80/(10*(1+0)) = 8 MHz (slower than 4 MHz)
-  SSI0_CPSR_R = (SSI0_CPSR_R&~SSI_CPSR_CPSDVSR_M)+10; // must be even number
-  SSI0_CR0_R &= ~(SSI_CR0_SCR_M |       // SCR = 0 (8 Mbps data rate)
-                  SSI_CR0_SPH |         // SPH = 0
-                  SSI_CR0_SPO);         // SPO = 0
+  //SSI0_CPSR_R = (SSI0_CPSR_R&~SSI_CPSR_CPSDVSR_M)+10; // must be even number
+  //SSI0_CR0_R &= ~(SSI_CR0_SCR_M |       // SCR = 0 (8 Mbps data rate)
+  //               SSI_CR0_SPH |         // SPH = 0
+  //                SSI_CR0_SPO);         // SPO = 0
                                         // FRF = Freescale format
-  SSI0_CR0_R = (SSI0_CR0_R&~SSI_CR0_FRF_M)+SSI_CR0_FRF_MOTO;
+  //SSI0_CR0_R = (SSI0_CR0_R&~SSI_CR0_FRF_M)+SSI_CR0_FRF_MOTO;
                                         // DSS = 8-bit data
-  SSI0_CR0_R = (SSI0_CR0_R&~SSI_CR0_DSS_M)+SSI_CR0_DSS_8;
-  SSI0_CR1_R |= SSI_CR1_SSE;            // enable SSI
+  //SSI0_CR0_R = (SSI0_CR0_R&~SSI_CR0_DSS_M)+SSI_CR0_DSS_8;
+  //SSI0_CR1_R |= SSI_CR1_SSE;            // enable SSI
 
   if(cmdList) commandList(cmdList);
 }
