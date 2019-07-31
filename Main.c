@@ -5,6 +5,8 @@
  *      Author: Jordan
  */
 
+
+
 #include <stdint.h>
 #include <stdbool.h>
 #include "inc/hw_memmap.h"
@@ -20,6 +22,13 @@
 #include "ST7735.h"
 #include "PLL.h"
 
+typedef enum {IDLE, LOST, DEAD} pet_states;
+typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
+
+void updateFrequency();
+void toggleSound();
+void updateInputDelay();
+void setPWMPeriod(uint32_t);
 uint32_t readADC(uint32_t, uint32_t);
 
 //void timerInterruptHandler(){
