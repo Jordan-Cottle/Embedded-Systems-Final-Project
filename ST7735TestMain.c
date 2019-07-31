@@ -532,7 +532,7 @@ int main7(void){ int i; // main 7
   while(1){
   }
 }
-int main(void){  // main 2
+int mainPlus(void){  // main 2
   int x, y, dx, dy;
 //  uint8_t red, green, blue;
   PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
@@ -710,36 +710,6 @@ void SSR_Init(void){
   GPIO_PORTF_DEN_R |= 0x04;         // 7) enable digital port
 }
 
-
-void Delay1ms(uint32_t n);
-int main4(void){
-  SSR_Init();
-  while(1){
-    Delay1ms(10);
-    PF2 ^= 0x04;
-  }
-}
-int main5(void){
-  SSR_Init();
-  while(1){
-    DelayWait10ms(1000);
-    PF2 ^= 0x04;
-  }
-}
-int main6(void){ int32_t i,n; // main 6
-  Output_Init();              // initialize output device
-  Output_Color(ST7735_YELLOW);
-  BookExamples();
-  n = 0;
-  while(1){
-    printf("\ni=");
-    for(i=0; i<1; i++){
-      printf("%d ",i+n);
-    }
-
-    n = n+10000000; // notice what happens when this goes above 2,147,483,647
-  }
-}
 // Subroutine to wait 10 msec
 // Inputs: None
 // Outputs: None

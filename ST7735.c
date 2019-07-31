@@ -721,17 +721,17 @@ void static commonInit(const uint8_t *cmdList) {
 
 
   // Not sure if this is necessary
-  //initOutput(CS_PERIPH, CS_PORT, CS_PIN);
-  //GPIOPinWrite(CS_PORT, CS_PIN, 0);
+  initOutput(CS_PERIPH, CS_PORT, CS_PIN);
+  GPIOPinWrite(CS_PORT, CS_PIN, 0);
 
   // Also not sure if this is required
-  //initOutput(RESET_PERIPH, RESET_PORT, RESET_PIN);
-  //GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);
-  //Delay1ms(500);
-  //GPIOPinWrite(RESET_PORT, RESET_PIN, 0);
-  //Delay1ms(500);
-  //GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);
-  //Delay1ms(500);
+  initOutput(RESET_PERIPH, RESET_PORT, RESET_PIN);
+  GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);
+  Delay1ms(500);
+  GPIOPinWrite(RESET_PORT, RESET_PIN, 0);
+  Delay1ms(500);
+  GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);
+  Delay1ms(500);
 
 
   // toggle RST low to reset; CS low so it'll listen to us

@@ -10,9 +10,11 @@ GEN_OPTS__FLAG :=
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
+"./Main.obj" \
 "./PLL.obj" \
 "./ST7735.obj" \
 "./ST7735TestMain.obj" \
+"./functions.obj" \
 "./tm4c123gh6pm_startup_ccs.obj" \
 "../tm4c123gh6pm.cmd" \
 $(GEN_CMDS__FLAG) \
@@ -157,10 +159,10 @@ ST7735_4C123.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "PLL.lst" "ST7735.lst" "ST7735TestMain.lst" "tm4c123gh6pm_startup_ccs.lst" 
-	-$(RM) "PLL.obj" "ST7735.obj" "ST7735TestMain.obj" "tm4c123gh6pm_startup_ccs.obj" 
-	-$(RM) "PLL.d" "ST7735.d" "ST7735TestMain.d" "tm4c123gh6pm_startup_ccs.d" 
-	-$(RM) "PLL.asm" "ST7735.asm" "ST7735TestMain.asm" "tm4c123gh6pm_startup_ccs.asm" 
+	-$(RM) "Main.lst" "PLL.lst" "ST7735.lst" "ST7735TestMain.lst" "functions.lst" "tm4c123gh6pm_startup_ccs.lst" 
+	-$(RM) "Main.obj" "PLL.obj" "ST7735.obj" "ST7735TestMain.obj" "functions.obj" "tm4c123gh6pm_startup_ccs.obj" 
+	-$(RM) "Main.d" "PLL.d" "ST7735.d" "ST7735TestMain.d" "functions.d" "tm4c123gh6pm_startup_ccs.d" 
+	-$(RM) "Main.asm" "PLL.asm" "ST7735.asm" "ST7735TestMain.asm" "functions.asm" "tm4c123gh6pm_startup_ccs.asm" 
 	-@echo 'Finished clean'
 	-@echo ' '
 
