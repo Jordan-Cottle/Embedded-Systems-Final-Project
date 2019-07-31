@@ -5,7 +5,7 @@
  *      Author: Jordan
  */
 
-// Michael Russell testing connection
+
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -19,6 +19,9 @@
 #include "driverlib/pin_map.h"
 #include "driverlib/adc.h"
 #include "functions.h"
+
+typedef enum {MENU, IDLE, LOST, DEAD, WALKING, FEEDING} pet_states;
+
 
 void updateFrequency();
 void toggleSound();
