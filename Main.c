@@ -20,8 +20,8 @@
 #include "driverlib/adc.h"
 #include "functions.h"
 
-typedef enum {MENU, IDLE, LOST, DEAD, WALKING, FEEDING} pet_states;
-
+typedef enum {IDLE, LOST, DEAD} pet_states;
+typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
 
 void updateFrequency();
 void toggleSound();
