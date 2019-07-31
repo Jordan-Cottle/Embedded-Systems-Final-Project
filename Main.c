@@ -17,94 +17,50 @@
 #include "driverlib/pin_map.h"
 #include "driverlib/adc.h"
 #include "functions.h"
+#include "ST7735.h"
+#include "PLL.h"
 
-void updateFrequency();
-void toggleSound();
-void updateInputDelay();
-void setPWMPeriod(uint32_t);
 uint32_t readADC(uint32_t, uint32_t);
 
-uint32_t inputDelay = 5;
-void timerInterruptHandler(){
-    static const uint32_t delays [6] = {0, 64, 128, 256, 512, 1024};
-    static uint32_t ticks = 0;
-
-    uint32_t delay = delays[inputDelay];
-    TimerIntClear(TIMER_BASE, TIMER_TIMA_TIMEOUT);
-    if (ticks >= delay){
-        updateFrequency();
-        ticks = 0;
-    }else{
-        ticks++;
-    }
-
-}
-
-void stickInterruptHandler(){
-    SysCtlDelay(DEBOUNCE_DELAY);
-    if(!GPIOPinRead(STICK_CLICK_PORT, STICK_CLICK_PIN)){
-        toggleSound();
-    }
-    GPIOIntClear(STICK_CLICK_PORT, 0xFF); // clear interrupt flag
-}
-
-void buttonInterruptHandler(){
-    SysCtlDelay(DEBOUNCE_DELAY);
-    if(!GPIOPinRead(BUTTON_PORT, BUTTON_PIN)){
-        updateInputDelay();
-    }
-    GPIOIntClear(BUTTON_PORT, 0xFF); // clear interrupt flag
-}
+//void timerInterruptHandler(){
+//
+//}
+//
+//void stickInterruptHandler(){
+//    SysCtlDelay(DEBOUNCE_DELAY);
+//    if(!GPIOPinRead(STICK_CLICK_PORT, STICK_CLICK_PIN)){
+//        //clearScreen();
+//    }
+//    GPIOIntClear(STICK_CLICK_PORT, 0xFF); // clear interrupt flag
+//}
+//
+//void buttonInterruptHandler(){
+//    SysCtlDelay(DEBOUNCE_DELAY);
+//    if(!GPIOPinRead(BUTTON_PORT, BUTTON_PIN)){
+//        //clearScreen();
+//    }
+//    GPIOIntClear(BUTTON_PORT, 0xFF); // clear interrupt flag
+//}
 
 void init(){
     // configure clock
     SysCtlClockSet(SYSCTL_USE_PLL | SYSCTL_OSC_MAIN | SYSCTL_XTAL_16MHZ);
 
-    initOutput(BUZZER_PERIPH, BUZZER_PORT, BUZZER_PIN);
-    initButtonInterupt(STICK_CLICK_PERIPH, STICK_CLICK_PORT, STICK_CLICK_PIN, stickInterruptHandler);
-    initButtonInterupt(BUTTON_PERIPH, BUTTON_PORT, BUTTON_PIN, buttonInterruptHandler);
-    initPWMModule(BUZZER_PORT, BUZZER_PIN);
-    initPeriodicTimer(TIMER_PERIPH, TIMER_BASE, 0xFFFF, timerInterruptHandler);
+    // set system clock to 80 MHz
+    //PLL_Init(Bus80MHz);
+    ST7735_InitR(INITR_REDTAB);
 
-    initADC(ADC0_PERIPH, ADC0, ADC_SEQUENCER, ADC_CHANNEL,
+    //initOutput(BUZZER_PERIPH, BUZZER_PORT, BUZZER_PIN);
+    //initButtonInterupt(STICK_CLICK_PERIPH, STICK_CLICK_PORT, STICK_CLICK_PIN, stickInterruptHandler);
+    //initButtonInterupt(BUTTON_PERIPH, BUTTON_PORT, BUTTON_PIN, buttonInterruptHandler);
+    //initPWMModule(BUZZER_PORT, BUZZER_PIN);
+    //initPeriodicTimer(TIMER_PERIPH, TIMER_BASE, 0xFFFF, timerInterruptHandler);
+
+    initADC(ADC0_PERIPH, ADC0, ADC_SEQUENCER, HORIZONTAL_ADC_CHANNEL,
             HORIZONTAL_AXIS_PERIPH, HORIZONTAL_AXIS_PORT, HORIZONTAL_AXIS_PIN);
 
-    initADC(ADC1_PERIPH, ADC1, ADC_SEQUENCER, ADC_CHANNEL,
+    initADC(ADC1_PERIPH, ADC1, ADC_SEQUENCER, VERTICAL_ADC_CHANNEL,
             VERTICAL_AXIS_PERIPH, VERTICAL_AXIS_PORT, VERTICAL_AXIS_PIN);
-}
-
-bool play = true;
-void toggleSound(){
-    play = !play;
-    setPWMPeriod(0); // turn off sound
-}
-
-void updateInputDelay(){
-    if(inputDelay == 0){
-        inputDelay = 5;
-    }else{
-        inputDelay--;
-    }
-}
-
-uint32_t frequency = 0;
-void updateFrequency(){
-    if(!play){
-        return;
-    }
-
-    uint32_t horizontalValue = readADC(ADC0, ADC_SEQUENCER);
-    uint32_t verticalValue = readADC(ADC1, ADC_SEQUENCER);
-    frequency = ((horizontalValue/100) * (verticalValue/100))*50 + 40000;
-    setPWMPeriod(frequency);
-}
-
-void setPWMPeriod(uint32_t period){
-    //Set the Period (expressed in clock ticks)
-       PWMGenPeriodSet(PWM1_BASE, PWM_GEN_3, period);
-
-       //Set PWM duty-50% (Period /2)
-       PWMPulseWidthSet(PWM1_BASE, PWM_OUT_6, period/2);
 }
 
 uint32_t readADC(uint32_t adcBase, uint32_t sequencer){
@@ -119,7 +75,20 @@ uint32_t readADC(uint32_t adcBase, uint32_t sequencer){
 int main(void)
 {
     init();
-    while(1){
+    int i = 0;
+    int diff = 8;
 
+    ST7735_FillScreen(ST7735_Color565(0, 0, 0));
+
+    while(1){
+        if(i >= 256){
+            diff = -8;
+        }
+        else if(i < 0){
+            diff = 8;
+        }
+
+        i += diff;
+        ST7735_FillScreen(ST7735_Color565(i, i, i));
     }
 }

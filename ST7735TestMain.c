@@ -522,10 +522,10 @@ int main1(void){uint32_t j; // main 1
   while(1){
   }
 }
-int main7(void){ int i; // main 7
+int mainP(void){ int i; // main 7
   PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
   ST7735_InitR(INITR_REDTAB);
-  ST7735_FillRect(20,20,2,2,ST7735_YELLOW);
+  ST7735_FillRect(64,64,32,16,ST7735_Color565(0, 0, 255));
   for(i=0;i<80;i++){
     ST7735_FillRect(i,2*i,2,2,ST7735_MAGENTA);
   }
@@ -641,7 +641,7 @@ void static drawthecolors(uint8_t red, uint8_t green, uint8_t blue){
   }
   DelayWait10ms(1);
 }
-int main3(void){ // main3
+int mainColor(void){ // main3
   uint8_t red, green, blue;
   PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
   // test DrawChar() and DrawCharS()
