@@ -1242,10 +1242,6 @@ void ST7735_OutUDec(uint32_t n){
   }
 }
 
-
-
-
-
 #define MADCTL_MY  0x80
 #define MADCTL_MX  0x40
 #define MADCTL_MV  0x20
@@ -1303,19 +1299,6 @@ void ST7735_SetRotation(uint8_t m) {
   }
 }
 
-
-//------------ST7735_InvertDisplay------------
-// Send the command to invert all of the colors.
-// Requires 1 byte of transmission
-// Input: i 0 to disable inversion; non-zero to enable inversion
-// Output: none
-void ST7735_InvertDisplay(int i) {
-  if(i){
-    writecommand(ST7735_INVON);
-  } else{
-    writecommand(ST7735_INVOFF);
-  }
-}
 // graphics routines
 // y coordinates 0 to 31 used for labels and messages
 // y coordinates 32 to 159  128 pixels high

@@ -47,9 +47,9 @@
 // CS   - PA3 TFT_CS, active low to enable TFT
 // *CS  - (NC) SDC_CS, active low to enable SDC
 // MISO - (NC) MISO SPI data from SDC to microcontroller
-// SDA  – (NC) I2C data for ADXL345 accelerometer
-// SCL  – (NC) I2C clock for ADXL345 accelerometer
-// SDO  – (NC) I2C alternate address for ADXL345 accelerometer
+// SDA  ï¿½ (NC) I2C data for ADXL345 accelerometer
+// SCL  ï¿½ (NC) I2C clock for ADXL345 accelerometer
+// SDO  ï¿½ (NC) I2C alternate address for ADXL345 accelerometer
 // Backlight + - Light, backlight connected to +3.3 V
 
 // **********wide.hk ST7735R with ADXL335 accelerometer *******************
@@ -63,9 +63,9 @@
 // CS   - PA3 TFT_CS, active low to enable TFT
 // *CS  - (NC) SDC_CS, active low to enable SDC
 // MISO - (NC) MISO SPI data from SDC to microcontroller
-// X– (NC) analog input X-axis from ADXL335 accelerometer
-// Y– (NC) analog input Y-axis from ADXL335 accelerometer
-// Z– (NC) analog input Z-axis from ADXL335 accelerometer
+// Xï¿½ (NC) analog input X-axis from ADXL335 accelerometer
+// Yï¿½ (NC) analog input Y-axis from ADXL335 accelerometer
+// Zï¿½ (NC) analog input Z-axis from ADXL335 accelerometer
 // Backlight + - Light, backlight connected to +3.3 V
 
 #include <stdio.h>
@@ -501,37 +501,6 @@ const uint16_t Logo[] = {
  0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF
 };
 
-
-int main0(void){
-  PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
-  Output_Init();
-  printf("hello world");
-  while(1){
-  }
-}
-int main1(void){uint32_t j; // main 1
-  PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
-  ST7735_InitR(INITR_REDTAB);
-  ST7735_OutString("Graphics test\n");
-  ST7735_OutString("cubic function\n");
-  ST7735_PlotClear(0,4095);  // range from 0 to 4095
-  for(j=0;j<128;j++){
-    ST7735_PlotPoints(j*j/2+900-(j*j/256)*j,32*j); // cubic,linear
-    ST7735_PlotNext();
-  }   // called 128 times
-  while(1){
-  }
-}
-int main7(void){ int i; // main 7
-  PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
-  ST7735_InitR(INITR_REDTAB);
-  ST7735_FillRect(20,20,2,2,ST7735_YELLOW);
-  for(i=0;i<80;i++){
-    ST7735_FillRect(i,2*i,2,2,ST7735_MAGENTA);
-  }
-  while(1){
-  }
-}
 int main(void){  // main 2
   int x, y, dx, dy;
 //  uint8_t red, green, blue;
@@ -619,8 +588,7 @@ int main(void){  // main 2
   y = 159;
   dx = 1;
   dy = 1;
-  while(1){
-    ST7735_DrawBitmap(x, y, Logo, 40, 160);
+  ST7735_DrawBitmap(x, y, Logo, 40, 160);
     x = x + dx;
     y = y + dy;
     if((x >= (ST7735_TFTWIDTH - 40 + 15)) || (x <= -15)){
@@ -630,126 +598,90 @@ int main(void){  // main 2
       dy = -1*dy;
     }
   }
-}
-// private function draws a color band on the screen
-void static drawthecolors(uint8_t red, uint8_t green, uint8_t blue){
-  static uint16_t y = 0;
-  ST7735_DrawFastHLine(0, y, ST7735_TFTWIDTH, ST7735_Color565(red, green, blue));
-  y = y + 1;
-  if(y >= ST7735_TFTHEIGHT){
-     y = 0;
-  }
-  DelayWait10ms(1);
-}
-int main3(void){ // main3
-  uint8_t red, green, blue;
-  PLL_Init(Bus80MHz);                  // set system clock to 80 MHz
-  // test DrawChar() and DrawCharS()
-  ST7735_InitR(INITR_REDTAB);
+int happiness = 100, hunger = 0;
 
-  // test display with a colorful demo
-  red = 255;
-  green = 0;
-  blue = 0;
+if(menuOptions = walking){
+  //trigger interrupt
+  happiness = happiness + 10;
+  hunger = hunger + 10;
+}
+if(menuOptions = feeding){
+  //trigger interrupt
+  hunger = hunger - 10;
+}
+
+void initPeriodicTimer(uint32_t timerPeriph, uint32_t timerBase, uint32_t count, void (*interuptHandler)(void)){
+    // enable Timer
+    initPeriph(timerPeriph);
+
+    // set clock source
+    TimerClockSourceSet(timerBase, TIMER_CLOCK_SYSTEM);
+
+    // configure timer type
+    TimerConfigure(timerBase, TIMER_CFG_PERIODIC);
+
+    // set initial value
+    TimerLoadSet(timerBase, TIMER_A, count);
+
+    TimerIntRegister(timerBase, TIMER_BOTH, interuptHandler);
+    TimerIntEnable(timerBase, TIMER_TIMA_TIMEOUT);
+
+    TimerEnable(timerBase, TIMER_BOTH);
+}
+
+  void gamestates(){
+    switch(game_states)
+      case 'idle': 
+      //bitmap values all need to be changed
+      ST7735_DrawBitmap(x, y, Logo, 40, 160);
+      break;
+      case 'dead':
+      ST7735_DrawBitmap(x, y, Logo, 40, 160);
+
+      break;
+      case 'gone':
+      ST7735_DrawBitmap(x, y, Logo, 40, 160);
+      break;
+  }
+  void menu(){
+    switch(menuOptions)
+      case 'walking': 
+      walking();
+      break;
+      case 'feeding':
+      feeding();
+      break;
+      case 'exit':
+      //return to idle display mode
+      break;
+  }
+  void feeding(){
+    switch(image_states){
+      case 'image1': 
+      ST7735_DrawBitmap(x, y, Logo, 40, 160);
+      break;
+      case 'image2':
+      ST7735_DrawBitmap(x, y, Logo, 40, 160);
+      break;
+  }
+  void walking(){
+    switch(image_state)
+      case 'image1': 
+      ST7735_DrawBitmap(x, y, Logo, 40, 160);
+      break;
+      case 'image2':
+      ST7735_DrawBitmap(x, y, Logo, 40, 160);
+      break;
+  }
   while(1){
-    // transition from red to yellow by increasing green
-    for(green=0; green<255; green=green+1){
-      drawthecolors(red, green, blue);
+    switch(display){
+      case 'displayPet': 
+      gamestates(); 
+      break;
+      case 'displayMenu':
+      menu();
+      case 'c':
+      break;
     }
-    // transition from yellow to green by decreasing red
-    for(red=255; red>0; red=red-1){
-      drawthecolors(red, green, blue);
     }
-    // transition from green to light blue by increasing blue
-    for(blue=0; blue<255; blue=blue+1){
-      drawthecolors(red, green, blue);
-    }
-    // transition from light blue to true blue by decreasing green
-    for(green=255; green>0; green=green-1){
-      drawthecolors(red, green, blue);
-    }
-    // transition from true blue to pink by increasing red
-    for(red=0; red<255; red=red+1){
-      drawthecolors(red, green, blue);
-    }
-    // transition from pink to red by decreasing blue
-    for(blue=255; blue>0; blue=blue-1){
-      drawthecolors(red, green, blue);
-    }
-  }
-}
-void BookExamples(void){ // examples from the book
-  int8_t cc = 0x56; // (‘V’)
-  int32_t xx = 100;
-  int16_t yy = -100;
-  float zz = 3.14159265;
-  printf("Hello world\n");      //Hello world
-  printf("cc = %c %d\n",cc,cc);  //cc = V 86
-  printf("cc = %#x\n",cc);      //cc = 0x56
-  printf("xx = %c %d\n",xx,xx);  //xx = d 100
-  printf("xx = %#x\n",xx);      //xx = 0x64
-  printf("yy = %d\n",yy);        //yy = -100
-  printf("%#x   \n",yy);        //yy = 0xffffff9c
-  printf("%e \n",zz);            //zz = 3.14159e+00
-  printf("%E \n",zz);            //zz = 3.14159E+00
-  printf("%f     \n",zz);        //zz = 3.14159
-  printf("%g     \n",zz);        //zz = 3.14159 (shorter of two, either f or e)
-  printf("%3.2f     \n",zz);    //zz =  3.14
-}
-#define PF2   (*((volatile uint32_t *)0x40025010))
-
-// Make PF2 an output, enable digital I/O, ensure alt. functions off
-void SSR_Init(void){
-  SYSCTL_RCGCGPIO_R |= 0x20;        // 1) activate clock for Port F
-  while((SYSCTL_PRGPIO_R&0x20)==0){}; // allow time for clock to start
-                                    // 2) no need to unlock PF2
-  GPIO_PORTF_PCTL_R &= ~0x00000F00; // 3) regular GPIO
-  GPIO_PORTF_AMSEL_R &= ~0x04;      // 4) disable analog function on PF2
-  GPIO_PORTF_DIR_R |= 0x04;         // 5) set direction to output
-  GPIO_PORTF_AFSEL_R &= ~0x04;      // 6) regular port function
-  GPIO_PORTF_DEN_R |= 0x04;         // 7) enable digital port
-}
-
-
-void Delay1ms(uint32_t n);
-int main4(void){
-  SSR_Init();
-  while(1){
-    Delay1ms(10);
-    PF2 ^= 0x04;
-  }
-}
-int main5(void){
-  SSR_Init();
-  while(1){
-    DelayWait10ms(1000);
-    PF2 ^= 0x04;
-  }
-}
-int main6(void){ int32_t i,n; // main 6
-  Output_Init();              // initialize output device
-  Output_Color(ST7735_YELLOW);
-  BookExamples();
-  n = 0;
-  while(1){
-    printf("\ni=");
-    for(i=0; i<1; i++){
-      printf("%d ",i+n);
-    }
-
-    n = n+10000000; // notice what happens when this goes above 2,147,483,647
-  }
-}
-// Subroutine to wait 10 msec
-// Inputs: None
-// Outputs: None
-// Notes: ...
-void DelayWait10ms(uint32_t n){uint32_t volatile time;
-  while(n){
-    time = 727240*2/91;  // 10msec
-    while(time){
-      time--;
-    }
-    n--;
-  }
 }
