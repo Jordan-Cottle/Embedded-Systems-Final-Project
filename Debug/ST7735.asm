@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM G3 C/C++ Codegen                                            PC v18.12.2.LTS *
-;* Date/Time created: Wed Jul 31 18:48:43 2019                                *
+;* Date/Time created: Thu Aug  1 00:16:46 2019                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -9,7 +9,7 @@ $C$DW$CU	.dwtag  DW_TAG_compile_unit
 	.dwattr $C$DW$CU, DW_AT_name("../ST7735.c")
 	.dwattr $C$DW$CU, DW_AT_producer("TI TI ARM G3 C/C++ Codegen PC v18.12.2.LTS Copyright (c) 1996-2018 Texas Instruments Incorporated")
 	.dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-	.dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\jorda\Desktop\Embedded-Systems-Final-Project\Debug")
+	.dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\Jordan\workspace_v9\ST7735_4C123\Debug")
 	.global	StX
 	.data
 	.align	4
@@ -22,7 +22,7 @@ $C$DW$1	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$1, DW_AT_name("StX")
 	.dwattr $C$DW$1, DW_AT_TI_symbol_name("StX")
 	.dwattr $C$DW$1, DW_AT_location[DW_OP_addr StX]
-	.dwattr $C$DW$1, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$1, DW_AT_type(*$C$DW$T$31)
 	.dwattr $C$DW$1, DW_AT_external
 	.dwattr $C$DW$1, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$1, DW_AT_decl_line(0x64)
@@ -40,7 +40,7 @@ $C$DW$2	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$2, DW_AT_name("StY")
 	.dwattr $C$DW$2, DW_AT_TI_symbol_name("StY")
 	.dwattr $C$DW$2, DW_AT_location[DW_OP_addr StY]
-	.dwattr $C$DW$2, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$2, DW_AT_type(*$C$DW$T$31)
 	.dwattr $C$DW$2, DW_AT_external
 	.dwattr $C$DW$2, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$2, DW_AT_decl_line(0x65)
@@ -58,7 +58,7 @@ $C$DW$3	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$3, DW_AT_name("StTextColor")
 	.dwattr $C$DW$3, DW_AT_TI_symbol_name("StTextColor")
 	.dwattr $C$DW$3, DW_AT_location[DW_OP_addr StTextColor]
-	.dwattr $C$DW$3, DW_AT_type(*$C$DW$T$56)
+	.dwattr $C$DW$3, DW_AT_type(*$C$DW$T$60)
 	.dwattr $C$DW$3, DW_AT_external
 	.dwattr $C$DW$3, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$3, DW_AT_decl_line(0x66)
@@ -2622,7 +2622,7 @@ Font:
 $C$DW$4	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$4, DW_AT_name("Font")
 	.dwattr $C$DW$4, DW_AT_TI_symbol_name("Font")
-	.dwattr $C$DW$4, DW_AT_type(*$C$DW$T$89)
+	.dwattr $C$DW$4, DW_AT_type(*$C$DW$T$94)
 	.dwattr $C$DW$4, DW_AT_location[DW_OP_addr Font]
 	.dwattr $C$DW$4, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$4, DW_AT_decl_line(0xdc)
@@ -2632,7 +2632,7 @@ $C$DW$4	.dwtag  DW_TAG_variable
 $C$DW$5	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$5, DW_AT_name("ColStart")
 	.dwattr $C$DW$5, DW_AT_TI_symbol_name("ColStart")
-	.dwattr $C$DW$5, DW_AT_type(*$C$DW$T$29)
+	.dwattr $C$DW$5, DW_AT_type(*$C$DW$T$33)
 	.dwattr $C$DW$5, DW_AT_location[DW_OP_addr ColStart]
 	.dwattr $C$DW$5, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$5, DW_AT_decl_line(0x1df)
@@ -2642,7 +2642,7 @@ $C$DW$5	.dwtag  DW_TAG_variable
 $C$DW$6	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$6, DW_AT_name("RowStart")
 	.dwattr $C$DW$6, DW_AT_TI_symbol_name("RowStart")
-	.dwattr $C$DW$6, DW_AT_type(*$C$DW$T$29)
+	.dwattr $C$DW$6, DW_AT_type(*$C$DW$T$33)
 	.dwattr $C$DW$6, DW_AT_location[DW_OP_addr RowStart]
 	.dwattr $C$DW$6, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$6, DW_AT_decl_line(0x1df)
@@ -2652,7 +2652,7 @@ $C$DW$6	.dwtag  DW_TAG_variable
 $C$DW$7	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$7, DW_AT_name("Rotation")
 	.dwattr $C$DW$7, DW_AT_TI_symbol_name("Rotation")
-	.dwattr $C$DW$7, DW_AT_type(*$C$DW$T$29)
+	.dwattr $C$DW$7, DW_AT_type(*$C$DW$T$33)
 	.dwattr $C$DW$7, DW_AT_location[DW_OP_addr Rotation]
 	.dwattr $C$DW$7, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$7, DW_AT_decl_line(0x1e0)
@@ -2662,7 +2662,7 @@ $C$DW$7	.dwtag  DW_TAG_variable
 $C$DW$8	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$8, DW_AT_name("TabColor")
 	.dwattr $C$DW$8, DW_AT_TI_symbol_name("TabColor")
-	.dwattr $C$DW$8, DW_AT_type(*$C$DW$T$50)
+	.dwattr $C$DW$8, DW_AT_type(*$C$DW$T$54)
 	.dwattr $C$DW$8, DW_AT_location[DW_OP_addr TabColor]
 	.dwattr $C$DW$8, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$8, DW_AT_decl_line(0x1e1)
@@ -2678,7 +2678,7 @@ _width:
 $C$DW$9	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$9, DW_AT_name("_width")
 	.dwattr $C$DW$9, DW_AT_TI_symbol_name("_width")
-	.dwattr $C$DW$9, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$9, DW_AT_type(*$C$DW$T$64)
 	.dwattr $C$DW$9, DW_AT_location[DW_OP_addr _width]
 	.dwattr $C$DW$9, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$9, DW_AT_decl_line(0x1e2)
@@ -2694,7 +2694,7 @@ _height:
 $C$DW$10	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$10, DW_AT_name("_height")
 	.dwattr $C$DW$10, DW_AT_TI_symbol_name("_height")
-	.dwattr $C$DW$10, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$10, DW_AT_type(*$C$DW$T$64)
 	.dwattr $C$DW$10, DW_AT_location[DW_OP_addr _height]
 	.dwattr $C$DW$10, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$10, DW_AT_decl_line(0x1e3)
@@ -2914,7 +2914,7 @@ Bcmd:
 $C$DW$11	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$11, DW_AT_name("Bcmd")
 	.dwattr $C$DW$11, DW_AT_TI_symbol_name("Bcmd")
-	.dwattr $C$DW$11, DW_AT_type(*$C$DW$T$90)
+	.dwattr $C$DW$11, DW_AT_type(*$C$DW$T$95)
 	.dwattr $C$DW$11, DW_AT_location[DW_OP_addr Bcmd]
 	.dwattr $C$DW$11, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$11, DW_AT_decl_line(0x22b)
@@ -3046,7 +3046,7 @@ Rcmd1:
 $C$DW$12	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$12, DW_AT_name("Rcmd1")
 	.dwattr $C$DW$12, DW_AT_TI_symbol_name("Rcmd1")
-	.dwattr $C$DW$12, DW_AT_type(*$C$DW$T$91)
+	.dwattr $C$DW$12, DW_AT_type(*$C$DW$T$96)
 	.dwattr $C$DW$12, DW_AT_location[DW_OP_addr Rcmd1]
 	.dwattr $C$DW$12, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$12, DW_AT_decl_line(0x266)
@@ -3086,7 +3086,7 @@ Rcmd2green:
 $C$DW$13	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$13, DW_AT_name("Rcmd2green")
 	.dwattr $C$DW$13, DW_AT_TI_symbol_name("Rcmd2green")
-	.dwattr $C$DW$13, DW_AT_type(*$C$DW$T$92)
+	.dwattr $C$DW$13, DW_AT_type(*$C$DW$T$97)
 	.dwattr $C$DW$13, DW_AT_location[DW_OP_addr Rcmd2green]
 	.dwattr $C$DW$13, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$13, DW_AT_decl_line(0x28b)
@@ -3126,7 +3126,7 @@ Rcmd2red:
 $C$DW$14	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$14, DW_AT_name("Rcmd2red")
 	.dwattr $C$DW$14, DW_AT_TI_symbol_name("Rcmd2red")
-	.dwattr $C$DW$14, DW_AT_type(*$C$DW$T$92)
+	.dwattr $C$DW$14, DW_AT_type(*$C$DW$T$97)
 	.dwattr $C$DW$14, DW_AT_location[DW_OP_addr Rcmd2red]
 	.dwattr $C$DW$14, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$14, DW_AT_decl_line(0x294)
@@ -3226,7 +3226,7 @@ Rcmd3:
 $C$DW$15	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$15, DW_AT_name("Rcmd3")
 	.dwattr $C$DW$15, DW_AT_TI_symbol_name("Rcmd3")
-	.dwattr $C$DW$15, DW_AT_type(*$C$DW$T$93)
+	.dwattr $C$DW$15, DW_AT_type(*$C$DW$T$98)
 	.dwattr $C$DW$15, DW_AT_location[DW_OP_addr Rcmd3]
 	.dwattr $C$DW$15, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$15, DW_AT_decl_line(0x29d)
@@ -3238,7 +3238,7 @@ $C$DW$16	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$16, DW_AT_name("Message")
 	.dwattr $C$DW$16, DW_AT_TI_symbol_name("Message")
 	.dwattr $C$DW$16, DW_AT_location[DW_OP_addr Message]
-	.dwattr $C$DW$16, DW_AT_type(*$C$DW$T$202)
+	.dwattr $C$DW$16, DW_AT_type(*$C$DW$T$207)
 	.dwattr $C$DW$16, DW_AT_external
 	.dwattr $C$DW$16, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$16, DW_AT_decl_line(0x4af)
@@ -3250,7 +3250,7 @@ $C$DW$17	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$17, DW_AT_name("Messageindex")
 	.dwattr $C$DW$17, DW_AT_TI_symbol_name("Messageindex")
 	.dwattr $C$DW$17, DW_AT_location[DW_OP_addr Messageindex]
-	.dwattr $C$DW$17, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$17, DW_AT_type(*$C$DW$T$31)
 	.dwattr $C$DW$17, DW_AT_external
 	.dwattr $C$DW$17, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$17, DW_AT_decl_line(0x4b0)
@@ -3262,7 +3262,7 @@ $C$DW$18	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$18, DW_AT_name("Ymax")
 	.dwattr $C$DW$18, DW_AT_TI_symbol_name("Ymax")
 	.dwattr $C$DW$18, DW_AT_location[DW_OP_addr Ymax]
-	.dwattr $C$DW$18, DW_AT_type(*$C$DW$T$75)
+	.dwattr $C$DW$18, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$18, DW_AT_external
 	.dwattr $C$DW$18, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$18, DW_AT_decl_line(0x52c)
@@ -3274,7 +3274,7 @@ $C$DW$19	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$19, DW_AT_name("Ymin")
 	.dwattr $C$DW$19, DW_AT_TI_symbol_name("Ymin")
 	.dwattr $C$DW$19, DW_AT_location[DW_OP_addr Ymin]
-	.dwattr $C$DW$19, DW_AT_type(*$C$DW$T$75)
+	.dwattr $C$DW$19, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$19, DW_AT_external
 	.dwattr $C$DW$19, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$19, DW_AT_decl_line(0x52c)
@@ -3286,7 +3286,7 @@ $C$DW$20	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$20, DW_AT_name("X")
 	.dwattr $C$DW$20, DW_AT_TI_symbol_name("X")
 	.dwattr $C$DW$20, DW_AT_location[DW_OP_addr X]
-	.dwattr $C$DW$20, DW_AT_type(*$C$DW$T$75)
+	.dwattr $C$DW$20, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$20, DW_AT_external
 	.dwattr $C$DW$20, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$20, DW_AT_decl_line(0x52c)
@@ -3298,7 +3298,7 @@ $C$DW$21	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$21, DW_AT_name("Yrange")
 	.dwattr $C$DW$21, DW_AT_TI_symbol_name("Yrange")
 	.dwattr $C$DW$21, DW_AT_location[DW_OP_addr Yrange]
-	.dwattr $C$DW$21, DW_AT_type(*$C$DW$T$75)
+	.dwattr $C$DW$21, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$21, DW_AT_external
 	.dwattr $C$DW$21, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$21, DW_AT_decl_line(0x52d)
@@ -3316,7 +3316,7 @@ $C$DW$22	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$22, DW_AT_name("lastj")
 	.dwattr $C$DW$22, DW_AT_TI_symbol_name("lastj")
 	.dwattr $C$DW$22, DW_AT_location[DW_OP_addr lastj]
-	.dwattr $C$DW$22, DW_AT_type(*$C$DW$T$75)
+	.dwattr $C$DW$22, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$22, DW_AT_external
 	.dwattr $C$DW$22, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$22, DW_AT_decl_line(0x55c)
@@ -4356,175 +4356,247 @@ $C$DW$23	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$23, DW_AT_name("dBfs")
 	.dwattr $C$DW$23, DW_AT_TI_symbol_name("dBfs")
 	.dwattr $C$DW$23, DW_AT_location[DW_OP_addr dBfs]
-	.dwattr $C$DW$23, DW_AT_type(*$C$DW$T$94)
+	.dwattr $C$DW$23, DW_AT_type(*$C$DW$T$99)
 	.dwattr $C$DW$23, DW_AT_external
 	.dwattr $C$DW$23, DW_AT_decl_file("../ST7735.c")
 	.dwattr $C$DW$23, DW_AT_decl_line(0x5a6)
 	.dwattr $C$DW$23, DW_AT_decl_column(0x0f)
 
+	.global	happiness
+	.data
+	.align	4
+	.elfsym	happiness,SYM_SIZE(4)
+happiness:
+	.bits		0x64,32
+			; happiness @ 0
 
-$C$DW$24	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$24, DW_AT_name("GPIOPinWrite")
-	.dwattr $C$DW$24, DW_AT_TI_symbol_name("GPIOPinWrite")
-	.dwattr $C$DW$24, DW_AT_declaration
+$C$DW$24	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$24, DW_AT_name("happiness")
+	.dwattr $C$DW$24, DW_AT_TI_symbol_name("happiness")
+	.dwattr $C$DW$24, DW_AT_location[DW_OP_addr happiness]
+	.dwattr $C$DW$24, DW_AT_type(*$C$DW$T$31)
 	.dwattr $C$DW$24, DW_AT_external
-	.dwattr $C$DW$24, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
-	.dwattr $C$DW$24, DW_AT_decl_line(0xa1)
-	.dwattr $C$DW$24, DW_AT_decl_column(0x0d)
-$C$DW$25	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$25, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$24, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$24, DW_AT_decl_line(0x67e)
+	.dwattr $C$DW$24, DW_AT_decl_column(0x0a)
 
-$C$DW$26	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$26, DW_AT_type(*$C$DW$T$29)
+	.global	hunger
+	.data
+	.align	4
+	.elfsym	hunger,SYM_SIZE(4)
+hunger:
+	.bits		0,32
+			; hunger @ 0
 
-$C$DW$27	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$27, DW_AT_type(*$C$DW$T$29)
+$C$DW$25	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$25, DW_AT_name("hunger")
+	.dwattr $C$DW$25, DW_AT_TI_symbol_name("hunger")
+	.dwattr $C$DW$25, DW_AT_location[DW_OP_addr hunger]
+	.dwattr $C$DW$25, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$25, DW_AT_external
+	.dwattr $C$DW$25, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$25, DW_AT_decl_line(0x67f)
+	.dwattr $C$DW$25, DW_AT_decl_column(0x0a)
 
-	.dwendtag $C$DW$24
+	.global	gameState
+	.data
+	.align	1
+	.elfsym	gameState,SYM_SIZE(1)
+gameState:
+	.bits		0x1,8
+			; gameState @ 0
+
+$C$DW$26	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$26, DW_AT_name("gameState")
+	.dwattr $C$DW$26, DW_AT_TI_symbol_name("gameState")
+	.dwattr $C$DW$26, DW_AT_location[DW_OP_addr gameState]
+	.dwattr $C$DW$26, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$26, DW_AT_external
+	.dwattr $C$DW$26, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$26, DW_AT_decl_line(0x681)
+	.dwattr $C$DW$26, DW_AT_decl_column(0x0d)
+
+	.global	petState
+	.data
+	.align	1
+	.elfsym	petState,SYM_SIZE(1)
+petState:
+	.bits		0,8
+			; petState @ 0
+
+$C$DW$27	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$27, DW_AT_name("petState")
+	.dwattr $C$DW$27, DW_AT_TI_symbol_name("petState")
+	.dwattr $C$DW$27, DW_AT_location[DW_OP_addr petState]
+	.dwattr $C$DW$27, DW_AT_type(*$C$DW$T$28)
+	.dwattr $C$DW$27, DW_AT_external
+	.dwattr $C$DW$27, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$27, DW_AT_decl_line(0x682)
+	.dwattr $C$DW$27, DW_AT_decl_column(0x0c)
 
 
 $C$DW$28	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$28, DW_AT_name("SSIDataPut")
-	.dwattr $C$DW$28, DW_AT_TI_symbol_name("SSIDataPut")
+	.dwattr $C$DW$28, DW_AT_name("GPIOPinWrite")
+	.dwattr $C$DW$28, DW_AT_TI_symbol_name("GPIOPinWrite")
 	.dwattr $C$DW$28, DW_AT_declaration
 	.dwattr $C$DW$28, DW_AT_external
-	.dwattr $C$DW$28, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ssi.h")
-	.dwattr $C$DW$28, DW_AT_decl_line(0x7e)
+	.dwattr $C$DW$28, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
+	.dwattr $C$DW$28, DW_AT_decl_line(0xa1)
 	.dwattr $C$DW$28, DW_AT_decl_column(0x0d)
 $C$DW$29	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$29, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$29, DW_AT_type(*$C$DW$T$31)
 
 $C$DW$30	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$30, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$30, DW_AT_type(*$C$DW$T$33)
+
+$C$DW$31	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$31, DW_AT_type(*$C$DW$T$33)
 
 	.dwendtag $C$DW$28
 
 
-$C$DW$31	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$31, DW_AT_name("initOutput")
-	.dwattr $C$DW$31, DW_AT_TI_symbol_name("initOutput")
-	.dwattr $C$DW$31, DW_AT_declaration
-	.dwattr $C$DW$31, DW_AT_external
-	.dwattr $C$DW$31, DW_AT_decl_file("..\functions.h")
-	.dwattr $C$DW$31, DW_AT_decl_line(0x5a)
-	.dwattr $C$DW$31, DW_AT_decl_column(0x06)
-$C$DW$32	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$32, DW_AT_type(*$C$DW$T$27)
-
+$C$DW$32	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$32, DW_AT_name("SSIDataPut")
+	.dwattr $C$DW$32, DW_AT_TI_symbol_name("SSIDataPut")
+	.dwattr $C$DW$32, DW_AT_declaration
+	.dwattr $C$DW$32, DW_AT_external
+	.dwattr $C$DW$32, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ssi.h")
+	.dwattr $C$DW$32, DW_AT_decl_line(0x7e)
+	.dwattr $C$DW$32, DW_AT_decl_column(0x0d)
 $C$DW$33	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$33, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$33, DW_AT_type(*$C$DW$T$31)
 
 $C$DW$34	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$34, DW_AT_type(*$C$DW$T$29)
+	.dwattr $C$DW$34, DW_AT_type(*$C$DW$T$31)
 
-	.dwendtag $C$DW$31
+	.dwendtag $C$DW$32
 
 
 $C$DW$35	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$35, DW_AT_name("initSSI")
-	.dwattr $C$DW$35, DW_AT_TI_symbol_name("initSSI")
+	.dwattr $C$DW$35, DW_AT_name("initOutput")
+	.dwattr $C$DW$35, DW_AT_TI_symbol_name("initOutput")
 	.dwattr $C$DW$35, DW_AT_declaration
 	.dwattr $C$DW$35, DW_AT_external
 	.dwattr $C$DW$35, DW_AT_decl_file("..\functions.h")
-	.dwattr $C$DW$35, DW_AT_decl_line(0x68)
+	.dwattr $C$DW$35, DW_AT_decl_line(0x5a)
 	.dwattr $C$DW$35, DW_AT_decl_column(0x06)
 $C$DW$36	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$36, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$36, DW_AT_type(*$C$DW$T$31)
 
 $C$DW$37	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$37, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$37, DW_AT_type(*$C$DW$T$31)
 
 $C$DW$38	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$38, DW_AT_type(*$C$DW$T$27)
-
-$C$DW$39	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$39, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$38, DW_AT_type(*$C$DW$T$33)
 
 	.dwendtag $C$DW$35
 
 
-$C$DW$40	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$40, DW_AT_name("SysCtlClockGet")
-	.dwattr $C$DW$40, DW_AT_TI_symbol_name("SysCtlClockGet")
-	.dwattr $C$DW$40, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$40, DW_AT_declaration
-	.dwattr $C$DW$40, DW_AT_external
-	.dwattr $C$DW$40, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h")
-	.dwattr $C$DW$40, DW_AT_decl_line(0x26c)
-	.dwattr $C$DW$40, DW_AT_decl_column(0x11)
-	.dwendtag $C$DW$40
+$C$DW$39	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$39, DW_AT_name("initSSI")
+	.dwattr $C$DW$39, DW_AT_TI_symbol_name("initSSI")
+	.dwattr $C$DW$39, DW_AT_declaration
+	.dwattr $C$DW$39, DW_AT_external
+	.dwattr $C$DW$39, DW_AT_decl_file("..\functions.h")
+	.dwattr $C$DW$39, DW_AT_decl_line(0x68)
+	.dwattr $C$DW$39, DW_AT_decl_column(0x06)
+$C$DW$40	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$40, DW_AT_type(*$C$DW$T$31)
 
+$C$DW$41	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$41, DW_AT_type(*$C$DW$T$31)
 
-$C$DW$41	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$41, DW_AT_name("initPeriph")
-	.dwattr $C$DW$41, DW_AT_TI_symbol_name("initPeriph")
-	.dwattr $C$DW$41, DW_AT_declaration
-	.dwattr $C$DW$41, DW_AT_external
-	.dwattr $C$DW$41, DW_AT_decl_file("..\functions.h")
-	.dwattr $C$DW$41, DW_AT_decl_line(0x56)
-	.dwattr $C$DW$41, DW_AT_decl_column(0x06)
 $C$DW$42	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$42, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$42, DW_AT_type(*$C$DW$T$31)
 
-	.dwendtag $C$DW$41
+$C$DW$43	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$43, DW_AT_type(*$C$DW$T$31)
+
+	.dwendtag $C$DW$39
 
 
-$C$DW$43	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$43, DW_AT_name("GPIOPinConfigure")
-	.dwattr $C$DW$43, DW_AT_TI_symbol_name("GPIOPinConfigure")
-	.dwattr $C$DW$43, DW_AT_declaration
-	.dwattr $C$DW$43, DW_AT_external
-	.dwattr $C$DW$43, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
-	.dwattr $C$DW$43, DW_AT_decl_line(0xa2)
-	.dwattr $C$DW$43, DW_AT_decl_column(0x0d)
-$C$DW$44	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$44, DW_AT_type(*$C$DW$T$27)
-
-	.dwendtag $C$DW$43
+$C$DW$44	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$44, DW_AT_name("SysCtlClockGet")
+	.dwattr $C$DW$44, DW_AT_TI_symbol_name("SysCtlClockGet")
+	.dwattr $C$DW$44, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$44, DW_AT_declaration
+	.dwattr $C$DW$44, DW_AT_external
+	.dwattr $C$DW$44, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h")
+	.dwattr $C$DW$44, DW_AT_decl_line(0x26c)
+	.dwattr $C$DW$44, DW_AT_decl_column(0x11)
+	.dwendtag $C$DW$44
 
 
 $C$DW$45	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$45, DW_AT_name("GPIOPinTypeSSI")
-	.dwattr $C$DW$45, DW_AT_TI_symbol_name("GPIOPinTypeSSI")
+	.dwattr $C$DW$45, DW_AT_name("initPeriph")
+	.dwattr $C$DW$45, DW_AT_TI_symbol_name("initPeriph")
 	.dwattr $C$DW$45, DW_AT_declaration
 	.dwattr $C$DW$45, DW_AT_external
-	.dwattr $C$DW$45, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
-	.dwattr $C$DW$45, DW_AT_decl_line(0xb5)
-	.dwattr $C$DW$45, DW_AT_decl_column(0x0d)
+	.dwattr $C$DW$45, DW_AT_decl_file("..\functions.h")
+	.dwattr $C$DW$45, DW_AT_decl_line(0x56)
+	.dwattr $C$DW$45, DW_AT_decl_column(0x06)
 $C$DW$46	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$46, DW_AT_type(*$C$DW$T$27)
-
-$C$DW$47	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$47, DW_AT_type(*$C$DW$T$29)
+	.dwattr $C$DW$46, DW_AT_type(*$C$DW$T$31)
 
 	.dwendtag $C$DW$45
 
-;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\jorda\\AppData\\Local\\Temp\\{3683C42A-02A8-473E-9B41-380BF28ED15D} 
+
+$C$DW$47	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$47, DW_AT_name("GPIOPinConfigure")
+	.dwattr $C$DW$47, DW_AT_TI_symbol_name("GPIOPinConfigure")
+	.dwattr $C$DW$47, DW_AT_declaration
+	.dwattr $C$DW$47, DW_AT_external
+	.dwattr $C$DW$47, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
+	.dwattr $C$DW$47, DW_AT_decl_line(0xa2)
+	.dwattr $C$DW$47, DW_AT_decl_column(0x0d)
+$C$DW$48	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$48, DW_AT_type(*$C$DW$T$31)
+
+	.dwendtag $C$DW$47
+
+
+$C$DW$49	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$49, DW_AT_name("GPIOPinTypeSSI")
+	.dwattr $C$DW$49, DW_AT_TI_symbol_name("GPIOPinTypeSSI")
+	.dwattr $C$DW$49, DW_AT_declaration
+	.dwattr $C$DW$49, DW_AT_external
+	.dwattr $C$DW$49, DW_AT_decl_file("C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
+	.dwattr $C$DW$49, DW_AT_decl_line(0xb5)
+	.dwattr $C$DW$49, DW_AT_decl_column(0x0d)
+$C$DW$50	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$50, DW_AT_type(*$C$DW$T$31)
+
+$C$DW$51	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$51, DW_AT_type(*$C$DW$T$33)
+
+	.dwendtag $C$DW$49
+
+;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\Jordan\\AppData\\Local\\Temp\\{BFE31208-EF76-4AA8-885B-45DAC6BC2D8B} 
 	.sect	".text"
 	.clink
 	.thumbfunc writecommand
 	.thumb
 
-$C$DW$48	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$48, DW_AT_name("writecommand")
-	.dwattr $C$DW$48, DW_AT_low_pc(writecommand)
-	.dwattr $C$DW$48, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$48, DW_AT_TI_symbol_name("writecommand")
-	.dwattr $C$DW$48, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$48, DW_AT_TI_begin_line(0x1f7)
-	.dwattr $C$DW$48, DW_AT_TI_begin_column(0x0d)
-	.dwattr $C$DW$48, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$48, DW_AT_decl_line(0x1f7)
-	.dwattr $C$DW$48, DW_AT_decl_column(0x0d)
-	.dwattr $C$DW$48, DW_AT_TI_max_frame_size(0x08)
+$C$DW$52	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$52, DW_AT_name("writecommand")
+	.dwattr $C$DW$52, DW_AT_low_pc(writecommand)
+	.dwattr $C$DW$52, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$52, DW_AT_TI_symbol_name("writecommand")
+	.dwattr $C$DW$52, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$52, DW_AT_TI_begin_line(0x1f7)
+	.dwattr $C$DW$52, DW_AT_TI_begin_column(0x0d)
+	.dwattr $C$DW$52, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$52, DW_AT_decl_line(0x1f7)
+	.dwattr $C$DW$52, DW_AT_decl_column(0x0d)
+	.dwattr $C$DW$52, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 503,column 37,is_stmt,address writecommand,isa 1
 
 	.dwfde $C$DW$CIE, writecommand
-$C$DW$49	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$49, DW_AT_name("c")
-	.dwattr $C$DW$49, DW_AT_TI_symbol_name("c")
-	.dwattr $C$DW$49, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$49, DW_AT_location[DW_OP_reg0]
+$C$DW$53	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$53, DW_AT_name("c")
+	.dwattr $C$DW$53, DW_AT_TI_symbol_name("c")
+	.dwattr $C$DW$53, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$53, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -4545,11 +4617,11 @@ writecommand:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$50	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$50, DW_AT_name("c")
-	.dwattr $C$DW$50, DW_AT_TI_symbol_name("c")
-	.dwattr $C$DW$50, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$50, DW_AT_location[DW_OP_breg13 0]
+$C$DW$54	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$54, DW_AT_name("c")
+	.dwattr $C$DW$54, DW_AT_TI_symbol_name("c")
+	.dwattr $C$DW$54, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$54, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 503 | void static writecommand(uint8_t c) {                                  
@@ -4567,10 +4639,10 @@ $C$DW$50	.dwtag  DW_TAG_variable
         LDR       A1, $C$CON1           ; [DPU_V7M3_PIPE] |508| 
         MOVS      A2, #16               ; [DPU_V7M3_PIPE] |508| 
         MOVS      A3, #0                ; [DPU_V7M3_PIPE] |508| 
-$C$DW$51	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$51, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$51, DW_AT_name("GPIOPinWrite")
-	.dwattr $C$DW$51, DW_AT_TI_call
+$C$DW$55	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$55, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$55, DW_AT_name("GPIOPinWrite")
+	.dwattr $C$DW$55, DW_AT_TI_call
 
         BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |508| 
         ; CALL OCCURS {GPIOPinWrite }    ; [] |508| 
@@ -4583,53 +4655,53 @@ $C$DW$51	.dwtag  DW_TAG_TI_branch
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON2           ; [DPU_V7M3_PIPE] |512| 
         LDRB      A2, [SP, #0]          ; [DPU_V7M3_PIPE] |512| 
-$C$DW$52	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$52, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$52, DW_AT_name("SSIDataPut")
-	.dwattr $C$DW$52, DW_AT_TI_call
+$C$DW$56	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$56, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$56, DW_AT_name("SSIDataPut")
+	.dwattr $C$DW$56, DW_AT_TI_call
 
         BL        SSIDataPut            ; [DPU_V7M3_PIPE] |512| 
         ; CALL OCCURS {SSIDataPut }      ; [] |512| 
 	.dwpsn	file "../ST7735.c",line 517,column 1,is_stmt,isa 1
-$C$DW$53	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$53, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$53, DW_AT_TI_return
+$C$DW$57	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$57, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$57, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$48, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$48, DW_AT_TI_end_line(0x205)
-	.dwattr $C$DW$48, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$52, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$52, DW_AT_TI_end_line(0x205)
+	.dwattr $C$DW$52, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$48
+	.dwendtag $C$DW$52
 
 	.sect	".text"
 	.clink
 	.thumbfunc writedata
 	.thumb
 
-$C$DW$54	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$54, DW_AT_name("writedata")
-	.dwattr $C$DW$54, DW_AT_low_pc(writedata)
-	.dwattr $C$DW$54, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$54, DW_AT_TI_symbol_name("writedata")
-	.dwattr $C$DW$54, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$54, DW_AT_TI_begin_line(0x208)
-	.dwattr $C$DW$54, DW_AT_TI_begin_column(0x0d)
-	.dwattr $C$DW$54, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$54, DW_AT_decl_line(0x208)
-	.dwattr $C$DW$54, DW_AT_decl_column(0x0d)
-	.dwattr $C$DW$54, DW_AT_TI_max_frame_size(0x08)
+$C$DW$58	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$58, DW_AT_name("writedata")
+	.dwattr $C$DW$58, DW_AT_low_pc(writedata)
+	.dwattr $C$DW$58, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$58, DW_AT_TI_symbol_name("writedata")
+	.dwattr $C$DW$58, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$58, DW_AT_TI_begin_line(0x208)
+	.dwattr $C$DW$58, DW_AT_TI_begin_column(0x0d)
+	.dwattr $C$DW$58, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$58, DW_AT_decl_line(0x208)
+	.dwattr $C$DW$58, DW_AT_decl_column(0x0d)
+	.dwattr $C$DW$58, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 520,column 34,is_stmt,address writedata,isa 1
 
 	.dwfde $C$DW$CIE, writedata
-$C$DW$55	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$55, DW_AT_name("c")
-	.dwattr $C$DW$55, DW_AT_TI_symbol_name("c")
-	.dwattr $C$DW$55, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$55, DW_AT_location[DW_OP_reg0]
+$C$DW$59	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$59, DW_AT_name("c")
+	.dwattr $C$DW$59, DW_AT_TI_symbol_name("c")
+	.dwattr $C$DW$59, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$59, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -4650,11 +4722,11 @@ writedata:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$56	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$56, DW_AT_name("c")
-	.dwattr $C$DW$56, DW_AT_TI_symbol_name("c")
-	.dwattr $C$DW$56, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$56, DW_AT_location[DW_OP_breg13 0]
+$C$DW$60	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$60, DW_AT_name("c")
+	.dwattr $C$DW$60, DW_AT_TI_symbol_name("c")
+	.dwattr $C$DW$60, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$60, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 520 | void static writedata(uint8_t c) {                                     
@@ -4672,10 +4744,10 @@ $C$DW$56	.dwtag  DW_TAG_variable
         LDR       A1, $C$CON1           ; [DPU_V7M3_PIPE] |525| 
         MOVS      A2, #16               ; [DPU_V7M3_PIPE] |525| 
         MOVS      A3, #16               ; [DPU_V7M3_PIPE] |525| 
-$C$DW$57	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$57, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$57, DW_AT_name("GPIOPinWrite")
-	.dwattr $C$DW$57, DW_AT_TI_call
+$C$DW$61	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$61, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$61, DW_AT_name("GPIOPinWrite")
+	.dwattr $C$DW$61, DW_AT_TI_call
 
         BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |525| 
         ; CALL OCCURS {GPIOPinWrite }    ; [] |525| 
@@ -4686,27 +4758,27 @@ $C$DW$57	.dwtag  DW_TAG_TI_branch
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON2           ; [DPU_V7M3_PIPE] |529| 
         LDRB      A2, [SP, #0]          ; [DPU_V7M3_PIPE] |529| 
-$C$DW$58	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$58, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$58, DW_AT_name("SSIDataPut")
-	.dwattr $C$DW$58, DW_AT_TI_call
+$C$DW$62	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$62, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$62, DW_AT_name("SSIDataPut")
+	.dwattr $C$DW$62, DW_AT_TI_call
 
         BL        SSIDataPut            ; [DPU_V7M3_PIPE] |529| 
         ; CALL OCCURS {SSIDataPut }      ; [] |529| 
 	.dwpsn	file "../ST7735.c",line 531,column 1,is_stmt,isa 1
-$C$DW$59	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$59, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$59, DW_AT_TI_return
+$C$DW$63	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$63, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$63, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$54, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$54, DW_AT_TI_end_line(0x213)
-	.dwattr $C$DW$54, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$58, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$58, DW_AT_TI_end_line(0x213)
+	.dwattr $C$DW$58, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$54
+	.dwendtag $C$DW$58
 
 	.sect	".text"
 	.clink
@@ -4714,27 +4786,27 @@ $C$DW$59	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	Delay1ms
 
-$C$DW$60	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$60, DW_AT_name("Delay1ms")
-	.dwattr $C$DW$60, DW_AT_low_pc(Delay1ms)
-	.dwattr $C$DW$60, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$60, DW_AT_TI_symbol_name("Delay1ms")
-	.dwattr $C$DW$60, DW_AT_external
-	.dwattr $C$DW$60, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$60, DW_AT_TI_begin_line(0x21a)
-	.dwattr $C$DW$60, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$60, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$60, DW_AT_decl_line(0x21a)
-	.dwattr $C$DW$60, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$60, DW_AT_TI_max_frame_size(0x08)
+$C$DW$64	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$64, DW_AT_name("Delay1ms")
+	.dwattr $C$DW$64, DW_AT_low_pc(Delay1ms)
+	.dwattr $C$DW$64, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$64, DW_AT_TI_symbol_name("Delay1ms")
+	.dwattr $C$DW$64, DW_AT_external
+	.dwattr $C$DW$64, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$64, DW_AT_TI_begin_line(0x21a)
+	.dwattr $C$DW$64, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$64, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$64, DW_AT_decl_line(0x21a)
+	.dwattr $C$DW$64, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$64, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 538,column 26,is_stmt,address Delay1ms,isa 1
 
 	.dwfde $C$DW$CIE, Delay1ms
-$C$DW$61	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$61, DW_AT_name("n")
-	.dwattr $C$DW$61, DW_AT_TI_symbol_name("n")
-	.dwattr $C$DW$61, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$61, DW_AT_location[DW_OP_reg0]
+$C$DW$65	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$65, DW_AT_name("n")
+	.dwattr $C$DW$65, DW_AT_TI_symbol_name("n")
+	.dwattr $C$DW$65, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$65, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -4749,17 +4821,17 @@ Delay1ms:
 	.dwcfi	cfa_offset, 0
         SUB       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 8
-$C$DW$62	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$62, DW_AT_name("n")
-	.dwattr $C$DW$62, DW_AT_TI_symbol_name("n")
-	.dwattr $C$DW$62, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$62, DW_AT_location[DW_OP_breg13 0]
+$C$DW$66	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$66, DW_AT_name("n")
+	.dwattr $C$DW$66, DW_AT_TI_symbol_name("n")
+	.dwattr $C$DW$66, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$66, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$63	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$63, DW_AT_name("time")
-	.dwattr $C$DW$63, DW_AT_TI_symbol_name("time")
-	.dwattr $C$DW$63, DW_AT_type(*$C$DW$T$167)
-	.dwattr $C$DW$63, DW_AT_location[DW_OP_breg13 4]
+$C$DW$67	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$67, DW_AT_name("time")
+	.dwattr $C$DW$67, DW_AT_TI_symbol_name("time")
+	.dwattr $C$DW$67, DW_AT_type(*$C$DW$T$172)
+	.dwattr $C$DW$67, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
 ; 538 | void Delay1ms(uint32_t n){uint32_t volatile time;                      
@@ -4837,43 +4909,43 @@ $C$DW$63	.dwtag  DW_TAG_variable
 ||$C$L4||:    
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
-$C$DW$64	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$64, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$64, DW_AT_TI_return
+$C$DW$68	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$68, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$68, DW_AT_TI_return
 
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$60, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$60, DW_AT_TI_end_line(0x222)
-	.dwattr $C$DW$60, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$64, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$64, DW_AT_TI_end_line(0x222)
+	.dwattr $C$DW$64, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$60
+	.dwendtag $C$DW$64
 
 	.sect	".text"
 	.clink
 	.thumbfunc commandList
 	.thumb
 
-$C$DW$65	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$65, DW_AT_name("commandList")
-	.dwattr $C$DW$65, DW_AT_low_pc(commandList)
-	.dwattr $C$DW$65, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$65, DW_AT_TI_symbol_name("commandList")
-	.dwattr $C$DW$65, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$65, DW_AT_TI_begin_line(0x2b1)
-	.dwattr $C$DW$65, DW_AT_TI_begin_column(0x0d)
-	.dwattr $C$DW$65, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$65, DW_AT_decl_line(0x2b1)
-	.dwattr $C$DW$65, DW_AT_decl_column(0x0d)
-	.dwattr $C$DW$65, DW_AT_TI_max_frame_size(0x10)
+$C$DW$69	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$69, DW_AT_name("commandList")
+	.dwattr $C$DW$69, DW_AT_low_pc(commandList)
+	.dwattr $C$DW$69, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$69, DW_AT_TI_symbol_name("commandList")
+	.dwattr $C$DW$69, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$69, DW_AT_TI_begin_line(0x2b1)
+	.dwattr $C$DW$69, DW_AT_TI_begin_column(0x0d)
+	.dwattr $C$DW$69, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$69, DW_AT_decl_line(0x2b1)
+	.dwattr $C$DW$69, DW_AT_decl_column(0x0d)
+	.dwattr $C$DW$69, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 689,column 46,is_stmt,address commandList,isa 1
 
 	.dwfde $C$DW$CIE, commandList
-$C$DW$66	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$66, DW_AT_name("addr")
-	.dwattr $C$DW$66, DW_AT_TI_symbol_name("addr")
-	.dwattr $C$DW$66, DW_AT_type(*$C$DW$T$45)
-	.dwattr $C$DW$66, DW_AT_location[DW_OP_reg0]
+$C$DW$70	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$70, DW_AT_name("addr")
+	.dwattr $C$DW$70, DW_AT_TI_symbol_name("addr")
+	.dwattr $C$DW$70, DW_AT_type(*$C$DW$T$49)
+	.dwattr $C$DW$70, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -4896,29 +4968,29 @@ commandList:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$67	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$67, DW_AT_name("addr")
-	.dwattr $C$DW$67, DW_AT_TI_symbol_name("addr")
-	.dwattr $C$DW$67, DW_AT_type(*$C$DW$T$45)
-	.dwattr $C$DW$67, DW_AT_location[DW_OP_breg13 0]
+$C$DW$71	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$71, DW_AT_name("addr")
+	.dwattr $C$DW$71, DW_AT_TI_symbol_name("addr")
+	.dwattr $C$DW$71, DW_AT_type(*$C$DW$T$49)
+	.dwattr $C$DW$71, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$68	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$68, DW_AT_name("ms")
-	.dwattr $C$DW$68, DW_AT_TI_symbol_name("ms")
-	.dwattr $C$DW$68, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$68, DW_AT_location[DW_OP_breg13 4]
+$C$DW$72	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$72, DW_AT_name("ms")
+	.dwattr $C$DW$72, DW_AT_TI_symbol_name("ms")
+	.dwattr $C$DW$72, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$72, DW_AT_location[DW_OP_breg13 4]
 
-$C$DW$69	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$69, DW_AT_name("numCommands")
-	.dwattr $C$DW$69, DW_AT_TI_symbol_name("numCommands")
-	.dwattr $C$DW$69, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$69, DW_AT_location[DW_OP_breg13 6]
+$C$DW$73	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$73, DW_AT_name("numCommands")
+	.dwattr $C$DW$73, DW_AT_TI_symbol_name("numCommands")
+	.dwattr $C$DW$73, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$73, DW_AT_location[DW_OP_breg13 6]
 
-$C$DW$70	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$70, DW_AT_name("numArgs")
-	.dwattr $C$DW$70, DW_AT_TI_symbol_name("numArgs")
-	.dwattr $C$DW$70, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$70, DW_AT_location[DW_OP_breg13 7]
+$C$DW$74	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$74, DW_AT_name("numArgs")
+	.dwattr $C$DW$74, DW_AT_TI_symbol_name("numArgs")
+	.dwattr $C$DW$74, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$74, DW_AT_location[DW_OP_breg13 7]
 
 ;----------------------------------------------------------------------
 ; 689 | void static commandList(const uint8_t *addr) {                         
@@ -4949,10 +5021,10 @@ $C$DW$70	.dwtag  DW_TAG_variable
         LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |696| 
         LDRB      A1, [A2], #1          ; [DPU_V7M3_PIPE] |696| 
         STR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |696| 
-$C$DW$71	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$71, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$71, DW_AT_name("writecommand")
-	.dwattr $C$DW$71, DW_AT_TI_call
+$C$DW$75	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$75, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$75, DW_AT_name("writecommand")
+	.dwattr $C$DW$75, DW_AT_TI_call
 
         BL        writecommand          ; [DPU_V7M3_PIPE] |696| 
         ; CALL OCCURS {writecommand }    ; [] |696| 
@@ -4994,10 +5066,10 @@ $C$DW$71	.dwtag  DW_TAG_TI_branch
         LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |701| 
         LDRB      A1, [A2], #1          ; [DPU_V7M3_PIPE] |701| 
         STR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |701| 
-$C$DW$72	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$72, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$72, DW_AT_name("writedata")
-	.dwattr $C$DW$72, DW_AT_TI_call
+$C$DW$76	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$76, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$76, DW_AT_name("writedata")
+	.dwattr $C$DW$76, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |701| 
         ; CALL OCCURS {writedata }       ; [] |701| 
@@ -5048,10 +5120,10 @@ $C$DW$72	.dwtag  DW_TAG_TI_branch
 ; 707 | Delay1ms(ms);                                                          
 ;----------------------------------------------------------------------
         LDRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |707| 
-$C$DW$73	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$73, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$73, DW_AT_name("Delay1ms")
-	.dwattr $C$DW$73, DW_AT_TI_call
+$C$DW$77	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$77, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$77, DW_AT_name("Delay1ms")
+	.dwattr $C$DW$77, DW_AT_TI_call
 
         BL        Delay1ms              ; [DPU_V7M3_PIPE] |707| 
         ; CALL OCCURS {Delay1ms }        ; [] |707| 
@@ -5068,9 +5140,9 @@ $C$DW$73	.dwtag  DW_TAG_TI_branch
         ; BRANCHCC OCCURS {||$C$L5||}    ; [] |695| 
 ;* --------------------------------------------------------------------------*
 	.dwpsn	file "../ST7735.c",line 710,column 1,is_stmt,isa 1
-$C$DW$74	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$74, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$74, DW_AT_TI_return
+$C$DW$78	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$78, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$78, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -5078,37 +5150,37 @@ $C$DW$74	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$65, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$65, DW_AT_TI_end_line(0x2c6)
-	.dwattr $C$DW$65, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$69, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$69, DW_AT_TI_end_line(0x2c6)
+	.dwattr $C$DW$69, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$65
+	.dwendtag $C$DW$69
 
 	.sect	".text"
 	.clink
 	.thumbfunc commonInit
 	.thumb
 
-$C$DW$75	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$75, DW_AT_name("commonInit")
-	.dwattr $C$DW$75, DW_AT_low_pc(commonInit)
-	.dwattr $C$DW$75, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$75, DW_AT_TI_symbol_name("commonInit")
-	.dwattr $C$DW$75, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$75, DW_AT_TI_begin_line(0x2ca)
-	.dwattr $C$DW$75, DW_AT_TI_begin_column(0x0d)
-	.dwattr $C$DW$75, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$75, DW_AT_decl_line(0x2ca)
-	.dwattr $C$DW$75, DW_AT_decl_column(0x0d)
-	.dwattr $C$DW$75, DW_AT_TI_max_frame_size(0x08)
+$C$DW$79	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$79, DW_AT_name("commonInit")
+	.dwattr $C$DW$79, DW_AT_low_pc(commonInit)
+	.dwattr $C$DW$79, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$79, DW_AT_TI_symbol_name("commonInit")
+	.dwattr $C$DW$79, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$79, DW_AT_TI_begin_line(0x2ca)
+	.dwattr $C$DW$79, DW_AT_TI_begin_column(0x0d)
+	.dwattr $C$DW$79, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$79, DW_AT_decl_line(0x2ca)
+	.dwattr $C$DW$79, DW_AT_decl_column(0x0d)
+	.dwattr $C$DW$79, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 714,column 48,is_stmt,address commonInit,isa 1
 
 	.dwfde $C$DW$CIE, commonInit
-$C$DW$76	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$76, DW_AT_name("cmdList")
-	.dwattr $C$DW$76, DW_AT_TI_symbol_name("cmdList")
-	.dwattr $C$DW$76, DW_AT_type(*$C$DW$T$45)
-	.dwattr $C$DW$76, DW_AT_location[DW_OP_reg0]
+$C$DW$80	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$80, DW_AT_name("cmdList")
+	.dwattr $C$DW$80, DW_AT_TI_symbol_name("cmdList")
+	.dwattr $C$DW$80, DW_AT_type(*$C$DW$T$49)
+	.dwattr $C$DW$80, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -5129,11 +5201,11 @@ commonInit:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$77	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$77, DW_AT_name("cmdList")
-	.dwattr $C$DW$77, DW_AT_TI_symbol_name("cmdList")
-	.dwattr $C$DW$77, DW_AT_type(*$C$DW$T$45)
-	.dwattr $C$DW$77, DW_AT_location[DW_OP_breg13 0]
+$C$DW$81	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$81, DW_AT_name("cmdList")
+	.dwattr $C$DW$81, DW_AT_TI_symbol_name("cmdList")
+	.dwattr $C$DW$81, DW_AT_type(*$C$DW$T$49)
+	.dwattr $C$DW$81, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 714 | void static commonInit(const uint8_t *cmdList) {                       
@@ -5160,10 +5232,10 @@ $C$DW$77	.dwtag  DW_TAG_variable
         LDR       A1, $C$CON5           ; [DPU_V7M3_PIPE] |724| 
         MOVS      A3, #8                ; [DPU_V7M3_PIPE] |724| 
         MOV       A2, #1073758208       ; [DPU_V7M3_PIPE] |724| 
-$C$DW$78	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$78, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$78, DW_AT_name("initOutput")
-	.dwattr $C$DW$78, DW_AT_TI_call
+$C$DW$82	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$82, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$82, DW_AT_name("initOutput")
+	.dwattr $C$DW$82, DW_AT_TI_call
 
         BL        initOutput            ; [DPU_V7M3_PIPE] |724| 
         ; CALL OCCURS {initOutput }      ; [] |724| 
@@ -5175,10 +5247,10 @@ $C$DW$78	.dwtag  DW_TAG_TI_branch
         MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |725| 
         MOVS      A2, #8                ; [DPU_V7M3_PIPE] |725| 
         MOVS      A3, #0                ; [DPU_V7M3_PIPE] |725| 
-$C$DW$79	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$79, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$79, DW_AT_name("GPIOPinWrite")
-	.dwattr $C$DW$79, DW_AT_TI_call
+$C$DW$83	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$83, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$83, DW_AT_name("GPIOPinWrite")
+	.dwattr $C$DW$83, DW_AT_TI_call
 
         BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |725| 
         ; CALL OCCURS {GPIOPinWrite }    ; [] |725| 
@@ -5189,10 +5261,10 @@ $C$DW$79	.dwtag  DW_TAG_TI_branch
         LDR       A1, $C$CON5           ; [DPU_V7M3_PIPE] |728| 
         MOV       A2, #1073758208       ; [DPU_V7M3_PIPE] |728| 
         MOVS      A3, #128              ; [DPU_V7M3_PIPE] |728| 
-$C$DW$80	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$80, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$80, DW_AT_name("initOutput")
-	.dwattr $C$DW$80, DW_AT_TI_call
+$C$DW$84	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$84, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$84, DW_AT_name("initOutput")
+	.dwattr $C$DW$84, DW_AT_TI_call
 
         BL        initOutput            ; [DPU_V7M3_PIPE] |728| 
         ; CALL OCCURS {initOutput }      ; [] |728| 
@@ -5203,10 +5275,10 @@ $C$DW$80	.dwtag  DW_TAG_TI_branch
         MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |729| 
         MOVS      A2, #128              ; [DPU_V7M3_PIPE] |729| 
         MOVS      A3, #128              ; [DPU_V7M3_PIPE] |729| 
-$C$DW$81	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$81, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$81, DW_AT_name("GPIOPinWrite")
-	.dwattr $C$DW$81, DW_AT_TI_call
+$C$DW$85	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$85, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$85, DW_AT_name("GPIOPinWrite")
+	.dwattr $C$DW$85, DW_AT_TI_call
 
         BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |729| 
         ; CALL OCCURS {GPIOPinWrite }    ; [] |729| 
@@ -5215,10 +5287,10 @@ $C$DW$81	.dwtag  DW_TAG_TI_branch
 ; 730 | Delay1ms(500);                                                         
 ;----------------------------------------------------------------------
         MOV       A1, #500              ; [DPU_V7M3_PIPE] |730| 
-$C$DW$82	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$82, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$82, DW_AT_name("Delay1ms")
-	.dwattr $C$DW$82, DW_AT_TI_call
+$C$DW$86	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$86, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$86, DW_AT_name("Delay1ms")
+	.dwattr $C$DW$86, DW_AT_TI_call
 
         BL        Delay1ms              ; [DPU_V7M3_PIPE] |730| 
         ; CALL OCCURS {Delay1ms }        ; [] |730| 
@@ -5229,10 +5301,10 @@ $C$DW$82	.dwtag  DW_TAG_TI_branch
         MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |731| 
         MOVS      A2, #128              ; [DPU_V7M3_PIPE] |731| 
         MOVS      A3, #0                ; [DPU_V7M3_PIPE] |731| 
-$C$DW$83	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$83, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$83, DW_AT_name("GPIOPinWrite")
-	.dwattr $C$DW$83, DW_AT_TI_call
+$C$DW$87	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$87, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$87, DW_AT_name("GPIOPinWrite")
+	.dwattr $C$DW$87, DW_AT_TI_call
 
         BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |731| 
         ; CALL OCCURS {GPIOPinWrite }    ; [] |731| 
@@ -5242,10 +5314,10 @@ $C$DW$83	.dwtag  DW_TAG_TI_branch
 ; 732 | Delay1ms(500);                                                         
 ;----------------------------------------------------------------------
         MOV       A1, #500              ; [DPU_V7M3_PIPE] |732| 
-$C$DW$84	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$84, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$84, DW_AT_name("Delay1ms")
-	.dwattr $C$DW$84, DW_AT_TI_call
+$C$DW$88	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$88, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$88, DW_AT_name("Delay1ms")
+	.dwattr $C$DW$88, DW_AT_TI_call
 
         BL        Delay1ms              ; [DPU_V7M3_PIPE] |732| 
         ; CALL OCCURS {Delay1ms }        ; [] |732| 
@@ -5256,10 +5328,10 @@ $C$DW$84	.dwtag  DW_TAG_TI_branch
         MOVS      A2, #128              ; [DPU_V7M3_PIPE] |733| 
         MOVS      A3, #128              ; [DPU_V7M3_PIPE] |733| 
         MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |733| 
-$C$DW$85	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$85, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$85, DW_AT_name("GPIOPinWrite")
-	.dwattr $C$DW$85, DW_AT_TI_call
+$C$DW$89	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$89, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$89, DW_AT_name("GPIOPinWrite")
+	.dwattr $C$DW$89, DW_AT_TI_call
 
         BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |733| 
         ; CALL OCCURS {GPIOPinWrite }    ; [] |733| 
@@ -5279,10 +5351,10 @@ $C$DW$85	.dwtag  DW_TAG_TI_branch
 ;     | ty on PA3,6,7                                                          
 ;----------------------------------------------------------------------
         MOV       A1, #500              ; [DPU_V7M3_PIPE] |734| 
-$C$DW$86	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$86, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$86, DW_AT_name("Delay1ms")
-	.dwattr $C$DW$86, DW_AT_TI_call
+$C$DW$90	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$90, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$90, DW_AT_name("Delay1ms")
+	.dwattr $C$DW$90, DW_AT_TI_call
 
         BL        Delay1ms              ; [DPU_V7M3_PIPE] |734| 
         ; CALL OCCURS {Delay1ms }        ; [] |734| 
@@ -5293,10 +5365,10 @@ $C$DW$86	.dwtag  DW_TAG_TI_branch
         LDR       A1, $C$CON6           ; [DPU_V7M3_PIPE] |756| 
         LDR       A2, $C$CON1           ; [DPU_V7M3_PIPE] |756| 
         MOVS      A3, #16               ; [DPU_V7M3_PIPE] |756| 
-$C$DW$87	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$87, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$87, DW_AT_name("initOutput")
-	.dwattr $C$DW$87, DW_AT_TI_call
+$C$DW$91	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$91, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$91, DW_AT_name("initOutput")
+	.dwattr $C$DW$91, DW_AT_TI_call
 
         BL        initOutput            ; [DPU_V7M3_PIPE] |756| 
         ; CALL OCCURS {initOutput }      ; [] |756| 
@@ -5304,10 +5376,10 @@ $C$DW$87	.dwtag  DW_TAG_TI_branch
 ;----------------------------------------------------------------------
 ; 758 | initSSI(SSI_PERIPH, SSI_BASE, BAUD_RATE, DATA_WIDTH);                  
 ;----------------------------------------------------------------------
-$C$DW$88	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$88, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$88, DW_AT_name("SysCtlClockGet")
-	.dwattr $C$DW$88, DW_AT_TI_call
+$C$DW$92	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$92, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$92, DW_AT_name("SysCtlClockGet")
+	.dwattr $C$DW$92, DW_AT_TI_call
 
         BL        SysCtlClockGet        ; [DPU_V7M3_PIPE] |758| 
         ; CALL OCCURS {SysCtlClockGet }  ; [] |758| 
@@ -5315,10 +5387,10 @@ $C$DW$88	.dwtag  DW_TAG_TI_branch
         LDR       A2, $C$CON2           ; [DPU_V7M3_PIPE] |758| 
         LDR       A1, $C$CON7           ; [DPU_V7M3_PIPE] |758| 
         MOVS      A4, #8                ; [DPU_V7M3_PIPE] |758| 
-$C$DW$89	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$89, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$89, DW_AT_name("initSSI")
-	.dwattr $C$DW$89, DW_AT_TI_call
+$C$DW$93	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$93, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$93, DW_AT_name("initSSI")
+	.dwattr $C$DW$93, DW_AT_TI_call
 
         BL        initSSI               ; [DPU_V7M3_PIPE] |758| 
         ; CALL OCCURS {initSSI }         ; [] |758| 
@@ -5343,10 +5415,10 @@ $C$DW$89	.dwtag  DW_TAG_TI_branch
 ; 766 | initPeriph(SYSCTL_PERIPH_GPIOB);                                       
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON8           ; [DPU_V7M3_PIPE] |766| 
-$C$DW$90	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$90, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$90, DW_AT_name("initPeriph")
-	.dwattr $C$DW$90, DW_AT_TI_call
+$C$DW$94	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$94, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$94, DW_AT_name("initPeriph")
+	.dwattr $C$DW$94, DW_AT_TI_call
 
         BL        initPeriph            ; [DPU_V7M3_PIPE] |766| 
         ; CALL OCCURS {initPeriph }      ; [] |766| 
@@ -5355,10 +5427,10 @@ $C$DW$90	.dwtag  DW_TAG_TI_branch
 ; 767 | GPIOPinConfigure(GPIO_PB4_SSI2CLK);                                    
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON9           ; [DPU_V7M3_PIPE] |767| 
-$C$DW$91	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$91, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$91, DW_AT_name("GPIOPinConfigure")
-	.dwattr $C$DW$91, DW_AT_TI_call
+$C$DW$95	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$95, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$95, DW_AT_name("GPIOPinConfigure")
+	.dwattr $C$DW$95, DW_AT_TI_call
 
         BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |767| 
         ; CALL OCCURS {GPIOPinConfigure }  ; [] |767| 
@@ -5367,10 +5439,10 @@ $C$DW$91	.dwtag  DW_TAG_TI_branch
 ; 768 | GPIOPinConfigure(GPIO_PB5_SSI2FSS);                                    
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON10          ; [DPU_V7M3_PIPE] |768| 
-$C$DW$92	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$92, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$92, DW_AT_name("GPIOPinConfigure")
-	.dwattr $C$DW$92, DW_AT_TI_call
+$C$DW$96	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$96, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$96, DW_AT_name("GPIOPinConfigure")
+	.dwattr $C$DW$96, DW_AT_TI_call
 
         BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |768| 
         ; CALL OCCURS {GPIOPinConfigure }  ; [] |768| 
@@ -5379,10 +5451,10 @@ $C$DW$92	.dwtag  DW_TAG_TI_branch
 ; 769 | GPIOPinConfigure(GPIO_PB7_SSI2TX);                                     
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON11          ; [DPU_V7M3_PIPE] |769| 
-$C$DW$93	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$93, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$93, DW_AT_name("GPIOPinConfigure")
-	.dwattr $C$DW$93, DW_AT_TI_call
+$C$DW$97	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$97, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$97, DW_AT_name("GPIOPinConfigure")
+	.dwattr $C$DW$97, DW_AT_TI_call
 
         BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |769| 
         ; CALL OCCURS {GPIOPinConfigure }  ; [] |769| 
@@ -5423,10 +5495,10 @@ $C$DW$93	.dwtag  DW_TAG_TI_branch
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON12          ; [DPU_V7M3_PIPE] |770| 
         MOVS      A2, #176              ; [DPU_V7M3_PIPE] |770| 
-$C$DW$94	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$94, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$94, DW_AT_name("GPIOPinTypeSSI")
-	.dwattr $C$DW$94, DW_AT_TI_call
+$C$DW$98	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$98, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$98, DW_AT_name("GPIOPinTypeSSI")
+	.dwattr $C$DW$98, DW_AT_TI_call
 
         BL        GPIOPinTypeSSI        ; [DPU_V7M3_PIPE] |770| 
         ; CALL OCCURS {GPIOPinTypeSSI }  ; [] |770| 
@@ -5440,29 +5512,29 @@ $C$DW$94	.dwtag  DW_TAG_TI_branch
 ;* --------------------------------------------------------------------------*
 	.dwpsn	file "../ST7735.c",line 798,column 15,is_stmt,isa 1
         LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |798| 
-$C$DW$95	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$95, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$95, DW_AT_name("commandList")
-	.dwattr $C$DW$95, DW_AT_TI_call
+$C$DW$99	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$99, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$99, DW_AT_name("commandList")
+	.dwattr $C$DW$99, DW_AT_TI_call
 
         BL        commandList           ; [DPU_V7M3_PIPE] |798| 
         ; CALL OCCURS {commandList }     ; [] |798| 
 	.dwpsn	file "../ST7735.c",line 799,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L11||:    
-$C$DW$96	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$96, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$96, DW_AT_TI_return
+$C$DW$100	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$100, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$100, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$75, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$75, DW_AT_TI_end_line(0x31f)
-	.dwattr $C$DW$75, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$79, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$79, DW_AT_TI_end_line(0x31f)
+	.dwattr $C$DW$79, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$75
+	.dwendtag $C$DW$79
 
 	.sect	".text"
 	.clink
@@ -5470,19 +5542,19 @@ $C$DW$96	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_InitB
 
-$C$DW$97	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$97, DW_AT_name("ST7735_InitB")
-	.dwattr $C$DW$97, DW_AT_low_pc(ST7735_InitB)
-	.dwattr $C$DW$97, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$97, DW_AT_TI_symbol_name("ST7735_InitB")
-	.dwattr $C$DW$97, DW_AT_external
-	.dwattr $C$DW$97, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$97, DW_AT_TI_begin_line(0x326)
-	.dwattr $C$DW$97, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$97, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$97, DW_AT_decl_line(0x326)
-	.dwattr $C$DW$97, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$97, DW_AT_TI_max_frame_size(0x08)
+$C$DW$101	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$101, DW_AT_name("ST7735_InitB")
+	.dwattr $C$DW$101, DW_AT_low_pc(ST7735_InitB)
+	.dwattr $C$DW$101, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$101, DW_AT_TI_symbol_name("ST7735_InitB")
+	.dwattr $C$DW$101, DW_AT_external
+	.dwattr $C$DW$101, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$101, DW_AT_TI_begin_line(0x326)
+	.dwattr $C$DW$101, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$101, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$101, DW_AT_decl_line(0x326)
+	.dwattr $C$DW$101, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$101, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 806,column 25,is_stmt,address ST7735_InitB,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_InitB
@@ -5513,10 +5585,10 @@ ST7735_InitB:
 ; 807 | commonInit(Bcmd);                                                      
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON13          ; [DPU_V7M3_PIPE] |807| 
-$C$DW$98	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$98, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$98, DW_AT_name("commonInit")
-	.dwattr $C$DW$98, DW_AT_TI_call
+$C$DW$102	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$102, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$102, DW_AT_name("commonInit")
+	.dwattr $C$DW$102, DW_AT_TI_call
 
         BL        commonInit            ; [DPU_V7M3_PIPE] |807| 
         ; CALL OCCURS {commonInit }      ; [] |807| 
@@ -5526,10 +5598,10 @@ $C$DW$98	.dwtag  DW_TAG_TI_branch
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |808| 
         MOVS      A2, #0                ; [DPU_V7M3_PIPE] |808| 
-$C$DW$99	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$99, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$99, DW_AT_name("ST7735_SetCursor")
-	.dwattr $C$DW$99, DW_AT_TI_call
+$C$DW$103	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$103, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$103, DW_AT_name("ST7735_SetCursor")
+	.dwattr $C$DW$103, DW_AT_TI_call
 
         BL        ST7735_SetCursor      ; [DPU_V7M3_PIPE] |808| 
         ; CALL OCCURS {ST7735_SetCursor }  ; [] |808| 
@@ -5545,27 +5617,27 @@ $C$DW$99	.dwtag  DW_TAG_TI_branch
 ; 810 | ST7735_FillScreen(0);                 // set screen to black           
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |810| 
-$C$DW$100	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$100, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$100, DW_AT_name("ST7735_FillScreen")
-	.dwattr $C$DW$100, DW_AT_TI_call
+$C$DW$104	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$104, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$104, DW_AT_name("ST7735_FillScreen")
+	.dwattr $C$DW$104, DW_AT_TI_call
 
         BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |810| 
         ; CALL OCCURS {ST7735_FillScreen }  ; [] |810| 
 	.dwpsn	file "../ST7735.c",line 811,column 1,is_stmt,isa 1
-$C$DW$101	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$101, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$101, DW_AT_TI_return
+$C$DW$105	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$105, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$105, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$97, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$97, DW_AT_TI_end_line(0x32b)
-	.dwattr $C$DW$97, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$101, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$101, DW_AT_TI_end_line(0x32b)
+	.dwattr $C$DW$101, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$97
+	.dwendtag $C$DW$101
 
 	.sect	".text"
 	.clink
@@ -5573,27 +5645,27 @@ $C$DW$101	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_InitR
 
-$C$DW$102	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$102, DW_AT_name("ST7735_InitR")
-	.dwattr $C$DW$102, DW_AT_low_pc(ST7735_InitR)
-	.dwattr $C$DW$102, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$102, DW_AT_TI_symbol_name("ST7735_InitR")
-	.dwattr $C$DW$102, DW_AT_external
-	.dwattr $C$DW$102, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$102, DW_AT_TI_begin_line(0x332)
-	.dwattr $C$DW$102, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$102, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$102, DW_AT_decl_line(0x332)
-	.dwattr $C$DW$102, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$102, DW_AT_TI_max_frame_size(0x08)
+$C$DW$106	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$106, DW_AT_name("ST7735_InitR")
+	.dwattr $C$DW$106, DW_AT_low_pc(ST7735_InitR)
+	.dwattr $C$DW$106, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$106, DW_AT_TI_symbol_name("ST7735_InitR")
+	.dwattr $C$DW$106, DW_AT_external
+	.dwattr $C$DW$106, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$106, DW_AT_TI_begin_line(0x332)
+	.dwattr $C$DW$106, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$106, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$106, DW_AT_decl_line(0x332)
+	.dwattr $C$DW$106, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$106, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 818,column 43,is_stmt,address ST7735_InitR,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_InitR
-$C$DW$103	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$103, DW_AT_name("option")
-	.dwattr $C$DW$103, DW_AT_TI_symbol_name("option")
-	.dwattr $C$DW$103, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$103, DW_AT_location[DW_OP_reg0]
+$C$DW$107	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$107, DW_AT_name("option")
+	.dwattr $C$DW$107, DW_AT_TI_symbol_name("option")
+	.dwattr $C$DW$107, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$107, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -5614,11 +5686,11 @@ ST7735_InitR:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$104	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$104, DW_AT_name("option")
-	.dwattr $C$DW$104, DW_AT_TI_symbol_name("option")
-	.dwattr $C$DW$104, DW_AT_type(*$C$DW$T$50)
-	.dwattr $C$DW$104, DW_AT_location[DW_OP_breg13 0]
+$C$DW$108	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$108, DW_AT_name("option")
+	.dwattr $C$DW$108, DW_AT_TI_symbol_name("option")
+	.dwattr $C$DW$108, DW_AT_type(*$C$DW$T$54)
+	.dwattr $C$DW$108, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 818 | void ST7735_InitR(enum initRFlags option) {                            
@@ -5629,10 +5701,10 @@ $C$DW$104	.dwtag  DW_TAG_variable
 ; 819 | commonInit(Rcmd1);                                                     
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON15          ; [DPU_V7M3_PIPE] |819| 
-$C$DW$105	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$105, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$105, DW_AT_name("commonInit")
-	.dwattr $C$DW$105, DW_AT_TI_call
+$C$DW$109	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$109, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$109, DW_AT_name("commonInit")
+	.dwattr $C$DW$109, DW_AT_TI_call
 
         BL        commonInit            ; [DPU_V7M3_PIPE] |819| 
         ; CALL OCCURS {commonInit }      ; [] |819| 
@@ -5650,10 +5722,10 @@ $C$DW$105	.dwtag  DW_TAG_TI_branch
 ; 821 | commandList(Rcmd2green);                                               
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON16          ; [DPU_V7M3_PIPE] |821| 
-$C$DW$106	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$106, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$106, DW_AT_name("commandList")
-	.dwattr $C$DW$106, DW_AT_TI_call
+$C$DW$110	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$110, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$110, DW_AT_name("commandList")
+	.dwattr $C$DW$110, DW_AT_TI_call
 
         BL        commandList           ; [DPU_V7M3_PIPE] |821| 
         ; CALL OCCURS {commandList }     ; [] |821| 
@@ -5685,10 +5757,10 @@ $C$DW$106	.dwtag  DW_TAG_TI_branch
 ; 826 | commandList(Rcmd2red);                                                 
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON17          ; [DPU_V7M3_PIPE] |826| 
-$C$DW$107	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$107, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$107, DW_AT_name("commandList")
-	.dwattr $C$DW$107, DW_AT_TI_call
+$C$DW$111	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$111, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$111, DW_AT_name("commandList")
+	.dwattr $C$DW$111, DW_AT_TI_call
 
         BL        commandList           ; [DPU_V7M3_PIPE] |826| 
         ; CALL OCCURS {commandList }     ; [] |826| 
@@ -5700,10 +5772,10 @@ $C$DW$107	.dwtag  DW_TAG_TI_branch
 ; 830 | // if black, change MADCTL color filter                                
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON18          ; [DPU_V7M3_PIPE] |828| 
-$C$DW$108	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$108, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$108, DW_AT_name("commandList")
-	.dwattr $C$DW$108, DW_AT_TI_call
+$C$DW$112	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$112, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$112, DW_AT_name("commandList")
+	.dwattr $C$DW$112, DW_AT_TI_call
 
         BL        commandList           ; [DPU_V7M3_PIPE] |828| 
         ; CALL OCCURS {commandList }     ; [] |828| 
@@ -5721,10 +5793,10 @@ $C$DW$108	.dwtag  DW_TAG_TI_branch
 ; 832 | writecommand(ST7735_MADCTL);                                           
 ;----------------------------------------------------------------------
         MOVS      A1, #54               ; [DPU_V7M3_PIPE] |832| 
-$C$DW$109	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$109, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$109, DW_AT_name("writecommand")
-	.dwattr $C$DW$109, DW_AT_TI_call
+$C$DW$113	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$113, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$113, DW_AT_name("writecommand")
+	.dwattr $C$DW$113, DW_AT_TI_call
 
         BL        writecommand          ; [DPU_V7M3_PIPE] |832| 
         ; CALL OCCURS {writecommand }    ; [] |832| 
@@ -5733,10 +5805,10 @@ $C$DW$109	.dwtag  DW_TAG_TI_branch
 ; 833 | writedata(0xC0);                                                       
 ;----------------------------------------------------------------------
         MOVS      A1, #192              ; [DPU_V7M3_PIPE] |833| 
-$C$DW$110	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$110, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$110, DW_AT_name("writedata")
-	.dwattr $C$DW$110, DW_AT_TI_call
+$C$DW$114	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$114, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$114, DW_AT_name("writedata")
+	.dwattr $C$DW$114, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |833| 
         ; CALL OCCURS {writedata }       ; [] |833| 
@@ -5755,10 +5827,10 @@ $C$DW$110	.dwtag  DW_TAG_TI_branch
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |836| 
         MOVS      A2, #0                ; [DPU_V7M3_PIPE] |836| 
-$C$DW$111	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$111, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$111, DW_AT_name("ST7735_SetCursor")
-	.dwattr $C$DW$111, DW_AT_TI_call
+$C$DW$115	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$115, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$115, DW_AT_name("ST7735_SetCursor")
+	.dwattr $C$DW$115, DW_AT_TI_call
 
         BL        ST7735_SetCursor      ; [DPU_V7M3_PIPE] |836| 
         ; CALL OCCURS {ST7735_SetCursor }  ; [] |836| 
@@ -5774,71 +5846,71 @@ $C$DW$111	.dwtag  DW_TAG_TI_branch
 ; 838 | ST7735_FillScreen(0);                 // set screen to black           
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |838| 
-$C$DW$112	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$112, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$112, DW_AT_name("ST7735_FillScreen")
-	.dwattr $C$DW$112, DW_AT_TI_call
+$C$DW$116	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$116, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$116, DW_AT_name("ST7735_FillScreen")
+	.dwattr $C$DW$116, DW_AT_TI_call
 
         BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |838| 
         ; CALL OCCURS {ST7735_FillScreen }  ; [] |838| 
 	.dwpsn	file "../ST7735.c",line 839,column 1,is_stmt,isa 1
-$C$DW$113	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$113, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$113, DW_AT_TI_return
+$C$DW$117	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$117, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$117, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$102, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$102, DW_AT_TI_end_line(0x347)
-	.dwattr $C$DW$102, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$106, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$106, DW_AT_TI_end_line(0x347)
+	.dwattr $C$DW$106, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$102
+	.dwendtag $C$DW$106
 
 	.sect	".text"
 	.clink
 	.thumbfunc setAddrWindow
 	.thumb
 
-$C$DW$114	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$114, DW_AT_name("setAddrWindow")
-	.dwattr $C$DW$114, DW_AT_low_pc(setAddrWindow)
-	.dwattr $C$DW$114, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$114, DW_AT_TI_symbol_name("setAddrWindow")
-	.dwattr $C$DW$114, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$114, DW_AT_TI_begin_line(0x34e)
-	.dwattr $C$DW$114, DW_AT_TI_begin_column(0x0d)
-	.dwattr $C$DW$114, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$114, DW_AT_decl_line(0x34e)
-	.dwattr $C$DW$114, DW_AT_decl_column(0x0d)
-	.dwattr $C$DW$114, DW_AT_TI_max_frame_size(0x08)
+$C$DW$118	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$118, DW_AT_name("setAddrWindow")
+	.dwattr $C$DW$118, DW_AT_low_pc(setAddrWindow)
+	.dwattr $C$DW$118, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$118, DW_AT_TI_symbol_name("setAddrWindow")
+	.dwattr $C$DW$118, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$118, DW_AT_TI_begin_line(0x34e)
+	.dwattr $C$DW$118, DW_AT_TI_begin_column(0x0d)
+	.dwattr $C$DW$118, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$118, DW_AT_decl_line(0x34e)
+	.dwattr $C$DW$118, DW_AT_decl_column(0x0d)
+	.dwattr $C$DW$118, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 846,column 75,is_stmt,address setAddrWindow,isa 1
 
 	.dwfde $C$DW$CIE, setAddrWindow
-$C$DW$115	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$115, DW_AT_name("x0")
-	.dwattr $C$DW$115, DW_AT_TI_symbol_name("x0")
-	.dwattr $C$DW$115, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$115, DW_AT_location[DW_OP_reg0]
+$C$DW$119	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$119, DW_AT_name("x0")
+	.dwattr $C$DW$119, DW_AT_TI_symbol_name("x0")
+	.dwattr $C$DW$119, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$119, DW_AT_location[DW_OP_reg0]
 
-$C$DW$116	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$116, DW_AT_name("y0")
-	.dwattr $C$DW$116, DW_AT_TI_symbol_name("y0")
-	.dwattr $C$DW$116, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$116, DW_AT_location[DW_OP_reg1]
+$C$DW$120	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$120, DW_AT_name("y0")
+	.dwattr $C$DW$120, DW_AT_TI_symbol_name("y0")
+	.dwattr $C$DW$120, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$120, DW_AT_location[DW_OP_reg1]
 
-$C$DW$117	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$117, DW_AT_name("x1")
-	.dwattr $C$DW$117, DW_AT_TI_symbol_name("x1")
-	.dwattr $C$DW$117, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$117, DW_AT_location[DW_OP_reg2]
+$C$DW$121	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$121, DW_AT_name("x1")
+	.dwattr $C$DW$121, DW_AT_TI_symbol_name("x1")
+	.dwattr $C$DW$121, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$121, DW_AT_location[DW_OP_reg2]
 
-$C$DW$118	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$118, DW_AT_name("y1")
-	.dwattr $C$DW$118, DW_AT_TI_symbol_name("y1")
-	.dwattr $C$DW$118, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$118, DW_AT_location[DW_OP_reg3]
+$C$DW$122	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$122, DW_AT_name("y1")
+	.dwattr $C$DW$122, DW_AT_TI_symbol_name("y1")
+	.dwattr $C$DW$122, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$122, DW_AT_location[DW_OP_reg3]
 
 
 ;*****************************************************************************
@@ -5859,29 +5931,29 @@ setAddrWindow:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$119	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$119, DW_AT_name("x0")
-	.dwattr $C$DW$119, DW_AT_TI_symbol_name("x0")
-	.dwattr $C$DW$119, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$119, DW_AT_location[DW_OP_breg13 0]
+$C$DW$123	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$123, DW_AT_name("x0")
+	.dwattr $C$DW$123, DW_AT_TI_symbol_name("x0")
+	.dwattr $C$DW$123, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$123, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$120	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$120, DW_AT_name("y0")
-	.dwattr $C$DW$120, DW_AT_TI_symbol_name("y0")
-	.dwattr $C$DW$120, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$120, DW_AT_location[DW_OP_breg13 1]
+$C$DW$124	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$124, DW_AT_name("y0")
+	.dwattr $C$DW$124, DW_AT_TI_symbol_name("y0")
+	.dwattr $C$DW$124, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$124, DW_AT_location[DW_OP_breg13 1]
 
-$C$DW$121	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$121, DW_AT_name("x1")
-	.dwattr $C$DW$121, DW_AT_TI_symbol_name("x1")
-	.dwattr $C$DW$121, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$121, DW_AT_location[DW_OP_breg13 2]
+$C$DW$125	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$125, DW_AT_name("x1")
+	.dwattr $C$DW$125, DW_AT_TI_symbol_name("x1")
+	.dwattr $C$DW$125, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$125, DW_AT_location[DW_OP_breg13 2]
 
-$C$DW$122	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$122, DW_AT_name("y1")
-	.dwattr $C$DW$122, DW_AT_TI_symbol_name("y1")
-	.dwattr $C$DW$122, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$122, DW_AT_location[DW_OP_breg13 3]
+$C$DW$126	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$126, DW_AT_name("y1")
+	.dwattr $C$DW$126, DW_AT_TI_symbol_name("y1")
+	.dwattr $C$DW$126, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$126, DW_AT_location[DW_OP_breg13 3]
 
 ;----------------------------------------------------------------------
 ; 846 | void static setAddrWindow(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y
@@ -5896,10 +5968,10 @@ $C$DW$122	.dwtag  DW_TAG_variable
 ; 848 | writecommand(ST7735_CASET); // Column addr set                         
 ;----------------------------------------------------------------------
         MOVS      A1, #42               ; [DPU_V7M3_PIPE] |848| 
-$C$DW$123	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$123, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$123, DW_AT_name("writecommand")
-	.dwattr $C$DW$123, DW_AT_TI_call
+$C$DW$127	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$127, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$127, DW_AT_name("writecommand")
+	.dwattr $C$DW$127, DW_AT_TI_call
 
         BL        writecommand          ; [DPU_V7M3_PIPE] |848| 
         ; CALL OCCURS {writecommand }    ; [] |848| 
@@ -5908,10 +5980,10 @@ $C$DW$123	.dwtag  DW_TAG_TI_branch
 ; 849 | writedata(0x00);                                                       
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |849| 
-$C$DW$124	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$124, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$124, DW_AT_name("writedata")
-	.dwattr $C$DW$124, DW_AT_TI_call
+$C$DW$128	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$128, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$128, DW_AT_name("writedata")
+	.dwattr $C$DW$128, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |849| 
         ; CALL OCCURS {writedata }       ; [] |849| 
@@ -5924,10 +5996,10 @@ $C$DW$124	.dwtag  DW_TAG_TI_branch
         LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |850| 
         ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |850| 
         UXTB      A1, A1                ; [DPU_V7M3_PIPE] |850| 
-$C$DW$125	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$125, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$125, DW_AT_name("writedata")
-	.dwattr $C$DW$125, DW_AT_TI_call
+$C$DW$129	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$129, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$129, DW_AT_name("writedata")
+	.dwattr $C$DW$129, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |850| 
         ; CALL OCCURS {writedata }       ; [] |850| 
@@ -5936,10 +6008,10 @@ $C$DW$125	.dwtag  DW_TAG_TI_branch
 ; 851 | writedata(0x00);                                                       
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |851| 
-$C$DW$126	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$126, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$126, DW_AT_name("writedata")
-	.dwattr $C$DW$126, DW_AT_TI_call
+$C$DW$130	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$130, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$130, DW_AT_name("writedata")
+	.dwattr $C$DW$130, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |851| 
         ; CALL OCCURS {writedata }       ; [] |851| 
@@ -5952,10 +6024,10 @@ $C$DW$126	.dwtag  DW_TAG_TI_branch
         LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |852| 
         ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |852| 
         UXTB      A1, A1                ; [DPU_V7M3_PIPE] |852| 
-$C$DW$127	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$127, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$127, DW_AT_name("writedata")
-	.dwattr $C$DW$127, DW_AT_TI_call
+$C$DW$131	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$131, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$131, DW_AT_name("writedata")
+	.dwattr $C$DW$131, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |852| 
         ; CALL OCCURS {writedata }       ; [] |852| 
@@ -5964,10 +6036,10 @@ $C$DW$127	.dwtag  DW_TAG_TI_branch
 ; 854 | writecommand(ST7735_RASET); // Row addr set                            
 ;----------------------------------------------------------------------
         MOVS      A1, #43               ; [DPU_V7M3_PIPE] |854| 
-$C$DW$128	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$128, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$128, DW_AT_name("writecommand")
-	.dwattr $C$DW$128, DW_AT_TI_call
+$C$DW$132	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$132, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$132, DW_AT_name("writecommand")
+	.dwattr $C$DW$132, DW_AT_TI_call
 
         BL        writecommand          ; [DPU_V7M3_PIPE] |854| 
         ; CALL OCCURS {writecommand }    ; [] |854| 
@@ -5977,10 +6049,10 @@ $C$DW$128	.dwtag  DW_TAG_TI_branch
 ; 855 | writedata(0x00);                                                       
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |855| 
-$C$DW$129	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$129, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$129, DW_AT_name("writedata")
-	.dwattr $C$DW$129, DW_AT_TI_call
+$C$DW$133	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$133, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$133, DW_AT_name("writedata")
+	.dwattr $C$DW$133, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |855| 
         ; CALL OCCURS {writedata }       ; [] |855| 
@@ -5993,10 +6065,10 @@ $C$DW$129	.dwtag  DW_TAG_TI_branch
         LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |856| 
         ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |856| 
         UXTB      A1, A1                ; [DPU_V7M3_PIPE] |856| 
-$C$DW$130	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$130, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$130, DW_AT_name("writedata")
-	.dwattr $C$DW$130, DW_AT_TI_call
+$C$DW$134	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$134, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$134, DW_AT_name("writedata")
+	.dwattr $C$DW$134, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |856| 
         ; CALL OCCURS {writedata }       ; [] |856| 
@@ -6005,10 +6077,10 @@ $C$DW$130	.dwtag  DW_TAG_TI_branch
 ; 857 | writedata(0x00);                                                       
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |857| 
-$C$DW$131	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$131, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$131, DW_AT_name("writedata")
-	.dwattr $C$DW$131, DW_AT_TI_call
+$C$DW$135	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$135, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$135, DW_AT_name("writedata")
+	.dwattr $C$DW$135, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |857| 
         ; CALL OCCURS {writedata }       ; [] |857| 
@@ -6021,10 +6093,10 @@ $C$DW$131	.dwtag  DW_TAG_TI_branch
         LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |858| 
         ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |858| 
         UXTB      A1, A1                ; [DPU_V7M3_PIPE] |858| 
-$C$DW$132	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$132, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$132, DW_AT_name("writedata")
-	.dwattr $C$DW$132, DW_AT_TI_call
+$C$DW$136	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$136, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$136, DW_AT_name("writedata")
+	.dwattr $C$DW$136, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |858| 
         ; CALL OCCURS {writedata }       ; [] |858| 
@@ -6033,53 +6105,53 @@ $C$DW$132	.dwtag  DW_TAG_TI_branch
 ; 860 | writecommand(ST7735_RAMWR); // write to RAM                            
 ;----------------------------------------------------------------------
         MOVS      A1, #44               ; [DPU_V7M3_PIPE] |860| 
-$C$DW$133	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$133, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$133, DW_AT_name("writecommand")
-	.dwattr $C$DW$133, DW_AT_TI_call
+$C$DW$137	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$137, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$137, DW_AT_name("writecommand")
+	.dwattr $C$DW$137, DW_AT_TI_call
 
         BL        writecommand          ; [DPU_V7M3_PIPE] |860| 
         ; CALL OCCURS {writecommand }    ; [] |860| 
 	.dwpsn	file "../ST7735.c",line 861,column 1,is_stmt,isa 1
-$C$DW$134	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$134, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$134, DW_AT_TI_return
+$C$DW$138	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$138, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$138, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$114, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$114, DW_AT_TI_end_line(0x35d)
-	.dwattr $C$DW$114, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$118, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$118, DW_AT_TI_end_line(0x35d)
+	.dwattr $C$DW$118, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$114
+	.dwendtag $C$DW$118
 
 	.sect	".text"
 	.clink
 	.thumbfunc pushColor
 	.thumb
 
-$C$DW$135	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$135, DW_AT_name("pushColor")
-	.dwattr $C$DW$135, DW_AT_low_pc(pushColor)
-	.dwattr $C$DW$135, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$135, DW_AT_TI_symbol_name("pushColor")
-	.dwattr $C$DW$135, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$135, DW_AT_TI_begin_line(0x362)
-	.dwattr $C$DW$135, DW_AT_TI_begin_column(0x0d)
-	.dwattr $C$DW$135, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$135, DW_AT_decl_line(0x362)
-	.dwattr $C$DW$135, DW_AT_decl_column(0x0d)
-	.dwattr $C$DW$135, DW_AT_TI_max_frame_size(0x08)
+$C$DW$139	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$139, DW_AT_name("pushColor")
+	.dwattr $C$DW$139, DW_AT_low_pc(pushColor)
+	.dwattr $C$DW$139, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$139, DW_AT_TI_symbol_name("pushColor")
+	.dwattr $C$DW$139, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$139, DW_AT_TI_begin_line(0x362)
+	.dwattr $C$DW$139, DW_AT_TI_begin_column(0x0d)
+	.dwattr $C$DW$139, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$139, DW_AT_decl_line(0x362)
+	.dwattr $C$DW$139, DW_AT_decl_column(0x0d)
+	.dwattr $C$DW$139, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 866,column 39,is_stmt,address pushColor,isa 1
 
 	.dwfde $C$DW$CIE, pushColor
-$C$DW$136	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$136, DW_AT_name("color")
-	.dwattr $C$DW$136, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$136, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$136, DW_AT_location[DW_OP_reg0]
+$C$DW$140	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$140, DW_AT_name("color")
+	.dwattr $C$DW$140, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$140, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$140, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -6100,11 +6172,11 @@ pushColor:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$137	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$137, DW_AT_name("color")
-	.dwattr $C$DW$137, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$137, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$137, DW_AT_location[DW_OP_breg13 0]
+$C$DW$141	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$141, DW_AT_name("color")
+	.dwattr $C$DW$141, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$141, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$141, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 866 | void static pushColor(uint16_t color) {                                
@@ -6116,10 +6188,10 @@ $C$DW$137	.dwtag  DW_TAG_variable
 ;----------------------------------------------------------------------
         LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |867| 
         UXTB      A1, A1, ROR #8        ; [DPU_V7M3_PIPE] |867| 
-$C$DW$138	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$138, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$138, DW_AT_name("writedata")
-	.dwattr $C$DW$138, DW_AT_TI_call
+$C$DW$142	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$142, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$142, DW_AT_name("writedata")
+	.dwattr $C$DW$142, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |867| 
         ; CALL OCCURS {writedata }       ; [] |867| 
@@ -6128,27 +6200,27 @@ $C$DW$138	.dwtag  DW_TAG_TI_branch
 ; 868 | writedata((uint8_t)color);                                             
 ;----------------------------------------------------------------------
         LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |868| 
-$C$DW$139	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$139, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$139, DW_AT_name("writedata")
-	.dwattr $C$DW$139, DW_AT_TI_call
+$C$DW$143	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$143, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$143, DW_AT_name("writedata")
+	.dwattr $C$DW$143, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |868| 
         ; CALL OCCURS {writedata }       ; [] |868| 
 	.dwpsn	file "../ST7735.c",line 869,column 1,is_stmt,isa 1
-$C$DW$140	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$140, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$140, DW_AT_TI_return
+$C$DW$144	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$144, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$144, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$135, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$135, DW_AT_TI_end_line(0x365)
-	.dwattr $C$DW$135, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$139, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$139, DW_AT_TI_end_line(0x365)
+	.dwattr $C$DW$139, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$135
+	.dwendtag $C$DW$139
 
 	.sect	".text"
 	.clink
@@ -6156,39 +6228,39 @@ $C$DW$140	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_DrawPixel
 
-$C$DW$141	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$141, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$141, DW_AT_low_pc(ST7735_DrawPixel)
-	.dwattr $C$DW$141, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$141, DW_AT_TI_symbol_name("ST7735_DrawPixel")
-	.dwattr $C$DW$141, DW_AT_external
-	.dwattr $C$DW$141, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$141, DW_AT_TI_begin_line(0x373)
-	.dwattr $C$DW$141, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$141, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$141, DW_AT_decl_line(0x373)
-	.dwattr $C$DW$141, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$141, DW_AT_TI_max_frame_size(0x10)
+$C$DW$145	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$145, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$145, DW_AT_low_pc(ST7735_DrawPixel)
+	.dwattr $C$DW$145, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$145, DW_AT_TI_symbol_name("ST7735_DrawPixel")
+	.dwattr $C$DW$145, DW_AT_external
+	.dwattr $C$DW$145, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$145, DW_AT_TI_begin_line(0x373)
+	.dwattr $C$DW$145, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$145, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$145, DW_AT_decl_line(0x373)
+	.dwattr $C$DW$145, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$145, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 883,column 61,is_stmt,address ST7735_DrawPixel,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawPixel
-$C$DW$142	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$142, DW_AT_name("x")
-	.dwattr $C$DW$142, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$142, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$142, DW_AT_location[DW_OP_reg0]
+$C$DW$146	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$146, DW_AT_name("x")
+	.dwattr $C$DW$146, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$146, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$146, DW_AT_location[DW_OP_reg0]
 
-$C$DW$143	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$143, DW_AT_name("y")
-	.dwattr $C$DW$143, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$143, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$143, DW_AT_location[DW_OP_reg1]
+$C$DW$147	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$147, DW_AT_name("y")
+	.dwattr $C$DW$147, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$147, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$147, DW_AT_location[DW_OP_reg1]
 
-$C$DW$144	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$144, DW_AT_name("color")
-	.dwattr $C$DW$144, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$144, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$144, DW_AT_location[DW_OP_reg2]
+$C$DW$148	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$148, DW_AT_name("color")
+	.dwattr $C$DW$148, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$148, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$148, DW_AT_location[DW_OP_reg2]
 
 
 ;*****************************************************************************
@@ -6211,23 +6283,23 @@ ST7735_DrawPixel:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$145	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$145, DW_AT_name("x")
-	.dwattr $C$DW$145, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$145, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$145, DW_AT_location[DW_OP_breg13 0]
+$C$DW$149	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$149, DW_AT_name("x")
+	.dwattr $C$DW$149, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$149, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$149, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$146	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$146, DW_AT_name("y")
-	.dwattr $C$DW$146, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$146, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$146, DW_AT_location[DW_OP_breg13 2]
+$C$DW$150	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$150, DW_AT_name("y")
+	.dwattr $C$DW$150, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$150, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$150, DW_AT_location[DW_OP_breg13 2]
 
-$C$DW$147	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$147, DW_AT_name("color")
-	.dwattr $C$DW$147, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$147, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$147, DW_AT_location[DW_OP_breg13 4]
+$C$DW$151	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$151, DW_AT_name("color")
+	.dwattr $C$DW$151, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$151, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$151, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
 ; 883 | void ST7735_DrawPixel(int16_t x, int16_t y, uint16_t color) {          
@@ -6277,10 +6349,10 @@ $C$DW$147	.dwtag  DW_TAG_variable
         LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |888| 
         LDRB      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |888| 
         LDRB      A4, [SP, #2]          ; [DPU_V7M3_PIPE] |888| 
-$C$DW$148	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$148, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$148, DW_AT_name("setAddrWindow")
-	.dwattr $C$DW$148, DW_AT_TI_call
+$C$DW$152	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$152, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$152, DW_AT_name("setAddrWindow")
+	.dwattr $C$DW$152, DW_AT_TI_call
 
         BL        setAddrWindow         ; [DPU_V7M3_PIPE] |888| 
         ; CALL OCCURS {setAddrWindow }   ; [] |888| 
@@ -6289,19 +6361,19 @@ $C$DW$148	.dwtag  DW_TAG_TI_branch
 ; 890 | pushColor(color);                                                      
 ;----------------------------------------------------------------------
         LDRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |890| 
-$C$DW$149	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$149, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$149, DW_AT_name("pushColor")
-	.dwattr $C$DW$149, DW_AT_TI_call
+$C$DW$153	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$153, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$153, DW_AT_name("pushColor")
+	.dwattr $C$DW$153, DW_AT_TI_call
 
         BL        pushColor             ; [DPU_V7M3_PIPE] |890| 
         ; CALL OCCURS {pushColor }       ; [] |890| 
 	.dwpsn	file "../ST7735.c",line 891,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L16||:    
-$C$DW$150	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$150, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$150, DW_AT_TI_return
+$C$DW$154	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$154, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$154, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -6309,11 +6381,11 @@ $C$DW$150	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$141, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$141, DW_AT_TI_end_line(0x37b)
-	.dwattr $C$DW$141, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$145, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$145, DW_AT_TI_end_line(0x37b)
+	.dwattr $C$DW$145, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$141
+	.dwendtag $C$DW$145
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -6331,45 +6403,45 @@ $C$DW$150	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_DrawFastVLine
 
-$C$DW$151	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$151, DW_AT_name("ST7735_DrawFastVLine")
-	.dwattr $C$DW$151, DW_AT_low_pc(ST7735_DrawFastVLine)
-	.dwattr $C$DW$151, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$151, DW_AT_TI_symbol_name("ST7735_DrawFastVLine")
-	.dwattr $C$DW$151, DW_AT_external
-	.dwattr $C$DW$151, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$151, DW_AT_TI_begin_line(0x387)
-	.dwattr $C$DW$151, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$151, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$151, DW_AT_decl_line(0x387)
-	.dwattr $C$DW$151, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$151, DW_AT_TI_max_frame_size(0x18)
+$C$DW$155	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$155, DW_AT_name("ST7735_DrawFastVLine")
+	.dwattr $C$DW$155, DW_AT_low_pc(ST7735_DrawFastVLine)
+	.dwattr $C$DW$155, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$155, DW_AT_TI_symbol_name("ST7735_DrawFastVLine")
+	.dwattr $C$DW$155, DW_AT_external
+	.dwattr $C$DW$155, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$155, DW_AT_TI_begin_line(0x387)
+	.dwattr $C$DW$155, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$155, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$155, DW_AT_decl_line(0x387)
+	.dwattr $C$DW$155, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$155, DW_AT_TI_max_frame_size(0x18)
 	.dwpsn	file "../ST7735.c",line 903,column 76,is_stmt,address ST7735_DrawFastVLine,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawFastVLine
-$C$DW$152	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$152, DW_AT_name("x")
-	.dwattr $C$DW$152, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$152, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$152, DW_AT_location[DW_OP_reg0]
+$C$DW$156	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$156, DW_AT_name("x")
+	.dwattr $C$DW$156, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$156, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$156, DW_AT_location[DW_OP_reg0]
 
-$C$DW$153	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$153, DW_AT_name("y")
-	.dwattr $C$DW$153, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$153, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$153, DW_AT_location[DW_OP_reg1]
+$C$DW$157	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$157, DW_AT_name("y")
+	.dwattr $C$DW$157, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$157, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$157, DW_AT_location[DW_OP_reg1]
 
-$C$DW$154	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$154, DW_AT_name("h")
-	.dwattr $C$DW$154, DW_AT_TI_symbol_name("h")
-	.dwattr $C$DW$154, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$154, DW_AT_location[DW_OP_reg2]
+$C$DW$158	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$158, DW_AT_name("h")
+	.dwattr $C$DW$158, DW_AT_TI_symbol_name("h")
+	.dwattr $C$DW$158, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$158, DW_AT_location[DW_OP_reg2]
 
-$C$DW$155	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$155, DW_AT_name("color")
-	.dwattr $C$DW$155, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$155, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$155, DW_AT_location[DW_OP_reg3]
+$C$DW$159	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$159, DW_AT_name("color")
+	.dwattr $C$DW$159, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$159, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$159, DW_AT_location[DW_OP_reg3]
 
 
 ;*****************************************************************************
@@ -6394,41 +6466,41 @@ ST7735_DrawFastVLine:
 	.dwcfi	save_reg_to_mem, 2, -16
 	.dwcfi	save_reg_to_mem, 1, -20
 	.dwcfi	save_reg_to_mem, 0, -24
-$C$DW$156	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$156, DW_AT_name("x")
-	.dwattr $C$DW$156, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$156, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$156, DW_AT_location[DW_OP_breg13 0]
-
-$C$DW$157	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$157, DW_AT_name("y")
-	.dwattr $C$DW$157, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$157, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$157, DW_AT_location[DW_OP_breg13 2]
-
-$C$DW$158	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$158, DW_AT_name("h")
-	.dwattr $C$DW$158, DW_AT_TI_symbol_name("h")
-	.dwattr $C$DW$158, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$158, DW_AT_location[DW_OP_breg13 4]
-
-$C$DW$159	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$159, DW_AT_name("color")
-	.dwattr $C$DW$159, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$159, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$159, DW_AT_location[DW_OP_breg13 6]
-
 $C$DW$160	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$160, DW_AT_name("hi")
-	.dwattr $C$DW$160, DW_AT_TI_symbol_name("hi")
-	.dwattr $C$DW$160, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$160, DW_AT_location[DW_OP_breg13 8]
+	.dwattr $C$DW$160, DW_AT_name("x")
+	.dwattr $C$DW$160, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$160, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$160, DW_AT_location[DW_OP_breg13 0]
 
 $C$DW$161	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$161, DW_AT_name("lo")
-	.dwattr $C$DW$161, DW_AT_TI_symbol_name("lo")
-	.dwattr $C$DW$161, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$161, DW_AT_location[DW_OP_breg13 9]
+	.dwattr $C$DW$161, DW_AT_name("y")
+	.dwattr $C$DW$161, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$161, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$161, DW_AT_location[DW_OP_breg13 2]
+
+$C$DW$162	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$162, DW_AT_name("h")
+	.dwattr $C$DW$162, DW_AT_TI_symbol_name("h")
+	.dwattr $C$DW$162, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$162, DW_AT_location[DW_OP_breg13 4]
+
+$C$DW$163	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$163, DW_AT_name("color")
+	.dwattr $C$DW$163, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$163, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$163, DW_AT_location[DW_OP_breg13 6]
+
+$C$DW$164	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$164, DW_AT_name("hi")
+	.dwattr $C$DW$164, DW_AT_TI_symbol_name("hi")
+	.dwattr $C$DW$164, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$164, DW_AT_location[DW_OP_breg13 8]
+
+$C$DW$165	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$165, DW_AT_name("lo")
+	.dwattr $C$DW$165, DW_AT_TI_symbol_name("lo")
+	.dwattr $C$DW$165, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$165, DW_AT_location[DW_OP_breg13 9]
 
 ;----------------------------------------------------------------------
 ; 903 | void ST7735_DrawFastVLine(int16_t x, int16_t y, int16_t h, uint16_t col
@@ -6508,10 +6580,10 @@ $C$DW$161	.dwtag  DW_TAG_variable
         ADDS      A4, A4, V1            ; [DPU_V7M3_PIPE] |909| 
         SUBS      A4, A4, #1            ; [DPU_V7M3_PIPE] |909| 
         UXTB      A4, A4                ; [DPU_V7M3_PIPE] |909| 
-$C$DW$162	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$162, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$162, DW_AT_name("setAddrWindow")
-	.dwattr $C$DW$162, DW_AT_TI_call
+$C$DW$166	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$166, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$166, DW_AT_name("setAddrWindow")
+	.dwattr $C$DW$166, DW_AT_TI_call
 
         BL        setAddrWindow         ; [DPU_V7M3_PIPE] |909| 
         ; CALL OCCURS {setAddrWindow }   ; [] |909| 
@@ -6528,10 +6600,10 @@ $C$DW$162	.dwtag  DW_TAG_TI_branch
 ; 912 | writedata(hi);                                                         
 ;----------------------------------------------------------------------
         LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |912| 
-$C$DW$163	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$163, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$163, DW_AT_name("writedata")
-	.dwattr $C$DW$163, DW_AT_TI_call
+$C$DW$167	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$167, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$167, DW_AT_name("writedata")
+	.dwattr $C$DW$167, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |912| 
         ; CALL OCCURS {writedata }       ; [] |912| 
@@ -6540,10 +6612,10 @@ $C$DW$163	.dwtag  DW_TAG_TI_branch
 ; 913 | writedata(lo);                                                         
 ;----------------------------------------------------------------------
         LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |913| 
-$C$DW$164	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$164, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$164, DW_AT_name("writedata")
-	.dwattr $C$DW$164, DW_AT_TI_call
+$C$DW$168	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$168, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$168, DW_AT_name("writedata")
+	.dwattr $C$DW$168, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |913| 
         ; CALL OCCURS {writedata }       ; [] |913| 
@@ -6563,9 +6635,9 @@ $C$DW$164	.dwtag  DW_TAG_TI_branch
 ;* --------------------------------------------------------------------------*
 ||$C$L21||:    
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] 
-$C$DW$165	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$165, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$165, DW_AT_TI_return
+$C$DW$169	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$169, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$169, DW_AT_TI_return
 
         POP       {A1, A2, A3, A4, V1, PC} ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -6575,11 +6647,11 @@ $C$DW$165	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
 	.dwcfi	restore_reg, 0
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$151, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$151, DW_AT_TI_end_line(0x393)
-	.dwattr $C$DW$151, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$155, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$155, DW_AT_TI_end_line(0x393)
+	.dwattr $C$DW$155, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$151
+	.dwendtag $C$DW$155
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -6598,45 +6670,45 @@ $C$DW$165	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_DrawFastHLine
 
-$C$DW$166	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$166, DW_AT_name("ST7735_DrawFastHLine")
-	.dwattr $C$DW$166, DW_AT_low_pc(ST7735_DrawFastHLine)
-	.dwattr $C$DW$166, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$166, DW_AT_TI_symbol_name("ST7735_DrawFastHLine")
-	.dwattr $C$DW$166, DW_AT_external
-	.dwattr $C$DW$166, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$166, DW_AT_TI_begin_line(0x39f)
-	.dwattr $C$DW$166, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$166, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$166, DW_AT_decl_line(0x39f)
-	.dwattr $C$DW$166, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$166, DW_AT_TI_max_frame_size(0x18)
+$C$DW$170	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$170, DW_AT_name("ST7735_DrawFastHLine")
+	.dwattr $C$DW$170, DW_AT_low_pc(ST7735_DrawFastHLine)
+	.dwattr $C$DW$170, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$170, DW_AT_TI_symbol_name("ST7735_DrawFastHLine")
+	.dwattr $C$DW$170, DW_AT_external
+	.dwattr $C$DW$170, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$170, DW_AT_TI_begin_line(0x39f)
+	.dwattr $C$DW$170, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$170, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$170, DW_AT_decl_line(0x39f)
+	.dwattr $C$DW$170, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$170, DW_AT_TI_max_frame_size(0x18)
 	.dwpsn	file "../ST7735.c",line 927,column 76,is_stmt,address ST7735_DrawFastHLine,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawFastHLine
-$C$DW$167	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$167, DW_AT_name("x")
-	.dwattr $C$DW$167, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$167, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$167, DW_AT_location[DW_OP_reg0]
+$C$DW$171	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$171, DW_AT_name("x")
+	.dwattr $C$DW$171, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$171, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$171, DW_AT_location[DW_OP_reg0]
 
-$C$DW$168	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$168, DW_AT_name("y")
-	.dwattr $C$DW$168, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$168, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$168, DW_AT_location[DW_OP_reg1]
+$C$DW$172	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$172, DW_AT_name("y")
+	.dwattr $C$DW$172, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$172, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$172, DW_AT_location[DW_OP_reg1]
 
-$C$DW$169	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$169, DW_AT_name("w")
-	.dwattr $C$DW$169, DW_AT_TI_symbol_name("w")
-	.dwattr $C$DW$169, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$169, DW_AT_location[DW_OP_reg2]
+$C$DW$173	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$173, DW_AT_name("w")
+	.dwattr $C$DW$173, DW_AT_TI_symbol_name("w")
+	.dwattr $C$DW$173, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$173, DW_AT_location[DW_OP_reg2]
 
-$C$DW$170	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$170, DW_AT_name("color")
-	.dwattr $C$DW$170, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$170, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$170, DW_AT_location[DW_OP_reg3]
+$C$DW$174	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$174, DW_AT_name("color")
+	.dwattr $C$DW$174, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$174, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$174, DW_AT_location[DW_OP_reg3]
 
 
 ;*****************************************************************************
@@ -6661,41 +6733,41 @@ ST7735_DrawFastHLine:
 	.dwcfi	save_reg_to_mem, 2, -16
 	.dwcfi	save_reg_to_mem, 1, -20
 	.dwcfi	save_reg_to_mem, 0, -24
-$C$DW$171	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$171, DW_AT_name("x")
-	.dwattr $C$DW$171, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$171, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$171, DW_AT_location[DW_OP_breg13 0]
-
-$C$DW$172	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$172, DW_AT_name("y")
-	.dwattr $C$DW$172, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$172, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$172, DW_AT_location[DW_OP_breg13 2]
-
-$C$DW$173	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$173, DW_AT_name("w")
-	.dwattr $C$DW$173, DW_AT_TI_symbol_name("w")
-	.dwattr $C$DW$173, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$173, DW_AT_location[DW_OP_breg13 4]
-
-$C$DW$174	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$174, DW_AT_name("color")
-	.dwattr $C$DW$174, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$174, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$174, DW_AT_location[DW_OP_breg13 6]
-
 $C$DW$175	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$175, DW_AT_name("hi")
-	.dwattr $C$DW$175, DW_AT_TI_symbol_name("hi")
-	.dwattr $C$DW$175, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$175, DW_AT_location[DW_OP_breg13 8]
+	.dwattr $C$DW$175, DW_AT_name("x")
+	.dwattr $C$DW$175, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$175, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$175, DW_AT_location[DW_OP_breg13 0]
 
 $C$DW$176	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$176, DW_AT_name("lo")
-	.dwattr $C$DW$176, DW_AT_TI_symbol_name("lo")
-	.dwattr $C$DW$176, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$176, DW_AT_location[DW_OP_breg13 9]
+	.dwattr $C$DW$176, DW_AT_name("y")
+	.dwattr $C$DW$176, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$176, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$176, DW_AT_location[DW_OP_breg13 2]
+
+$C$DW$177	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$177, DW_AT_name("w")
+	.dwattr $C$DW$177, DW_AT_TI_symbol_name("w")
+	.dwattr $C$DW$177, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$177, DW_AT_location[DW_OP_breg13 4]
+
+$C$DW$178	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$178, DW_AT_name("color")
+	.dwattr $C$DW$178, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$178, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$178, DW_AT_location[DW_OP_breg13 6]
+
+$C$DW$179	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$179, DW_AT_name("hi")
+	.dwattr $C$DW$179, DW_AT_TI_symbol_name("hi")
+	.dwattr $C$DW$179, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$179, DW_AT_location[DW_OP_breg13 8]
+
+$C$DW$180	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$180, DW_AT_name("lo")
+	.dwattr $C$DW$180, DW_AT_TI_symbol_name("lo")
+	.dwattr $C$DW$180, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$180, DW_AT_location[DW_OP_breg13 9]
 
 ;----------------------------------------------------------------------
 ; 927 | void ST7735_DrawFastHLine(int16_t x, int16_t y, int16_t w, uint16_t col
@@ -6775,10 +6847,10 @@ $C$DW$176	.dwtag  DW_TAG_variable
         ADDS      A3, A3, V1            ; [DPU_V7M3_PIPE] |933| 
         SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |933| 
         UXTB      A3, A3                ; [DPU_V7M3_PIPE] |933| 
-$C$DW$177	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$177, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$177, DW_AT_name("setAddrWindow")
-	.dwattr $C$DW$177, DW_AT_TI_call
+$C$DW$181	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$181, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$181, DW_AT_name("setAddrWindow")
+	.dwattr $C$DW$181, DW_AT_TI_call
 
         BL        setAddrWindow         ; [DPU_V7M3_PIPE] |933| 
         ; CALL OCCURS {setAddrWindow }   ; [] |933| 
@@ -6795,10 +6867,10 @@ $C$DW$177	.dwtag  DW_TAG_TI_branch
 ; 936 | writedata(hi);                                                         
 ;----------------------------------------------------------------------
         LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |936| 
-$C$DW$178	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$178, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$178, DW_AT_name("writedata")
-	.dwattr $C$DW$178, DW_AT_TI_call
+$C$DW$182	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$182, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$182, DW_AT_name("writedata")
+	.dwattr $C$DW$182, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |936| 
         ; CALL OCCURS {writedata }       ; [] |936| 
@@ -6807,10 +6879,10 @@ $C$DW$178	.dwtag  DW_TAG_TI_branch
 ; 937 | writedata(lo);                                                         
 ;----------------------------------------------------------------------
         LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |937| 
-$C$DW$179	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$179, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$179, DW_AT_name("writedata")
-	.dwattr $C$DW$179, DW_AT_TI_call
+$C$DW$183	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$183, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$183, DW_AT_name("writedata")
+	.dwattr $C$DW$183, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |937| 
         ; CALL OCCURS {writedata }       ; [] |937| 
@@ -6830,9 +6902,9 @@ $C$DW$179	.dwtag  DW_TAG_TI_branch
 ;* --------------------------------------------------------------------------*
 ||$C$L26||:    
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] 
-$C$DW$180	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$180, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$180, DW_AT_TI_return
+$C$DW$184	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$184, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$184, DW_AT_TI_return
 
         POP       {A1, A2, A3, A4, V1, PC} ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -6842,11 +6914,11 @@ $C$DW$180	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
 	.dwcfi	restore_reg, 0
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$166, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$166, DW_AT_TI_end_line(0x3ab)
-	.dwattr $C$DW$166, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$170, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$170, DW_AT_TI_end_line(0x3ab)
+	.dwattr $C$DW$170, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$166
+	.dwendtag $C$DW$170
 
 	.sect	".text"
 	.clink
@@ -6854,27 +6926,27 @@ $C$DW$180	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_FillScreen
 
-$C$DW$181	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$181, DW_AT_name("ST7735_FillScreen")
-	.dwattr $C$DW$181, DW_AT_low_pc(ST7735_FillScreen)
-	.dwattr $C$DW$181, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$181, DW_AT_TI_symbol_name("ST7735_FillScreen")
-	.dwattr $C$DW$181, DW_AT_external
-	.dwattr $C$DW$181, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$181, DW_AT_TI_begin_line(0x3b3)
-	.dwattr $C$DW$181, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$181, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$181, DW_AT_decl_line(0x3b3)
-	.dwattr $C$DW$181, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$181, DW_AT_TI_max_frame_size(0x10)
+$C$DW$185	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$185, DW_AT_name("ST7735_FillScreen")
+	.dwattr $C$DW$185, DW_AT_low_pc(ST7735_FillScreen)
+	.dwattr $C$DW$185, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$185, DW_AT_TI_symbol_name("ST7735_FillScreen")
+	.dwattr $C$DW$185, DW_AT_external
+	.dwattr $C$DW$185, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$185, DW_AT_TI_begin_line(0x3b3)
+	.dwattr $C$DW$185, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$185, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$185, DW_AT_decl_line(0x3b3)
+	.dwattr $C$DW$185, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$185, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 947,column 40,is_stmt,address ST7735_FillScreen,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_FillScreen
-$C$DW$182	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$182, DW_AT_name("color")
-	.dwattr $C$DW$182, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$182, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$182, DW_AT_location[DW_OP_reg0]
+$C$DW$186	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$186, DW_AT_name("color")
+	.dwattr $C$DW$186, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$186, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$186, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -6897,11 +6969,11 @@ ST7735_FillScreen:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$183	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$183, DW_AT_name("color")
-	.dwattr $C$DW$183, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$183, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$183, DW_AT_location[DW_OP_breg13 4]
+$C$DW$187	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$187, DW_AT_name("color")
+	.dwattr $C$DW$187, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$187, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$187, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
 ; 947 | void ST7735_FillScreen(uint16_t color) {                               
@@ -6921,17 +6993,17 @@ $C$DW$183	.dwtag  DW_TAG_variable
         LDRSH     A3, [A3, #0]          ; [DPU_V7M3_PIPE] |948| 
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |948| 
         MOVS      A2, #0                ; [DPU_V7M3_PIPE] |948| 
-$C$DW$184	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$184, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$184, DW_AT_name("ST7735_FillRect")
-	.dwattr $C$DW$184, DW_AT_TI_call
+$C$DW$188	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$188, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$188, DW_AT_name("ST7735_FillRect")
+	.dwattr $C$DW$188, DW_AT_TI_call
 
         BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |948| 
         ; CALL OCCURS {ST7735_FillRect }  ; [] |948| 
 	.dwpsn	file "../ST7735.c",line 950,column 1,is_stmt,isa 1
-$C$DW$185	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$185, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$185, DW_AT_TI_return
+$C$DW$189	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$189, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$189, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -6939,11 +7011,11 @@ $C$DW$185	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$181, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$181, DW_AT_TI_end_line(0x3b6)
-	.dwattr $C$DW$181, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$185, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$185, DW_AT_TI_end_line(0x3b6)
+	.dwattr $C$DW$185, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$181
+	.dwendtag $C$DW$185
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -6990,51 +7062,51 @@ $C$DW$185	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_FillRect
 
-$C$DW$186	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$186, DW_AT_name("ST7735_FillRect")
-	.dwattr $C$DW$186, DW_AT_low_pc(ST7735_FillRect)
-	.dwattr $C$DW$186, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$186, DW_AT_TI_symbol_name("ST7735_FillRect")
-	.dwattr $C$DW$186, DW_AT_external
-	.dwattr $C$DW$186, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$186, DW_AT_TI_begin_line(0x3c2)
-	.dwattr $C$DW$186, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$186, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$186, DW_AT_decl_line(0x3c2)
-	.dwattr $C$DW$186, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$186, DW_AT_TI_max_frame_size(0x20)
+$C$DW$190	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$190, DW_AT_name("ST7735_FillRect")
+	.dwattr $C$DW$190, DW_AT_low_pc(ST7735_FillRect)
+	.dwattr $C$DW$190, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$190, DW_AT_TI_symbol_name("ST7735_FillRect")
+	.dwattr $C$DW$190, DW_AT_external
+	.dwattr $C$DW$190, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$190, DW_AT_TI_begin_line(0x3c2)
+	.dwattr $C$DW$190, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$190, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$190, DW_AT_decl_line(0x3c2)
+	.dwattr $C$DW$190, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$190, DW_AT_TI_max_frame_size(0x20)
 	.dwpsn	file "../ST7735.c",line 962,column 82,is_stmt,address ST7735_FillRect,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_FillRect
-$C$DW$187	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$187, DW_AT_name("x")
-	.dwattr $C$DW$187, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$187, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$187, DW_AT_location[DW_OP_reg0]
-
-$C$DW$188	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$188, DW_AT_name("y")
-	.dwattr $C$DW$188, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$188, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$188, DW_AT_location[DW_OP_reg1]
-
-$C$DW$189	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$189, DW_AT_name("w")
-	.dwattr $C$DW$189, DW_AT_TI_symbol_name("w")
-	.dwattr $C$DW$189, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$189, DW_AT_location[DW_OP_reg2]
-
-$C$DW$190	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$190, DW_AT_name("h")
-	.dwattr $C$DW$190, DW_AT_TI_symbol_name("h")
-	.dwattr $C$DW$190, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$190, DW_AT_location[DW_OP_reg3]
-
 $C$DW$191	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$191, DW_AT_name("color")
-	.dwattr $C$DW$191, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$191, DW_AT_name("x")
+	.dwattr $C$DW$191, DW_AT_TI_symbol_name("x")
 	.dwattr $C$DW$191, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$191, DW_AT_location[DW_OP_breg13 32]
+	.dwattr $C$DW$191, DW_AT_location[DW_OP_reg0]
+
+$C$DW$192	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$192, DW_AT_name("y")
+	.dwattr $C$DW$192, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$192, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$192, DW_AT_location[DW_OP_reg1]
+
+$C$DW$193	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$193, DW_AT_name("w")
+	.dwattr $C$DW$193, DW_AT_TI_symbol_name("w")
+	.dwattr $C$DW$193, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$193, DW_AT_location[DW_OP_reg2]
+
+$C$DW$194	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$194, DW_AT_name("h")
+	.dwattr $C$DW$194, DW_AT_TI_symbol_name("h")
+	.dwattr $C$DW$194, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$194, DW_AT_location[DW_OP_reg3]
+
+$C$DW$195	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$195, DW_AT_name("color")
+	.dwattr $C$DW$195, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$195, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$195, DW_AT_location[DW_OP_breg13 32]
 
 
 ;*****************************************************************************
@@ -7062,41 +7134,41 @@ ST7735_FillRect:
 	.dwcfi	save_reg_to_mem, 1, -28
 	.dwcfi	save_reg_to_mem, 0, -32
         ADD       V4, SP, #32           ; [DPU_V7M3_PIPE] 
-$C$DW$192	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$192, DW_AT_name("x")
-	.dwattr $C$DW$192, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$192, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$192, DW_AT_location[DW_OP_breg13 0]
-
-$C$DW$193	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$193, DW_AT_name("y")
-	.dwattr $C$DW$193, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$193, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$193, DW_AT_location[DW_OP_breg13 2]
-
-$C$DW$194	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$194, DW_AT_name("w")
-	.dwattr $C$DW$194, DW_AT_TI_symbol_name("w")
-	.dwattr $C$DW$194, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$194, DW_AT_location[DW_OP_breg13 4]
-
-$C$DW$195	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$195, DW_AT_name("h")
-	.dwattr $C$DW$195, DW_AT_TI_symbol_name("h")
-	.dwattr $C$DW$195, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$195, DW_AT_location[DW_OP_breg13 6]
-
 $C$DW$196	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$196, DW_AT_name("hi")
-	.dwattr $C$DW$196, DW_AT_TI_symbol_name("hi")
-	.dwattr $C$DW$196, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$196, DW_AT_location[DW_OP_breg13 8]
+	.dwattr $C$DW$196, DW_AT_name("x")
+	.dwattr $C$DW$196, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$196, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$196, DW_AT_location[DW_OP_breg13 0]
 
 $C$DW$197	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$197, DW_AT_name("lo")
-	.dwattr $C$DW$197, DW_AT_TI_symbol_name("lo")
-	.dwattr $C$DW$197, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$197, DW_AT_location[DW_OP_breg13 9]
+	.dwattr $C$DW$197, DW_AT_name("y")
+	.dwattr $C$DW$197, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$197, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$197, DW_AT_location[DW_OP_breg13 2]
+
+$C$DW$198	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$198, DW_AT_name("w")
+	.dwattr $C$DW$198, DW_AT_TI_symbol_name("w")
+	.dwattr $C$DW$198, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$198, DW_AT_location[DW_OP_breg13 4]
+
+$C$DW$199	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$199, DW_AT_name("h")
+	.dwattr $C$DW$199, DW_AT_TI_symbol_name("h")
+	.dwattr $C$DW$199, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$199, DW_AT_location[DW_OP_breg13 6]
+
+$C$DW$200	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$200, DW_AT_name("hi")
+	.dwattr $C$DW$200, DW_AT_TI_symbol_name("hi")
+	.dwattr $C$DW$200, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$200, DW_AT_location[DW_OP_breg13 8]
+
+$C$DW$201	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$201, DW_AT_name("lo")
+	.dwattr $C$DW$201, DW_AT_TI_symbol_name("lo")
+	.dwattr $C$DW$201, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$201, DW_AT_location[DW_OP_breg13 9]
 
 ;----------------------------------------------------------------------
 ; 962 | void ST7735_FillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16
@@ -7202,10 +7274,10 @@ $C$DW$197	.dwtag  DW_TAG_variable
         SUBS      A4, A4, #1            ; [DPU_V7M3_PIPE] |970| 
         UXTB      A3, A3                ; [DPU_V7M3_PIPE] |970| 
         UXTB      A4, A4                ; [DPU_V7M3_PIPE] |970| 
-$C$DW$198	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$198, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$198, DW_AT_name("setAddrWindow")
-	.dwattr $C$DW$198, DW_AT_TI_call
+$C$DW$202	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$202, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$202, DW_AT_name("setAddrWindow")
+	.dwattr $C$DW$202, DW_AT_TI_call
 
         BL        setAddrWindow         ; [DPU_V7M3_PIPE] |970| 
         ; CALL OCCURS {setAddrWindow }   ; [] |970| 
@@ -7256,10 +7328,10 @@ $C$DW$198	.dwtag  DW_TAG_TI_branch
 ; 974 | writedata(hi);                                                         
 ;----------------------------------------------------------------------
         LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |974| 
-$C$DW$199	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$199, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$199, DW_AT_name("writedata")
-	.dwattr $C$DW$199, DW_AT_TI_call
+$C$DW$203	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$203, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$203, DW_AT_name("writedata")
+	.dwattr $C$DW$203, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |974| 
         ; CALL OCCURS {writedata }       ; [] |974| 
@@ -7268,10 +7340,10 @@ $C$DW$199	.dwtag  DW_TAG_TI_branch
 ; 975 | writedata(lo);                                                         
 ;----------------------------------------------------------------------
         LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |975| 
-$C$DW$200	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$200, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$200, DW_AT_name("writedata")
-	.dwattr $C$DW$200, DW_AT_TI_call
+$C$DW$204	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$204, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$204, DW_AT_name("writedata")
+	.dwattr $C$DW$204, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |975| 
         ; CALL OCCURS {writedata }       ; [] |975| 
@@ -7300,9 +7372,9 @@ $C$DW$200	.dwtag  DW_TAG_TI_branch
 ;* --------------------------------------------------------------------------*
 ||$C$L33||:    
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] 
-$C$DW$201	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$201, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$201, DW_AT_TI_return
+$C$DW$205	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$205, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$205, DW_AT_TI_return
 
         POP       {A1, A2, A3, A4, V1, V2, V4, PC} ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -7314,11 +7386,11 @@ $C$DW$201	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
 	.dwcfi	restore_reg, 0
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$186, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$186, DW_AT_TI_end_line(0x3d2)
-	.dwattr $C$DW$186, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$190, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$190, DW_AT_TI_end_line(0x3d2)
+	.dwattr $C$DW$190, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$186
+	.dwendtag $C$DW$190
 
 	.sect	".text"
 	.clink
@@ -7326,40 +7398,40 @@ $C$DW$201	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_Color565
 
-$C$DW$202	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$202, DW_AT_name("ST7735_Color565")
-	.dwattr $C$DW$202, DW_AT_low_pc(ST7735_Color565)
-	.dwattr $C$DW$202, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$202, DW_AT_TI_symbol_name("ST7735_Color565")
-	.dwattr $C$DW$202, DW_AT_external
-	.dwattr $C$DW$202, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$202, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$202, DW_AT_TI_begin_line(0x3db)
-	.dwattr $C$DW$202, DW_AT_TI_begin_column(0x0a)
-	.dwattr $C$DW$202, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$202, DW_AT_decl_line(0x3db)
-	.dwattr $C$DW$202, DW_AT_decl_column(0x0a)
-	.dwattr $C$DW$202, DW_AT_TI_max_frame_size(0x08)
+$C$DW$206	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$206, DW_AT_name("ST7735_Color565")
+	.dwattr $C$DW$206, DW_AT_low_pc(ST7735_Color565)
+	.dwattr $C$DW$206, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$206, DW_AT_TI_symbol_name("ST7735_Color565")
+	.dwattr $C$DW$206, DW_AT_external
+	.dwattr $C$DW$206, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$206, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$206, DW_AT_TI_begin_line(0x3db)
+	.dwattr $C$DW$206, DW_AT_TI_begin_column(0x0a)
+	.dwattr $C$DW$206, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$206, DW_AT_decl_line(0x3db)
+	.dwattr $C$DW$206, DW_AT_decl_column(0x0a)
+	.dwattr $C$DW$206, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 987,column 59,is_stmt,address ST7735_Color565,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_Color565
-$C$DW$203	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$203, DW_AT_name("r")
-	.dwattr $C$DW$203, DW_AT_TI_symbol_name("r")
-	.dwattr $C$DW$203, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$203, DW_AT_location[DW_OP_reg0]
+$C$DW$207	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$207, DW_AT_name("r")
+	.dwattr $C$DW$207, DW_AT_TI_symbol_name("r")
+	.dwattr $C$DW$207, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$207, DW_AT_location[DW_OP_reg0]
 
-$C$DW$204	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$204, DW_AT_name("g")
-	.dwattr $C$DW$204, DW_AT_TI_symbol_name("g")
-	.dwattr $C$DW$204, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$204, DW_AT_location[DW_OP_reg1]
+$C$DW$208	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$208, DW_AT_name("g")
+	.dwattr $C$DW$208, DW_AT_TI_symbol_name("g")
+	.dwattr $C$DW$208, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$208, DW_AT_location[DW_OP_reg1]
 
-$C$DW$205	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$205, DW_AT_name("b")
-	.dwattr $C$DW$205, DW_AT_TI_symbol_name("b")
-	.dwattr $C$DW$205, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$205, DW_AT_location[DW_OP_reg2]
+$C$DW$209	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$209, DW_AT_name("b")
+	.dwattr $C$DW$209, DW_AT_TI_symbol_name("b")
+	.dwattr $C$DW$209, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$209, DW_AT_location[DW_OP_reg2]
 
 
 ;*****************************************************************************
@@ -7374,23 +7446,23 @@ ST7735_Color565:
 	.dwcfi	cfa_offset, 0
         SUB       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 8
-$C$DW$206	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$206, DW_AT_name("r")
-	.dwattr $C$DW$206, DW_AT_TI_symbol_name("r")
-	.dwattr $C$DW$206, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$206, DW_AT_location[DW_OP_breg13 0]
+$C$DW$210	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$210, DW_AT_name("r")
+	.dwattr $C$DW$210, DW_AT_TI_symbol_name("r")
+	.dwattr $C$DW$210, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$210, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$207	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$207, DW_AT_name("g")
-	.dwattr $C$DW$207, DW_AT_TI_symbol_name("g")
-	.dwattr $C$DW$207, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$207, DW_AT_location[DW_OP_breg13 1]
+$C$DW$211	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$211, DW_AT_name("g")
+	.dwattr $C$DW$211, DW_AT_TI_symbol_name("g")
+	.dwattr $C$DW$211, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$211, DW_AT_location[DW_OP_breg13 1]
 
-$C$DW$208	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$208, DW_AT_name("b")
-	.dwattr $C$DW$208, DW_AT_TI_symbol_name("b")
-	.dwattr $C$DW$208, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$208, DW_AT_location[DW_OP_breg13 2]
+$C$DW$212	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$212, DW_AT_name("b")
+	.dwattr $C$DW$212, DW_AT_TI_symbol_name("b")
+	.dwattr $C$DW$212, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$212, DW_AT_location[DW_OP_breg13 2]
 
 ;----------------------------------------------------------------------
 ; 987 | uint16_t ST7735_Color565(uint8_t r, uint8_t g, uint8_t b) {            
@@ -7414,17 +7486,17 @@ $C$DW$208	.dwtag  DW_TAG_variable
 	.dwpsn	file "../ST7735.c",line 989,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
-$C$DW$209	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$209, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$209, DW_AT_TI_return
+$C$DW$213	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$213, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$213, DW_AT_TI_return
 
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$202, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$202, DW_AT_TI_end_line(0x3dd)
-	.dwattr $C$DW$202, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$206, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$206, DW_AT_TI_end_line(0x3dd)
+	.dwattr $C$DW$206, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$202
+	.dwendtag $C$DW$206
 
 	.sect	".text"
 	.clink
@@ -7432,28 +7504,28 @@ $C$DW$209	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_SwapColor
 
-$C$DW$210	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$210, DW_AT_name("ST7735_SwapColor")
-	.dwattr $C$DW$210, DW_AT_low_pc(ST7735_SwapColor)
-	.dwattr $C$DW$210, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$210, DW_AT_TI_symbol_name("ST7735_SwapColor")
-	.dwattr $C$DW$210, DW_AT_external
-	.dwattr $C$DW$210, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$210, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$210, DW_AT_TI_begin_line(0x3e5)
-	.dwattr $C$DW$210, DW_AT_TI_begin_column(0x0a)
-	.dwattr $C$DW$210, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$210, DW_AT_decl_line(0x3e5)
-	.dwattr $C$DW$210, DW_AT_decl_column(0x0a)
-	.dwattr $C$DW$210, DW_AT_TI_max_frame_size(0x08)
+$C$DW$214	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$214, DW_AT_name("ST7735_SwapColor")
+	.dwattr $C$DW$214, DW_AT_low_pc(ST7735_SwapColor)
+	.dwattr $C$DW$214, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$214, DW_AT_TI_symbol_name("ST7735_SwapColor")
+	.dwattr $C$DW$214, DW_AT_external
+	.dwattr $C$DW$214, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$214, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$214, DW_AT_TI_begin_line(0x3e5)
+	.dwattr $C$DW$214, DW_AT_TI_begin_column(0x0a)
+	.dwattr $C$DW$214, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$214, DW_AT_decl_line(0x3e5)
+	.dwattr $C$DW$214, DW_AT_decl_column(0x0a)
+	.dwattr $C$DW$214, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 997,column 39,is_stmt,address ST7735_SwapColor,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_SwapColor
-$C$DW$211	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$211, DW_AT_name("x")
-	.dwattr $C$DW$211, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$211, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$211, DW_AT_location[DW_OP_reg0]
+$C$DW$215	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$215, DW_AT_name("x")
+	.dwattr $C$DW$215, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$215, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$215, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -7468,11 +7540,11 @@ ST7735_SwapColor:
 	.dwcfi	cfa_offset, 0
         SUB       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 8
-$C$DW$212	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$212, DW_AT_name("x")
-	.dwattr $C$DW$212, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$212, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$212, DW_AT_location[DW_OP_breg13 0]
+$C$DW$216	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$216, DW_AT_name("x")
+	.dwattr $C$DW$216, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$216, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$216, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 997 | uint16_t ST7735_SwapColor(uint16_t x) {                                
@@ -7492,17 +7564,17 @@ $C$DW$212	.dwtag  DW_TAG_variable
 	.dwpsn	file "../ST7735.c",line 999,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
-$C$DW$213	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$213, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$213, DW_AT_TI_return
+$C$DW$217	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$217, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$217, DW_AT_TI_return
 
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$210, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$210, DW_AT_TI_end_line(0x3e7)
-	.dwattr $C$DW$210, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$214, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$214, DW_AT_TI_end_line(0x3e7)
+	.dwattr $C$DW$214, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$210
+	.dwendtag $C$DW$214
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -7518,51 +7590,51 @@ $C$DW$213	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_DrawBitmap
 
-$C$DW$214	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$214, DW_AT_name("ST7735_DrawBitmap")
-	.dwattr $C$DW$214, DW_AT_low_pc(ST7735_DrawBitmap)
-	.dwattr $C$DW$214, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$214, DW_AT_TI_symbol_name("ST7735_DrawBitmap")
-	.dwattr $C$DW$214, DW_AT_external
-	.dwattr $C$DW$214, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$214, DW_AT_TI_begin_line(0x3fd)
-	.dwattr $C$DW$214, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$214, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$214, DW_AT_decl_line(0x3fd)
-	.dwattr $C$DW$214, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$214, DW_AT_TI_max_frame_size(0x28)
+$C$DW$218	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$218, DW_AT_name("ST7735_DrawBitmap")
+	.dwattr $C$DW$218, DW_AT_low_pc(ST7735_DrawBitmap)
+	.dwattr $C$DW$218, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$218, DW_AT_TI_symbol_name("ST7735_DrawBitmap")
+	.dwattr $C$DW$218, DW_AT_external
+	.dwattr $C$DW$218, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$218, DW_AT_TI_begin_line(0x3fd)
+	.dwattr $C$DW$218, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$218, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$218, DW_AT_decl_line(0x3fd)
+	.dwattr $C$DW$218, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$218, DW_AT_TI_max_frame_size(0x28)
 	.dwpsn	file "../ST7735.c",line 1021,column 90,is_stmt,address ST7735_DrawBitmap,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawBitmap
-$C$DW$215	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$215, DW_AT_name("x")
-	.dwattr $C$DW$215, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$215, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$215, DW_AT_location[DW_OP_reg0]
-
-$C$DW$216	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$216, DW_AT_name("y")
-	.dwattr $C$DW$216, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$216, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$216, DW_AT_location[DW_OP_reg1]
-
-$C$DW$217	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$217, DW_AT_name("image")
-	.dwattr $C$DW$217, DW_AT_TI_symbol_name("image")
-	.dwattr $C$DW$217, DW_AT_type(*$C$DW$T$68)
-	.dwattr $C$DW$217, DW_AT_location[DW_OP_reg2]
-
-$C$DW$218	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$218, DW_AT_name("w")
-	.dwattr $C$DW$218, DW_AT_TI_symbol_name("w")
-	.dwattr $C$DW$218, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$218, DW_AT_location[DW_OP_reg3]
-
 $C$DW$219	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$219, DW_AT_name("h")
-	.dwattr $C$DW$219, DW_AT_TI_symbol_name("h")
+	.dwattr $C$DW$219, DW_AT_name("x")
+	.dwattr $C$DW$219, DW_AT_TI_symbol_name("x")
 	.dwattr $C$DW$219, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$219, DW_AT_location[DW_OP_breg13 40]
+	.dwattr $C$DW$219, DW_AT_location[DW_OP_reg0]
+
+$C$DW$220	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$220, DW_AT_name("y")
+	.dwattr $C$DW$220, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$220, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$220, DW_AT_location[DW_OP_reg1]
+
+$C$DW$221	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$221, DW_AT_name("image")
+	.dwattr $C$DW$221, DW_AT_TI_symbol_name("image")
+	.dwattr $C$DW$221, DW_AT_type(*$C$DW$T$72)
+	.dwattr $C$DW$221, DW_AT_location[DW_OP_reg2]
+
+$C$DW$222	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$222, DW_AT_name("w")
+	.dwattr $C$DW$222, DW_AT_TI_symbol_name("w")
+	.dwattr $C$DW$222, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$222, DW_AT_location[DW_OP_reg3]
+
+$C$DW$223	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$223, DW_AT_name("h")
+	.dwattr $C$DW$223, DW_AT_TI_symbol_name("h")
+	.dwattr $C$DW$223, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$223, DW_AT_location[DW_OP_breg13 40]
 
 
 ;*****************************************************************************
@@ -7588,47 +7660,47 @@ ST7735_DrawBitmap:
         ADD       V4, SP, #16           ; [DPU_V7M3_PIPE] 
         SUB       SP, SP, #24           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 40
-$C$DW$220	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$220, DW_AT_name("image")
-	.dwattr $C$DW$220, DW_AT_TI_symbol_name("image")
-	.dwattr $C$DW$220, DW_AT_type(*$C$DW$T$68)
-	.dwattr $C$DW$220, DW_AT_location[DW_OP_breg13 0]
-
-$C$DW$221	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$221, DW_AT_name("i")
-	.dwattr $C$DW$221, DW_AT_TI_symbol_name("i")
-	.dwattr $C$DW$221, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$221, DW_AT_location[DW_OP_breg13 4]
-
-$C$DW$222	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$222, DW_AT_name("x")
-	.dwattr $C$DW$222, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$222, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$222, DW_AT_location[DW_OP_breg13 8]
-
-$C$DW$223	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$223, DW_AT_name("y")
-	.dwattr $C$DW$223, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$223, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$223, DW_AT_location[DW_OP_breg13 10]
-
 $C$DW$224	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$224, DW_AT_name("w")
-	.dwattr $C$DW$224, DW_AT_TI_symbol_name("w")
-	.dwattr $C$DW$224, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$224, DW_AT_location[DW_OP_breg13 12]
+	.dwattr $C$DW$224, DW_AT_name("image")
+	.dwattr $C$DW$224, DW_AT_TI_symbol_name("image")
+	.dwattr $C$DW$224, DW_AT_type(*$C$DW$T$72)
+	.dwattr $C$DW$224, DW_AT_location[DW_OP_breg13 0]
 
 $C$DW$225	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$225, DW_AT_name("skipC")
-	.dwattr $C$DW$225, DW_AT_TI_symbol_name("skipC")
-	.dwattr $C$DW$225, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$225, DW_AT_location[DW_OP_breg13 14]
+	.dwattr $C$DW$225, DW_AT_name("i")
+	.dwattr $C$DW$225, DW_AT_TI_symbol_name("i")
+	.dwattr $C$DW$225, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$225, DW_AT_location[DW_OP_breg13 4]
 
 $C$DW$226	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$226, DW_AT_name("originalWidth")
-	.dwattr $C$DW$226, DW_AT_TI_symbol_name("originalWidth")
-	.dwattr $C$DW$226, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$226, DW_AT_location[DW_OP_breg13 16]
+	.dwattr $C$DW$226, DW_AT_name("x")
+	.dwattr $C$DW$226, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$226, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$226, DW_AT_location[DW_OP_breg13 8]
+
+$C$DW$227	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$227, DW_AT_name("y")
+	.dwattr $C$DW$227, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$227, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$227, DW_AT_location[DW_OP_breg13 10]
+
+$C$DW$228	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$228, DW_AT_name("w")
+	.dwattr $C$DW$228, DW_AT_TI_symbol_name("w")
+	.dwattr $C$DW$228, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$228, DW_AT_location[DW_OP_breg13 12]
+
+$C$DW$229	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$229, DW_AT_name("skipC")
+	.dwattr $C$DW$229, DW_AT_TI_symbol_name("skipC")
+	.dwattr $C$DW$229, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$229, DW_AT_location[DW_OP_breg13 14]
+
+$C$DW$230	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$230, DW_AT_name("originalWidth")
+	.dwattr $C$DW$230, DW_AT_TI_symbol_name("originalWidth")
+	.dwattr $C$DW$230, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$230, DW_AT_location[DW_OP_breg13 16]
 
 ;----------------------------------------------------------------------
 ; 1021 | void ST7735_DrawBitmap(int16_t x, int16_t y, const uint16_t *image, int
@@ -7888,10 +7960,10 @@ $C$DW$226	.dwtag  DW_TAG_variable
         SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |1055| 
         UXTB      A2, A2                ; [DPU_V7M3_PIPE] |1055| 
         UXTB      A3, A3                ; [DPU_V7M3_PIPE] |1055| 
-$C$DW$227	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$227, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$227, DW_AT_name("setAddrWindow")
-	.dwattr $C$DW$227, DW_AT_TI_call
+$C$DW$231	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$231, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$231, DW_AT_name("setAddrWindow")
+	.dwattr $C$DW$231, DW_AT_TI_call
 
         BL        setAddrWindow         ; [DPU_V7M3_PIPE] |1055| 
         ; CALL OCCURS {setAddrWindow }   ; [] |1055| 
@@ -7925,10 +7997,10 @@ $C$DW$227	.dwtag  DW_TAG_TI_branch
         LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1060| 
         LDRH      A1, [A2, +A1, LSL #1] ; [DPU_V7M3_PIPE] |1060| 
         UXTB      A1, A1, ROR #8        ; [DPU_V7M3_PIPE] |1060| 
-$C$DW$228	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$228, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$228, DW_AT_name("writedata")
-	.dwattr $C$DW$228, DW_AT_TI_call
+$C$DW$232	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$232, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$232, DW_AT_name("writedata")
+	.dwattr $C$DW$232, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1060| 
         ; CALL OCCURS {writedata }       ; [] |1060| 
@@ -7939,10 +8011,10 @@ $C$DW$228	.dwtag  DW_TAG_TI_branch
         LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1062| 
         LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1062| 
         LDRB      A1, [A2, +A1, LSL #1] ; [DPU_V7M3_PIPE] |1062| 
-$C$DW$229	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$229, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$229, DW_AT_name("writedata")
-	.dwattr $C$DW$229, DW_AT_TI_call
+$C$DW$233	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$233, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$233, DW_AT_name("writedata")
+	.dwattr $C$DW$233, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1062| 
         ; CALL OCCURS {writedata }       ; [] |1062| 
@@ -8004,9 +8076,9 @@ $C$DW$229	.dwtag  DW_TAG_TI_branch
 ||$C$L44||:    
         ADD       SP, SP, #24           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 16
-$C$DW$230	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$230, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$230, DW_AT_TI_return
+$C$DW$234	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$234, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$234, DW_AT_TI_return
 
         POP       {V1, V2, V4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -8014,11 +8086,11 @@ $C$DW$230	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 5
 	.dwcfi	restore_reg, 4
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$214, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$214, DW_AT_TI_end_line(0x42c)
-	.dwattr $C$DW$214, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$218, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$218, DW_AT_TI_end_line(0x42c)
+	.dwattr $C$DW$218, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$214
+	.dwendtag $C$DW$218
 
 	.sect	".text"
 	.clink
@@ -8026,57 +8098,57 @@ $C$DW$230	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_DrawCharS
 
-$C$DW$231	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$231, DW_AT_name("ST7735_DrawCharS")
-	.dwattr $C$DW$231, DW_AT_low_pc(ST7735_DrawCharS)
-	.dwattr $C$DW$231, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$231, DW_AT_TI_symbol_name("ST7735_DrawCharS")
-	.dwattr $C$DW$231, DW_AT_external
-	.dwattr $C$DW$231, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$231, DW_AT_TI_begin_line(0x43e)
-	.dwattr $C$DW$231, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$231, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$231, DW_AT_decl_line(0x43e)
-	.dwattr $C$DW$231, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$231, DW_AT_TI_max_frame_size(0x28)
+$C$DW$235	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$235, DW_AT_name("ST7735_DrawCharS")
+	.dwattr $C$DW$235, DW_AT_low_pc(ST7735_DrawCharS)
+	.dwattr $C$DW$235, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$235, DW_AT_TI_symbol_name("ST7735_DrawCharS")
+	.dwattr $C$DW$235, DW_AT_external
+	.dwattr $C$DW$235, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$235, DW_AT_TI_begin_line(0x43e)
+	.dwattr $C$DW$235, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$235, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$235, DW_AT_decl_line(0x43e)
+	.dwattr $C$DW$235, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$235, DW_AT_TI_max_frame_size(0x28)
 	.dwpsn	file "../ST7735.c",line 1086,column 102,is_stmt,address ST7735_DrawCharS,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawCharS
-$C$DW$232	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$232, DW_AT_name("x")
-	.dwattr $C$DW$232, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$232, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$232, DW_AT_location[DW_OP_reg0]
-
-$C$DW$233	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$233, DW_AT_name("y")
-	.dwattr $C$DW$233, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$233, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$233, DW_AT_location[DW_OP_reg1]
-
-$C$DW$234	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$234, DW_AT_name("c")
-	.dwattr $C$DW$234, DW_AT_TI_symbol_name("c")
-	.dwattr $C$DW$234, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$234, DW_AT_location[DW_OP_reg2]
-
-$C$DW$235	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$235, DW_AT_name("textColor")
-	.dwattr $C$DW$235, DW_AT_TI_symbol_name("textColor")
-	.dwattr $C$DW$235, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$235, DW_AT_location[DW_OP_reg3]
-
 $C$DW$236	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$236, DW_AT_name("bgColor")
-	.dwattr $C$DW$236, DW_AT_TI_symbol_name("bgColor")
+	.dwattr $C$DW$236, DW_AT_name("x")
+	.dwattr $C$DW$236, DW_AT_TI_symbol_name("x")
 	.dwattr $C$DW$236, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$236, DW_AT_location[DW_OP_breg13 40]
+	.dwattr $C$DW$236, DW_AT_location[DW_OP_reg0]
 
 $C$DW$237	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$237, DW_AT_name("size")
-	.dwattr $C$DW$237, DW_AT_TI_symbol_name("size")
+	.dwattr $C$DW$237, DW_AT_name("y")
+	.dwattr $C$DW$237, DW_AT_TI_symbol_name("y")
 	.dwattr $C$DW$237, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$237, DW_AT_location[DW_OP_breg13 44]
+	.dwattr $C$DW$237, DW_AT_location[DW_OP_reg1]
+
+$C$DW$238	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$238, DW_AT_name("c")
+	.dwattr $C$DW$238, DW_AT_TI_symbol_name("c")
+	.dwattr $C$DW$238, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$238, DW_AT_location[DW_OP_reg2]
+
+$C$DW$239	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$239, DW_AT_name("textColor")
+	.dwattr $C$DW$239, DW_AT_TI_symbol_name("textColor")
+	.dwattr $C$DW$239, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$239, DW_AT_location[DW_OP_reg3]
+
+$C$DW$240	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$240, DW_AT_name("bgColor")
+	.dwattr $C$DW$240, DW_AT_TI_symbol_name("bgColor")
+	.dwattr $C$DW$240, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$240, DW_AT_location[DW_OP_breg13 40]
+
+$C$DW$241	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$241, DW_AT_name("size")
+	.dwattr $C$DW$241, DW_AT_TI_symbol_name("size")
+	.dwattr $C$DW$241, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$241, DW_AT_location[DW_OP_breg13 44]
 
 
 ;*****************************************************************************
@@ -8103,47 +8175,47 @@ ST7735_DrawCharS:
         ADD       V4, SP, #20           ; [DPU_V7M3_PIPE] 
         SUB       SP, SP, #20           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 40
-$C$DW$238	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$238, DW_AT_name("i")
-	.dwattr $C$DW$238, DW_AT_TI_symbol_name("i")
-	.dwattr $C$DW$238, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$238, DW_AT_location[DW_OP_breg13 4]
-
-$C$DW$239	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$239, DW_AT_name("j")
-	.dwattr $C$DW$239, DW_AT_TI_symbol_name("j")
-	.dwattr $C$DW$239, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$239, DW_AT_location[DW_OP_breg13 8]
-
-$C$DW$240	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$240, DW_AT_name("x")
-	.dwattr $C$DW$240, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$240, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$240, DW_AT_location[DW_OP_breg13 12]
-
-$C$DW$241	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$241, DW_AT_name("y")
-	.dwattr $C$DW$241, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$241, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$241, DW_AT_location[DW_OP_breg13 14]
-
 $C$DW$242	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$242, DW_AT_name("textColor")
-	.dwattr $C$DW$242, DW_AT_TI_symbol_name("textColor")
-	.dwattr $C$DW$242, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$242, DW_AT_location[DW_OP_breg13 16]
+	.dwattr $C$DW$242, DW_AT_name("i")
+	.dwattr $C$DW$242, DW_AT_TI_symbol_name("i")
+	.dwattr $C$DW$242, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$242, DW_AT_location[DW_OP_breg13 4]
 
 $C$DW$243	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$243, DW_AT_name("c")
-	.dwattr $C$DW$243, DW_AT_TI_symbol_name("c")
-	.dwattr $C$DW$243, DW_AT_type(*$C$DW$T$6)
-	.dwattr $C$DW$243, DW_AT_location[DW_OP_breg13 18]
+	.dwattr $C$DW$243, DW_AT_name("j")
+	.dwattr $C$DW$243, DW_AT_TI_symbol_name("j")
+	.dwattr $C$DW$243, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$243, DW_AT_location[DW_OP_breg13 8]
 
 $C$DW$244	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$244, DW_AT_name("line")
-	.dwattr $C$DW$244, DW_AT_TI_symbol_name("line")
-	.dwattr $C$DW$244, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$244, DW_AT_location[DW_OP_breg13 19]
+	.dwattr $C$DW$244, DW_AT_name("x")
+	.dwattr $C$DW$244, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$244, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$244, DW_AT_location[DW_OP_breg13 12]
+
+$C$DW$245	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$245, DW_AT_name("y")
+	.dwattr $C$DW$245, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$245, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$245, DW_AT_location[DW_OP_breg13 14]
+
+$C$DW$246	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$246, DW_AT_name("textColor")
+	.dwattr $C$DW$246, DW_AT_TI_symbol_name("textColor")
+	.dwattr $C$DW$246, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$246, DW_AT_location[DW_OP_breg13 16]
+
+$C$DW$247	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$247, DW_AT_name("c")
+	.dwattr $C$DW$247, DW_AT_TI_symbol_name("c")
+	.dwattr $C$DW$247, DW_AT_type(*$C$DW$T$6)
+	.dwattr $C$DW$247, DW_AT_location[DW_OP_breg13 18]
+
+$C$DW$248	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$248, DW_AT_name("line")
+	.dwattr $C$DW$248, DW_AT_TI_symbol_name("line")
+	.dwattr $C$DW$248, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$248, DW_AT_location[DW_OP_breg13 19]
 
 ;----------------------------------------------------------------------
 ; 1086 | void ST7735_DrawCharS(int16_t x, int16_t y, char c, int16_t textColor,
@@ -8304,10 +8376,10 @@ $C$DW$244	.dwtag  DW_TAG_variable
         ADDS      A2, A2, A4            ; [DPU_V7M3_PIPE] |1103| 
         SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1103| 
         SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1103| 
-$C$DW$245	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$245, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$245, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$245, DW_AT_TI_call
+$C$DW$249	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$249, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$249, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$249, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1103| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1103| 
@@ -8333,10 +8405,10 @@ $C$DW$245	.dwtag  DW_TAG_TI_branch
         MLA       V1, A1, V2, V1        ; [DPU_V7M3_PIPE] |1105| 
         SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1105| 
         SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1105| 
-$C$DW$246	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$246, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$246, DW_AT_name("ST7735_FillRect")
-	.dwattr $C$DW$246, DW_AT_TI_call
+$C$DW$250	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$250, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$250, DW_AT_name("ST7735_FillRect")
+	.dwattr $C$DW$250, DW_AT_TI_call
 
         BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1105| 
         ; CALL OCCURS {ST7735_FillRect }  ; [] |1105| 
@@ -8378,10 +8450,10 @@ $C$DW$246	.dwtag  DW_TAG_TI_branch
         ADDS      A2, A2, A4            ; [DPU_V7M3_PIPE] |1109| 
         SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1109| 
         SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1109| 
-$C$DW$247	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$247, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$247, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$247, DW_AT_TI_call
+$C$DW$251	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$251, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$251, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$251, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1109| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1109| 
@@ -8407,10 +8479,10 @@ $C$DW$247	.dwtag  DW_TAG_TI_branch
         MLA       V1, A1, V2, V1        ; [DPU_V7M3_PIPE] |1111| 
         SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1111| 
         SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1111| 
-$C$DW$248	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$248, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$248, DW_AT_name("ST7735_FillRect")
-	.dwattr $C$DW$248, DW_AT_TI_call
+$C$DW$252	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$252, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$252, DW_AT_name("ST7735_FillRect")
+	.dwattr $C$DW$252, DW_AT_TI_call
 
         BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1111| 
         ; CALL OCCURS {ST7735_FillRect }  ; [] |1111| 
@@ -8449,9 +8521,9 @@ $C$DW$248	.dwtag  DW_TAG_TI_branch
 ||$C$L55||:    
         ADD       SP, SP, #20           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 20
-$C$DW$249	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$249, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$249, DW_AT_TI_return
+$C$DW$253	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$253, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$253, DW_AT_TI_return
 
         POP       {V1, V2, V3, V4, PC}  ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -8460,11 +8532,11 @@ $C$DW$249	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 5
 	.dwcfi	restore_reg, 4
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$231, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$231, DW_AT_TI_end_line(0x45d)
-	.dwattr $C$DW$231, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$235, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$235, DW_AT_TI_end_line(0x45d)
+	.dwattr $C$DW$235, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$231
+	.dwendtag $C$DW$235
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -8480,57 +8552,57 @@ $C$DW$249	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_DrawChar
 
-$C$DW$250	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$250, DW_AT_name("ST7735_DrawChar")
-	.dwattr $C$DW$250, DW_AT_low_pc(ST7735_DrawChar)
-	.dwattr $C$DW$250, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$250, DW_AT_TI_symbol_name("ST7735_DrawChar")
-	.dwattr $C$DW$250, DW_AT_external
-	.dwattr $C$DW$250, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$250, DW_AT_TI_begin_line(0x46d)
-	.dwattr $C$DW$250, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$250, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$250, DW_AT_decl_line(0x46d)
-	.dwattr $C$DW$250, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$250, DW_AT_TI_max_frame_size(0x30)
+$C$DW$254	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$254, DW_AT_name("ST7735_DrawChar")
+	.dwattr $C$DW$254, DW_AT_low_pc(ST7735_DrawChar)
+	.dwattr $C$DW$254, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$254, DW_AT_TI_symbol_name("ST7735_DrawChar")
+	.dwattr $C$DW$254, DW_AT_external
+	.dwattr $C$DW$254, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$254, DW_AT_TI_begin_line(0x46d)
+	.dwattr $C$DW$254, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$254, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$254, DW_AT_decl_line(0x46d)
+	.dwattr $C$DW$254, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$254, DW_AT_TI_max_frame_size(0x30)
 	.dwpsn	file "../ST7735.c",line 1133,column 101,is_stmt,address ST7735_DrawChar,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawChar
-$C$DW$251	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$251, DW_AT_name("x")
-	.dwattr $C$DW$251, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$251, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$251, DW_AT_location[DW_OP_reg0]
-
-$C$DW$252	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$252, DW_AT_name("y")
-	.dwattr $C$DW$252, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$252, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$252, DW_AT_location[DW_OP_reg1]
-
-$C$DW$253	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$253, DW_AT_name("c")
-	.dwattr $C$DW$253, DW_AT_TI_symbol_name("c")
-	.dwattr $C$DW$253, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$253, DW_AT_location[DW_OP_reg2]
-
-$C$DW$254	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$254, DW_AT_name("textColor")
-	.dwattr $C$DW$254, DW_AT_TI_symbol_name("textColor")
-	.dwattr $C$DW$254, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$254, DW_AT_location[DW_OP_reg3]
-
 $C$DW$255	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$255, DW_AT_name("bgColor")
-	.dwattr $C$DW$255, DW_AT_TI_symbol_name("bgColor")
+	.dwattr $C$DW$255, DW_AT_name("x")
+	.dwattr $C$DW$255, DW_AT_TI_symbol_name("x")
 	.dwattr $C$DW$255, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$255, DW_AT_location[DW_OP_breg13 48]
+	.dwattr $C$DW$255, DW_AT_location[DW_OP_reg0]
 
 $C$DW$256	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$256, DW_AT_name("size")
-	.dwattr $C$DW$256, DW_AT_TI_symbol_name("size")
+	.dwattr $C$DW$256, DW_AT_name("y")
+	.dwattr $C$DW$256, DW_AT_TI_symbol_name("y")
 	.dwattr $C$DW$256, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$256, DW_AT_location[DW_OP_breg13 52]
+	.dwattr $C$DW$256, DW_AT_location[DW_OP_reg1]
+
+$C$DW$257	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$257, DW_AT_name("c")
+	.dwattr $C$DW$257, DW_AT_TI_symbol_name("c")
+	.dwattr $C$DW$257, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$257, DW_AT_location[DW_OP_reg2]
+
+$C$DW$258	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$258, DW_AT_name("textColor")
+	.dwattr $C$DW$258, DW_AT_TI_symbol_name("textColor")
+	.dwattr $C$DW$258, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$258, DW_AT_location[DW_OP_reg3]
+
+$C$DW$259	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$259, DW_AT_name("bgColor")
+	.dwattr $C$DW$259, DW_AT_TI_symbol_name("bgColor")
+	.dwattr $C$DW$259, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$259, DW_AT_location[DW_OP_breg13 48]
+
+$C$DW$260	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$260, DW_AT_name("size")
+	.dwattr $C$DW$260, DW_AT_TI_symbol_name("size")
+	.dwattr $C$DW$260, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$260, DW_AT_location[DW_OP_breg13 52]
 
 
 ;*****************************************************************************
@@ -8557,59 +8629,59 @@ ST7735_DrawChar:
         ADD       V4, SP, #20           ; [DPU_V7M3_PIPE] 
         SUB       SP, SP, #28           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 48
-$C$DW$257	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$257, DW_AT_name("col")
-	.dwattr $C$DW$257, DW_AT_TI_symbol_name("col")
-	.dwattr $C$DW$257, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$257, DW_AT_location[DW_OP_breg13 0]
-
-$C$DW$258	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$258, DW_AT_name("row")
-	.dwattr $C$DW$258, DW_AT_TI_symbol_name("row")
-	.dwattr $C$DW$258, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$258, DW_AT_location[DW_OP_breg13 4]
-
-$C$DW$259	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$259, DW_AT_name("i")
-	.dwattr $C$DW$259, DW_AT_TI_symbol_name("i")
-	.dwattr $C$DW$259, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$259, DW_AT_location[DW_OP_breg13 8]
-
-$C$DW$260	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$260, DW_AT_name("j")
-	.dwattr $C$DW$260, DW_AT_TI_symbol_name("j")
-	.dwattr $C$DW$260, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$260, DW_AT_location[DW_OP_breg13 12]
-
 $C$DW$261	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$261, DW_AT_name("x")
-	.dwattr $C$DW$261, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$261, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$261, DW_AT_location[DW_OP_breg13 16]
+	.dwattr $C$DW$261, DW_AT_name("col")
+	.dwattr $C$DW$261, DW_AT_TI_symbol_name("col")
+	.dwattr $C$DW$261, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$261, DW_AT_location[DW_OP_breg13 0]
 
 $C$DW$262	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$262, DW_AT_name("y")
-	.dwattr $C$DW$262, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$262, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$262, DW_AT_location[DW_OP_breg13 18]
+	.dwattr $C$DW$262, DW_AT_name("row")
+	.dwattr $C$DW$262, DW_AT_TI_symbol_name("row")
+	.dwattr $C$DW$262, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$262, DW_AT_location[DW_OP_breg13 4]
 
 $C$DW$263	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$263, DW_AT_name("textColor")
-	.dwattr $C$DW$263, DW_AT_TI_symbol_name("textColor")
-	.dwattr $C$DW$263, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$263, DW_AT_location[DW_OP_breg13 20]
+	.dwattr $C$DW$263, DW_AT_name("i")
+	.dwattr $C$DW$263, DW_AT_TI_symbol_name("i")
+	.dwattr $C$DW$263, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$263, DW_AT_location[DW_OP_breg13 8]
 
 $C$DW$264	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$264, DW_AT_name("c")
-	.dwattr $C$DW$264, DW_AT_TI_symbol_name("c")
-	.dwattr $C$DW$264, DW_AT_type(*$C$DW$T$6)
-	.dwattr $C$DW$264, DW_AT_location[DW_OP_breg13 22]
+	.dwattr $C$DW$264, DW_AT_name("j")
+	.dwattr $C$DW$264, DW_AT_TI_symbol_name("j")
+	.dwattr $C$DW$264, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$264, DW_AT_location[DW_OP_breg13 12]
 
 $C$DW$265	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$265, DW_AT_name("line")
-	.dwattr $C$DW$265, DW_AT_TI_symbol_name("line")
-	.dwattr $C$DW$265, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$265, DW_AT_location[DW_OP_breg13 23]
+	.dwattr $C$DW$265, DW_AT_name("x")
+	.dwattr $C$DW$265, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$265, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$265, DW_AT_location[DW_OP_breg13 16]
+
+$C$DW$266	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$266, DW_AT_name("y")
+	.dwattr $C$DW$266, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$266, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$266, DW_AT_location[DW_OP_breg13 18]
+
+$C$DW$267	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$267, DW_AT_name("textColor")
+	.dwattr $C$DW$267, DW_AT_TI_symbol_name("textColor")
+	.dwattr $C$DW$267, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$267, DW_AT_location[DW_OP_breg13 20]
+
+$C$DW$268	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$268, DW_AT_name("c")
+	.dwattr $C$DW$268, DW_AT_TI_symbol_name("c")
+	.dwattr $C$DW$268, DW_AT_type(*$C$DW$T$6)
+	.dwattr $C$DW$268, DW_AT_location[DW_OP_breg13 22]
+
+$C$DW$269	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$269, DW_AT_name("line")
+	.dwattr $C$DW$269, DW_AT_TI_symbol_name("line")
+	.dwattr $C$DW$269, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$269, DW_AT_location[DW_OP_breg13 23]
 
 ;----------------------------------------------------------------------
 ; 1133 | void ST7735_DrawChar(int16_t x, int16_t y, char c, int16_t textColor, i
@@ -8688,10 +8760,10 @@ $C$DW$265	.dwtag  DW_TAG_variable
         SUBS      V1, V1, #1            ; [DPU_V7M3_PIPE] |1143| 
         UXTB      A4, A3                ; [DPU_V7M3_PIPE] |1143| 
         UXTB      A3, V1                ; [DPU_V7M3_PIPE] |1143| 
-$C$DW$266	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$266, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$266, DW_AT_name("setAddrWindow")
-	.dwattr $C$DW$266, DW_AT_TI_call
+$C$DW$270	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$270, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$270, DW_AT_name("setAddrWindow")
+	.dwattr $C$DW$270, DW_AT_TI_call
 
         BL        setAddrWindow         ; [DPU_V7M3_PIPE] |1143| 
         ; CALL OCCURS {setAddrWindow }   ; [] |1143| 
@@ -8812,10 +8884,10 @@ $C$DW$266	.dwtag  DW_TAG_TI_branch
 ; 1154 | pushColor(textColor);                                                  
 ;----------------------------------------------------------------------
         LDRH      A1, [SP, #20]         ; [DPU_V7M3_PIPE] |1154| 
-$C$DW$267	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$267, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$267, DW_AT_name("pushColor")
-	.dwattr $C$DW$267, DW_AT_TI_call
+$C$DW$271	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$271, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$271, DW_AT_name("pushColor")
+	.dwattr $C$DW$271, DW_AT_TI_call
 
         BL        pushColor             ; [DPU_V7M3_PIPE] |1154| 
         ; CALL OCCURS {pushColor }       ; [] |1154| 
@@ -8867,10 +8939,10 @@ $C$DW$267	.dwtag  DW_TAG_TI_branch
 ; 1163 | // print blank column(s) to the right of character                     
 ;----------------------------------------------------------------------
         LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1159| 
-$C$DW$268	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$268, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$268, DW_AT_name("pushColor")
-	.dwattr $C$DW$268, DW_AT_TI_call
+$C$DW$272	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$272, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$272, DW_AT_name("pushColor")
+	.dwattr $C$DW$272, DW_AT_TI_call
 
         BL        pushColor             ; [DPU_V7M3_PIPE] |1159| 
         ; CALL OCCURS {pushColor }       ; [] |1159| 
@@ -8924,10 +8996,10 @@ $C$DW$268	.dwtag  DW_TAG_TI_branch
 ; 1165 | pushColor(bgColor);                                                    
 ;----------------------------------------------------------------------
         LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1165| 
-$C$DW$269	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$269, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$269, DW_AT_name("pushColor")
-	.dwattr $C$DW$269, DW_AT_TI_call
+$C$DW$273	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$273, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$273, DW_AT_name("pushColor")
+	.dwattr $C$DW$273, DW_AT_TI_call
 
         BL        pushColor             ; [DPU_V7M3_PIPE] |1165| 
         ; CALL OCCURS {pushColor }       ; [] |1165| 
@@ -8977,9 +9049,9 @@ $C$DW$269	.dwtag  DW_TAG_TI_branch
 ||$C$L68||:    
         ADD       SP, SP, #28           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 20
-$C$DW$270	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$270, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$270, DW_AT_TI_return
+$C$DW$274	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$274, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$274, DW_AT_TI_return
 
         POP       {V1, V2, V3, V4, PC}  ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -8988,11 +9060,11 @@ $C$DW$270	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 5
 	.dwcfi	restore_reg, 4
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$250, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$250, DW_AT_TI_end_line(0x492)
-	.dwattr $C$DW$250, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$254, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$254, DW_AT_TI_end_line(0x492)
+	.dwattr $C$DW$254, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$250
+	.dwendtag $C$DW$254
 
 	.sect	".text"
 	.clink
@@ -9000,46 +9072,46 @@ $C$DW$270	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_DrawString
 
-$C$DW$271	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$271, DW_AT_name("ST7735_DrawString")
-	.dwattr $C$DW$271, DW_AT_low_pc(ST7735_DrawString)
-	.dwattr $C$DW$271, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$271, DW_AT_TI_symbol_name("ST7735_DrawString")
-	.dwattr $C$DW$271, DW_AT_external
-	.dwattr $C$DW$271, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$271, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$271, DW_AT_TI_begin_line(0x49d)
-	.dwattr $C$DW$271, DW_AT_TI_begin_column(0x0a)
-	.dwattr $C$DW$271, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$271, DW_AT_decl_line(0x49d)
-	.dwattr $C$DW$271, DW_AT_decl_column(0x0a)
-	.dwattr $C$DW$271, DW_AT_TI_max_frame_size(0x28)
+$C$DW$275	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$275, DW_AT_name("ST7735_DrawString")
+	.dwattr $C$DW$275, DW_AT_low_pc(ST7735_DrawString)
+	.dwattr $C$DW$275, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$275, DW_AT_TI_symbol_name("ST7735_DrawString")
+	.dwattr $C$DW$275, DW_AT_external
+	.dwattr $C$DW$275, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$275, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$275, DW_AT_TI_begin_line(0x49d)
+	.dwattr $C$DW$275, DW_AT_TI_begin_column(0x0a)
+	.dwattr $C$DW$275, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$275, DW_AT_decl_line(0x49d)
+	.dwattr $C$DW$275, DW_AT_decl_column(0x0a)
+	.dwattr $C$DW$275, DW_AT_TI_max_frame_size(0x28)
 	.dwpsn	file "../ST7735.c",line 1181,column 80,is_stmt,address ST7735_DrawString,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawString
-$C$DW$272	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$272, DW_AT_name("x")
-	.dwattr $C$DW$272, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$272, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$272, DW_AT_location[DW_OP_reg0]
+$C$DW$276	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$276, DW_AT_name("x")
+	.dwattr $C$DW$276, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$276, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$276, DW_AT_location[DW_OP_reg0]
 
-$C$DW$273	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$273, DW_AT_name("y")
-	.dwattr $C$DW$273, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$273, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$273, DW_AT_location[DW_OP_reg1]
+$C$DW$277	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$277, DW_AT_name("y")
+	.dwattr $C$DW$277, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$277, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$277, DW_AT_location[DW_OP_reg1]
 
-$C$DW$274	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$274, DW_AT_name("pt")
-	.dwattr $C$DW$274, DW_AT_TI_symbol_name("pt")
-	.dwattr $C$DW$274, DW_AT_type(*$C$DW$T$80)
-	.dwattr $C$DW$274, DW_AT_location[DW_OP_reg2]
+$C$DW$278	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$278, DW_AT_name("pt")
+	.dwattr $C$DW$278, DW_AT_TI_symbol_name("pt")
+	.dwattr $C$DW$278, DW_AT_type(*$C$DW$T$84)
+	.dwattr $C$DW$278, DW_AT_location[DW_OP_reg2]
 
-$C$DW$275	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$275, DW_AT_name("textColor")
-	.dwattr $C$DW$275, DW_AT_TI_symbol_name("textColor")
-	.dwattr $C$DW$275, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$275, DW_AT_location[DW_OP_reg3]
+$C$DW$279	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$279, DW_AT_name("textColor")
+	.dwattr $C$DW$279, DW_AT_TI_symbol_name("textColor")
+	.dwattr $C$DW$279, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$279, DW_AT_location[DW_OP_reg3]
 
 
 ;*****************************************************************************
@@ -9063,35 +9135,35 @@ ST7735_DrawString:
 	.dwcfi	save_reg_to_mem, 4, -12
         SUB       SP, SP, #28           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 40
-$C$DW$276	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$276, DW_AT_name("pt")
-	.dwattr $C$DW$276, DW_AT_TI_symbol_name("pt")
-	.dwattr $C$DW$276, DW_AT_type(*$C$DW$T$80)
-	.dwattr $C$DW$276, DW_AT_location[DW_OP_breg13 8]
-
-$C$DW$277	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$277, DW_AT_name("count")
-	.dwattr $C$DW$277, DW_AT_TI_symbol_name("count")
-	.dwattr $C$DW$277, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$277, DW_AT_location[DW_OP_breg13 12]
-
-$C$DW$278	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$278, DW_AT_name("x")
-	.dwattr $C$DW$278, DW_AT_TI_symbol_name("x")
-	.dwattr $C$DW$278, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$278, DW_AT_location[DW_OP_breg13 16]
-
-$C$DW$279	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$279, DW_AT_name("y")
-	.dwattr $C$DW$279, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$279, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$279, DW_AT_location[DW_OP_breg13 18]
-
 $C$DW$280	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$280, DW_AT_name("textColor")
-	.dwattr $C$DW$280, DW_AT_TI_symbol_name("textColor")
-	.dwattr $C$DW$280, DW_AT_type(*$C$DW$T$60)
-	.dwattr $C$DW$280, DW_AT_location[DW_OP_breg13 20]
+	.dwattr $C$DW$280, DW_AT_name("pt")
+	.dwattr $C$DW$280, DW_AT_TI_symbol_name("pt")
+	.dwattr $C$DW$280, DW_AT_type(*$C$DW$T$84)
+	.dwattr $C$DW$280, DW_AT_location[DW_OP_breg13 8]
+
+$C$DW$281	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$281, DW_AT_name("count")
+	.dwattr $C$DW$281, DW_AT_TI_symbol_name("count")
+	.dwattr $C$DW$281, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$281, DW_AT_location[DW_OP_breg13 12]
+
+$C$DW$282	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$282, DW_AT_name("x")
+	.dwattr $C$DW$282, DW_AT_TI_symbol_name("x")
+	.dwattr $C$DW$282, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$282, DW_AT_location[DW_OP_breg13 16]
+
+$C$DW$283	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$283, DW_AT_name("y")
+	.dwattr $C$DW$283, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$283, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$283, DW_AT_location[DW_OP_breg13 18]
+
+$C$DW$284	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$284, DW_AT_name("textColor")
+	.dwattr $C$DW$284, DW_AT_TI_symbol_name("textColor")
+	.dwattr $C$DW$284, DW_AT_type(*$C$DW$T$64)
+	.dwattr $C$DW$284, DW_AT_location[DW_OP_breg13 20]
 
 ;----------------------------------------------------------------------
 ; 1181 | uint32_t ST7735_DrawString(uint16_t x, uint16_t y, char *pt, int16_t te
@@ -9145,10 +9217,10 @@ $C$DW$280	.dwtag  DW_TAG_variable
         ADD       V1, A1, V1, LSL #3    ; [DPU_V7M3_PIPE] |1185| 
         SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1185| 
         SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1185| 
-$C$DW$281	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$281, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$281, DW_AT_name("ST7735_DrawCharS")
-	.dwattr $C$DW$281, DW_AT_TI_call
+$C$DW$285	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$285, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$285, DW_AT_name("ST7735_DrawCharS")
+	.dwattr $C$DW$285, DW_AT_TI_call
 
         BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1185| 
         ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1185| 
@@ -9209,20 +9281,20 @@ $C$DW$281	.dwtag  DW_TAG_TI_branch
 	.dwpsn	file "../ST7735.c",line 1192,column 1,is_stmt,isa 1
         ADD       SP, SP, #28           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 12
-$C$DW$282	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$282, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$282, DW_AT_TI_return
+$C$DW$286	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$286, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$286, DW_AT_TI_return
 
         POP       {V1, V2, PC}          ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 5
 	.dwcfi	restore_reg, 4
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$271, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$271, DW_AT_TI_end_line(0x4a8)
-	.dwattr $C$DW$271, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$275, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$275, DW_AT_TI_end_line(0x4a8)
+	.dwattr $C$DW$275, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$271
+	.dwendtag $C$DW$275
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -9236,27 +9308,27 @@ $C$DW$282	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	fillmessage
 
-$C$DW$283	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$283, DW_AT_name("fillmessage")
-	.dwattr $C$DW$283, DW_AT_low_pc(fillmessage)
-	.dwattr $C$DW$283, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$283, DW_AT_TI_symbol_name("fillmessage")
-	.dwattr $C$DW$283, DW_AT_external
-	.dwattr $C$DW$283, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$283, DW_AT_TI_begin_line(0x4b2)
-	.dwattr $C$DW$283, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$283, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$283, DW_AT_decl_line(0x4b2)
-	.dwattr $C$DW$283, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$283, DW_AT_TI_max_frame_size(0x08)
+$C$DW$287	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$287, DW_AT_name("fillmessage")
+	.dwattr $C$DW$287, DW_AT_low_pc(fillmessage)
+	.dwattr $C$DW$287, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$287, DW_AT_TI_symbol_name("fillmessage")
+	.dwattr $C$DW$287, DW_AT_external
+	.dwattr $C$DW$287, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$287, DW_AT_TI_begin_line(0x4b2)
+	.dwattr $C$DW$287, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$287, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$287, DW_AT_decl_line(0x4b2)
+	.dwattr $C$DW$287, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$287, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1202,column 29,is_stmt,address fillmessage,isa 1
 
 	.dwfde $C$DW$CIE, fillmessage
-$C$DW$284	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$284, DW_AT_name("n")
-	.dwattr $C$DW$284, DW_AT_TI_symbol_name("n")
-	.dwattr $C$DW$284, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$284, DW_AT_location[DW_OP_reg0]
+$C$DW$288	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$288, DW_AT_name("n")
+	.dwattr $C$DW$288, DW_AT_TI_symbol_name("n")
+	.dwattr $C$DW$288, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$288, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -9277,11 +9349,11 @@ fillmessage:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$285	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$285, DW_AT_name("n")
-	.dwattr $C$DW$285, DW_AT_TI_symbol_name("n")
-	.dwattr $C$DW$285, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$285, DW_AT_location[DW_OP_breg13 0]
+$C$DW$289	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$289, DW_AT_name("n")
+	.dwattr $C$DW$289, DW_AT_TI_symbol_name("n")
+	.dwattr $C$DW$289, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$289, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 1202 | void fillmessage(uint32_t n){                                          
@@ -9305,10 +9377,10 @@ $C$DW$285	.dwtag  DW_TAG_variable
         LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1206| 
         MOVS      A1, #10               ; [DPU_V7M3_PIPE] |1206| 
         UDIV      A1, A2, A1            ; [DPU_V7M3_PIPE] |1206| 
-$C$DW$286	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$286, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$286, DW_AT_name("fillmessage")
-	.dwattr $C$DW$286, DW_AT_TI_call
+$C$DW$290	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$290, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$290, DW_AT_name("fillmessage")
+	.dwattr $C$DW$290, DW_AT_TI_call
 
         BL        fillmessage           ; [DPU_V7M3_PIPE] |1206| 
         ; CALL OCCURS {fillmessage }     ; [] |1206| 
@@ -9352,19 +9424,19 @@ $C$DW$286	.dwtag  DW_TAG_TI_branch
 	.dwpsn	file "../ST7735.c",line 1211,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L74||:    
-$C$DW$287	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$287, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$287, DW_AT_TI_return
+$C$DW$291	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$291, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$291, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$283, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$283, DW_AT_TI_end_line(0x4bb)
-	.dwattr $C$DW$283, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$287, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$287, DW_AT_TI_end_line(0x4bb)
+	.dwattr $C$DW$287, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$283
+	.dwendtag $C$DW$287
 
 	.sect	".text"
 	.clink
@@ -9372,33 +9444,33 @@ $C$DW$287	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_SetCursor
 
-$C$DW$288	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$288, DW_AT_name("ST7735_SetCursor")
-	.dwattr $C$DW$288, DW_AT_low_pc(ST7735_SetCursor)
-	.dwattr $C$DW$288, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$288, DW_AT_TI_symbol_name("ST7735_SetCursor")
-	.dwattr $C$DW$288, DW_AT_external
-	.dwattr $C$DW$288, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$288, DW_AT_TI_begin_line(0x4c3)
-	.dwattr $C$DW$288, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$288, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$288, DW_AT_decl_line(0x4c3)
-	.dwattr $C$DW$288, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$288, DW_AT_TI_max_frame_size(0x08)
+$C$DW$292	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$292, DW_AT_name("ST7735_SetCursor")
+	.dwattr $C$DW$292, DW_AT_low_pc(ST7735_SetCursor)
+	.dwattr $C$DW$292, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$292, DW_AT_TI_symbol_name("ST7735_SetCursor")
+	.dwattr $C$DW$292, DW_AT_external
+	.dwattr $C$DW$292, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$292, DW_AT_TI_begin_line(0x4c3)
+	.dwattr $C$DW$292, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$292, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$292, DW_AT_decl_line(0x4c3)
+	.dwattr $C$DW$292, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$292, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1219,column 52,is_stmt,address ST7735_SetCursor,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_SetCursor
-$C$DW$289	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$289, DW_AT_name("newX")
-	.dwattr $C$DW$289, DW_AT_TI_symbol_name("newX")
-	.dwattr $C$DW$289, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$289, DW_AT_location[DW_OP_reg0]
+$C$DW$293	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$293, DW_AT_name("newX")
+	.dwattr $C$DW$293, DW_AT_TI_symbol_name("newX")
+	.dwattr $C$DW$293, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$293, DW_AT_location[DW_OP_reg0]
 
-$C$DW$290	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$290, DW_AT_name("newY")
-	.dwattr $C$DW$290, DW_AT_TI_symbol_name("newY")
-	.dwattr $C$DW$290, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$290, DW_AT_location[DW_OP_reg1]
+$C$DW$294	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$294, DW_AT_name("newY")
+	.dwattr $C$DW$294, DW_AT_TI_symbol_name("newY")
+	.dwattr $C$DW$294, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$294, DW_AT_location[DW_OP_reg1]
 
 
 ;*****************************************************************************
@@ -9413,17 +9485,17 @@ ST7735_SetCursor:
 	.dwcfi	cfa_offset, 0
         SUB       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 8
-$C$DW$291	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$291, DW_AT_name("newX")
-	.dwattr $C$DW$291, DW_AT_TI_symbol_name("newX")
-	.dwattr $C$DW$291, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$291, DW_AT_location[DW_OP_breg13 0]
+$C$DW$295	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$295, DW_AT_name("newX")
+	.dwattr $C$DW$295, DW_AT_TI_symbol_name("newX")
+	.dwattr $C$DW$295, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$295, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$292	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$292, DW_AT_name("newY")
-	.dwattr $C$DW$292, DW_AT_TI_symbol_name("newY")
-	.dwattr $C$DW$292, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$292, DW_AT_location[DW_OP_breg13 4]
+$C$DW$296	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$296, DW_AT_name("newY")
+	.dwattr $C$DW$296, DW_AT_TI_symbol_name("newY")
+	.dwattr $C$DW$296, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$296, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
 ; 1219 | void ST7735_SetCursor(uint32_t newX, uint32_t newY){                   
@@ -9469,17 +9541,17 @@ $C$DW$292	.dwtag  DW_TAG_variable
 ||$C$L76||:    
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
-$C$DW$293	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$293, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$293, DW_AT_TI_return
+$C$DW$297	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$297, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$297, DW_AT_TI_return
 
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$288, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$288, DW_AT_TI_end_line(0x4c9)
-	.dwattr $C$DW$288, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$292, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$292, DW_AT_TI_end_line(0x4c9)
+	.dwattr $C$DW$292, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$288
+	.dwendtag $C$DW$292
 
 	.sect	".text"
 	.clink
@@ -9487,27 +9559,27 @@ $C$DW$293	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_OutUDec
 
-$C$DW$294	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$294, DW_AT_name("ST7735_OutUDec")
-	.dwattr $C$DW$294, DW_AT_low_pc(ST7735_OutUDec)
-	.dwattr $C$DW$294, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$294, DW_AT_TI_symbol_name("ST7735_OutUDec")
-	.dwattr $C$DW$294, DW_AT_external
-	.dwattr $C$DW$294, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$294, DW_AT_TI_begin_line(0x4d1)
-	.dwattr $C$DW$294, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$294, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$294, DW_AT_decl_line(0x4d1)
-	.dwattr $C$DW$294, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$294, DW_AT_TI_max_frame_size(0x10)
+$C$DW$298	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$298, DW_AT_name("ST7735_OutUDec")
+	.dwattr $C$DW$298, DW_AT_low_pc(ST7735_OutUDec)
+	.dwattr $C$DW$298, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$298, DW_AT_TI_symbol_name("ST7735_OutUDec")
+	.dwattr $C$DW$298, DW_AT_external
+	.dwattr $C$DW$298, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$298, DW_AT_TI_begin_line(0x4d1)
+	.dwattr $C$DW$298, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$298, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$298, DW_AT_decl_line(0x4d1)
+	.dwattr $C$DW$298, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$298, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 1233,column 32,is_stmt,address ST7735_OutUDec,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_OutUDec
-$C$DW$295	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$295, DW_AT_name("n")
-	.dwattr $C$DW$295, DW_AT_TI_symbol_name("n")
-	.dwattr $C$DW$295, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$295, DW_AT_location[DW_OP_reg0]
+$C$DW$299	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$299, DW_AT_name("n")
+	.dwattr $C$DW$299, DW_AT_TI_symbol_name("n")
+	.dwattr $C$DW$299, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$299, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -9530,11 +9602,11 @@ ST7735_OutUDec:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$296	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$296, DW_AT_name("n")
-	.dwattr $C$DW$296, DW_AT_TI_symbol_name("n")
-	.dwattr $C$DW$296, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$296, DW_AT_location[DW_OP_breg13 8]
+$C$DW$300	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$300, DW_AT_name("n")
+	.dwattr $C$DW$300, DW_AT_TI_symbol_name("n")
+	.dwattr $C$DW$300, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$300, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
 ; 1233 | void ST7735_OutUDec(uint32_t n){                                       
@@ -9552,10 +9624,10 @@ $C$DW$296	.dwtag  DW_TAG_variable
 ; 1235 | fillmessage(n);                                                        
 ;----------------------------------------------------------------------
         LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1235| 
-$C$DW$297	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$297, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$297, DW_AT_name("fillmessage")
-	.dwattr $C$DW$297, DW_AT_TI_call
+$C$DW$301	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$301, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$301, DW_AT_name("fillmessage")
+	.dwattr $C$DW$301, DW_AT_TI_call
 
         BL        fillmessage           ; [DPU_V7M3_PIPE] |1235| 
         ; CALL OCCURS {fillmessage }     ; [] |1235| 
@@ -9579,10 +9651,10 @@ $C$DW$297	.dwtag  DW_TAG_TI_branch
         LDRH      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1237| 
         LDRH      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1237| 
         LDR       A3, $C$CON27          ; [DPU_V7M3_PIPE] |1237| 
-$C$DW$298	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$298, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$298, DW_AT_name("ST7735_DrawString")
-	.dwattr $C$DW$298, DW_AT_TI_call
+$C$DW$302	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$302, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$302, DW_AT_name("ST7735_DrawString")
+	.dwattr $C$DW$302, DW_AT_TI_call
 
         BL        ST7735_DrawString     ; [DPU_V7M3_PIPE] |1237| 
         ; CALL OCCURS {ST7735_DrawString }  ; [] |1237| 
@@ -9634,19 +9706,19 @@ $C$DW$298	.dwtag  DW_TAG_TI_branch
         MOVS      A4, #31               ; [DPU_V7M3_PIPE] |1241| 
         SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1241| 
         MOVS      A3, #42               ; [DPU_V7M3_PIPE] |1241| 
-$C$DW$299	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$299, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$299, DW_AT_name("ST7735_DrawCharS")
-	.dwattr $C$DW$299, DW_AT_TI_call
+$C$DW$303	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$303, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$303, DW_AT_name("ST7735_DrawCharS")
+	.dwattr $C$DW$303, DW_AT_TI_call
 
         BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1241| 
         ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1241| 
 	.dwpsn	file "../ST7735.c",line 1243,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L77||:    
-$C$DW$300	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$300, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$300, DW_AT_TI_return
+$C$DW$304	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$304, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$304, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -9654,11 +9726,11 @@ $C$DW$300	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$294, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$294, DW_AT_TI_end_line(0x4db)
-	.dwattr $C$DW$294, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$298, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$298, DW_AT_TI_end_line(0x4db)
+	.dwattr $C$DW$298, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$294
+	.dwendtag $C$DW$298
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -9674,27 +9746,27 @@ $C$DW$300	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_SetRotation
 
-$C$DW$301	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$301, DW_AT_name("ST7735_SetRotation")
-	.dwattr $C$DW$301, DW_AT_low_pc(ST7735_SetRotation)
-	.dwattr $C$DW$301, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$301, DW_AT_TI_symbol_name("ST7735_SetRotation")
-	.dwattr $C$DW$301, DW_AT_external
-	.dwattr $C$DW$301, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$301, DW_AT_TI_begin_line(0x4ee)
-	.dwattr $C$DW$301, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$301, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$301, DW_AT_decl_line(0x4ee)
-	.dwattr $C$DW$301, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$301, DW_AT_TI_max_frame_size(0x08)
+$C$DW$305	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$305, DW_AT_name("ST7735_SetRotation")
+	.dwattr $C$DW$305, DW_AT_low_pc(ST7735_SetRotation)
+	.dwattr $C$DW$305, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$305, DW_AT_TI_symbol_name("ST7735_SetRotation")
+	.dwattr $C$DW$305, DW_AT_external
+	.dwattr $C$DW$305, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$305, DW_AT_TI_begin_line(0x4ee)
+	.dwattr $C$DW$305, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$305, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$305, DW_AT_decl_line(0x4ee)
+	.dwattr $C$DW$305, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$305, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1262,column 36,is_stmt,address ST7735_SetRotation,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_SetRotation
-$C$DW$302	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$302, DW_AT_name("m")
-	.dwattr $C$DW$302, DW_AT_TI_symbol_name("m")
-	.dwattr $C$DW$302, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$302, DW_AT_location[DW_OP_reg0]
+$C$DW$306	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$306, DW_AT_name("m")
+	.dwattr $C$DW$306, DW_AT_TI_symbol_name("m")
+	.dwattr $C$DW$306, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$306, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -9715,11 +9787,11 @@ ST7735_SetRotation:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$303	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$303, DW_AT_name("m")
-	.dwattr $C$DW$303, DW_AT_TI_symbol_name("m")
-	.dwattr $C$DW$303, DW_AT_type(*$C$DW$T$29)
-	.dwattr $C$DW$303, DW_AT_location[DW_OP_breg13 0]
+$C$DW$307	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$307, DW_AT_name("m")
+	.dwattr $C$DW$307, DW_AT_TI_symbol_name("m")
+	.dwattr $C$DW$307, DW_AT_type(*$C$DW$T$33)
+	.dwattr $C$DW$307, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 1262 | void ST7735_SetRotation(uint8_t m) {                                   
@@ -9730,10 +9802,10 @@ $C$DW$303	.dwtag  DW_TAG_variable
 ; 1264 | writecommand(ST7735_MADCTL);                                           
 ;----------------------------------------------------------------------
         MOVS      A1, #54               ; [DPU_V7M3_PIPE] |1264| 
-$C$DW$304	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$304, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$304, DW_AT_name("writecommand")
-	.dwattr $C$DW$304, DW_AT_TI_call
+$C$DW$308	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$308, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$308, DW_AT_name("writecommand")
+	.dwattr $C$DW$308, DW_AT_TI_call
 
         BL        writecommand          ; [DPU_V7M3_PIPE] |1264| 
         ; CALL OCCURS {writecommand }    ; [] |1264| 
@@ -9772,10 +9844,10 @@ $C$DW$304	.dwtag  DW_TAG_TI_branch
 ; 1269 | writedata(MADCTL_MX | MADCTL_MY | MADCTL_RGB);                         
 ;----------------------------------------------------------------------
         MOVS      A1, #192              ; [DPU_V7M3_PIPE] |1269| 
-$C$DW$305	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$305, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$305, DW_AT_name("writedata")
-	.dwattr $C$DW$305, DW_AT_TI_call
+$C$DW$309	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$309, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$309, DW_AT_name("writedata")
+	.dwattr $C$DW$309, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1269| 
         ; CALL OCCURS {writedata }       ; [] |1269| 
@@ -9792,10 +9864,10 @@ $C$DW$305	.dwtag  DW_TAG_TI_branch
 ; 1271 | writedata(MADCTL_MX | MADCTL_MY | MADCTL_BGR);                         
 ;----------------------------------------------------------------------
         MOVS      A1, #200              ; [DPU_V7M3_PIPE] |1271| 
-$C$DW$306	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$306, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$306, DW_AT_name("writedata")
-	.dwattr $C$DW$306, DW_AT_TI_call
+$C$DW$310	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$310, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$310, DW_AT_name("writedata")
+	.dwattr $C$DW$310, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1271| 
         ; CALL OCCURS {writedata }       ; [] |1271| 
@@ -9839,10 +9911,10 @@ $C$DW$306	.dwtag  DW_TAG_TI_branch
 ; 1278 | writedata(MADCTL_MY | MADCTL_MV | MADCTL_RGB);                         
 ;----------------------------------------------------------------------
         MOVS      A1, #160              ; [DPU_V7M3_PIPE] |1278| 
-$C$DW$307	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$307, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$307, DW_AT_name("writedata")
-	.dwattr $C$DW$307, DW_AT_TI_call
+$C$DW$311	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$311, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$311, DW_AT_name("writedata")
+	.dwattr $C$DW$311, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1278| 
         ; CALL OCCURS {writedata }       ; [] |1278| 
@@ -9859,10 +9931,10 @@ $C$DW$307	.dwtag  DW_TAG_TI_branch
 ; 1280 | writedata(MADCTL_MY | MADCTL_MV | MADCTL_BGR);                         
 ;----------------------------------------------------------------------
         MOVS      A1, #168              ; [DPU_V7M3_PIPE] |1280| 
-$C$DW$308	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$308, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$308, DW_AT_name("writedata")
-	.dwattr $C$DW$308, DW_AT_TI_call
+$C$DW$312	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$312, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$312, DW_AT_name("writedata")
+	.dwattr $C$DW$312, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1280| 
         ; CALL OCCURS {writedata }       ; [] |1280| 
@@ -9906,10 +9978,10 @@ $C$DW$308	.dwtag  DW_TAG_TI_branch
 ; 1287 | writedata(MADCTL_RGB);                                                 
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1287| 
-$C$DW$309	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$309, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$309, DW_AT_name("writedata")
-	.dwattr $C$DW$309, DW_AT_TI_call
+$C$DW$313	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$313, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$313, DW_AT_name("writedata")
+	.dwattr $C$DW$313, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1287| 
         ; CALL OCCURS {writedata }       ; [] |1287| 
@@ -9926,10 +9998,10 @@ $C$DW$309	.dwtag  DW_TAG_TI_branch
 ; 1289 | writedata(MADCTL_BGR);                                                 
 ;----------------------------------------------------------------------
         MOVS      A1, #8                ; [DPU_V7M3_PIPE] |1289| 
-$C$DW$310	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$310, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$310, DW_AT_name("writedata")
-	.dwattr $C$DW$310, DW_AT_TI_call
+$C$DW$314	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$314, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$314, DW_AT_name("writedata")
+	.dwattr $C$DW$314, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1289| 
         ; CALL OCCURS {writedata }       ; [] |1289| 
@@ -9973,10 +10045,10 @@ $C$DW$310	.dwtag  DW_TAG_TI_branch
 ; 1296 | writedata(MADCTL_MX | MADCTL_MV | MADCTL_RGB);                         
 ;----------------------------------------------------------------------
         MOVS      A1, #96               ; [DPU_V7M3_PIPE] |1296| 
-$C$DW$311	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$311, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$311, DW_AT_name("writedata")
-	.dwattr $C$DW$311, DW_AT_TI_call
+$C$DW$315	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$315, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$315, DW_AT_name("writedata")
+	.dwattr $C$DW$315, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1296| 
         ; CALL OCCURS {writedata }       ; [] |1296| 
@@ -9993,10 +10065,10 @@ $C$DW$311	.dwtag  DW_TAG_TI_branch
 ; 1298 | writedata(MADCTL_MX | MADCTL_MV | MADCTL_BGR);                         
 ;----------------------------------------------------------------------
         MOVS      A1, #104              ; [DPU_V7M3_PIPE] |1298| 
-$C$DW$312	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$312, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$312, DW_AT_name("writedata")
-	.dwattr $C$DW$312, DW_AT_TI_call
+$C$DW$316	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$316, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$316, DW_AT_name("writedata")
+	.dwattr $C$DW$316, DW_AT_TI_call
 
         BL        writedata             ; [DPU_V7M3_PIPE] |1298| 
         ; CALL OCCURS {writedata }       ; [] |1298| 
@@ -10049,19 +10121,19 @@ $C$DW$312	.dwtag  DW_TAG_TI_branch
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L91||:    
-$C$DW$313	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$313, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$313, DW_AT_TI_return
+$C$DW$317	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$317, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$317, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$301, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$301, DW_AT_TI_end_line(0x518)
-	.dwattr $C$DW$301, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$305, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$305, DW_AT_TI_end_line(0x518)
+	.dwattr $C$DW$305, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$301
+	.dwendtag $C$DW$305
 
 	.sect	".text"
 	.clink
@@ -10069,27 +10141,27 @@ $C$DW$313	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_InvertDisplay
 
-$C$DW$314	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$314, DW_AT_name("ST7735_InvertDisplay")
-	.dwattr $C$DW$314, DW_AT_low_pc(ST7735_InvertDisplay)
-	.dwattr $C$DW$314, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$314, DW_AT_TI_symbol_name("ST7735_InvertDisplay")
-	.dwattr $C$DW$314, DW_AT_external
-	.dwattr $C$DW$314, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$314, DW_AT_TI_begin_line(0x520)
-	.dwattr $C$DW$314, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$314, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$314, DW_AT_decl_line(0x520)
-	.dwattr $C$DW$314, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$314, DW_AT_TI_max_frame_size(0x08)
+$C$DW$318	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$318, DW_AT_name("ST7735_InvertDisplay")
+	.dwattr $C$DW$318, DW_AT_low_pc(ST7735_InvertDisplay)
+	.dwattr $C$DW$318, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$318, DW_AT_TI_symbol_name("ST7735_InvertDisplay")
+	.dwattr $C$DW$318, DW_AT_external
+	.dwattr $C$DW$318, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$318, DW_AT_TI_begin_line(0x520)
+	.dwattr $C$DW$318, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$318, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$318, DW_AT_decl_line(0x520)
+	.dwattr $C$DW$318, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$318, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1312,column 34,is_stmt,address ST7735_InvertDisplay,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_InvertDisplay
-$C$DW$315	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$315, DW_AT_name("i")
-	.dwattr $C$DW$315, DW_AT_TI_symbol_name("i")
-	.dwattr $C$DW$315, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$315, DW_AT_location[DW_OP_reg0]
+$C$DW$319	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$319, DW_AT_name("i")
+	.dwattr $C$DW$319, DW_AT_TI_symbol_name("i")
+	.dwattr $C$DW$319, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$319, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -10110,11 +10182,11 @@ ST7735_InvertDisplay:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$316	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$316, DW_AT_name("i")
-	.dwattr $C$DW$316, DW_AT_TI_symbol_name("i")
-	.dwattr $C$DW$316, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$316, DW_AT_location[DW_OP_breg13 0]
+$C$DW$320	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$320, DW_AT_name("i")
+	.dwattr $C$DW$320, DW_AT_TI_symbol_name("i")
+	.dwattr $C$DW$320, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$320, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 1312 | void ST7735_InvertDisplay(int i) {                                     
@@ -10133,10 +10205,10 @@ $C$DW$316	.dwtag  DW_TAG_variable
 ; 1314 | writecommand(ST7735_INVON);                                            
 ;----------------------------------------------------------------------
         MOVS      A1, #33               ; [DPU_V7M3_PIPE] |1314| 
-$C$DW$317	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$317, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$317, DW_AT_name("writecommand")
-	.dwattr $C$DW$317, DW_AT_TI_call
+$C$DW$321	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$321, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$321, DW_AT_name("writecommand")
+	.dwattr $C$DW$321, DW_AT_TI_call
 
         BL        writecommand          ; [DPU_V7M3_PIPE] |1314| 
         ; CALL OCCURS {writecommand }    ; [] |1314| 
@@ -10153,29 +10225,29 @@ $C$DW$317	.dwtag  DW_TAG_TI_branch
 ; 1316 | writecommand(ST7735_INVOFF);                                           
 ;----------------------------------------------------------------------
         MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1316| 
-$C$DW$318	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$318, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$318, DW_AT_name("writecommand")
-	.dwattr $C$DW$318, DW_AT_TI_call
+$C$DW$322	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$322, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$322, DW_AT_name("writecommand")
+	.dwattr $C$DW$322, DW_AT_TI_call
 
         BL        writecommand          ; [DPU_V7M3_PIPE] |1316| 
         ; CALL OCCURS {writecommand }    ; [] |1316| 
 	.dwpsn	file "../ST7735.c",line 1318,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L93||:    
-$C$DW$319	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$319, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$319, DW_AT_TI_return
+$C$DW$323	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$323, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$323, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$314, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$314, DW_AT_TI_end_line(0x526)
-	.dwattr $C$DW$314, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$318, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$318, DW_AT_TI_end_line(0x526)
+	.dwattr $C$DW$318, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$314
+	.dwendtag $C$DW$318
 
 	.sect	".text"
 	.clink
@@ -10183,33 +10255,33 @@ $C$DW$319	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_PlotClear
 
-$C$DW$320	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$320, DW_AT_name("ST7735_PlotClear")
-	.dwattr $C$DW$320, DW_AT_low_pc(ST7735_PlotClear)
-	.dwattr $C$DW$320, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$320, DW_AT_TI_symbol_name("ST7735_PlotClear")
-	.dwattr $C$DW$320, DW_AT_external
-	.dwattr $C$DW$320, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$320, DW_AT_TI_begin_line(0x534)
-	.dwattr $C$DW$320, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$320, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$320, DW_AT_decl_line(0x534)
-	.dwattr $C$DW$320, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$320, DW_AT_TI_max_frame_size(0x10)
+$C$DW$324	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$324, DW_AT_name("ST7735_PlotClear")
+	.dwattr $C$DW$324, DW_AT_low_pc(ST7735_PlotClear)
+	.dwattr $C$DW$324, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$324, DW_AT_TI_symbol_name("ST7735_PlotClear")
+	.dwattr $C$DW$324, DW_AT_external
+	.dwattr $C$DW$324, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$324, DW_AT_TI_begin_line(0x534)
+	.dwattr $C$DW$324, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$324, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$324, DW_AT_decl_line(0x534)
+	.dwattr $C$DW$324, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$324, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 1332,column 50,is_stmt,address ST7735_PlotClear,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotClear
-$C$DW$321	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$321, DW_AT_name("ymin")
-	.dwattr $C$DW$321, DW_AT_TI_symbol_name("ymin")
-	.dwattr $C$DW$321, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$321, DW_AT_location[DW_OP_reg0]
+$C$DW$325	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$325, DW_AT_name("ymin")
+	.dwattr $C$DW$325, DW_AT_TI_symbol_name("ymin")
+	.dwattr $C$DW$325, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$325, DW_AT_location[DW_OP_reg0]
 
-$C$DW$322	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$322, DW_AT_name("ymax")
-	.dwattr $C$DW$322, DW_AT_TI_symbol_name("ymax")
-	.dwattr $C$DW$322, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$322, DW_AT_location[DW_OP_reg1]
+$C$DW$326	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$326, DW_AT_name("ymax")
+	.dwattr $C$DW$326, DW_AT_TI_symbol_name("ymax")
+	.dwattr $C$DW$326, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$326, DW_AT_location[DW_OP_reg1]
 
 
 ;*****************************************************************************
@@ -10232,17 +10304,17 @@ ST7735_PlotClear:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$323	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$323, DW_AT_name("ymin")
-	.dwattr $C$DW$323, DW_AT_TI_symbol_name("ymin")
-	.dwattr $C$DW$323, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$323, DW_AT_location[DW_OP_breg13 4]
+$C$DW$327	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$327, DW_AT_name("ymin")
+	.dwattr $C$DW$327, DW_AT_TI_symbol_name("ymin")
+	.dwattr $C$DW$327, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$327, DW_AT_location[DW_OP_breg13 4]
 
-$C$DW$324	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$324, DW_AT_name("ymax")
-	.dwattr $C$DW$324, DW_AT_TI_symbol_name("ymax")
-	.dwattr $C$DW$324, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$324, DW_AT_location[DW_OP_breg13 8]
+$C$DW$328	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$328, DW_AT_name("ymax")
+	.dwattr $C$DW$328, DW_AT_TI_symbol_name("ymax")
+	.dwattr $C$DW$328, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$328, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
 ; 1332 | void ST7735_PlotClear(int32_t ymin, int32_t ymax){                     
@@ -10257,10 +10329,10 @@ $C$DW$324	.dwtag  DW_TAG_variable
         MOVS      A3, #228              ; [DPU_V7M3_PIPE] |1333| 
         MOVS      A1, #228              ; [DPU_V7M3_PIPE] |1333| 
         MOVS      A2, #228              ; [DPU_V7M3_PIPE] |1333| 
-$C$DW$325	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$325, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$325, DW_AT_name("ST7735_Color565")
-	.dwattr $C$DW$325, DW_AT_TI_call
+$C$DW$329	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$329, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$329, DW_AT_name("ST7735_Color565")
+	.dwattr $C$DW$329, DW_AT_TI_call
 
         BL        ST7735_Color565       ; [DPU_V7M3_PIPE] |1333| 
         ; CALL OCCURS {ST7735_Color565 }  ; [] |1333| 
@@ -10269,10 +10341,10 @@ $C$DW$325	.dwtag  DW_TAG_TI_branch
         MOVS      A3, #128              ; [DPU_V7M3_PIPE] |1333| 
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1333| 
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1333| 
-$C$DW$326	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$326, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$326, DW_AT_name("ST7735_FillRect")
-	.dwattr $C$DW$326, DW_AT_TI_call
+$C$DW$330	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$330, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$330, DW_AT_name("ST7735_FillRect")
+	.dwattr $C$DW$330, DW_AT_TI_call
 
         BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1333| 
         ; CALL OCCURS {ST7735_FillRect }  ; [] |1333| 
@@ -10351,9 +10423,9 @@ $C$DW$326	.dwtag  DW_TAG_TI_branch
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1344| 
         STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1344| 
 	.dwpsn	file "../ST7735.c",line 1345,column 1,is_stmt,isa 1
-$C$DW$327	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$327, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$327, DW_AT_TI_return
+$C$DW$331	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$331, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$331, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -10361,11 +10433,11 @@ $C$DW$327	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$320, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$320, DW_AT_TI_end_line(0x541)
-	.dwattr $C$DW$320, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$324, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$324, DW_AT_TI_end_line(0x541)
+	.dwattr $C$DW$324, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$320
+	.dwendtag $C$DW$324
 
 	.sect	".text"
 	.clink
@@ -10373,27 +10445,27 @@ $C$DW$327	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_PlotPoint
 
-$C$DW$328	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$328, DW_AT_name("ST7735_PlotPoint")
-	.dwattr $C$DW$328, DW_AT_low_pc(ST7735_PlotPoint)
-	.dwattr $C$DW$328, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$328, DW_AT_TI_symbol_name("ST7735_PlotPoint")
-	.dwattr $C$DW$328, DW_AT_external
-	.dwattr $C$DW$328, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$328, DW_AT_TI_begin_line(0x548)
-	.dwattr $C$DW$328, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$328, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$328, DW_AT_decl_line(0x548)
-	.dwattr $C$DW$328, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$328, DW_AT_TI_max_frame_size(0x10)
+$C$DW$332	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$332, DW_AT_name("ST7735_PlotPoint")
+	.dwattr $C$DW$332, DW_AT_low_pc(ST7735_PlotPoint)
+	.dwattr $C$DW$332, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$332, DW_AT_TI_symbol_name("ST7735_PlotPoint")
+	.dwattr $C$DW$332, DW_AT_external
+	.dwattr $C$DW$332, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$332, DW_AT_TI_begin_line(0x548)
+	.dwattr $C$DW$332, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$332, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$332, DW_AT_decl_line(0x548)
+	.dwattr $C$DW$332, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$332, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 1352,column 33,is_stmt,address ST7735_PlotPoint,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotPoint
-$C$DW$329	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$329, DW_AT_name("y")
-	.dwattr $C$DW$329, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$329, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$329, DW_AT_location[DW_OP_reg0]
+$C$DW$333	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$333, DW_AT_name("y")
+	.dwattr $C$DW$333, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$333, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$333, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -10416,17 +10488,17 @@ ST7735_PlotPoint:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$330	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$330, DW_AT_name("y")
-	.dwattr $C$DW$330, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$330, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$330, DW_AT_location[DW_OP_breg13 0]
+$C$DW$334	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$334, DW_AT_name("y")
+	.dwattr $C$DW$334, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$334, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$334, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$331	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$331, DW_AT_name("j")
-	.dwattr $C$DW$331, DW_AT_TI_symbol_name("j")
-	.dwattr $C$DW$331, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$331, DW_AT_location[DW_OP_breg13 4]
+$C$DW$335	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$335, DW_AT_name("j")
+	.dwattr $C$DW$335, DW_AT_TI_symbol_name("j")
+	.dwattr $C$DW$335, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$335, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
 ; 1352 | void ST7735_PlotPoint(int32_t y){int32_t j;                            
@@ -10522,10 +10594,10 @@ $C$DW$331	.dwtag  DW_TAG_variable
         LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1362| 
         LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1362| 
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1362| 
-$C$DW$332	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$332, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$332, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$332, DW_AT_TI_call
+$C$DW$336	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$336, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$336, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$336, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1362| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1362| 
@@ -10539,10 +10611,10 @@ $C$DW$332	.dwtag  DW_TAG_TI_branch
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1363| 
         ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1363| 
         SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1363| 
-$C$DW$333	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$333, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$333, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$333, DW_AT_TI_call
+$C$DW$337	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$337, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$337, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$337, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1363| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1363| 
@@ -10556,10 +10628,10 @@ $C$DW$333	.dwtag  DW_TAG_TI_branch
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1364| 
         ADDS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1364| 
         SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1364| 
-$C$DW$334	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$334, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$334, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$334, DW_AT_TI_call
+$C$DW$338	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$338, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$338, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$338, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1364| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1364| 
@@ -10575,17 +10647,17 @@ $C$DW$334	.dwtag  DW_TAG_TI_branch
         SXTH      A2, A1                ; [DPU_V7M3_PIPE] |1365| 
         SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1365| 
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1365| 
-$C$DW$335	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$335, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$335, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$335, DW_AT_TI_call
+$C$DW$339	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$339, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$339, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$339, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1365| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1365| 
 	.dwpsn	file "../ST7735.c",line 1366,column 1,is_stmt,isa 1
-$C$DW$336	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$336, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$336, DW_AT_TI_return
+$C$DW$340	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$340, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$340, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -10593,11 +10665,11 @@ $C$DW$336	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$328, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$328, DW_AT_TI_end_line(0x556)
-	.dwattr $C$DW$328, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$332, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$332, DW_AT_TI_end_line(0x556)
+	.dwattr $C$DW$332, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$328
+	.dwendtag $C$DW$332
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -10627,27 +10699,27 @@ $C$DW$336	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_PlotLine
 
-$C$DW$337	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$337, DW_AT_name("ST7735_PlotLine")
-	.dwattr $C$DW$337, DW_AT_low_pc(ST7735_PlotLine)
-	.dwattr $C$DW$337, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$337, DW_AT_TI_symbol_name("ST7735_PlotLine")
-	.dwattr $C$DW$337, DW_AT_external
-	.dwattr $C$DW$337, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$337, DW_AT_TI_begin_line(0x55d)
-	.dwattr $C$DW$337, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$337, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$337, DW_AT_decl_line(0x55d)
-	.dwattr $C$DW$337, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$337, DW_AT_TI_max_frame_size(0x10)
+$C$DW$341	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$341, DW_AT_name("ST7735_PlotLine")
+	.dwattr $C$DW$341, DW_AT_low_pc(ST7735_PlotLine)
+	.dwattr $C$DW$341, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$341, DW_AT_TI_symbol_name("ST7735_PlotLine")
+	.dwattr $C$DW$341, DW_AT_external
+	.dwattr $C$DW$341, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$341, DW_AT_TI_begin_line(0x55d)
+	.dwattr $C$DW$341, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$341, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$341, DW_AT_decl_line(0x55d)
+	.dwattr $C$DW$341, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$341, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 1373,column 32,is_stmt,address ST7735_PlotLine,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotLine
-$C$DW$338	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$338, DW_AT_name("y")
-	.dwattr $C$DW$338, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$338, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$338, DW_AT_location[DW_OP_reg0]
+$C$DW$342	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$342, DW_AT_name("y")
+	.dwattr $C$DW$342, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$342, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$342, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -10670,23 +10742,23 @@ ST7735_PlotLine:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$339	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$339, DW_AT_name("y")
-	.dwattr $C$DW$339, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$339, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$339, DW_AT_location[DW_OP_breg13 0]
+$C$DW$343	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$343, DW_AT_name("y")
+	.dwattr $C$DW$343, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$343, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$343, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$340	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$340, DW_AT_name("i")
-	.dwattr $C$DW$340, DW_AT_TI_symbol_name("i")
-	.dwattr $C$DW$340, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$340, DW_AT_location[DW_OP_breg13 4]
+$C$DW$344	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$344, DW_AT_name("i")
+	.dwattr $C$DW$344, DW_AT_TI_symbol_name("i")
+	.dwattr $C$DW$344, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$344, DW_AT_location[DW_OP_breg13 4]
 
-$C$DW$341	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$341, DW_AT_name("j")
-	.dwattr $C$DW$341, DW_AT_TI_symbol_name("j")
-	.dwattr $C$DW$341, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$341, DW_AT_location[DW_OP_breg13 8]
+$C$DW$345	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$345, DW_AT_name("j")
+	.dwattr $C$DW$345, DW_AT_TI_symbol_name("j")
+	.dwattr $C$DW$345, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$345, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
 ; 1373 | void ST7735_PlotLine(int32_t y){int32_t i,j;                           
@@ -10849,10 +10921,10 @@ $C$DW$341	.dwtag  DW_TAG_variable
         LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1387| 
         LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1387| 
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1387| 
-$C$DW$342	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$342, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$342, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$342, DW_AT_TI_call
+$C$DW$346	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$346, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$346, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$346, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1387| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1387| 
@@ -10866,10 +10938,10 @@ $C$DW$342	.dwtag  DW_TAG_TI_branch
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1388| 
         ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1388| 
         SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1388| 
-$C$DW$343	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$343, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$343, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$343, DW_AT_TI_call
+$C$DW$347	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$347, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$347, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$347, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1388| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1388| 
@@ -10931,10 +11003,10 @@ $C$DW$343	.dwtag  DW_TAG_TI_branch
         LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1392| 
         LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1392| 
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1392| 
-$C$DW$344	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$344, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$344, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$344, DW_AT_TI_call
+$C$DW$348	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$348, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$348, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$348, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1392| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1392| 
@@ -10948,10 +11020,10 @@ $C$DW$344	.dwtag  DW_TAG_TI_branch
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1393| 
         ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1393| 
         SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1393| 
-$C$DW$345	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$345, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$345, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$345, DW_AT_TI_call
+$C$DW$349	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$349, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$349, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$349, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1393| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1393| 
@@ -10983,10 +11055,10 @@ $C$DW$345	.dwtag  DW_TAG_TI_branch
         LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1396| 
         LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1396| 
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1396| 
-$C$DW$346	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$346, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$346, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$346, DW_AT_TI_call
+$C$DW$350	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$350, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$350, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$350, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1396| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1396| 
@@ -11000,10 +11072,10 @@ $C$DW$346	.dwtag  DW_TAG_TI_branch
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1397| 
         ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1397| 
         SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1397| 
-$C$DW$347	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$347, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$347, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$347, DW_AT_TI_call
+$C$DW$351	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$351, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$351, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$351, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1397| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1397| 
@@ -11017,9 +11089,9 @@ $C$DW$347	.dwtag  DW_TAG_TI_branch
         LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1399| 
         STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1399| 
 	.dwpsn	file "../ST7735.c",line 1400,column 1,is_stmt,isa 1
-$C$DW$348	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$348, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$348, DW_AT_TI_return
+$C$DW$352	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$352, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$352, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -11027,11 +11099,11 @@ $C$DW$348	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$337, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$337, DW_AT_TI_end_line(0x578)
-	.dwattr $C$DW$337, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$341, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$341, DW_AT_TI_end_line(0x578)
+	.dwattr $C$DW$341, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$337
+	.dwendtag $C$DW$341
 
 	.sect	".text"
 	.clink
@@ -11039,33 +11111,33 @@ $C$DW$348	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_PlotPoints
 
-$C$DW$349	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$349, DW_AT_name("ST7735_PlotPoints")
-	.dwattr $C$DW$349, DW_AT_low_pc(ST7735_PlotPoints)
-	.dwattr $C$DW$349, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$349, DW_AT_TI_symbol_name("ST7735_PlotPoints")
-	.dwattr $C$DW$349, DW_AT_external
-	.dwattr $C$DW$349, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$349, DW_AT_TI_begin_line(0x580)
-	.dwattr $C$DW$349, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$349, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$349, DW_AT_decl_line(0x580)
-	.dwattr $C$DW$349, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$349, DW_AT_TI_max_frame_size(0x10)
+$C$DW$353	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$353, DW_AT_name("ST7735_PlotPoints")
+	.dwattr $C$DW$353, DW_AT_low_pc(ST7735_PlotPoints)
+	.dwattr $C$DW$353, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$353, DW_AT_TI_symbol_name("ST7735_PlotPoints")
+	.dwattr $C$DW$353, DW_AT_external
+	.dwattr $C$DW$353, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$353, DW_AT_TI_begin_line(0x580)
+	.dwattr $C$DW$353, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$353, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$353, DW_AT_decl_line(0x580)
+	.dwattr $C$DW$353, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$353, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 1408,column 46,is_stmt,address ST7735_PlotPoints,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotPoints
-$C$DW$350	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$350, DW_AT_name("y1")
-	.dwattr $C$DW$350, DW_AT_TI_symbol_name("y1")
-	.dwattr $C$DW$350, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$350, DW_AT_location[DW_OP_reg0]
+$C$DW$354	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$354, DW_AT_name("y1")
+	.dwattr $C$DW$354, DW_AT_TI_symbol_name("y1")
+	.dwattr $C$DW$354, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$354, DW_AT_location[DW_OP_reg0]
 
-$C$DW$351	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$351, DW_AT_name("y2")
-	.dwattr $C$DW$351, DW_AT_TI_symbol_name("y2")
-	.dwattr $C$DW$351, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$351, DW_AT_location[DW_OP_reg1]
+$C$DW$355	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$355, DW_AT_name("y2")
+	.dwattr $C$DW$355, DW_AT_TI_symbol_name("y2")
+	.dwattr $C$DW$355, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$355, DW_AT_location[DW_OP_reg1]
 
 
 ;*****************************************************************************
@@ -11088,23 +11160,23 @@ ST7735_PlotPoints:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$352	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$352, DW_AT_name("y1")
-	.dwattr $C$DW$352, DW_AT_TI_symbol_name("y1")
-	.dwattr $C$DW$352, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$352, DW_AT_location[DW_OP_breg13 0]
+$C$DW$356	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$356, DW_AT_name("y1")
+	.dwattr $C$DW$356, DW_AT_TI_symbol_name("y1")
+	.dwattr $C$DW$356, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$356, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$353	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$353, DW_AT_name("y2")
-	.dwattr $C$DW$353, DW_AT_TI_symbol_name("y2")
-	.dwattr $C$DW$353, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$353, DW_AT_location[DW_OP_breg13 4]
+$C$DW$357	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$357, DW_AT_name("y2")
+	.dwattr $C$DW$357, DW_AT_TI_symbol_name("y2")
+	.dwattr $C$DW$357, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$357, DW_AT_location[DW_OP_breg13 4]
 
-$C$DW$354	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$354, DW_AT_name("j")
-	.dwattr $C$DW$354, DW_AT_TI_symbol_name("j")
-	.dwattr $C$DW$354, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$354, DW_AT_location[DW_OP_breg13 8]
+$C$DW$358	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$358, DW_AT_name("j")
+	.dwattr $C$DW$358, DW_AT_TI_symbol_name("j")
+	.dwattr $C$DW$358, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$358, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
 ; 1408 | void ST7735_PlotPoints(int32_t y1,int32_t y2){int32_t j;               
@@ -11201,10 +11273,10 @@ $C$DW$354	.dwtag  DW_TAG_variable
         LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1418| 
         LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1418| 
         MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1418| 
-$C$DW$355	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$355, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$355, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$355, DW_AT_TI_call
+$C$DW$359	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$359, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$359, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$359, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1418| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1418| 
@@ -11308,17 +11380,17 @@ $C$DW$355	.dwtag  DW_TAG_TI_branch
         LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1424| 
         LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1424| 
         MOVS      A3, #0                ; [DPU_V7M3_PIPE] |1424| 
-$C$DW$356	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$356, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$356, DW_AT_name("ST7735_DrawPixel")
-	.dwattr $C$DW$356, DW_AT_TI_call
+$C$DW$360	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$360, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$360, DW_AT_name("ST7735_DrawPixel")
+	.dwattr $C$DW$360, DW_AT_TI_call
 
         BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1424| 
         ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1424| 
 	.dwpsn	file "../ST7735.c",line 1425,column 1,is_stmt,isa 1
-$C$DW$357	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$357, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$357, DW_AT_TI_return
+$C$DW$361	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$361, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$361, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -11326,11 +11398,11 @@ $C$DW$357	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$349, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$349, DW_AT_TI_end_line(0x591)
-	.dwattr $C$DW$349, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$353, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$353, DW_AT_TI_end_line(0x591)
+	.dwattr $C$DW$353, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$349
+	.dwendtag $C$DW$353
 
 	.sect	".text"
 	.clink
@@ -11338,27 +11410,27 @@ $C$DW$357	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_PlotBar
 
-$C$DW$358	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$358, DW_AT_name("ST7735_PlotBar")
-	.dwattr $C$DW$358, DW_AT_low_pc(ST7735_PlotBar)
-	.dwattr $C$DW$358, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$358, DW_AT_TI_symbol_name("ST7735_PlotBar")
-	.dwattr $C$DW$358, DW_AT_external
-	.dwattr $C$DW$358, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$358, DW_AT_TI_begin_line(0x597)
-	.dwattr $C$DW$358, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$358, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$358, DW_AT_decl_line(0x597)
-	.dwattr $C$DW$358, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$358, DW_AT_TI_max_frame_size(0x10)
+$C$DW$362	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$362, DW_AT_name("ST7735_PlotBar")
+	.dwattr $C$DW$362, DW_AT_low_pc(ST7735_PlotBar)
+	.dwattr $C$DW$362, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$362, DW_AT_TI_symbol_name("ST7735_PlotBar")
+	.dwattr $C$DW$362, DW_AT_external
+	.dwattr $C$DW$362, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$362, DW_AT_TI_begin_line(0x597)
+	.dwattr $C$DW$362, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$362, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$362, DW_AT_decl_line(0x597)
+	.dwattr $C$DW$362, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$362, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 1431,column 31,is_stmt,address ST7735_PlotBar,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotBar
-$C$DW$359	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$359, DW_AT_name("y")
-	.dwattr $C$DW$359, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$359, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$359, DW_AT_location[DW_OP_reg0]
+$C$DW$363	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$363, DW_AT_name("y")
+	.dwattr $C$DW$363, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$363, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$363, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -11381,17 +11453,17 @@ ST7735_PlotBar:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$360	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$360, DW_AT_name("y")
-	.dwattr $C$DW$360, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$360, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$360, DW_AT_location[DW_OP_breg13 0]
+$C$DW$364	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$364, DW_AT_name("y")
+	.dwattr $C$DW$364, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$364, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$364, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$361	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$361, DW_AT_name("j")
-	.dwattr $C$DW$361, DW_AT_TI_symbol_name("j")
-	.dwattr $C$DW$361, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$361, DW_AT_location[DW_OP_breg13 4]
+$C$DW$365	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$365, DW_AT_name("j")
+	.dwattr $C$DW$365, DW_AT_TI_symbol_name("j")
+	.dwattr $C$DW$365, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$365, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
 ; 1431 | void ST7735_PlotBar(int32_t y){                                        
@@ -11463,17 +11535,17 @@ $C$DW$361	.dwtag  DW_TAG_variable
         MOVS      A4, #0                ; [DPU_V7M3_PIPE] |1440| 
         RSB       A3, A3, #159          ; [DPU_V7M3_PIPE] |1440| 
         SXTH      A3, A3                ; [DPU_V7M3_PIPE] |1440| 
-$C$DW$362	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$362, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$362, DW_AT_name("ST7735_DrawFastVLine")
-	.dwattr $C$DW$362, DW_AT_TI_call
+$C$DW$366	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$366, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$366, DW_AT_name("ST7735_DrawFastVLine")
+	.dwattr $C$DW$366, DW_AT_TI_call
 
         BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1440| 
         ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1440| 
 	.dwpsn	file "../ST7735.c",line 1442,column 1,is_stmt,isa 1
-$C$DW$363	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$363, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$363, DW_AT_TI_return
+$C$DW$367	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$367, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$367, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -11481,11 +11553,11 @@ $C$DW$363	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$358, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$358, DW_AT_TI_end_line(0x5a2)
-	.dwattr $C$DW$358, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$362, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$362, DW_AT_TI_end_line(0x5a2)
+	.dwattr $C$DW$362, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$358
+	.dwendtag $C$DW$362
 
 	.sect	".text"
 	.clink
@@ -11493,27 +11565,27 @@ $C$DW$363	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_PlotdBfs
 
-$C$DW$364	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$364, DW_AT_name("ST7735_PlotdBfs")
-	.dwattr $C$DW$364, DW_AT_low_pc(ST7735_PlotdBfs)
-	.dwattr $C$DW$364, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$364, DW_AT_TI_symbol_name("ST7735_PlotdBfs")
-	.dwattr $C$DW$364, DW_AT_external
-	.dwattr $C$DW$364, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$364, DW_AT_TI_begin_line(0x5c7)
-	.dwattr $C$DW$364, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$364, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$364, DW_AT_decl_line(0x5c7)
-	.dwattr $C$DW$364, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$364, DW_AT_TI_max_frame_size(0x10)
+$C$DW$368	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$368, DW_AT_name("ST7735_PlotdBfs")
+	.dwattr $C$DW$368, DW_AT_low_pc(ST7735_PlotdBfs)
+	.dwattr $C$DW$368, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$368, DW_AT_TI_symbol_name("ST7735_PlotdBfs")
+	.dwattr $C$DW$368, DW_AT_external
+	.dwattr $C$DW$368, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$368, DW_AT_TI_begin_line(0x5c7)
+	.dwattr $C$DW$368, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$368, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$368, DW_AT_decl_line(0x5c7)
+	.dwattr $C$DW$368, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$368, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 1479,column 32,is_stmt,address ST7735_PlotdBfs,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotdBfs
-$C$DW$365	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$365, DW_AT_name("y")
-	.dwattr $C$DW$365, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$365, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$365, DW_AT_location[DW_OP_reg0]
+$C$DW$369	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$369, DW_AT_name("y")
+	.dwattr $C$DW$369, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$369, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$369, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -11536,17 +11608,17 @@ ST7735_PlotdBfs:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$366	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$366, DW_AT_name("y")
-	.dwattr $C$DW$366, DW_AT_TI_symbol_name("y")
-	.dwattr $C$DW$366, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$366, DW_AT_location[DW_OP_breg13 0]
+$C$DW$370	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$370, DW_AT_name("y")
+	.dwattr $C$DW$370, DW_AT_TI_symbol_name("y")
+	.dwattr $C$DW$370, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$370, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$367	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$367, DW_AT_name("j")
-	.dwattr $C$DW$367, DW_AT_TI_symbol_name("j")
-	.dwattr $C$DW$367, DW_AT_type(*$C$DW$T$75)
-	.dwattr $C$DW$367, DW_AT_location[DW_OP_breg13 4]
+$C$DW$371	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$371, DW_AT_name("j")
+	.dwattr $C$DW$371, DW_AT_TI_symbol_name("j")
+	.dwattr $C$DW$371, DW_AT_type(*$C$DW$T$79)
+	.dwattr $C$DW$371, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
 ; 1479 | void ST7735_PlotdBfs(int32_t y){                                       
@@ -11615,17 +11687,17 @@ $C$DW$367	.dwtag  DW_TAG_variable
         MOVS      A4, #0                ; [DPU_V7M3_PIPE] |1489| 
         RSB       A3, A3, #159          ; [DPU_V7M3_PIPE] |1489| 
         SXTH      A3, A3                ; [DPU_V7M3_PIPE] |1489| 
-$C$DW$368	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$368, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$368, DW_AT_name("ST7735_DrawFastVLine")
-	.dwattr $C$DW$368, DW_AT_TI_call
+$C$DW$372	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$372, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$372, DW_AT_name("ST7735_DrawFastVLine")
+	.dwattr $C$DW$372, DW_AT_TI_call
 
         BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1489| 
         ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1489| 
 	.dwpsn	file "../ST7735.c",line 1491,column 1,is_stmt,isa 1
-$C$DW$369	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$369, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$369, DW_AT_TI_return
+$C$DW$373	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$373, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$373, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -11633,11 +11705,11 @@ $C$DW$369	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$364, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$364, DW_AT_TI_end_line(0x5d3)
-	.dwattr $C$DW$364, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$368, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$368, DW_AT_TI_end_line(0x5d3)
+	.dwattr $C$DW$368, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$364
+	.dwendtag $C$DW$368
 
 	.sect	".text"
 	.clink
@@ -11645,19 +11717,19 @@ $C$DW$369	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_PlotNext
 
-$C$DW$370	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$370, DW_AT_name("ST7735_PlotNext")
-	.dwattr $C$DW$370, DW_AT_low_pc(ST7735_PlotNext)
-	.dwattr $C$DW$370, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$370, DW_AT_TI_symbol_name("ST7735_PlotNext")
-	.dwattr $C$DW$370, DW_AT_external
-	.dwattr $C$DW$370, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$370, DW_AT_TI_begin_line(0x5db)
-	.dwattr $C$DW$370, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$370, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$370, DW_AT_decl_line(0x5db)
-	.dwattr $C$DW$370, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$370, DW_AT_TI_max_frame_size(0x00)
+$C$DW$374	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$374, DW_AT_name("ST7735_PlotNext")
+	.dwattr $C$DW$374, DW_AT_low_pc(ST7735_PlotNext)
+	.dwattr $C$DW$374, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$374, DW_AT_TI_symbol_name("ST7735_PlotNext")
+	.dwattr $C$DW$374, DW_AT_external
+	.dwattr $C$DW$374, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$374, DW_AT_TI_begin_line(0x5db)
+	.dwattr $C$DW$374, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$374, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$374, DW_AT_decl_line(0x5db)
+	.dwattr $C$DW$374, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$374, DW_AT_TI_max_frame_size(0x00)
 	.dwpsn	file "../ST7735.c",line 1499,column 27,is_stmt,address ST7735_PlotNext,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotNext
@@ -11711,17 +11783,17 @@ ST7735_PlotNext:
 	.dwpsn	file "../ST7735.c",line 1505,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L125||:    
-$C$DW$371	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$371, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$371, DW_AT_TI_return
+$C$DW$375	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$375, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$375, DW_AT_TI_return
 
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$370, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$370, DW_AT_TI_end_line(0x5e1)
-	.dwattr $C$DW$370, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$374, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$374, DW_AT_TI_end_line(0x5e1)
+	.dwattr $C$DW$374, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$370
+	.dwendtag $C$DW$374
 
 	.sect	".text"
 	.clink
@@ -11729,19 +11801,19 @@ $C$DW$371	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_PlotNextErase
 
-$C$DW$372	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$372, DW_AT_name("ST7735_PlotNextErase")
-	.dwattr $C$DW$372, DW_AT_low_pc(ST7735_PlotNextErase)
-	.dwattr $C$DW$372, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$372, DW_AT_TI_symbol_name("ST7735_PlotNextErase")
-	.dwattr $C$DW$372, DW_AT_external
-	.dwattr $C$DW$372, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$372, DW_AT_TI_begin_line(0x5e9)
-	.dwattr $C$DW$372, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$372, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$372, DW_AT_decl_line(0x5e9)
-	.dwattr $C$DW$372, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$372, DW_AT_TI_max_frame_size(0x08)
+$C$DW$376	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$376, DW_AT_name("ST7735_PlotNextErase")
+	.dwattr $C$DW$376, DW_AT_low_pc(ST7735_PlotNextErase)
+	.dwattr $C$DW$376, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$376, DW_AT_TI_symbol_name("ST7735_PlotNextErase")
+	.dwattr $C$DW$376, DW_AT_external
+	.dwattr $C$DW$376, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$376, DW_AT_TI_begin_line(0x5e9)
+	.dwattr $C$DW$376, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$376, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$376, DW_AT_decl_line(0x5e9)
+	.dwattr $C$DW$376, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$376, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1513,column 32,is_stmt,address ST7735_PlotNextErase,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotNextErase
@@ -11809,10 +11881,10 @@ ST7735_PlotNextErase:
         MOVS      A1, #228              ; [DPU_V7M3_PIPE] |1519| 
         MOVS      A2, #228              ; [DPU_V7M3_PIPE] |1519| 
         MOVS      A3, #228              ; [DPU_V7M3_PIPE] |1519| 
-$C$DW$373	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$373, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$373, DW_AT_name("ST7735_Color565")
-	.dwattr $C$DW$373, DW_AT_TI_call
+$C$DW$377	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$377, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$377, DW_AT_name("ST7735_Color565")
+	.dwattr $C$DW$377, DW_AT_TI_call
 
         BL        ST7735_Color565       ; [DPU_V7M3_PIPE] |1519| 
         ; CALL OCCURS {ST7735_Color565 }  ; [] |1519| 
@@ -11821,27 +11893,27 @@ $C$DW$373	.dwtag  DW_TAG_TI_branch
         LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1519| 
         MOVS      A2, #32               ; [DPU_V7M3_PIPE] |1519| 
         MOVS      A3, #128              ; [DPU_V7M3_PIPE] |1519| 
-$C$DW$374	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$374, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$374, DW_AT_name("ST7735_DrawFastVLine")
-	.dwattr $C$DW$374, DW_AT_TI_call
+$C$DW$378	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$378, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$378, DW_AT_name("ST7735_DrawFastVLine")
+	.dwattr $C$DW$378, DW_AT_TI_call
 
         BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1519| 
         ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1519| 
 	.dwpsn	file "../ST7735.c",line 1520,column 1,is_stmt,isa 1
-$C$DW$375	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$375, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$375, DW_AT_TI_return
+$C$DW$379	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$379, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$379, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$372, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$372, DW_AT_TI_end_line(0x5f0)
-	.dwattr $C$DW$372, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$376, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$376, DW_AT_TI_end_line(0x5f0)
+	.dwattr $C$DW$376, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$372
+	.dwendtag $C$DW$376
 
 ;******************************************************************************
 ;* CONSTANT TABLE                                                             *
@@ -11855,27 +11927,27 @@ $C$DW$375	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_OutChar
 
-$C$DW$376	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$376, DW_AT_name("ST7735_OutChar")
-	.dwattr $C$DW$376, DW_AT_low_pc(ST7735_OutChar)
-	.dwattr $C$DW$376, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$376, DW_AT_TI_symbol_name("ST7735_OutChar")
-	.dwattr $C$DW$376, DW_AT_external
-	.dwattr $C$DW$376, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$376, DW_AT_TI_begin_line(0x623)
-	.dwattr $C$DW$376, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$376, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$376, DW_AT_decl_line(0x623)
-	.dwattr $C$DW$376, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$376, DW_AT_TI_max_frame_size(0x18)
+$C$DW$380	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$380, DW_AT_name("ST7735_OutChar")
+	.dwattr $C$DW$380, DW_AT_low_pc(ST7735_OutChar)
+	.dwattr $C$DW$380, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$380, DW_AT_TI_symbol_name("ST7735_OutChar")
+	.dwattr $C$DW$380, DW_AT_external
+	.dwattr $C$DW$380, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$380, DW_AT_TI_begin_line(0x623)
+	.dwattr $C$DW$380, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$380, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$380, DW_AT_decl_line(0x623)
+	.dwattr $C$DW$380, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$380, DW_AT_TI_max_frame_size(0x18)
 	.dwpsn	file "../ST7735.c",line 1571,column 29,is_stmt,address ST7735_OutChar,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_OutChar
-$C$DW$377	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$377, DW_AT_name("ch")
-	.dwattr $C$DW$377, DW_AT_TI_symbol_name("ch")
-	.dwattr $C$DW$377, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$377, DW_AT_location[DW_OP_reg0]
+$C$DW$381	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$381, DW_AT_name("ch")
+	.dwattr $C$DW$381, DW_AT_TI_symbol_name("ch")
+	.dwattr $C$DW$381, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$381, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -11900,11 +11972,11 @@ ST7735_OutChar:
 	.dwcfi	save_reg_to_mem, 2, -16
 	.dwcfi	save_reg_to_mem, 1, -20
 	.dwcfi	save_reg_to_mem, 0, -24
-$C$DW$378	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$378, DW_AT_name("ch")
-	.dwattr $C$DW$378, DW_AT_TI_symbol_name("ch")
-	.dwattr $C$DW$378, DW_AT_type(*$C$DW$T$6)
-	.dwattr $C$DW$378, DW_AT_location[DW_OP_breg13 8]
+$C$DW$382	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$382, DW_AT_name("ch")
+	.dwattr $C$DW$382, DW_AT_TI_symbol_name("ch")
+	.dwattr $C$DW$382, DW_AT_type(*$C$DW$T$6)
+	.dwattr $C$DW$382, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
 ; 1571 | void ST7735_OutChar(char ch){                                          
@@ -11971,10 +12043,10 @@ $C$DW$378	.dwtag  DW_TAG_variable
         LDRSH     A4, [A3, #0]          ; [DPU_V7M3_PIPE] |1577| 
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1577| 
         ADR       A3, $C$SL1            ; [DPU_V7M3_PIPE] |1577| 
-$C$DW$379	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$379, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$379, DW_AT_name("ST7735_DrawString")
-	.dwattr $C$DW$379, DW_AT_TI_call
+$C$DW$383	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$383, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$383, DW_AT_name("ST7735_DrawString")
+	.dwattr $C$DW$383, DW_AT_TI_call
 
         BL        ST7735_DrawString     ; [DPU_V7M3_PIPE] |1577| 
         ; CALL OCCURS {ST7735_DrawString }  ; [] |1577| 
@@ -12006,10 +12078,10 @@ $C$DW$379	.dwtag  DW_TAG_TI_branch
         SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1580| 
         SXTH      A2, A4                ; [DPU_V7M3_PIPE] |1580| 
         MOV       A4, #2047             ; [DPU_V7M3_PIPE] |1580| 
-$C$DW$380	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$380, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$380, DW_AT_name("ST7735_DrawCharS")
-	.dwattr $C$DW$380, DW_AT_TI_call
+$C$DW$384	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$384, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$384, DW_AT_name("ST7735_DrawCharS")
+	.dwattr $C$DW$384, DW_AT_TI_call
 
         BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1580| 
         ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1580| 
@@ -12058,10 +12130,10 @@ $C$DW$380	.dwtag  DW_TAG_TI_branch
         MOVS      A4, #31               ; [DPU_V7M3_PIPE] |1584| 
         SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1584| 
         MOVS      A3, #42               ; [DPU_V7M3_PIPE] |1584| 
-$C$DW$381	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$381, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$381, DW_AT_name("ST7735_DrawCharS")
-	.dwattr $C$DW$381, DW_AT_TI_call
+$C$DW$385	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$385, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$385, DW_AT_name("ST7735_DrawCharS")
+	.dwattr $C$DW$385, DW_AT_TI_call
 
         BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1584| 
         ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1584| 
@@ -12073,9 +12145,9 @@ $C$DW$381	.dwtag  DW_TAG_TI_branch
 ||$C$L131||:    
 	.dwpsn	file "../ST7735.c",line 1587,column 1,is_stmt,isa 1
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] 
-$C$DW$382	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$382, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$382, DW_AT_TI_return
+$C$DW$386	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$386, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$386, DW_AT_TI_return
 
         POP       {A1, A2, A3, A4, V1, PC} ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -12085,11 +12157,11 @@ $C$DW$382	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
 	.dwcfi	restore_reg, 0
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$376, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$376, DW_AT_TI_end_line(0x633)
-	.dwattr $C$DW$376, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$380, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$380, DW_AT_TI_end_line(0x633)
+	.dwattr $C$DW$380, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$376
+	.dwendtag $C$DW$380
 
 	.sect	".text"
 	.clink
@@ -12097,27 +12169,27 @@ $C$DW$382	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_OutString
 
-$C$DW$383	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$383, DW_AT_name("ST7735_OutString")
-	.dwattr $C$DW$383, DW_AT_low_pc(ST7735_OutString)
-	.dwattr $C$DW$383, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$383, DW_AT_TI_symbol_name("ST7735_OutString")
-	.dwattr $C$DW$383, DW_AT_external
-	.dwattr $C$DW$383, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$383, DW_AT_TI_begin_line(0x63b)
-	.dwattr $C$DW$383, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$383, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$383, DW_AT_decl_line(0x63b)
-	.dwattr $C$DW$383, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$383, DW_AT_TI_max_frame_size(0x08)
+$C$DW$387	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$387, DW_AT_name("ST7735_OutString")
+	.dwattr $C$DW$387, DW_AT_low_pc(ST7735_OutString)
+	.dwattr $C$DW$387, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$387, DW_AT_TI_symbol_name("ST7735_OutString")
+	.dwattr $C$DW$387, DW_AT_external
+	.dwattr $C$DW$387, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$387, DW_AT_TI_begin_line(0x63b)
+	.dwattr $C$DW$387, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$387, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$387, DW_AT_decl_line(0x63b)
+	.dwattr $C$DW$387, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$387, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1595,column 33,is_stmt,address ST7735_OutString,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_OutString
-$C$DW$384	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$384, DW_AT_name("ptr")
-	.dwattr $C$DW$384, DW_AT_TI_symbol_name("ptr")
-	.dwattr $C$DW$384, DW_AT_type(*$C$DW$T$80)
-	.dwattr $C$DW$384, DW_AT_location[DW_OP_reg0]
+$C$DW$388	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$388, DW_AT_name("ptr")
+	.dwattr $C$DW$388, DW_AT_TI_symbol_name("ptr")
+	.dwattr $C$DW$388, DW_AT_type(*$C$DW$T$84)
+	.dwattr $C$DW$388, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -12138,11 +12210,11 @@ ST7735_OutString:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$385	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$385, DW_AT_name("ptr")
-	.dwattr $C$DW$385, DW_AT_TI_symbol_name("ptr")
-	.dwattr $C$DW$385, DW_AT_type(*$C$DW$T$80)
-	.dwattr $C$DW$385, DW_AT_location[DW_OP_breg13 0]
+$C$DW$389	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$389, DW_AT_name("ptr")
+	.dwattr $C$DW$389, DW_AT_TI_symbol_name("ptr")
+	.dwattr $C$DW$389, DW_AT_type(*$C$DW$T$84)
+	.dwattr $C$DW$389, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 1595 | void ST7735_OutString(char *ptr){                                      
@@ -12162,10 +12234,10 @@ $C$DW$385	.dwtag  DW_TAG_variable
 ;----------------------------------------------------------------------
         LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1597| 
         LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1597| 
-$C$DW$386	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$386, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$386, DW_AT_name("ST7735_OutChar")
-	.dwattr $C$DW$386, DW_AT_TI_call
+$C$DW$390	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$390, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$390, DW_AT_name("ST7735_OutChar")
+	.dwattr $C$DW$390, DW_AT_TI_call
 
         BL        ST7735_OutChar        ; [DPU_V7M3_PIPE] |1597| 
         ; CALL OCCURS {ST7735_OutChar }  ; [] |1597| 
@@ -12188,19 +12260,19 @@ $C$DW$386	.dwtag  DW_TAG_TI_branch
         ; BRANCHCC OCCURS {||$C$L132||}  ; [] |1596| 
 ;* --------------------------------------------------------------------------*
 	.dwpsn	file "../ST7735.c",line 1600,column 1,is_stmt,isa 1
-$C$DW$387	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$387, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$387, DW_AT_TI_return
+$C$DW$391	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$391, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$391, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$383, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$383, DW_AT_TI_end_line(0x640)
-	.dwattr $C$DW$383, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$387, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$387, DW_AT_TI_end_line(0x640)
+	.dwattr $C$DW$387, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$383
+	.dwendtag $C$DW$387
 
 	.sect	".text"
 	.clink
@@ -12208,27 +12280,27 @@ $C$DW$387	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ST7735_SetTextColor
 
-$C$DW$388	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$388, DW_AT_name("ST7735_SetTextColor")
-	.dwattr $C$DW$388, DW_AT_low_pc(ST7735_SetTextColor)
-	.dwattr $C$DW$388, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$388, DW_AT_TI_symbol_name("ST7735_SetTextColor")
-	.dwattr $C$DW$388, DW_AT_external
-	.dwattr $C$DW$388, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$388, DW_AT_TI_begin_line(0x647)
-	.dwattr $C$DW$388, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$388, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$388, DW_AT_decl_line(0x647)
-	.dwattr $C$DW$388, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$388, DW_AT_TI_max_frame_size(0x08)
+$C$DW$392	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$392, DW_AT_name("ST7735_SetTextColor")
+	.dwattr $C$DW$392, DW_AT_low_pc(ST7735_SetTextColor)
+	.dwattr $C$DW$392, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$392, DW_AT_TI_symbol_name("ST7735_SetTextColor")
+	.dwattr $C$DW$392, DW_AT_external
+	.dwattr $C$DW$392, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$392, DW_AT_TI_begin_line(0x647)
+	.dwattr $C$DW$392, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$392, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$392, DW_AT_decl_line(0x647)
+	.dwattr $C$DW$392, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$392, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1607,column 41,is_stmt,address ST7735_SetTextColor,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_SetTextColor
-$C$DW$389	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$389, DW_AT_name("color")
-	.dwattr $C$DW$389, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$389, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$389, DW_AT_location[DW_OP_reg0]
+$C$DW$393	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$393, DW_AT_name("color")
+	.dwattr $C$DW$393, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$393, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$393, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -12243,11 +12315,11 @@ ST7735_SetTextColor:
 	.dwcfi	cfa_offset, 0
         SUB       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 8
-$C$DW$390	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$390, DW_AT_name("color")
-	.dwattr $C$DW$390, DW_AT_TI_symbol_name("color")
-	.dwattr $C$DW$390, DW_AT_type(*$C$DW$T$56)
-	.dwattr $C$DW$390, DW_AT_location[DW_OP_breg13 0]
+$C$DW$394	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$394, DW_AT_name("color")
+	.dwattr $C$DW$394, DW_AT_TI_symbol_name("color")
+	.dwattr $C$DW$394, DW_AT_type(*$C$DW$T$60)
+	.dwattr $C$DW$394, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 1607 | void ST7735_SetTextColor(uint16_t color){                              
@@ -12263,17 +12335,17 @@ $C$DW$390	.dwtag  DW_TAG_variable
 	.dwpsn	file "../ST7735.c",line 1609,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
-$C$DW$391	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$391, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$391, DW_AT_TI_return
+$C$DW$395	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$395, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$395, DW_AT_TI_return
 
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$388, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$388, DW_AT_TI_end_line(0x649)
-	.dwattr $C$DW$388, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$392, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$392, DW_AT_TI_end_line(0x649)
+	.dwattr $C$DW$392, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$388
+	.dwendtag $C$DW$392
 
 	.sect	".text"
 	.clink
@@ -12281,34 +12353,34 @@ $C$DW$391	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	fputc
 
-$C$DW$392	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$392, DW_AT_name("fputc")
-	.dwattr $C$DW$392, DW_AT_low_pc(fputc)
-	.dwattr $C$DW$392, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$392, DW_AT_TI_symbol_name("fputc")
-	.dwattr $C$DW$392, DW_AT_external
-	.dwattr $C$DW$392, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$392, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$392, DW_AT_TI_begin_line(0x64b)
-	.dwattr $C$DW$392, DW_AT_TI_begin_column(0x05)
-	.dwattr $C$DW$392, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$392, DW_AT_decl_line(0x64b)
-	.dwattr $C$DW$392, DW_AT_decl_column(0x05)
-	.dwattr $C$DW$392, DW_AT_TI_max_frame_size(0x10)
+$C$DW$396	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$396, DW_AT_name("fputc")
+	.dwattr $C$DW$396, DW_AT_low_pc(fputc)
+	.dwattr $C$DW$396, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$396, DW_AT_TI_symbol_name("fputc")
+	.dwattr $C$DW$396, DW_AT_external
+	.dwattr $C$DW$396, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$396, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$396, DW_AT_TI_begin_line(0x64b)
+	.dwattr $C$DW$396, DW_AT_TI_begin_column(0x05)
+	.dwattr $C$DW$396, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$396, DW_AT_decl_line(0x64b)
+	.dwattr $C$DW$396, DW_AT_decl_column(0x05)
+	.dwattr $C$DW$396, DW_AT_TI_max_frame_size(0x10)
 	.dwpsn	file "../ST7735.c",line 1611,column 27,is_stmt,address fputc,isa 1
 
 	.dwfde $C$DW$CIE, fputc
-$C$DW$393	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$393, DW_AT_name("ch")
-	.dwattr $C$DW$393, DW_AT_TI_symbol_name("ch")
-	.dwattr $C$DW$393, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$393, DW_AT_location[DW_OP_reg0]
+$C$DW$397	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$397, DW_AT_name("ch")
+	.dwattr $C$DW$397, DW_AT_TI_symbol_name("ch")
+	.dwattr $C$DW$397, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$397, DW_AT_location[DW_OP_reg0]
 
-$C$DW$394	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$394, DW_AT_name("f")
-	.dwattr $C$DW$394, DW_AT_TI_symbol_name("f")
-	.dwattr $C$DW$394, DW_AT_type(*$C$DW$T$109)
-	.dwattr $C$DW$394, DW_AT_location[DW_OP_reg1]
+$C$DW$398	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$398, DW_AT_name("f")
+	.dwattr $C$DW$398, DW_AT_TI_symbol_name("f")
+	.dwattr $C$DW$398, DW_AT_type(*$C$DW$T$114)
+	.dwattr $C$DW$398, DW_AT_location[DW_OP_reg1]
 
 
 ;*****************************************************************************
@@ -12331,17 +12403,17 @@ fputc:
 	.dwcfi	save_reg_to_mem, 3, -8
 	.dwcfi	save_reg_to_mem, 2, -12
 	.dwcfi	save_reg_to_mem, 1, -16
-$C$DW$395	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$395, DW_AT_name("ch")
-	.dwattr $C$DW$395, DW_AT_TI_symbol_name("ch")
-	.dwattr $C$DW$395, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$395, DW_AT_location[DW_OP_breg13 0]
+$C$DW$399	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$399, DW_AT_name("ch")
+	.dwattr $C$DW$399, DW_AT_TI_symbol_name("ch")
+	.dwattr $C$DW$399, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$399, DW_AT_location[DW_OP_breg13 0]
 
-$C$DW$396	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$396, DW_AT_name("f")
-	.dwattr $C$DW$396, DW_AT_TI_symbol_name("f")
-	.dwattr $C$DW$396, DW_AT_type(*$C$DW$T$109)
-	.dwattr $C$DW$396, DW_AT_location[DW_OP_breg13 4]
+$C$DW$400	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$400, DW_AT_name("f")
+	.dwattr $C$DW$400, DW_AT_TI_symbol_name("f")
+	.dwattr $C$DW$400, DW_AT_type(*$C$DW$T$114)
+	.dwattr $C$DW$400, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
 ; 1611 | int fputc(int ch, FILE *f){                                            
@@ -12353,10 +12425,10 @@ $C$DW$396	.dwtag  DW_TAG_variable
 ; 1612 | ST7735_OutChar(ch);                                                    
 ;----------------------------------------------------------------------
         LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1612| 
-$C$DW$397	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$397, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$397, DW_AT_name("ST7735_OutChar")
-	.dwattr $C$DW$397, DW_AT_TI_call
+$C$DW$401	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$401, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$401, DW_AT_name("ST7735_OutChar")
+	.dwattr $C$DW$401, DW_AT_TI_call
 
         BL        ST7735_OutChar        ; [DPU_V7M3_PIPE] |1612| 
         ; CALL OCCURS {ST7735_OutChar }  ; [] |1612| 
@@ -12366,9 +12438,9 @@ $C$DW$397	.dwtag  DW_TAG_TI_branch
 ;----------------------------------------------------------------------
         MOVS      A1, #1                ; [DPU_V7M3_PIPE] |1613| 
 	.dwpsn	file "../ST7735.c",line 1614,column 1,is_stmt,isa 1
-$C$DW$398	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$398, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$398, DW_AT_TI_return
+$C$DW$402	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$402, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$402, DW_AT_TI_return
 
         POP       {A2, A3, A4, PC}      ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
@@ -12376,11 +12448,11 @@ $C$DW$398	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 2
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$392, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$392, DW_AT_TI_end_line(0x64e)
-	.dwattr $C$DW$392, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$396, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$396, DW_AT_TI_end_line(0x64e)
+	.dwattr $C$DW$396, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$392
+	.dwendtag $C$DW$396
 
 	.sect	".text"
 	.clink
@@ -12388,28 +12460,28 @@ $C$DW$398	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	fgetc
 
-$C$DW$399	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$399, DW_AT_name("fgetc")
-	.dwattr $C$DW$399, DW_AT_low_pc(fgetc)
-	.dwattr $C$DW$399, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$399, DW_AT_TI_symbol_name("fgetc")
-	.dwattr $C$DW$399, DW_AT_external
-	.dwattr $C$DW$399, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$399, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$399, DW_AT_TI_begin_line(0x650)
-	.dwattr $C$DW$399, DW_AT_TI_begin_column(0x05)
-	.dwattr $C$DW$399, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$399, DW_AT_decl_line(0x650)
-	.dwattr $C$DW$399, DW_AT_decl_column(0x05)
-	.dwattr $C$DW$399, DW_AT_TI_max_frame_size(0x08)
+$C$DW$403	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$403, DW_AT_name("fgetc")
+	.dwattr $C$DW$403, DW_AT_low_pc(fgetc)
+	.dwattr $C$DW$403, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$403, DW_AT_TI_symbol_name("fgetc")
+	.dwattr $C$DW$403, DW_AT_external
+	.dwattr $C$DW$403, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$403, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$403, DW_AT_TI_begin_line(0x650)
+	.dwattr $C$DW$403, DW_AT_TI_begin_column(0x05)
+	.dwattr $C$DW$403, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$403, DW_AT_decl_line(0x650)
+	.dwattr $C$DW$403, DW_AT_decl_column(0x05)
+	.dwattr $C$DW$403, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1616,column 20,is_stmt,address fgetc,isa 1
 
 	.dwfde $C$DW$CIE, fgetc
-$C$DW$400	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$400, DW_AT_name("f")
-	.dwattr $C$DW$400, DW_AT_TI_symbol_name("f")
-	.dwattr $C$DW$400, DW_AT_type(*$C$DW$T$109)
-	.dwattr $C$DW$400, DW_AT_location[DW_OP_reg0]
+$C$DW$404	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$404, DW_AT_name("f")
+	.dwattr $C$DW$404, DW_AT_TI_symbol_name("f")
+	.dwattr $C$DW$404, DW_AT_type(*$C$DW$T$114)
+	.dwattr $C$DW$404, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -12424,11 +12496,11 @@ fgetc:
 	.dwcfi	cfa_offset, 0
         SUB       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 8
-$C$DW$401	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$401, DW_AT_name("f")
-	.dwattr $C$DW$401, DW_AT_TI_symbol_name("f")
-	.dwattr $C$DW$401, DW_AT_type(*$C$DW$T$109)
-	.dwattr $C$DW$401, DW_AT_location[DW_OP_breg13 0]
+$C$DW$405	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$405, DW_AT_name("f")
+	.dwattr $C$DW$405, DW_AT_TI_symbol_name("f")
+	.dwattr $C$DW$405, DW_AT_type(*$C$DW$T$114)
+	.dwattr $C$DW$405, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 1616 | int fgetc (FILE *f){                                                   
@@ -12442,17 +12514,17 @@ $C$DW$401	.dwtag  DW_TAG_variable
 	.dwpsn	file "../ST7735.c",line 1618,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
-$C$DW$402	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$402, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$402, DW_AT_TI_return
+$C$DW$406	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$406, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$406, DW_AT_TI_return
 
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$399, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$399, DW_AT_TI_end_line(0x652)
-	.dwattr $C$DW$399, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$403, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$403, DW_AT_TI_end_line(0x652)
+	.dwattr $C$DW$403, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$399
+	.dwendtag $C$DW$403
 
 	.sect	".text"
 	.clink
@@ -12460,28 +12532,28 @@ $C$DW$402	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	ferror
 
-$C$DW$403	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$403, DW_AT_name("ferror")
-	.dwattr $C$DW$403, DW_AT_low_pc(ferror)
-	.dwattr $C$DW$403, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$403, DW_AT_TI_symbol_name("ferror")
-	.dwattr $C$DW$403, DW_AT_external
-	.dwattr $C$DW$403, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$403, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$403, DW_AT_TI_begin_line(0x654)
-	.dwattr $C$DW$403, DW_AT_TI_begin_column(0x05)
-	.dwattr $C$DW$403, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$403, DW_AT_decl_line(0x654)
-	.dwattr $C$DW$403, DW_AT_decl_column(0x05)
-	.dwattr $C$DW$403, DW_AT_TI_max_frame_size(0x08)
+$C$DW$407	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$407, DW_AT_name("ferror")
+	.dwattr $C$DW$407, DW_AT_low_pc(ferror)
+	.dwattr $C$DW$407, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$407, DW_AT_TI_symbol_name("ferror")
+	.dwattr $C$DW$407, DW_AT_external
+	.dwattr $C$DW$407, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$407, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$407, DW_AT_TI_begin_line(0x654)
+	.dwattr $C$DW$407, DW_AT_TI_begin_column(0x05)
+	.dwattr $C$DW$407, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$407, DW_AT_decl_line(0x654)
+	.dwattr $C$DW$407, DW_AT_decl_column(0x05)
+	.dwattr $C$DW$407, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1620,column 20,is_stmt,address ferror,isa 1
 
 	.dwfde $C$DW$CIE, ferror
-$C$DW$404	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$404, DW_AT_name("f")
-	.dwattr $C$DW$404, DW_AT_TI_symbol_name("f")
-	.dwattr $C$DW$404, DW_AT_type(*$C$DW$T$109)
-	.dwattr $C$DW$404, DW_AT_location[DW_OP_reg0]
+$C$DW$408	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$408, DW_AT_name("f")
+	.dwattr $C$DW$408, DW_AT_TI_symbol_name("f")
+	.dwattr $C$DW$408, DW_AT_type(*$C$DW$T$114)
+	.dwattr $C$DW$408, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -12496,11 +12568,11 @@ ferror:
 	.dwcfi	cfa_offset, 0
         SUB       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 8
-$C$DW$405	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$405, DW_AT_name("f")
-	.dwattr $C$DW$405, DW_AT_TI_symbol_name("f")
-	.dwattr $C$DW$405, DW_AT_type(*$C$DW$T$109)
-	.dwattr $C$DW$405, DW_AT_location[DW_OP_breg13 0]
+$C$DW$409	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$409, DW_AT_name("f")
+	.dwattr $C$DW$409, DW_AT_TI_symbol_name("f")
+	.dwattr $C$DW$409, DW_AT_type(*$C$DW$T$114)
+	.dwattr $C$DW$409, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 1620 | int ferror(FILE *f){                                                   
@@ -12514,17 +12586,17 @@ $C$DW$405	.dwtag  DW_TAG_variable
 	.dwpsn	file "../ST7735.c",line 1623,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
-$C$DW$406	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$406, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$406, DW_AT_TI_return
+$C$DW$410	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$410, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$410, DW_AT_TI_return
 
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$403, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$403, DW_AT_TI_end_line(0x657)
-	.dwattr $C$DW$403, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$407, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$407, DW_AT_TI_end_line(0x657)
+	.dwattr $C$DW$407, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$403
+	.dwendtag $C$DW$407
 
 	.sect	".text"
 	.clink
@@ -12532,19 +12604,19 @@ $C$DW$406	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	Output_Init
 
-$C$DW$407	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$407, DW_AT_name("Output_Init")
-	.dwattr $C$DW$407, DW_AT_low_pc(Output_Init)
-	.dwattr $C$DW$407, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$407, DW_AT_TI_symbol_name("Output_Init")
-	.dwattr $C$DW$407, DW_AT_external
-	.dwattr $C$DW$407, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$407, DW_AT_TI_begin_line(0x660)
-	.dwattr $C$DW$407, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$407, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$407, DW_AT_decl_line(0x660)
-	.dwattr $C$DW$407, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$407, DW_AT_TI_max_frame_size(0x08)
+$C$DW$411	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$411, DW_AT_name("Output_Init")
+	.dwattr $C$DW$411, DW_AT_low_pc(Output_Init)
+	.dwattr $C$DW$411, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$411, DW_AT_TI_symbol_name("Output_Init")
+	.dwattr $C$DW$411, DW_AT_external
+	.dwattr $C$DW$411, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$411, DW_AT_TI_begin_line(0x660)
+	.dwattr $C$DW$411, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$411, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$411, DW_AT_decl_line(0x660)
+	.dwattr $C$DW$411, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$411, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1632,column 23,is_stmt,address Output_Init,isa 1
 
 	.dwfde $C$DW$CIE, Output_Init
@@ -12575,10 +12647,10 @@ Output_Init:
 ; 1633 | ST7735_InitR(INITR_REDTAB);                                            
 ;----------------------------------------------------------------------
         MOVS      A1, #2                ; [DPU_V7M3_PIPE] |1633| 
-$C$DW$408	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$408, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$408, DW_AT_name("ST7735_InitR")
-	.dwattr $C$DW$408, DW_AT_TI_call
+$C$DW$412	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$412, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$412, DW_AT_name("ST7735_InitR")
+	.dwattr $C$DW$412, DW_AT_TI_call
 
         BL        ST7735_InitR          ; [DPU_V7M3_PIPE] |1633| 
         ; CALL OCCURS {ST7735_InitR }    ; [] |1633| 
@@ -12587,27 +12659,27 @@ $C$DW$408	.dwtag  DW_TAG_TI_branch
 ; 1634 | ST7735_FillScreen(0);                 // set screen to black           
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1634| 
-$C$DW$409	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$409, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$409, DW_AT_name("ST7735_FillScreen")
-	.dwattr $C$DW$409, DW_AT_TI_call
+$C$DW$413	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$413, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$413, DW_AT_name("ST7735_FillScreen")
+	.dwattr $C$DW$413, DW_AT_TI_call
 
         BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |1634| 
         ; CALL OCCURS {ST7735_FillScreen }  ; [] |1634| 
 	.dwpsn	file "../ST7735.c",line 1635,column 1,is_stmt,isa 1
-$C$DW$410	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$410, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$410, DW_AT_TI_return
+$C$DW$414	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$414, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$414, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$407, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$407, DW_AT_TI_end_line(0x663)
-	.dwattr $C$DW$407, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$411, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$411, DW_AT_TI_end_line(0x663)
+	.dwattr $C$DW$411, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$407
+	.dwendtag $C$DW$411
 
 	.sect	".text"
 	.clink
@@ -12615,19 +12687,19 @@ $C$DW$410	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	Output_Clear
 
-$C$DW$411	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$411, DW_AT_name("Output_Clear")
-	.dwattr $C$DW$411, DW_AT_low_pc(Output_Clear)
-	.dwattr $C$DW$411, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$411, DW_AT_TI_symbol_name("Output_Clear")
-	.dwattr $C$DW$411, DW_AT_external
-	.dwattr $C$DW$411, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$411, DW_AT_TI_begin_line(0x666)
-	.dwattr $C$DW$411, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$411, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$411, DW_AT_decl_line(0x666)
-	.dwattr $C$DW$411, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$411, DW_AT_TI_max_frame_size(0x08)
+$C$DW$415	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$415, DW_AT_name("Output_Clear")
+	.dwattr $C$DW$415, DW_AT_low_pc(Output_Clear)
+	.dwattr $C$DW$415, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$415, DW_AT_TI_symbol_name("Output_Clear")
+	.dwattr $C$DW$415, DW_AT_external
+	.dwattr $C$DW$415, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$415, DW_AT_TI_begin_line(0x666)
+	.dwattr $C$DW$415, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$415, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$415, DW_AT_decl_line(0x666)
+	.dwattr $C$DW$415, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$415, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1638,column 24,is_stmt,address Output_Clear,isa 1
 
 	.dwfde $C$DW$CIE, Output_Clear
@@ -12658,27 +12730,27 @@ Output_Clear:
 ; 1639 | ST7735_FillScreen(0);    // set screen to black                        
 ;----------------------------------------------------------------------
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1639| 
-$C$DW$412	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$412, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$412, DW_AT_name("ST7735_FillScreen")
-	.dwattr $C$DW$412, DW_AT_TI_call
+$C$DW$416	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$416, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$416, DW_AT_name("ST7735_FillScreen")
+	.dwattr $C$DW$416, DW_AT_TI_call
 
         BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |1639| 
         ; CALL OCCURS {ST7735_FillScreen }  ; [] |1639| 
 	.dwpsn	file "../ST7735.c",line 1640,column 1,is_stmt,isa 1
-$C$DW$413	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$413, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$413, DW_AT_TI_return
+$C$DW$417	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$417, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$417, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$411, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$411, DW_AT_TI_end_line(0x668)
-	.dwattr $C$DW$411, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$415, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$415, DW_AT_TI_end_line(0x668)
+	.dwattr $C$DW$415, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$411
+	.dwendtag $C$DW$415
 
 	.sect	".text"
 	.clink
@@ -12686,19 +12758,19 @@ $C$DW$413	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	Output_Off
 
-$C$DW$414	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$414, DW_AT_name("Output_Off")
-	.dwattr $C$DW$414, DW_AT_low_pc(Output_Off)
-	.dwattr $C$DW$414, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$414, DW_AT_TI_symbol_name("Output_Off")
-	.dwattr $C$DW$414, DW_AT_external
-	.dwattr $C$DW$414, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$414, DW_AT_TI_begin_line(0x66a)
-	.dwattr $C$DW$414, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$414, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$414, DW_AT_decl_line(0x66a)
-	.dwattr $C$DW$414, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$414, DW_AT_TI_max_frame_size(0x08)
+$C$DW$418	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$418, DW_AT_name("Output_Off")
+	.dwattr $C$DW$418, DW_AT_low_pc(Output_Off)
+	.dwattr $C$DW$418, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$418, DW_AT_TI_symbol_name("Output_Off")
+	.dwattr $C$DW$418, DW_AT_external
+	.dwattr $C$DW$418, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$418, DW_AT_TI_begin_line(0x66a)
+	.dwattr $C$DW$418, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$418, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$418, DW_AT_decl_line(0x66a)
+	.dwattr $C$DW$418, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$418, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1642,column 22,is_stmt,address Output_Off,isa 1
 
 	.dwfde $C$DW$CIE, Output_Off
@@ -12728,27 +12800,27 @@ Output_Off:
 ;----------------------------------------------------------------------
 ; 1643 | Output_Clear();  // not implemented                                    
 ;----------------------------------------------------------------------
-$C$DW$415	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$415, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$415, DW_AT_name("Output_Clear")
-	.dwattr $C$DW$415, DW_AT_TI_call
+$C$DW$419	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$419, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$419, DW_AT_name("Output_Clear")
+	.dwattr $C$DW$419, DW_AT_TI_call
 
         BL        Output_Clear          ; [DPU_V7M3_PIPE] |1643| 
         ; CALL OCCURS {Output_Clear }    ; [] |1643| 
 	.dwpsn	file "../ST7735.c",line 1644,column 1,is_stmt,isa 1
-$C$DW$416	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$416, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$416, DW_AT_TI_return
+$C$DW$420	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$420, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$420, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$414, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$414, DW_AT_TI_end_line(0x66c)
-	.dwattr $C$DW$414, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$418, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$418, DW_AT_TI_end_line(0x66c)
+	.dwattr $C$DW$418, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$414
+	.dwendtag $C$DW$418
 
 	.sect	".text"
 	.clink
@@ -12756,19 +12828,19 @@ $C$DW$416	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	Output_On
 
-$C$DW$417	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$417, DW_AT_name("Output_On")
-	.dwattr $C$DW$417, DW_AT_low_pc(Output_On)
-	.dwattr $C$DW$417, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$417, DW_AT_TI_symbol_name("Output_On")
-	.dwattr $C$DW$417, DW_AT_external
-	.dwattr $C$DW$417, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$417, DW_AT_TI_begin_line(0x66e)
-	.dwattr $C$DW$417, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$417, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$417, DW_AT_decl_line(0x66e)
-	.dwattr $C$DW$417, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$417, DW_AT_TI_max_frame_size(0x08)
+$C$DW$421	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$421, DW_AT_name("Output_On")
+	.dwattr $C$DW$421, DW_AT_low_pc(Output_On)
+	.dwattr $C$DW$421, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$421, DW_AT_TI_symbol_name("Output_On")
+	.dwattr $C$DW$421, DW_AT_external
+	.dwattr $C$DW$421, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$421, DW_AT_TI_begin_line(0x66e)
+	.dwattr $C$DW$421, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$421, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$421, DW_AT_decl_line(0x66e)
+	.dwattr $C$DW$421, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$421, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1646,column 21,is_stmt,address Output_On,isa 1
 
 	.dwfde $C$DW$CIE, Output_On
@@ -12798,27 +12870,27 @@ Output_On:
 ;----------------------------------------------------------------------
 ; 1647 | Output_Init();      // reinitialize                                    
 ;----------------------------------------------------------------------
-$C$DW$418	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$418, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$418, DW_AT_name("Output_Init")
-	.dwattr $C$DW$418, DW_AT_TI_call
+$C$DW$422	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$422, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$422, DW_AT_name("Output_Init")
+	.dwattr $C$DW$422, DW_AT_TI_call
 
         BL        Output_Init           ; [DPU_V7M3_PIPE] |1647| 
         ; CALL OCCURS {Output_Init }     ; [] |1647| 
 	.dwpsn	file "../ST7735.c",line 1648,column 1,is_stmt,isa 1
-$C$DW$419	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$419, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$419, DW_AT_TI_return
+$C$DW$423	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$423, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$423, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$417, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$417, DW_AT_TI_end_line(0x670)
-	.dwattr $C$DW$417, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$421, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$421, DW_AT_TI_end_line(0x670)
+	.dwattr $C$DW$421, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$417
+	.dwendtag $C$DW$421
 
 	.sect	".text"
 	.clink
@@ -12826,27 +12898,27 @@ $C$DW$419	.dwtag  DW_TAG_TI_branch
 	.thumb
 	.global	Output_Color
 
-$C$DW$420	.dwtag  DW_TAG_subprogram
-	.dwattr $C$DW$420, DW_AT_name("Output_Color")
-	.dwattr $C$DW$420, DW_AT_low_pc(Output_Color)
-	.dwattr $C$DW$420, DW_AT_high_pc(0x00)
-	.dwattr $C$DW$420, DW_AT_TI_symbol_name("Output_Color")
-	.dwattr $C$DW$420, DW_AT_external
-	.dwattr $C$DW$420, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$420, DW_AT_TI_begin_line(0x675)
-	.dwattr $C$DW$420, DW_AT_TI_begin_column(0x06)
-	.dwattr $C$DW$420, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$420, DW_AT_decl_line(0x675)
-	.dwattr $C$DW$420, DW_AT_decl_column(0x06)
-	.dwattr $C$DW$420, DW_AT_TI_max_frame_size(0x08)
+$C$DW$424	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$424, DW_AT_name("Output_Color")
+	.dwattr $C$DW$424, DW_AT_low_pc(Output_Color)
+	.dwattr $C$DW$424, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$424, DW_AT_TI_symbol_name("Output_Color")
+	.dwattr $C$DW$424, DW_AT_external
+	.dwattr $C$DW$424, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$424, DW_AT_TI_begin_line(0x675)
+	.dwattr $C$DW$424, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$424, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$424, DW_AT_decl_line(0x675)
+	.dwattr $C$DW$424, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$424, DW_AT_TI_max_frame_size(0x08)
 	.dwpsn	file "../ST7735.c",line 1653,column 37,is_stmt,address Output_Color,isa 1
 
 	.dwfde $C$DW$CIE, Output_Color
-$C$DW$421	.dwtag  DW_TAG_formal_parameter
-	.dwattr $C$DW$421, DW_AT_name("newColor")
-	.dwattr $C$DW$421, DW_AT_TI_symbol_name("newColor")
-	.dwattr $C$DW$421, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$421, DW_AT_location[DW_OP_reg0]
+$C$DW$425	.dwtag  DW_TAG_formal_parameter
+	.dwattr $C$DW$425, DW_AT_name("newColor")
+	.dwattr $C$DW$425, DW_AT_TI_symbol_name("newColor")
+	.dwattr $C$DW$425, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$425, DW_AT_location[DW_OP_reg0]
 
 
 ;*****************************************************************************
@@ -12863,11 +12935,11 @@ Output_Color:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-$C$DW$422	.dwtag  DW_TAG_variable
-	.dwattr $C$DW$422, DW_AT_name("newColor")
-	.dwattr $C$DW$422, DW_AT_TI_symbol_name("newColor")
-	.dwattr $C$DW$422, DW_AT_type(*$C$DW$T$27)
-	.dwattr $C$DW$422, DW_AT_location[DW_OP_breg13 0]
+$C$DW$426	.dwtag  DW_TAG_variable
+	.dwattr $C$DW$426, DW_AT_name("newColor")
+	.dwattr $C$DW$426, DW_AT_TI_symbol_name("newColor")
+	.dwattr $C$DW$426, DW_AT_type(*$C$DW$T$31)
+	.dwattr $C$DW$426, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
 ; 1653 | void Output_Color(uint32_t newColor){ // Set color of future output    
@@ -12878,27 +12950,249 @@ $C$DW$422	.dwtag  DW_TAG_variable
 ; 1654 | ST7735_SetTextColor(newColor);                                         
 ;----------------------------------------------------------------------
         LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1654| 
-$C$DW$423	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$423, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$423, DW_AT_name("ST7735_SetTextColor")
-	.dwattr $C$DW$423, DW_AT_TI_call
+$C$DW$427	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$427, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$427, DW_AT_name("ST7735_SetTextColor")
+	.dwattr $C$DW$427, DW_AT_TI_call
 
         BL        ST7735_SetTextColor   ; [DPU_V7M3_PIPE] |1654| 
         ; CALL OCCURS {ST7735_SetTextColor }  ; [] |1654| 
 	.dwpsn	file "../ST7735.c",line 1655,column 1,is_stmt,isa 1
-$C$DW$424	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$424, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$424, DW_AT_TI_return
+$C$DW$428	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$428, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$428, DW_AT_TI_return
 
         POP       {A4, PC}              ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
-	.dwattr $C$DW$420, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$420, DW_AT_TI_end_line(0x677)
-	.dwattr $C$DW$420, DW_AT_TI_end_column(0x01)
+	.dwattr $C$DW$424, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$424, DW_AT_TI_end_line(0x677)
+	.dwattr $C$DW$424, DW_AT_TI_end_column(0x01)
 	.dwendentry
-	.dwendtag $C$DW$420
+	.dwendtag $C$DW$424
+
+;******************************************************************************
+;* CONSTANT TABLE                                                             *
+;******************************************************************************
+	.sect	".text"
+	.align	4
+||$C$CON41||:	.bits	Ymax,32
+	.sect	".text"
+	.clink
+	.thumbfunc feedingState
+	.thumb
+	.global	feedingState
+
+$C$DW$429	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$429, DW_AT_name("feedingState")
+	.dwattr $C$DW$429, DW_AT_low_pc(feedingState)
+	.dwattr $C$DW$429, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$429, DW_AT_TI_symbol_name("feedingState")
+	.dwattr $C$DW$429, DW_AT_external
+	.dwattr $C$DW$429, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$429, DW_AT_TI_begin_line(0x684)
+	.dwattr $C$DW$429, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$429, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$429, DW_AT_decl_line(0x684)
+	.dwattr $C$DW$429, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$429, DW_AT_TI_max_frame_size(0x00)
+	.dwpsn	file "../ST7735.c",line 1668,column 22,is_stmt,address feedingState,isa 1
+
+	.dwfde $C$DW$CIE, feedingState
+;----------------------------------------------------------------------
+; 1668 | void feedingState () {                                                 
+;----------------------------------------------------------------------
+
+;*****************************************************************************
+;* FUNCTION NAME: feedingState                                               *
+;*                                                                           *
+;*   Regs Modified     : A1,A2,SR                                            *
+;*   Regs Used         : A1,A2,LR,SR                                         *
+;*   Local Frame Size  : 0 Args + 0 Auto + 0 Save = 0 byte                   *
+;*****************************************************************************
+feedingState:
+;* --------------------------------------------------------------------------*
+	.dwcfi	cfa_offset, 0
+	.dwpsn	file "../ST7735.c",line 1669,column 5,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1669 | switch(gameState) {                                                    
+; 1670 |   case FEEDING:                                                        
+;----------------------------------------------------------------------
+        B         ||$C$L136||           ; [DPU_V7M3_PIPE] |1669| 
+        ; BRANCH OCCURS {||$C$L136||}    ; [] |1669| 
+;* --------------------------------------------------------------------------*
+||$C$L134||:    
+	.dwpsn	file "../ST7735.c",line 1671,column 11,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1671 | if (hunger > 0) {                                                      
+;----------------------------------------------------------------------
+        LDR       A1, $C$CON49          ; [DPU_V7M3_PIPE] |1671| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1671| 
+        CBZ       A1, ||$C$L137||       ; [] 
+        ; BRANCHCC OCCURS {||$C$L137||}  ; [] |1671| 
+;* --------------------------------------------------------------------------*
+	.dwpsn	file "../ST7735.c",line 1672,column 15,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1672 | hunger--;                                                              
+;----------------------------------------------------------------------
+        LDR       A2, $C$CON49          ; [DPU_V7M3_PIPE] |1672| 
+        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1672| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1672| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1672| 
+	.dwpsn	file "../ST7735.c",line 1674,column 11,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1674 | break;                                                                 
+; 1675 | default: // do this in all other game states                           
+;----------------------------------------------------------------------
+        B         ||$C$L137||           ; [DPU_V7M3_PIPE] |1674| 
+        ; BRANCH OCCURS {||$C$L137||}    ; [] |1674| 
+;* --------------------------------------------------------------------------*
+||$C$L135||:    
+	.dwpsn	file "../ST7735.c",line 1676,column 11,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1676 | hunger++;                                                              
+;----------------------------------------------------------------------
+        LDR       A2, $C$CON49          ; [DPU_V7M3_PIPE] |1676| 
+        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1676| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1676| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1676| 
+	.dwpsn	file "../ST7735.c",line 1677,column 5,is_stmt,isa 1
+        B         ||$C$L137||           ; [DPU_V7M3_PIPE] |1677| 
+        ; BRANCH OCCURS {||$C$L137||}    ; [] |1677| 
+;* --------------------------------------------------------------------------*
+||$C$L136||:    
+	.dwpsn	file "../ST7735.c",line 1669,column 5,is_stmt,isa 1
+        LDR       A1, $C$CON50          ; [DPU_V7M3_PIPE] |1669| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1669| 
+        SUBS      A1, A1, #2            ; [DPU_V7M3_PIPE] |1669| 
+        BEQ       ||$C$L134||           ; [DPU_V7M3_PIPE] |1669| 
+        ; BRANCHCC OCCURS {||$C$L134||}  ; [] |1669| 
+;* --------------------------------------------------------------------------*
+        B         ||$C$L135||           ; [DPU_V7M3_PIPE] |1669| 
+        ; BRANCH OCCURS {||$C$L135||}    ; [] |1669| 
+;* --------------------------------------------------------------------------*
+;* --------------------------------------------------------------------------*
+||$C$L137||:    
+$C$DW$430	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$430, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$430, DW_AT_TI_return
+
+        BX        LR                    ; [DPU_V7M3_PIPE] 
+        ; BRANCH OCCURS                  ; [] 
+	.dwattr $C$DW$429, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$429, DW_AT_TI_end_line(0x68e)
+	.dwattr $C$DW$429, DW_AT_TI_end_column(0x01)
+	.dwendentry
+	.dwendtag $C$DW$429
+
+;******************************************************************************
+;* CONSTANT TABLE                                                             *
+;******************************************************************************
+	.sect	".text"
+	.align	4
+||$C$CON42||:	.bits	Yrange,32
+	.sect	".text"
+	.clink
+	.thumbfunc deadState
+	.thumb
+	.global	deadState
+
+$C$DW$431	.dwtag  DW_TAG_subprogram
+	.dwattr $C$DW$431, DW_AT_name("deadState")
+	.dwattr $C$DW$431, DW_AT_low_pc(deadState)
+	.dwattr $C$DW$431, DW_AT_high_pc(0x00)
+	.dwattr $C$DW$431, DW_AT_TI_symbol_name("deadState")
+	.dwattr $C$DW$431, DW_AT_external
+	.dwattr $C$DW$431, DW_AT_TI_begin_file("../ST7735.c")
+	.dwattr $C$DW$431, DW_AT_TI_begin_line(0x691)
+	.dwattr $C$DW$431, DW_AT_TI_begin_column(0x06)
+	.dwattr $C$DW$431, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$431, DW_AT_decl_line(0x691)
+	.dwattr $C$DW$431, DW_AT_decl_column(0x06)
+	.dwattr $C$DW$431, DW_AT_TI_max_frame_size(0x00)
+	.dwpsn	file "../ST7735.c",line 1681,column 18,is_stmt,address deadState,isa 1
+
+	.dwfde $C$DW$CIE, deadState
+;----------------------------------------------------------------------
+; 1681 | void deadState() {                                                     
+;----------------------------------------------------------------------
+
+;*****************************************************************************
+;* FUNCTION NAME: deadState                                                  *
+;*                                                                           *
+;*   Regs Modified     : A1,A2,SR                                            *
+;*   Regs Used         : A1,A2,LR,SR                                         *
+;*   Local Frame Size  : 0 Args + 0 Auto + 0 Save = 0 byte                   *
+;*****************************************************************************
+deadState:
+;* --------------------------------------------------------------------------*
+	.dwcfi	cfa_offset, 0
+	.dwpsn	file "../ST7735.c",line 1682,column 3,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1682 | switch(petState) {                                                     
+; 1683 |   case ALIVE:                                                          
+;----------------------------------------------------------------------
+        B         ||$C$L139||           ; [DPU_V7M3_PIPE] |1682| 
+        ; BRANCH OCCURS {||$C$L139||}    ; [] |1682| 
+;* --------------------------------------------------------------------------*
+||$C$L138||:    
+	.dwpsn	file "../ST7735.c",line 1684,column 5,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1684 | if (hunger >= 150) {                                                   
+;----------------------------------------------------------------------
+        LDR       A1, $C$CON49          ; [DPU_V7M3_PIPE] |1684| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1684| 
+        CMP       A1, #150              ; [DPU_V7M3_PIPE] |1684| 
+        BCC       ||$C$L140||           ; [DPU_V7M3_PIPE] |1684| 
+        ; BRANCHCC OCCURS {||$C$L140||}  ; [] |1684| 
+;* --------------------------------------------------------------------------*
+	.dwpsn	file "../ST7735.c",line 1685,column 7,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1685 | gameState = IDLE; // go back to pet viewing state                      
+;----------------------------------------------------------------------
+        LDR       A2, $C$CON50          ; [DPU_V7M3_PIPE] |1685| 
+        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |1685| 
+        STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1685| 
+	.dwpsn	file "../ST7735.c",line 1686,column 7,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1686 | petState = DEAD; // pet has died                                       
+;----------------------------------------------------------------------
+        LDR       A2, $C$CON51          ; [DPU_V7M3_PIPE] |1686| 
+        MOVS      A1, #2                ; [DPU_V7M3_PIPE] |1686| 
+        STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1686| 
+	.dwpsn	file "../ST7735.c",line 1688,column 5,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1688 | break;                                                                 
+;----------------------------------------------------------------------
+        B         ||$C$L140||           ; [DPU_V7M3_PIPE] |1688| 
+        ; BRANCH OCCURS {||$C$L140||}    ; [] |1688| 
+;* --------------------------------------------------------------------------*
+;* --------------------------------------------------------------------------*
+||$C$L139||:    
+	.dwpsn	file "../ST7735.c",line 1682,column 3,is_stmt,isa 1
+        LDR       A1, $C$CON51          ; [DPU_V7M3_PIPE] |1682| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1682| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1682| 
+        BEQ       ||$C$L138||           ; [DPU_V7M3_PIPE] |1682| 
+        ; BRANCHCC OCCURS {||$C$L138||}  ; [] |1682| 
+;* --------------------------------------------------------------------------*
+        B         ||$C$L140||           ; [DPU_V7M3_PIPE] |1682| 
+        ; BRANCH OCCURS {||$C$L140||}    ; [] |1682| 
+;* --------------------------------------------------------------------------*
+;* --------------------------------------------------------------------------*
+||$C$L140||:    
+$C$DW$432	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$432, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$432, DW_AT_TI_return
+
+        BX        LR                    ; [DPU_V7M3_PIPE] 
+        ; BRANCH OCCURS                  ; [] 
+	.dwattr $C$DW$431, DW_AT_TI_end_file("../ST7735.c")
+	.dwattr $C$DW$431, DW_AT_TI_end_line(0x69c)
+	.dwattr $C$DW$431, DW_AT_TI_end_column(0x01)
+	.dwendentry
+	.dwendtag $C$DW$431
 
 ;******************************************************************************
 ;* STRINGS                                                                    *
@@ -12911,10 +13205,6 @@ $C$DW$424	.dwtag  DW_TAG_TI_branch
 ;******************************************************************************
 	.sect	".text"
 	.align	4
-||$C$CON41||:	.bits	Ymax,32
-	.align	4
-||$C$CON42||:	.bits	Yrange,32
-	.align	4
 ||$C$CON43||:	.bits	X,32
 	.align	4
 ||$C$CON44||:	.bits	Ymin,32
@@ -12926,6 +13216,12 @@ $C$DW$424	.dwtag  DW_TAG_TI_branch
 ||$C$CON47||:	.bits	StX,32
 	.align	4
 ||$C$CON48||:	.bits	StTextColor,32
+	.align	4
+||$C$CON49||:	.bits	hunger,32
+	.align	4
+||$C$CON50||:	.bits	gameState,32
+	.align	4
+||$C$CON51||:	.bits	petState,32
 ;*****************************************************************************
 ;* UNDEFINED EXTERNAL REFERENCES                                             *
 ;*****************************************************************************
@@ -12957,40 +13253,121 @@ $C$DW$424	.dwtag  DW_TAG_TI_branch
 ;* TYPE INFORMATION                                                           *
 ;******************************************************************************
 
+$C$DW$T$25	.dwtag  DW_TAG_enumeration_type
+	.dwattr $C$DW$T$25, DW_AT_byte_size(0x01)
+$C$DW$433	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$433, DW_AT_name("MENU")
+	.dwattr $C$DW$433, DW_AT_const_value(0x00)
+	.dwattr $C$DW$433, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$433, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$433, DW_AT_decl_column(0x0f)
+
+$C$DW$434	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$434, DW_AT_name("IDLE")
+	.dwattr $C$DW$434, DW_AT_const_value(0x01)
+	.dwattr $C$DW$434, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$434, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$434, DW_AT_decl_column(0x15)
+
+$C$DW$435	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$435, DW_AT_name("FEEDING")
+	.dwattr $C$DW$435, DW_AT_const_value(0x02)
+	.dwattr $C$DW$435, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$435, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$435, DW_AT_decl_column(0x1b)
+
+$C$DW$436	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$436, DW_AT_name("WALKING")
+	.dwattr $C$DW$436, DW_AT_const_value(0x03)
+	.dwattr $C$DW$436, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$436, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$436, DW_AT_decl_column(0x24)
+
+	.dwattr $C$DW$T$25, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$T$25, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$T$25, DW_AT_decl_column(0x0e)
+	.dwendtag $C$DW$T$25
+
+$C$DW$T$26	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$26, DW_AT_name("game_states")
+	.dwattr $C$DW$T$26, DW_AT_type(*$C$DW$T$25)
+	.dwattr $C$DW$T$26, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$26, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$T$26, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$T$26, DW_AT_decl_column(0x2d)
+
+
+$C$DW$T$27	.dwtag  DW_TAG_enumeration_type
+	.dwattr $C$DW$T$27, DW_AT_byte_size(0x01)
+$C$DW$437	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$437, DW_AT_name("ALIVE")
+	.dwattr $C$DW$437, DW_AT_const_value(0x00)
+	.dwattr $C$DW$437, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$437, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$437, DW_AT_decl_column(0x0f)
+
+$C$DW$438	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$438, DW_AT_name("LOST")
+	.dwattr $C$DW$438, DW_AT_const_value(0x01)
+	.dwattr $C$DW$438, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$438, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$438, DW_AT_decl_column(0x16)
+
+$C$DW$439	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$439, DW_AT_name("DEAD")
+	.dwattr $C$DW$439, DW_AT_const_value(0x02)
+	.dwattr $C$DW$439, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$439, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$439, DW_AT_decl_column(0x1c)
+
+	.dwattr $C$DW$T$27, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$T$27, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$T$27, DW_AT_decl_column(0x0e)
+	.dwendtag $C$DW$T$27
+
+$C$DW$T$28	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$28, DW_AT_name("pet_states")
+	.dwattr $C$DW$T$28, DW_AT_type(*$C$DW$T$27)
+	.dwattr $C$DW$T$28, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$28, DW_AT_decl_file("../ST7735.c")
+	.dwattr $C$DW$T$28, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$T$28, DW_AT_decl_column(0x22)
+
+
 $C$DW$T$21	.dwtag  DW_TAG_structure_type
 	.dwattr $C$DW$T$21, DW_AT_byte_size(0x10)
-$C$DW$425	.dwtag  DW_TAG_member
-	.dwattr $C$DW$425, DW_AT_type(*$C$DW$T$14)
-	.dwattr $C$DW$425, DW_AT_name("__max_align1")
-	.dwattr $C$DW$425, DW_AT_TI_symbol_name("__max_align1")
-	.dwattr $C$DW$425, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-	.dwattr $C$DW$425, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$425, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$425, DW_AT_decl_line(0x7a)
-	.dwattr $C$DW$425, DW_AT_decl_column(0x0c)
+$C$DW$440	.dwtag  DW_TAG_member
+	.dwattr $C$DW$440, DW_AT_type(*$C$DW$T$14)
+	.dwattr $C$DW$440, DW_AT_name("__max_align1")
+	.dwattr $C$DW$440, DW_AT_TI_symbol_name("__max_align1")
+	.dwattr $C$DW$440, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
+	.dwattr $C$DW$440, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$440, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$440, DW_AT_decl_line(0x7a)
+	.dwattr $C$DW$440, DW_AT_decl_column(0x0c)
 
-$C$DW$426	.dwtag  DW_TAG_member
-	.dwattr $C$DW$426, DW_AT_type(*$C$DW$T$18)
-	.dwattr $C$DW$426, DW_AT_name("__max_align2")
-	.dwattr $C$DW$426, DW_AT_TI_symbol_name("__max_align2")
-	.dwattr $C$DW$426, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
-	.dwattr $C$DW$426, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$426, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$426, DW_AT_decl_line(0x7b)
-	.dwattr $C$DW$426, DW_AT_decl_column(0x0e)
+$C$DW$441	.dwtag  DW_TAG_member
+	.dwattr $C$DW$441, DW_AT_type(*$C$DW$T$18)
+	.dwattr $C$DW$441, DW_AT_name("__max_align2")
+	.dwattr $C$DW$441, DW_AT_TI_symbol_name("__max_align2")
+	.dwattr $C$DW$441, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
+	.dwattr $C$DW$441, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$441, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$441, DW_AT_decl_line(0x7b)
+	.dwattr $C$DW$441, DW_AT_decl_column(0x0e)
 
 	.dwattr $C$DW$T$21, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
 	.dwattr $C$DW$T$21, DW_AT_decl_line(0x79)
 	.dwattr $C$DW$T$21, DW_AT_decl_column(0x10)
 	.dwendtag $C$DW$T$21
 
-$C$DW$T$25	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$25, DW_AT_name("__max_align_t")
-	.dwattr $C$DW$T$25, DW_AT_type(*$C$DW$T$21)
-	.dwattr $C$DW$T$25, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$25, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$25, DW_AT_decl_line(0x7c)
-	.dwattr $C$DW$T$25, DW_AT_decl_column(0x03)
+$C$DW$T$29	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$29, DW_AT_name("__max_align_t")
+	.dwattr $C$DW$T$29, DW_AT_type(*$C$DW$T$21)
+	.dwattr $C$DW$T$29, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$29, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$29, DW_AT_decl_line(0x7c)
+	.dwattr $C$DW$T$29, DW_AT_decl_column(0x03)
 
 $C$DW$T$2	.dwtag  DW_TAG_unspecified_type
 	.dwattr $C$DW$T$2, DW_AT_name("void")
@@ -13009,37 +13386,37 @@ $C$DW$T$5	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$5, DW_AT_name("signed char")
 	.dwattr $C$DW$T$5, DW_AT_byte_size(0x01)
 
-$C$DW$T$82	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$82, DW_AT_name("__int8_t")
-	.dwattr $C$DW$T$82, DW_AT_type(*$C$DW$T$5)
-	.dwattr $C$DW$T$82, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$82, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$82, DW_AT_decl_line(0x39)
-	.dwattr $C$DW$T$82, DW_AT_decl_column(0x16)
+$C$DW$T$87	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$87, DW_AT_name("__int8_t")
+	.dwattr $C$DW$T$87, DW_AT_type(*$C$DW$T$5)
+	.dwattr $C$DW$T$87, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$87, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$87, DW_AT_decl_line(0x39)
+	.dwattr $C$DW$T$87, DW_AT_decl_column(0x16)
 
-$C$DW$T$83	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$83, DW_AT_name("__int_least8_t")
-	.dwattr $C$DW$T$83, DW_AT_type(*$C$DW$T$82)
-	.dwattr $C$DW$T$83, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$83, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$83, DW_AT_decl_line(0x58)
-	.dwattr $C$DW$T$83, DW_AT_decl_column(0x12)
+$C$DW$T$88	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$88, DW_AT_name("__int_least8_t")
+	.dwattr $C$DW$T$88, DW_AT_type(*$C$DW$T$87)
+	.dwattr $C$DW$T$88, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$88, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$88, DW_AT_decl_line(0x58)
+	.dwattr $C$DW$T$88, DW_AT_decl_column(0x12)
 
-$C$DW$T$84	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$84, DW_AT_name("int_least8_t")
-	.dwattr $C$DW$T$84, DW_AT_type(*$C$DW$T$83)
-	.dwattr $C$DW$T$84, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$84, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$84, DW_AT_decl_line(0x28)
-	.dwattr $C$DW$T$84, DW_AT_decl_column(0x19)
+$C$DW$T$89	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$89, DW_AT_name("int_least8_t")
+	.dwattr $C$DW$T$89, DW_AT_type(*$C$DW$T$88)
+	.dwattr $C$DW$T$89, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$89, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$89, DW_AT_decl_line(0x28)
+	.dwattr $C$DW$T$89, DW_AT_decl_column(0x19)
 
-$C$DW$T$85	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$85, DW_AT_name("int8_t")
-	.dwattr $C$DW$T$85, DW_AT_type(*$C$DW$T$82)
-	.dwattr $C$DW$T$85, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$85, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$85, DW_AT_decl_line(0x25)
-	.dwattr $C$DW$T$85, DW_AT_decl_column(0x13)
+$C$DW$T$90	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$90, DW_AT_name("int8_t")
+	.dwattr $C$DW$T$90, DW_AT_type(*$C$DW$T$87)
+	.dwattr $C$DW$T$90, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$90, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$90, DW_AT_decl_line(0x25)
+	.dwattr $C$DW$T$90, DW_AT_decl_column(0x13)
 
 $C$DW$T$6	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$6, DW_AT_encoding(DW_ATE_unsigned_char)
@@ -13050,112 +13427,112 @@ $C$DW$T$22	.dwtag  DW_TAG_pointer_type
 	.dwattr $C$DW$T$22, DW_AT_type(*$C$DW$T$6)
 	.dwattr $C$DW$T$22, DW_AT_address_class(0x20)
 
-$C$DW$T$28	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$28, DW_AT_name("__uint8_t")
-	.dwattr $C$DW$T$28, DW_AT_type(*$C$DW$T$6)
-	.dwattr $C$DW$T$28, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$28, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$28, DW_AT_decl_line(0x3a)
-	.dwattr $C$DW$T$28, DW_AT_decl_column(0x18)
+$C$DW$T$32	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$32, DW_AT_name("__uint8_t")
+	.dwattr $C$DW$T$32, DW_AT_type(*$C$DW$T$6)
+	.dwattr $C$DW$T$32, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$32, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$32, DW_AT_decl_line(0x3a)
+	.dwattr $C$DW$T$32, DW_AT_decl_column(0x18)
 
-$C$DW$T$86	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$86, DW_AT_name("__sa_family_t")
-	.dwattr $C$DW$T$86, DW_AT_type(*$C$DW$T$28)
-	.dwattr $C$DW$T$86, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$86, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$86, DW_AT_decl_line(0x46)
-	.dwattr $C$DW$T$86, DW_AT_decl_column(0x13)
-
-$C$DW$T$87	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$87, DW_AT_name("__uint_least8_t")
-	.dwattr $C$DW$T$87, DW_AT_type(*$C$DW$T$28)
-	.dwattr $C$DW$T$87, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$87, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$87, DW_AT_decl_line(0x6d)
-	.dwattr $C$DW$T$87, DW_AT_decl_column(0x13)
-
-$C$DW$T$88	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$88, DW_AT_name("uint_least8_t")
-	.dwattr $C$DW$T$88, DW_AT_type(*$C$DW$T$87)
-	.dwattr $C$DW$T$88, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$88, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$88, DW_AT_decl_line(0x2d)
-	.dwattr $C$DW$T$88, DW_AT_decl_column(0x1a)
-
-$C$DW$T$29	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$29, DW_AT_name("uint8_t")
-	.dwattr $C$DW$T$29, DW_AT_type(*$C$DW$T$28)
-	.dwattr $C$DW$T$29, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$29, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$29, DW_AT_decl_line(0x3b)
-	.dwattr $C$DW$T$29, DW_AT_decl_column(0x14)
-
-$C$DW$T$44	.dwtag  DW_TAG_const_type
-	.dwattr $C$DW$T$44, DW_AT_type(*$C$DW$T$29)
-
-$C$DW$T$45	.dwtag  DW_TAG_pointer_type
-	.dwattr $C$DW$T$45, DW_AT_type(*$C$DW$T$44)
-	.dwattr $C$DW$T$45, DW_AT_address_class(0x20)
-
-
-$C$DW$T$89	.dwtag  DW_TAG_array_type
-	.dwattr $C$DW$T$89, DW_AT_type(*$C$DW$T$44)
-	.dwattr $C$DW$T$89, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$89, DW_AT_byte_size(0x4fb)
-$C$DW$427	.dwtag  DW_TAG_subrange_type
-	.dwattr $C$DW$427, DW_AT_upper_bound(0x4fa)
-
-	.dwendtag $C$DW$T$89
-
-
-$C$DW$T$90	.dwtag  DW_TAG_array_type
-	.dwattr $C$DW$T$90, DW_AT_type(*$C$DW$T$44)
-	.dwattr $C$DW$T$90, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$90, DW_AT_byte_size(0x67)
-$C$DW$428	.dwtag  DW_TAG_subrange_type
-	.dwattr $C$DW$428, DW_AT_upper_bound(0x66)
-
-	.dwendtag $C$DW$T$90
-
-
-$C$DW$T$91	.dwtag  DW_TAG_array_type
-	.dwattr $C$DW$T$91, DW_AT_type(*$C$DW$T$44)
+$C$DW$T$91	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$91, DW_AT_name("__sa_family_t")
+	.dwattr $C$DW$T$91, DW_AT_type(*$C$DW$T$32)
 	.dwattr $C$DW$T$91, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$91, DW_AT_byte_size(0x3b)
-$C$DW$429	.dwtag  DW_TAG_subrange_type
-	.dwattr $C$DW$429, DW_AT_upper_bound(0x3a)
+	.dwattr $C$DW$T$91, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$91, DW_AT_decl_line(0x46)
+	.dwattr $C$DW$T$91, DW_AT_decl_column(0x13)
 
-	.dwendtag $C$DW$T$91
-
-
-$C$DW$T$92	.dwtag  DW_TAG_array_type
-	.dwattr $C$DW$T$92, DW_AT_type(*$C$DW$T$44)
+$C$DW$T$92	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$92, DW_AT_name("__uint_least8_t")
+	.dwattr $C$DW$T$92, DW_AT_type(*$C$DW$T$32)
 	.dwattr $C$DW$T$92, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$92, DW_AT_byte_size(0x0d)
-$C$DW$430	.dwtag  DW_TAG_subrange_type
-	.dwattr $C$DW$430, DW_AT_upper_bound(0x0c)
+	.dwattr $C$DW$T$92, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$92, DW_AT_decl_line(0x6d)
+	.dwattr $C$DW$T$92, DW_AT_decl_column(0x13)
 
-	.dwendtag $C$DW$T$92
-
-
-$C$DW$T$93	.dwtag  DW_TAG_array_type
-	.dwattr $C$DW$T$93, DW_AT_type(*$C$DW$T$44)
+$C$DW$T$93	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$93, DW_AT_name("uint_least8_t")
+	.dwattr $C$DW$T$93, DW_AT_type(*$C$DW$T$92)
 	.dwattr $C$DW$T$93, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$93, DW_AT_byte_size(0x2b)
-$C$DW$431	.dwtag  DW_TAG_subrange_type
-	.dwattr $C$DW$431, DW_AT_upper_bound(0x2a)
+	.dwattr $C$DW$T$93, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$93, DW_AT_decl_line(0x2d)
+	.dwattr $C$DW$T$93, DW_AT_decl_column(0x1a)
 
-	.dwendtag $C$DW$T$93
+$C$DW$T$33	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$33, DW_AT_name("uint8_t")
+	.dwattr $C$DW$T$33, DW_AT_type(*$C$DW$T$32)
+	.dwattr $C$DW$T$33, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$33, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$33, DW_AT_decl_line(0x3b)
+	.dwattr $C$DW$T$33, DW_AT_decl_column(0x14)
+
+$C$DW$T$48	.dwtag  DW_TAG_const_type
+	.dwattr $C$DW$T$48, DW_AT_type(*$C$DW$T$33)
+
+$C$DW$T$49	.dwtag  DW_TAG_pointer_type
+	.dwattr $C$DW$T$49, DW_AT_type(*$C$DW$T$48)
+	.dwattr $C$DW$T$49, DW_AT_address_class(0x20)
 
 
 $C$DW$T$94	.dwtag  DW_TAG_array_type
-	.dwattr $C$DW$T$94, DW_AT_type(*$C$DW$T$44)
+	.dwattr $C$DW$T$94, DW_AT_type(*$C$DW$T$48)
 	.dwattr $C$DW$T$94, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$94, DW_AT_byte_size(0x200)
-$C$DW$432	.dwtag  DW_TAG_subrange_type
-	.dwattr $C$DW$432, DW_AT_upper_bound(0x1ff)
+	.dwattr $C$DW$T$94, DW_AT_byte_size(0x4fb)
+$C$DW$442	.dwtag  DW_TAG_subrange_type
+	.dwattr $C$DW$442, DW_AT_upper_bound(0x4fa)
 
 	.dwendtag $C$DW$T$94
+
+
+$C$DW$T$95	.dwtag  DW_TAG_array_type
+	.dwattr $C$DW$T$95, DW_AT_type(*$C$DW$T$48)
+	.dwattr $C$DW$T$95, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$95, DW_AT_byte_size(0x67)
+$C$DW$443	.dwtag  DW_TAG_subrange_type
+	.dwattr $C$DW$443, DW_AT_upper_bound(0x66)
+
+	.dwendtag $C$DW$T$95
+
+
+$C$DW$T$96	.dwtag  DW_TAG_array_type
+	.dwattr $C$DW$T$96, DW_AT_type(*$C$DW$T$48)
+	.dwattr $C$DW$T$96, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$96, DW_AT_byte_size(0x3b)
+$C$DW$444	.dwtag  DW_TAG_subrange_type
+	.dwattr $C$DW$444, DW_AT_upper_bound(0x3a)
+
+	.dwendtag $C$DW$T$96
+
+
+$C$DW$T$97	.dwtag  DW_TAG_array_type
+	.dwattr $C$DW$T$97, DW_AT_type(*$C$DW$T$48)
+	.dwattr $C$DW$T$97, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$97, DW_AT_byte_size(0x0d)
+$C$DW$445	.dwtag  DW_TAG_subrange_type
+	.dwattr $C$DW$445, DW_AT_upper_bound(0x0c)
+
+	.dwendtag $C$DW$T$97
+
+
+$C$DW$T$98	.dwtag  DW_TAG_array_type
+	.dwattr $C$DW$T$98, DW_AT_type(*$C$DW$T$48)
+	.dwattr $C$DW$T$98, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$98, DW_AT_byte_size(0x2b)
+$C$DW$446	.dwtag  DW_TAG_subrange_type
+	.dwattr $C$DW$446, DW_AT_upper_bound(0x2a)
+
+	.dwendtag $C$DW$T$98
+
+
+$C$DW$T$99	.dwtag  DW_TAG_array_type
+	.dwattr $C$DW$T$99, DW_AT_type(*$C$DW$T$48)
+	.dwattr $C$DW$T$99, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$99, DW_AT_byte_size(0x200)
+$C$DW$447	.dwtag  DW_TAG_subrange_type
+	.dwattr $C$DW$447, DW_AT_upper_bound(0x1ff)
+
+	.dwendtag $C$DW$T$99
 
 $C$DW$T$7	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$7, DW_AT_encoding(DW_ATE_signed_char)
@@ -13167,627 +13544,627 @@ $C$DW$T$8	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$8, DW_AT_name("short")
 	.dwattr $C$DW$T$8, DW_AT_byte_size(0x02)
 
-$C$DW$T$59	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$59, DW_AT_name("__int16_t")
-	.dwattr $C$DW$T$59, DW_AT_type(*$C$DW$T$8)
-	.dwattr $C$DW$T$59, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$59, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$59, DW_AT_decl_line(0x3b)
-	.dwattr $C$DW$T$59, DW_AT_decl_column(0x11)
+$C$DW$T$63	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$63, DW_AT_name("__int16_t")
+	.dwattr $C$DW$T$63, DW_AT_type(*$C$DW$T$8)
+	.dwattr $C$DW$T$63, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$63, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$63, DW_AT_decl_line(0x3b)
+	.dwattr $C$DW$T$63, DW_AT_decl_column(0x11)
 
-$C$DW$T$95	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$95, DW_AT_name("__int_least16_t")
-	.dwattr $C$DW$T$95, DW_AT_type(*$C$DW$T$59)
-	.dwattr $C$DW$T$95, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$95, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$95, DW_AT_decl_line(0x59)
-	.dwattr $C$DW$T$95, DW_AT_decl_column(0x13)
+$C$DW$T$100	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$100, DW_AT_name("__int_least16_t")
+	.dwattr $C$DW$T$100, DW_AT_type(*$C$DW$T$63)
+	.dwattr $C$DW$T$100, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$100, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$100, DW_AT_decl_line(0x59)
+	.dwattr $C$DW$T$100, DW_AT_decl_column(0x13)
 
-$C$DW$T$96	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$96, DW_AT_name("int_least16_t")
-	.dwattr $C$DW$T$96, DW_AT_type(*$C$DW$T$95)
-	.dwattr $C$DW$T$96, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$96, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$96, DW_AT_decl_line(0x29)
-	.dwattr $C$DW$T$96, DW_AT_decl_column(0x1a)
+$C$DW$T$101	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$101, DW_AT_name("int_least16_t")
+	.dwattr $C$DW$T$101, DW_AT_type(*$C$DW$T$100)
+	.dwattr $C$DW$T$101, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$101, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$101, DW_AT_decl_line(0x29)
+	.dwattr $C$DW$T$101, DW_AT_decl_column(0x1a)
 
-$C$DW$T$60	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$60, DW_AT_name("int16_t")
-	.dwattr $C$DW$T$60, DW_AT_type(*$C$DW$T$59)
-	.dwattr $C$DW$T$60, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$60, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$60, DW_AT_decl_line(0x2b)
-	.dwattr $C$DW$T$60, DW_AT_decl_column(0x14)
+$C$DW$T$64	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$64, DW_AT_name("int16_t")
+	.dwattr $C$DW$T$64, DW_AT_type(*$C$DW$T$63)
+	.dwattr $C$DW$T$64, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$64, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$64, DW_AT_decl_line(0x2b)
+	.dwattr $C$DW$T$64, DW_AT_decl_column(0x14)
 
 $C$DW$T$9	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$9, DW_AT_encoding(DW_ATE_unsigned)
 	.dwattr $C$DW$T$9, DW_AT_name("unsigned short")
 	.dwattr $C$DW$T$9, DW_AT_byte_size(0x02)
 
-$C$DW$T$97	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$97, DW_AT_name("___wchar_t")
-	.dwattr $C$DW$T$97, DW_AT_type(*$C$DW$T$9)
-	.dwattr $C$DW$T$97, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$97, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$97, DW_AT_decl_line(0x79)
-	.dwattr $C$DW$T$97, DW_AT_decl_column(0x1a)
+$C$DW$T$102	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$102, DW_AT_name("___wchar_t")
+	.dwattr $C$DW$T$102, DW_AT_type(*$C$DW$T$9)
+	.dwattr $C$DW$T$102, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$102, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$102, DW_AT_decl_line(0x79)
+	.dwattr $C$DW$T$102, DW_AT_decl_column(0x1a)
 
-$C$DW$T$55	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$55, DW_AT_name("__uint16_t")
-	.dwattr $C$DW$T$55, DW_AT_type(*$C$DW$T$9)
-	.dwattr $C$DW$T$55, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$55, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$55, DW_AT_decl_line(0x3c)
-	.dwattr $C$DW$T$55, DW_AT_decl_column(0x19)
+$C$DW$T$59	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$59, DW_AT_name("__uint16_t")
+	.dwattr $C$DW$T$59, DW_AT_type(*$C$DW$T$9)
+	.dwattr $C$DW$T$59, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$59, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$59, DW_AT_decl_line(0x3c)
+	.dwattr $C$DW$T$59, DW_AT_decl_column(0x19)
 
-$C$DW$T$98	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$98, DW_AT_name("__mode_t")
-	.dwattr $C$DW$T$98, DW_AT_type(*$C$DW$T$55)
-	.dwattr $C$DW$T$98, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$98, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$98, DW_AT_decl_line(0x39)
-	.dwattr $C$DW$T$98, DW_AT_decl_column(0x14)
+$C$DW$T$103	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$103, DW_AT_name("__mode_t")
+	.dwattr $C$DW$T$103, DW_AT_type(*$C$DW$T$59)
+	.dwattr $C$DW$T$103, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$103, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$103, DW_AT_decl_line(0x39)
+	.dwattr $C$DW$T$103, DW_AT_decl_column(0x14)
 
-$C$DW$T$99	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$99, DW_AT_name("__uint_least16_t")
-	.dwattr $C$DW$T$99, DW_AT_type(*$C$DW$T$55)
-	.dwattr $C$DW$T$99, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$99, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$99, DW_AT_decl_line(0x6e)
-	.dwattr $C$DW$T$99, DW_AT_decl_column(0x14)
+$C$DW$T$104	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$104, DW_AT_name("__uint_least16_t")
+	.dwattr $C$DW$T$104, DW_AT_type(*$C$DW$T$59)
+	.dwattr $C$DW$T$104, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$104, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$104, DW_AT_decl_line(0x6e)
+	.dwattr $C$DW$T$104, DW_AT_decl_column(0x14)
 
-$C$DW$T$100	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$100, DW_AT_name("__char16_t")
-	.dwattr $C$DW$T$100, DW_AT_type(*$C$DW$T$99)
-	.dwattr $C$DW$T$100, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$100, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$100, DW_AT_decl_line(0x70)
-	.dwattr $C$DW$T$100, DW_AT_decl_column(0x1a)
+$C$DW$T$105	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$105, DW_AT_name("__char16_t")
+	.dwattr $C$DW$T$105, DW_AT_type(*$C$DW$T$104)
+	.dwattr $C$DW$T$105, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$105, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$105, DW_AT_decl_line(0x70)
+	.dwattr $C$DW$T$105, DW_AT_decl_column(0x1a)
 
-$C$DW$T$101	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$101, DW_AT_name("uint_least16_t")
-	.dwattr $C$DW$T$101, DW_AT_type(*$C$DW$T$99)
-	.dwattr $C$DW$T$101, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$101, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$101, DW_AT_decl_line(0x2e)
-	.dwattr $C$DW$T$101, DW_AT_decl_column(0x1a)
+$C$DW$T$106	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$106, DW_AT_name("uint_least16_t")
+	.dwattr $C$DW$T$106, DW_AT_type(*$C$DW$T$104)
+	.dwattr $C$DW$T$106, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$106, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$106, DW_AT_decl_line(0x2e)
+	.dwattr $C$DW$T$106, DW_AT_decl_column(0x1a)
 
-$C$DW$T$56	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$56, DW_AT_name("uint16_t")
-	.dwattr $C$DW$T$56, DW_AT_type(*$C$DW$T$55)
-	.dwattr $C$DW$T$56, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$56, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$56, DW_AT_decl_line(0x41)
-	.dwattr $C$DW$T$56, DW_AT_decl_column(0x15)
+$C$DW$T$60	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$60, DW_AT_name("uint16_t")
+	.dwattr $C$DW$T$60, DW_AT_type(*$C$DW$T$59)
+	.dwattr $C$DW$T$60, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$60, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$60, DW_AT_decl_line(0x41)
+	.dwattr $C$DW$T$60, DW_AT_decl_column(0x15)
 
-$C$DW$T$67	.dwtag  DW_TAG_const_type
-	.dwattr $C$DW$T$67, DW_AT_type(*$C$DW$T$56)
+$C$DW$T$71	.dwtag  DW_TAG_const_type
+	.dwattr $C$DW$T$71, DW_AT_type(*$C$DW$T$60)
 
-$C$DW$T$68	.dwtag  DW_TAG_pointer_type
-	.dwattr $C$DW$T$68, DW_AT_type(*$C$DW$T$67)
-	.dwattr $C$DW$T$68, DW_AT_address_class(0x20)
+$C$DW$T$72	.dwtag  DW_TAG_pointer_type
+	.dwattr $C$DW$T$72, DW_AT_type(*$C$DW$T$71)
+	.dwattr $C$DW$T$72, DW_AT_address_class(0x20)
 
 $C$DW$T$10	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$10, DW_AT_encoding(DW_ATE_signed)
 	.dwattr $C$DW$T$10, DW_AT_name("int")
 	.dwattr $C$DW$T$10, DW_AT_byte_size(0x04)
 
-$C$DW$T$105	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$105, DW_AT_name("_Mbstatet")
-	.dwattr $C$DW$T$105, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$T$105, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$105, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$105, DW_AT_decl_line(0x8e)
-	.dwattr $C$DW$T$105, DW_AT_decl_column(0x0d)
+$C$DW$T$110	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$110, DW_AT_name("_Mbstatet")
+	.dwattr $C$DW$T$110, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$T$110, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$110, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$110, DW_AT_decl_line(0x8e)
+	.dwattr $C$DW$T$110, DW_AT_decl_column(0x0d)
 
-$C$DW$T$106	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$106, DW_AT_name("__mbstate_t")
-	.dwattr $C$DW$T$106, DW_AT_type(*$C$DW$T$105)
-	.dwattr $C$DW$T$106, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$106, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$106, DW_AT_decl_line(0x91)
-	.dwattr $C$DW$T$106, DW_AT_decl_column(0x13)
-
-$C$DW$T$107	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$107, DW_AT_name("__accmode_t")
-	.dwattr $C$DW$T$107, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$T$107, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$107, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$107, DW_AT_decl_line(0x3a)
-	.dwattr $C$DW$T$107, DW_AT_decl_column(0x0e)
+$C$DW$T$111	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$111, DW_AT_name("__mbstate_t")
+	.dwattr $C$DW$T$111, DW_AT_type(*$C$DW$T$110)
+	.dwattr $C$DW$T$111, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$111, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$111, DW_AT_decl_line(0x91)
+	.dwattr $C$DW$T$111, DW_AT_decl_column(0x13)
 
 $C$DW$T$112	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$112, DW_AT_name("__cpulevel_t")
+	.dwattr $C$DW$T$112, DW_AT_name("__accmode_t")
 	.dwattr $C$DW$T$112, DW_AT_type(*$C$DW$T$10)
 	.dwattr $C$DW$T$112, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$112, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$112, DW_AT_decl_line(0x4f)
+	.dwattr $C$DW$T$112, DW_AT_decl_line(0x3a)
 	.dwattr $C$DW$T$112, DW_AT_decl_column(0x0e)
 
-$C$DW$T$113	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$113, DW_AT_name("__cpusetid_t")
-	.dwattr $C$DW$T$113, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$T$113, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$113, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$113, DW_AT_decl_line(0x50)
-	.dwattr $C$DW$T$113, DW_AT_decl_column(0x0e)
-
-$C$DW$T$114	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$114, DW_AT_name("__cpuwhich_t")
-	.dwattr $C$DW$T$114, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$T$114, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$114, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$114, DW_AT_decl_line(0x4e)
-	.dwattr $C$DW$T$114, DW_AT_decl_column(0x0e)
-
-$C$DW$T$115	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$115, DW_AT_name("__ct_rune_t")
-	.dwattr $C$DW$T$115, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$T$115, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$115, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$115, DW_AT_decl_line(0x68)
-	.dwattr $C$DW$T$115, DW_AT_decl_column(0x0e)
-
-$C$DW$T$116	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$116, DW_AT_name("__rune_t")
-	.dwattr $C$DW$T$116, DW_AT_type(*$C$DW$T$115)
-	.dwattr $C$DW$T$116, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$116, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$116, DW_AT_decl_line(0x6b)
-	.dwattr $C$DW$T$116, DW_AT_decl_column(0x15)
-
 $C$DW$T$117	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$117, DW_AT_name("__wint_t")
-	.dwattr $C$DW$T$117, DW_AT_type(*$C$DW$T$115)
+	.dwattr $C$DW$T$117, DW_AT_name("__cpulevel_t")
+	.dwattr $C$DW$T$117, DW_AT_type(*$C$DW$T$10)
 	.dwattr $C$DW$T$117, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$117, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$117, DW_AT_decl_line(0x6c)
-	.dwattr $C$DW$T$117, DW_AT_decl_column(0x15)
-
-$C$DW$T$74	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$74, DW_AT_name("__int32_t")
-	.dwattr $C$DW$T$74, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$T$74, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$74, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$74, DW_AT_decl_line(0x3d)
-	.dwattr $C$DW$T$74, DW_AT_decl_column(0x0f)
+	.dwattr $C$DW$T$117, DW_AT_decl_line(0x4f)
+	.dwattr $C$DW$T$117, DW_AT_decl_column(0x0e)
 
 $C$DW$T$118	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$118, DW_AT_name("__blksize_t")
-	.dwattr $C$DW$T$118, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$118, DW_AT_name("__cpusetid_t")
+	.dwattr $C$DW$T$118, DW_AT_type(*$C$DW$T$10)
 	.dwattr $C$DW$T$118, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$118, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$118, DW_AT_decl_line(0x2e)
-	.dwattr $C$DW$T$118, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$118, DW_AT_decl_line(0x50)
+	.dwattr $C$DW$T$118, DW_AT_decl_column(0x0e)
 
 $C$DW$T$119	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$119, DW_AT_name("__clockid_t")
-	.dwattr $C$DW$T$119, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$119, DW_AT_name("__cpuwhich_t")
+	.dwattr $C$DW$T$119, DW_AT_type(*$C$DW$T$10)
 	.dwattr $C$DW$T$119, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$119, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$119, DW_AT_decl_line(0x30)
-	.dwattr $C$DW$T$119, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$119, DW_AT_decl_line(0x4e)
+	.dwattr $C$DW$T$119, DW_AT_decl_column(0x0e)
 
 $C$DW$T$120	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$120, DW_AT_name("__critical_t")
-	.dwattr $C$DW$T$120, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$120, DW_AT_name("__ct_rune_t")
+	.dwattr $C$DW$T$120, DW_AT_type(*$C$DW$T$10)
 	.dwattr $C$DW$T$120, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$120, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$120, DW_AT_decl_line(0x4e)
-	.dwattr $C$DW$T$120, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$120, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$120, DW_AT_decl_line(0x68)
+	.dwattr $C$DW$T$120, DW_AT_decl_column(0x0e)
 
 $C$DW$T$121	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$121, DW_AT_name("__int_fast16_t")
-	.dwattr $C$DW$T$121, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$121, DW_AT_name("__rune_t")
+	.dwattr $C$DW$T$121, DW_AT_type(*$C$DW$T$120)
 	.dwattr $C$DW$T$121, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$121, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$121, DW_AT_decl_line(0x55)
-	.dwattr $C$DW$T$121, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$121, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$121, DW_AT_decl_line(0x6b)
+	.dwattr $C$DW$T$121, DW_AT_decl_column(0x15)
 
 $C$DW$T$122	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$122, DW_AT_name("int_fast16_t")
-	.dwattr $C$DW$T$122, DW_AT_type(*$C$DW$T$121)
+	.dwattr $C$DW$T$122, DW_AT_name("__wint_t")
+	.dwattr $C$DW$T$122, DW_AT_type(*$C$DW$T$120)
 	.dwattr $C$DW$T$122, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$122, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$122, DW_AT_decl_line(0x33)
-	.dwattr $C$DW$T$122, DW_AT_decl_column(0x19)
+	.dwattr $C$DW$T$122, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$122, DW_AT_decl_line(0x6c)
+	.dwattr $C$DW$T$122, DW_AT_decl_column(0x15)
+
+$C$DW$T$78	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$78, DW_AT_name("__int32_t")
+	.dwattr $C$DW$T$78, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$T$78, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$78, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$78, DW_AT_decl_line(0x3d)
+	.dwattr $C$DW$T$78, DW_AT_decl_column(0x0f)
 
 $C$DW$T$123	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$123, DW_AT_name("__int_fast32_t")
-	.dwattr $C$DW$T$123, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$123, DW_AT_name("__blksize_t")
+	.dwattr $C$DW$T$123, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$123, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$123, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$123, DW_AT_decl_line(0x56)
+	.dwattr $C$DW$T$123, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$123, DW_AT_decl_line(0x2e)
 	.dwattr $C$DW$T$123, DW_AT_decl_column(0x13)
 
 $C$DW$T$124	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$124, DW_AT_name("int_fast32_t")
-	.dwattr $C$DW$T$124, DW_AT_type(*$C$DW$T$123)
+	.dwattr $C$DW$T$124, DW_AT_name("__clockid_t")
+	.dwattr $C$DW$T$124, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$124, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$124, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$124, DW_AT_decl_line(0x34)
-	.dwattr $C$DW$T$124, DW_AT_decl_column(0x19)
+	.dwattr $C$DW$T$124, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$124, DW_AT_decl_line(0x30)
+	.dwattr $C$DW$T$124, DW_AT_decl_column(0x13)
 
 $C$DW$T$125	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$125, DW_AT_name("__int_fast8_t")
-	.dwattr $C$DW$T$125, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$125, DW_AT_name("__critical_t")
+	.dwattr $C$DW$T$125, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$125, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$125, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$125, DW_AT_decl_line(0x54)
+	.dwattr $C$DW$T$125, DW_AT_decl_line(0x4e)
 	.dwattr $C$DW$T$125, DW_AT_decl_column(0x13)
 
 $C$DW$T$126	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$126, DW_AT_name("int_fast8_t")
-	.dwattr $C$DW$T$126, DW_AT_type(*$C$DW$T$125)
+	.dwattr $C$DW$T$126, DW_AT_name("__int_fast16_t")
+	.dwattr $C$DW$T$126, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$126, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$126, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$126, DW_AT_decl_line(0x32)
-	.dwattr $C$DW$T$126, DW_AT_decl_column(0x18)
+	.dwattr $C$DW$T$126, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$126, DW_AT_decl_line(0x55)
+	.dwattr $C$DW$T$126, DW_AT_decl_column(0x13)
 
 $C$DW$T$127	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$127, DW_AT_name("__int_least32_t")
-	.dwattr $C$DW$T$127, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$127, DW_AT_name("int_fast16_t")
+	.dwattr $C$DW$T$127, DW_AT_type(*$C$DW$T$126)
 	.dwattr $C$DW$T$127, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$127, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$127, DW_AT_decl_line(0x5a)
-	.dwattr $C$DW$T$127, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$127, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$127, DW_AT_decl_line(0x33)
+	.dwattr $C$DW$T$127, DW_AT_decl_column(0x19)
 
 $C$DW$T$128	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$128, DW_AT_name("int_least32_t")
-	.dwattr $C$DW$T$128, DW_AT_type(*$C$DW$T$127)
+	.dwattr $C$DW$T$128, DW_AT_name("__int_fast32_t")
+	.dwattr $C$DW$T$128, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$128, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$128, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$128, DW_AT_decl_line(0x2a)
-	.dwattr $C$DW$T$128, DW_AT_decl_column(0x1a)
+	.dwattr $C$DW$T$128, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$128, DW_AT_decl_line(0x56)
+	.dwattr $C$DW$T$128, DW_AT_decl_column(0x13)
 
 $C$DW$T$129	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$129, DW_AT_name("__intfptr_t")
-	.dwattr $C$DW$T$129, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$129, DW_AT_name("int_fast32_t")
+	.dwattr $C$DW$T$129, DW_AT_type(*$C$DW$T$128)
 	.dwattr $C$DW$T$129, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$129, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$129, DW_AT_decl_line(0x51)
-	.dwattr $C$DW$T$129, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$129, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$129, DW_AT_decl_line(0x34)
+	.dwattr $C$DW$T$129, DW_AT_decl_column(0x19)
 
 $C$DW$T$130	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$130, DW_AT_name("__intptr_t")
-	.dwattr $C$DW$T$130, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$130, DW_AT_name("__int_fast8_t")
+	.dwattr $C$DW$T$130, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$130, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$130, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$130, DW_AT_decl_line(0x53)
+	.dwattr $C$DW$T$130, DW_AT_decl_line(0x54)
 	.dwattr $C$DW$T$130, DW_AT_decl_column(0x13)
 
 $C$DW$T$131	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$131, DW_AT_name("intptr_t")
+	.dwattr $C$DW$T$131, DW_AT_name("int_fast8_t")
 	.dwattr $C$DW$T$131, DW_AT_type(*$C$DW$T$130)
 	.dwattr $C$DW$T$131, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$131, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$131, DW_AT_decl_line(0x50)
-	.dwattr $C$DW$T$131, DW_AT_decl_column(0x15)
+	.dwattr $C$DW$T$131, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$131, DW_AT_decl_line(0x32)
+	.dwattr $C$DW$T$131, DW_AT_decl_column(0x18)
 
 $C$DW$T$132	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$132, DW_AT_name("__lwpid_t")
-	.dwattr $C$DW$T$132, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$132, DW_AT_name("__int_least32_t")
+	.dwattr $C$DW$T$132, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$132, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$132, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$132, DW_AT_decl_line(0x38)
+	.dwattr $C$DW$T$132, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$132, DW_AT_decl_line(0x5a)
 	.dwattr $C$DW$T$132, DW_AT_decl_column(0x13)
 
 $C$DW$T$133	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$133, DW_AT_name("__pid_t")
-	.dwattr $C$DW$T$133, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$133, DW_AT_name("int_least32_t")
+	.dwattr $C$DW$T$133, DW_AT_type(*$C$DW$T$132)
 	.dwattr $C$DW$T$133, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$133, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$133, DW_AT_decl_line(0x3f)
-	.dwattr $C$DW$T$133, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$133, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$133, DW_AT_decl_line(0x2a)
+	.dwattr $C$DW$T$133, DW_AT_decl_column(0x1a)
 
 $C$DW$T$134	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$134, DW_AT_name("__ptrdiff_t")
-	.dwattr $C$DW$T$134, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$134, DW_AT_name("__intfptr_t")
+	.dwattr $C$DW$T$134, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$134, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$134, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$134, DW_AT_decl_line(0x5c)
+	.dwattr $C$DW$T$134, DW_AT_decl_line(0x51)
 	.dwattr $C$DW$T$134, DW_AT_decl_column(0x13)
 
 $C$DW$T$135	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$135, DW_AT_name("__register_t")
-	.dwattr $C$DW$T$135, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$135, DW_AT_name("__intptr_t")
+	.dwattr $C$DW$T$135, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$135, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$135, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$135, DW_AT_decl_line(0x5d)
+	.dwattr $C$DW$T$135, DW_AT_decl_line(0x53)
 	.dwattr $C$DW$T$135, DW_AT_decl_column(0x13)
 
 $C$DW$T$136	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$136, DW_AT_name("__segsz_t")
-	.dwattr $C$DW$T$136, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$136, DW_AT_name("intptr_t")
+	.dwattr $C$DW$T$136, DW_AT_type(*$C$DW$T$135)
 	.dwattr $C$DW$T$136, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$136, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$136, DW_AT_decl_line(0x5e)
-	.dwattr $C$DW$T$136, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$136, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$136, DW_AT_decl_line(0x50)
+	.dwattr $C$DW$T$136, DW_AT_decl_column(0x15)
 
 $C$DW$T$137	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$137, DW_AT_name("__ssize_t")
-	.dwattr $C$DW$T$137, DW_AT_type(*$C$DW$T$74)
+	.dwattr $C$DW$T$137, DW_AT_name("__lwpid_t")
+	.dwattr $C$DW$T$137, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$137, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$137, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$137, DW_AT_decl_line(0x60)
+	.dwattr $C$DW$T$137, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$137, DW_AT_decl_line(0x38)
 	.dwattr $C$DW$T$137, DW_AT_decl_column(0x13)
 
-$C$DW$T$75	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$75, DW_AT_name("int32_t")
-	.dwattr $C$DW$T$75, DW_AT_type(*$C$DW$T$74)
-	.dwattr $C$DW$T$75, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$75, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$75, DW_AT_decl_line(0x30)
-	.dwattr $C$DW$T$75, DW_AT_decl_column(0x14)
-
 $C$DW$T$138	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$138, DW_AT_name("__nl_item")
-	.dwattr $C$DW$T$138, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$T$138, DW_AT_name("__pid_t")
+	.dwattr $C$DW$T$138, DW_AT_type(*$C$DW$T$78)
 	.dwattr $C$DW$T$138, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$138, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$138, DW_AT_decl_line(0x3b)
-	.dwattr $C$DW$T$138, DW_AT_decl_column(0x0e)
+	.dwattr $C$DW$T$138, DW_AT_decl_line(0x3f)
+	.dwattr $C$DW$T$138, DW_AT_decl_column(0x13)
+
+$C$DW$T$139	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$139, DW_AT_name("__ptrdiff_t")
+	.dwattr $C$DW$T$139, DW_AT_type(*$C$DW$T$78)
+	.dwattr $C$DW$T$139, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$139, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$139, DW_AT_decl_line(0x5c)
+	.dwattr $C$DW$T$139, DW_AT_decl_column(0x13)
+
+$C$DW$T$140	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$140, DW_AT_name("__register_t")
+	.dwattr $C$DW$T$140, DW_AT_type(*$C$DW$T$78)
+	.dwattr $C$DW$T$140, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$140, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$140, DW_AT_decl_line(0x5d)
+	.dwattr $C$DW$T$140, DW_AT_decl_column(0x13)
+
+$C$DW$T$141	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$141, DW_AT_name("__segsz_t")
+	.dwattr $C$DW$T$141, DW_AT_type(*$C$DW$T$78)
+	.dwattr $C$DW$T$141, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$141, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$141, DW_AT_decl_line(0x5e)
+	.dwattr $C$DW$T$141, DW_AT_decl_column(0x13)
+
+$C$DW$T$142	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$142, DW_AT_name("__ssize_t")
+	.dwattr $C$DW$T$142, DW_AT_type(*$C$DW$T$78)
+	.dwattr $C$DW$T$142, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$142, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$142, DW_AT_decl_line(0x60)
+	.dwattr $C$DW$T$142, DW_AT_decl_column(0x13)
+
+$C$DW$T$79	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$79, DW_AT_name("int32_t")
+	.dwattr $C$DW$T$79, DW_AT_type(*$C$DW$T$78)
+	.dwattr $C$DW$T$79, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$79, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$79, DW_AT_decl_line(0x30)
+	.dwattr $C$DW$T$79, DW_AT_decl_column(0x14)
+
+$C$DW$T$143	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$143, DW_AT_name("__nl_item")
+	.dwattr $C$DW$T$143, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$T$143, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$143, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$143, DW_AT_decl_line(0x3b)
+	.dwattr $C$DW$T$143, DW_AT_decl_column(0x0e)
 
 $C$DW$T$11	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$11, DW_AT_encoding(DW_ATE_unsigned)
 	.dwattr $C$DW$T$11, DW_AT_name("unsigned int")
 	.dwattr $C$DW$T$11, DW_AT_byte_size(0x04)
 
-$C$DW$T$26	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$26, DW_AT_name("__uint32_t")
-	.dwattr $C$DW$T$26, DW_AT_type(*$C$DW$T$11)
-	.dwattr $C$DW$T$26, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$26, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$26, DW_AT_decl_line(0x3e)
-	.dwattr $C$DW$T$26, DW_AT_decl_column(0x17)
-
-$C$DW$T$139	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$139, DW_AT_name("__clock_t")
-	.dwattr $C$DW$T$139, DW_AT_type(*$C$DW$T$26)
-	.dwattr $C$DW$T$139, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$139, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$139, DW_AT_decl_line(0x4d)
-	.dwattr $C$DW$T$139, DW_AT_decl_column(0x14)
-
-$C$DW$T$140	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$140, DW_AT_name("__fflags_t")
-	.dwattr $C$DW$T$140, DW_AT_type(*$C$DW$T$26)
-	.dwattr $C$DW$T$140, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$140, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$140, DW_AT_decl_line(0x31)
-	.dwattr $C$DW$T$140, DW_AT_decl_column(0x14)
-
-$C$DW$T$141	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$141, DW_AT_name("__fixpt_t")
-	.dwattr $C$DW$T$141, DW_AT_type(*$C$DW$T$26)
-	.dwattr $C$DW$T$141, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$141, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$141, DW_AT_decl_line(0x80)
-	.dwattr $C$DW$T$141, DW_AT_decl_column(0x14)
-
-$C$DW$T$142	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$142, DW_AT_name("__gid_t")
-	.dwattr $C$DW$T$142, DW_AT_type(*$C$DW$T$26)
-	.dwattr $C$DW$T$142, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$142, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$142, DW_AT_decl_line(0x34)
-	.dwattr $C$DW$T$142, DW_AT_decl_column(0x14)
-
-$C$DW$T$143	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$143, DW_AT_name("__size_t")
-	.dwattr $C$DW$T$143, DW_AT_type(*$C$DW$T$26)
-	.dwattr $C$DW$T$143, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$143, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$143, DW_AT_decl_line(0x5f)
-	.dwattr $C$DW$T$143, DW_AT_decl_column(0x14)
+$C$DW$T$30	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$30, DW_AT_name("__uint32_t")
+	.dwattr $C$DW$T$30, DW_AT_type(*$C$DW$T$11)
+	.dwattr $C$DW$T$30, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$30, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$30, DW_AT_decl_line(0x3e)
+	.dwattr $C$DW$T$30, DW_AT_decl_column(0x17)
 
 $C$DW$T$144	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$144, DW_AT_name("__socklen_t")
-	.dwattr $C$DW$T$144, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$144, DW_AT_name("__clock_t")
+	.dwattr $C$DW$T$144, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$144, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$144, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$144, DW_AT_decl_line(0x48)
+	.dwattr $C$DW$T$144, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$144, DW_AT_decl_line(0x4d)
 	.dwattr $C$DW$T$144, DW_AT_decl_column(0x14)
 
 $C$DW$T$145	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$145, DW_AT_name("__time_t")
-	.dwattr $C$DW$T$145, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$145, DW_AT_name("__fflags_t")
+	.dwattr $C$DW$T$145, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$145, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$145, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$145, DW_AT_decl_line(0x64)
-	.dwattr $C$DW$T$145, DW_AT_decl_column(0x19)
+	.dwattr $C$DW$T$145, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$145, DW_AT_decl_line(0x31)
+	.dwattr $C$DW$T$145, DW_AT_decl_column(0x14)
 
 $C$DW$T$146	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$146, DW_AT_name("__u_register_t")
-	.dwattr $C$DW$T$146, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$146, DW_AT_name("__fixpt_t")
+	.dwattr $C$DW$T$146, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$146, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$146, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$146, DW_AT_decl_line(0x71)
+	.dwattr $C$DW$T$146, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$146, DW_AT_decl_line(0x80)
 	.dwattr $C$DW$T$146, DW_AT_decl_column(0x14)
 
 $C$DW$T$147	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$147, DW_AT_name("__uid_t")
-	.dwattr $C$DW$T$147, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$147, DW_AT_name("__gid_t")
+	.dwattr $C$DW$T$147, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$147, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$147, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$147, DW_AT_decl_line(0x4c)
+	.dwattr $C$DW$T$147, DW_AT_decl_line(0x34)
 	.dwattr $C$DW$T$147, DW_AT_decl_column(0x14)
 
 $C$DW$T$148	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$148, DW_AT_name("__uint_fast16_t")
-	.dwattr $C$DW$T$148, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$148, DW_AT_name("__size_t")
+	.dwattr $C$DW$T$148, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$148, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$148, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$148, DW_AT_decl_line(0x6a)
+	.dwattr $C$DW$T$148, DW_AT_decl_line(0x5f)
 	.dwattr $C$DW$T$148, DW_AT_decl_column(0x14)
 
 $C$DW$T$149	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$149, DW_AT_name("uint_fast16_t")
-	.dwattr $C$DW$T$149, DW_AT_type(*$C$DW$T$148)
+	.dwattr $C$DW$T$149, DW_AT_name("__socklen_t")
+	.dwattr $C$DW$T$149, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$149, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$149, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$149, DW_AT_decl_line(0x38)
-	.dwattr $C$DW$T$149, DW_AT_decl_column(0x1a)
+	.dwattr $C$DW$T$149, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$149, DW_AT_decl_line(0x48)
+	.dwattr $C$DW$T$149, DW_AT_decl_column(0x14)
 
 $C$DW$T$150	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$150, DW_AT_name("__uint_fast32_t")
-	.dwattr $C$DW$T$150, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$150, DW_AT_name("__time_t")
+	.dwattr $C$DW$T$150, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$150, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$150, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$150, DW_AT_decl_line(0x6b)
-	.dwattr $C$DW$T$150, DW_AT_decl_column(0x14)
+	.dwattr $C$DW$T$150, DW_AT_decl_line(0x64)
+	.dwattr $C$DW$T$150, DW_AT_decl_column(0x19)
 
 $C$DW$T$151	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$151, DW_AT_name("uint_fast32_t")
-	.dwattr $C$DW$T$151, DW_AT_type(*$C$DW$T$150)
+	.dwattr $C$DW$T$151, DW_AT_name("__u_register_t")
+	.dwattr $C$DW$T$151, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$151, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$151, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$151, DW_AT_decl_line(0x39)
-	.dwattr $C$DW$T$151, DW_AT_decl_column(0x1a)
+	.dwattr $C$DW$T$151, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$151, DW_AT_decl_line(0x71)
+	.dwattr $C$DW$T$151, DW_AT_decl_column(0x14)
 
 $C$DW$T$152	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$152, DW_AT_name("__uint_fast8_t")
-	.dwattr $C$DW$T$152, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$152, DW_AT_name("__uid_t")
+	.dwattr $C$DW$T$152, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$152, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$152, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$152, DW_AT_decl_line(0x69)
+	.dwattr $C$DW$T$152, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$152, DW_AT_decl_line(0x4c)
 	.dwattr $C$DW$T$152, DW_AT_decl_column(0x14)
 
 $C$DW$T$153	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$153, DW_AT_name("uint_fast8_t")
-	.dwattr $C$DW$T$153, DW_AT_type(*$C$DW$T$152)
+	.dwattr $C$DW$T$153, DW_AT_name("__uint_fast16_t")
+	.dwattr $C$DW$T$153, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$153, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$153, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$153, DW_AT_decl_line(0x37)
-	.dwattr $C$DW$T$153, DW_AT_decl_column(0x19)
+	.dwattr $C$DW$T$153, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$153, DW_AT_decl_line(0x6a)
+	.dwattr $C$DW$T$153, DW_AT_decl_column(0x14)
 
 $C$DW$T$154	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$154, DW_AT_name("__uint_least32_t")
-	.dwattr $C$DW$T$154, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$154, DW_AT_name("uint_fast16_t")
+	.dwattr $C$DW$T$154, DW_AT_type(*$C$DW$T$153)
 	.dwattr $C$DW$T$154, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$154, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$154, DW_AT_decl_line(0x6f)
-	.dwattr $C$DW$T$154, DW_AT_decl_column(0x14)
+	.dwattr $C$DW$T$154, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$154, DW_AT_decl_line(0x38)
+	.dwattr $C$DW$T$154, DW_AT_decl_column(0x1a)
 
 $C$DW$T$155	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$155, DW_AT_name("__char32_t")
-	.dwattr $C$DW$T$155, DW_AT_type(*$C$DW$T$154)
+	.dwattr $C$DW$T$155, DW_AT_name("__uint_fast32_t")
+	.dwattr $C$DW$T$155, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$155, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$155, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$155, DW_AT_decl_line(0x71)
-	.dwattr $C$DW$T$155, DW_AT_decl_column(0x1a)
+	.dwattr $C$DW$T$155, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$155, DW_AT_decl_line(0x6b)
+	.dwattr $C$DW$T$155, DW_AT_decl_column(0x14)
 
 $C$DW$T$156	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$156, DW_AT_name("uint_least32_t")
-	.dwattr $C$DW$T$156, DW_AT_type(*$C$DW$T$154)
+	.dwattr $C$DW$T$156, DW_AT_name("uint_fast32_t")
+	.dwattr $C$DW$T$156, DW_AT_type(*$C$DW$T$155)
 	.dwattr $C$DW$T$156, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$156, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$156, DW_AT_decl_line(0x2f)
+	.dwattr $C$DW$T$156, DW_AT_decl_line(0x39)
 	.dwattr $C$DW$T$156, DW_AT_decl_column(0x1a)
 
 $C$DW$T$157	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$157, DW_AT_name("__uintfptr_t")
-	.dwattr $C$DW$T$157, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$157, DW_AT_name("__uint_fast8_t")
+	.dwattr $C$DW$T$157, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$157, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$157, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$157, DW_AT_decl_line(0x66)
+	.dwattr $C$DW$T$157, DW_AT_decl_line(0x69)
 	.dwattr $C$DW$T$157, DW_AT_decl_column(0x14)
 
 $C$DW$T$158	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$158, DW_AT_name("__uintptr_t")
-	.dwattr $C$DW$T$158, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$158, DW_AT_name("uint_fast8_t")
+	.dwattr $C$DW$T$158, DW_AT_type(*$C$DW$T$157)
 	.dwattr $C$DW$T$158, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$158, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$158, DW_AT_decl_line(0x68)
-	.dwattr $C$DW$T$158, DW_AT_decl_column(0x14)
+	.dwattr $C$DW$T$158, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$158, DW_AT_decl_line(0x37)
+	.dwattr $C$DW$T$158, DW_AT_decl_column(0x19)
 
 $C$DW$T$159	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$159, DW_AT_name("uintptr_t")
-	.dwattr $C$DW$T$159, DW_AT_type(*$C$DW$T$158)
+	.dwattr $C$DW$T$159, DW_AT_name("__uint_least32_t")
+	.dwattr $C$DW$T$159, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$159, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$159, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$159, DW_AT_decl_line(0x54)
-	.dwattr $C$DW$T$159, DW_AT_decl_column(0x16)
+	.dwattr $C$DW$T$159, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$159, DW_AT_decl_line(0x6f)
+	.dwattr $C$DW$T$159, DW_AT_decl_column(0x14)
 
 $C$DW$T$160	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$160, DW_AT_name("__vm_offset_t")
-	.dwattr $C$DW$T$160, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$160, DW_AT_name("__char32_t")
+	.dwattr $C$DW$T$160, DW_AT_type(*$C$DW$T$159)
 	.dwattr $C$DW$T$160, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$160, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$160, DW_AT_decl_line(0x72)
-	.dwattr $C$DW$T$160, DW_AT_decl_column(0x14)
+	.dwattr $C$DW$T$160, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$160, DW_AT_decl_line(0x71)
+	.dwattr $C$DW$T$160, DW_AT_decl_column(0x1a)
 
 $C$DW$T$161	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$161, DW_AT_name("__vm_paddr_t")
-	.dwattr $C$DW$T$161, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$161, DW_AT_name("uint_least32_t")
+	.dwattr $C$DW$T$161, DW_AT_type(*$C$DW$T$159)
 	.dwattr $C$DW$T$161, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$161, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$161, DW_AT_decl_line(0x73)
-	.dwattr $C$DW$T$161, DW_AT_decl_column(0x14)
+	.dwattr $C$DW$T$161, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$161, DW_AT_decl_line(0x2f)
+	.dwattr $C$DW$T$161, DW_AT_decl_column(0x1a)
 
 $C$DW$T$162	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$162, DW_AT_name("__vm_size_t")
-	.dwattr $C$DW$T$162, DW_AT_type(*$C$DW$T$26)
+	.dwattr $C$DW$T$162, DW_AT_name("__uintfptr_t")
+	.dwattr $C$DW$T$162, DW_AT_type(*$C$DW$T$30)
 	.dwattr $C$DW$T$162, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$162, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$162, DW_AT_decl_line(0x74)
+	.dwattr $C$DW$T$162, DW_AT_decl_line(0x66)
 	.dwattr $C$DW$T$162, DW_AT_decl_column(0x14)
 
-$C$DW$T$27	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$27, DW_AT_name("uint32_t")
-	.dwattr $C$DW$T$27, DW_AT_type(*$C$DW$T$26)
-	.dwattr $C$DW$T$27, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$27, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$27, DW_AT_decl_line(0x46)
-	.dwattr $C$DW$T$27, DW_AT_decl_column(0x15)
+$C$DW$T$163	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$163, DW_AT_name("__uintptr_t")
+	.dwattr $C$DW$T$163, DW_AT_type(*$C$DW$T$30)
+	.dwattr $C$DW$T$163, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$163, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$163, DW_AT_decl_line(0x68)
+	.dwattr $C$DW$T$163, DW_AT_decl_column(0x14)
 
-$C$DW$T$167	.dwtag  DW_TAG_volatile_type
-	.dwattr $C$DW$T$167, DW_AT_type(*$C$DW$T$27)
+$C$DW$T$164	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$164, DW_AT_name("uintptr_t")
+	.dwattr $C$DW$T$164, DW_AT_type(*$C$DW$T$163)
+	.dwattr $C$DW$T$164, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$164, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$164, DW_AT_decl_line(0x54)
+	.dwattr $C$DW$T$164, DW_AT_decl_column(0x16)
 
-$C$DW$T$168	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$168, DW_AT_name("__useconds_t")
-	.dwattr $C$DW$T$168, DW_AT_type(*$C$DW$T$11)
-	.dwattr $C$DW$T$168, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$168, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$168, DW_AT_decl_line(0x4d)
-	.dwattr $C$DW$T$168, DW_AT_decl_column(0x16)
+$C$DW$T$165	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$165, DW_AT_name("__vm_offset_t")
+	.dwattr $C$DW$T$165, DW_AT_type(*$C$DW$T$30)
+	.dwattr $C$DW$T$165, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$165, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$165, DW_AT_decl_line(0x72)
+	.dwattr $C$DW$T$165, DW_AT_decl_column(0x14)
 
-$C$DW$T$169	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$169, DW_AT_name("size_t")
-	.dwattr $C$DW$T$169, DW_AT_type(*$C$DW$T$11)
-	.dwattr $C$DW$T$169, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$169, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$T$169, DW_AT_decl_line(0x4d)
-	.dwattr $C$DW$T$169, DW_AT_decl_column(0x19)
+$C$DW$T$166	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$166, DW_AT_name("__vm_paddr_t")
+	.dwattr $C$DW$T$166, DW_AT_type(*$C$DW$T$30)
+	.dwattr $C$DW$T$166, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$166, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$166, DW_AT_decl_line(0x73)
+	.dwattr $C$DW$T$166, DW_AT_decl_column(0x14)
+
+$C$DW$T$167	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$167, DW_AT_name("__vm_size_t")
+	.dwattr $C$DW$T$167, DW_AT_type(*$C$DW$T$30)
+	.dwattr $C$DW$T$167, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$167, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$167, DW_AT_decl_line(0x74)
+	.dwattr $C$DW$T$167, DW_AT_decl_column(0x14)
+
+$C$DW$T$31	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$31, DW_AT_name("uint32_t")
+	.dwattr $C$DW$T$31, DW_AT_type(*$C$DW$T$30)
+	.dwattr $C$DW$T$31, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$31, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$31, DW_AT_decl_line(0x46)
+	.dwattr $C$DW$T$31, DW_AT_decl_column(0x15)
+
+$C$DW$T$172	.dwtag  DW_TAG_volatile_type
+	.dwattr $C$DW$T$172, DW_AT_type(*$C$DW$T$31)
+
+$C$DW$T$173	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$173, DW_AT_name("__useconds_t")
+	.dwattr $C$DW$T$173, DW_AT_type(*$C$DW$T$11)
+	.dwattr $C$DW$T$173, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$173, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$173, DW_AT_decl_line(0x4d)
+	.dwattr $C$DW$T$173, DW_AT_decl_column(0x16)
+
+$C$DW$T$174	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$174, DW_AT_name("size_t")
+	.dwattr $C$DW$T$174, DW_AT_type(*$C$DW$T$11)
+	.dwattr $C$DW$T$174, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$174, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$T$174, DW_AT_decl_line(0x4d)
+	.dwattr $C$DW$T$174, DW_AT_decl_column(0x19)
 
 $C$DW$T$12	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$12, DW_AT_encoding(DW_ATE_signed)
 	.dwattr $C$DW$T$12, DW_AT_name("long")
 	.dwattr $C$DW$T$12, DW_AT_byte_size(0x04)
 
-$C$DW$T$170	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$170, DW_AT_name("__key_t")
-	.dwattr $C$DW$T$170, DW_AT_type(*$C$DW$T$12)
-	.dwattr $C$DW$T$170, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$170, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$170, DW_AT_decl_line(0x37)
-	.dwattr $C$DW$T$170, DW_AT_decl_column(0x0f)
+$C$DW$T$175	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$175, DW_AT_name("__key_t")
+	.dwattr $C$DW$T$175, DW_AT_type(*$C$DW$T$12)
+	.dwattr $C$DW$T$175, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$175, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$175, DW_AT_decl_line(0x37)
+	.dwattr $C$DW$T$175, DW_AT_decl_column(0x0f)
 
-$C$DW$T$171	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$171, DW_AT_name("__suseconds_t")
-	.dwattr $C$DW$T$171, DW_AT_type(*$C$DW$T$12)
-	.dwattr $C$DW$T$171, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$171, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$171, DW_AT_decl_line(0x49)
-	.dwattr $C$DW$T$171, DW_AT_decl_column(0x0f)
+$C$DW$T$176	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$176, DW_AT_name("__suseconds_t")
+	.dwattr $C$DW$T$176, DW_AT_type(*$C$DW$T$12)
+	.dwattr $C$DW$T$176, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$176, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$176, DW_AT_decl_line(0x49)
+	.dwattr $C$DW$T$176, DW_AT_decl_column(0x0f)
 
-$C$DW$T$172	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$172, DW_AT_name("fpos_t")
-	.dwattr $C$DW$T$172, DW_AT_type(*$C$DW$T$12)
-	.dwattr $C$DW$T$172, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$172, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$T$172, DW_AT_decl_line(0x6b)
-	.dwattr $C$DW$T$172, DW_AT_decl_column(0x0e)
+$C$DW$T$177	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$177, DW_AT_name("fpos_t")
+	.dwattr $C$DW$T$177, DW_AT_type(*$C$DW$T$12)
+	.dwattr $C$DW$T$177, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$177, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$T$177, DW_AT_decl_line(0x6b)
+	.dwattr $C$DW$T$177, DW_AT_decl_column(0x0e)
 
 $C$DW$T$13	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$13, DW_AT_encoding(DW_ATE_unsigned)
@@ -13799,271 +14176,271 @@ $C$DW$T$14	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$14, DW_AT_name("long long")
 	.dwattr $C$DW$T$14, DW_AT_byte_size(0x08)
 
-$C$DW$T$173	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$173, DW_AT_name("__int64_t")
-	.dwattr $C$DW$T$173, DW_AT_type(*$C$DW$T$14)
-	.dwattr $C$DW$T$173, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$173, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$173, DW_AT_decl_line(0x43)
-	.dwattr $C$DW$T$173, DW_AT_decl_column(0x14)
-
-$C$DW$T$174	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$174, DW_AT_name("__blkcnt_t")
-	.dwattr $C$DW$T$174, DW_AT_type(*$C$DW$T$173)
-	.dwattr $C$DW$T$174, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$174, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$174, DW_AT_decl_line(0x2f)
-	.dwattr $C$DW$T$174, DW_AT_decl_column(0x13)
-
-$C$DW$T$175	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$175, DW_AT_name("__id_t")
-	.dwattr $C$DW$T$175, DW_AT_type(*$C$DW$T$173)
-	.dwattr $C$DW$T$175, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$175, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$175, DW_AT_decl_line(0x35)
-	.dwattr $C$DW$T$175, DW_AT_decl_column(0x13)
-
-$C$DW$T$176	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$176, DW_AT_name("__int_fast64_t")
-	.dwattr $C$DW$T$176, DW_AT_type(*$C$DW$T$173)
-	.dwattr $C$DW$T$176, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$176, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$176, DW_AT_decl_line(0x57)
-	.dwattr $C$DW$T$176, DW_AT_decl_column(0x13)
-
-$C$DW$T$177	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$177, DW_AT_name("int_fast64_t")
-	.dwattr $C$DW$T$177, DW_AT_type(*$C$DW$T$176)
-	.dwattr $C$DW$T$177, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$177, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$177, DW_AT_decl_line(0x35)
-	.dwattr $C$DW$T$177, DW_AT_decl_column(0x19)
-
 $C$DW$T$178	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$178, DW_AT_name("__int_least64_t")
-	.dwattr $C$DW$T$178, DW_AT_type(*$C$DW$T$173)
+	.dwattr $C$DW$T$178, DW_AT_name("__int64_t")
+	.dwattr $C$DW$T$178, DW_AT_type(*$C$DW$T$14)
 	.dwattr $C$DW$T$178, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$178, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$178, DW_AT_decl_line(0x5b)
-	.dwattr $C$DW$T$178, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$178, DW_AT_decl_line(0x43)
+	.dwattr $C$DW$T$178, DW_AT_decl_column(0x14)
 
 $C$DW$T$179	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$179, DW_AT_name("int_least64_t")
+	.dwattr $C$DW$T$179, DW_AT_name("__blkcnt_t")
 	.dwattr $C$DW$T$179, DW_AT_type(*$C$DW$T$178)
 	.dwattr $C$DW$T$179, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$179, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$179, DW_AT_decl_line(0x2b)
-	.dwattr $C$DW$T$179, DW_AT_decl_column(0x1a)
+	.dwattr $C$DW$T$179, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$179, DW_AT_decl_line(0x2f)
+	.dwattr $C$DW$T$179, DW_AT_decl_column(0x13)
 
 $C$DW$T$180	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$180, DW_AT_name("__intmax_t")
-	.dwattr $C$DW$T$180, DW_AT_type(*$C$DW$T$173)
+	.dwattr $C$DW$T$180, DW_AT_name("__id_t")
+	.dwattr $C$DW$T$180, DW_AT_type(*$C$DW$T$178)
 	.dwattr $C$DW$T$180, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$180, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$180, DW_AT_decl_line(0x52)
+	.dwattr $C$DW$T$180, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$180, DW_AT_decl_line(0x35)
 	.dwattr $C$DW$T$180, DW_AT_decl_column(0x13)
 
 $C$DW$T$181	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$181, DW_AT_name("intmax_t")
-	.dwattr $C$DW$T$181, DW_AT_type(*$C$DW$T$180)
+	.dwattr $C$DW$T$181, DW_AT_name("__int_fast64_t")
+	.dwattr $C$DW$T$181, DW_AT_type(*$C$DW$T$178)
 	.dwattr $C$DW$T$181, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$181, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$181, DW_AT_decl_line(0x58)
-	.dwattr $C$DW$T$181, DW_AT_decl_column(0x15)
+	.dwattr $C$DW$T$181, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$181, DW_AT_decl_line(0x57)
+	.dwattr $C$DW$T$181, DW_AT_decl_column(0x13)
 
 $C$DW$T$182	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$182, DW_AT_name("__off64_t")
-	.dwattr $C$DW$T$182, DW_AT_type(*$C$DW$T$173)
+	.dwattr $C$DW$T$182, DW_AT_name("int_fast64_t")
+	.dwattr $C$DW$T$182, DW_AT_type(*$C$DW$T$181)
 	.dwattr $C$DW$T$182, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$182, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$182, DW_AT_decl_line(0x3e)
-	.dwattr $C$DW$T$182, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$182, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$182, DW_AT_decl_line(0x35)
+	.dwattr $C$DW$T$182, DW_AT_decl_column(0x19)
 
 $C$DW$T$183	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$183, DW_AT_name("__off_t")
-	.dwattr $C$DW$T$183, DW_AT_type(*$C$DW$T$173)
+	.dwattr $C$DW$T$183, DW_AT_name("__int_least64_t")
+	.dwattr $C$DW$T$183, DW_AT_type(*$C$DW$T$178)
 	.dwattr $C$DW$T$183, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$183, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$183, DW_AT_decl_line(0x3d)
+	.dwattr $C$DW$T$183, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$183, DW_AT_decl_line(0x5b)
 	.dwattr $C$DW$T$183, DW_AT_decl_column(0x13)
 
 $C$DW$T$184	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$184, DW_AT_name("__rlim_t")
-	.dwattr $C$DW$T$184, DW_AT_type(*$C$DW$T$173)
+	.dwattr $C$DW$T$184, DW_AT_name("int_least64_t")
+	.dwattr $C$DW$T$184, DW_AT_type(*$C$DW$T$183)
 	.dwattr $C$DW$T$184, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$184, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$184, DW_AT_decl_line(0x40)
-	.dwattr $C$DW$T$184, DW_AT_decl_column(0x13)
+	.dwattr $C$DW$T$184, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$184, DW_AT_decl_line(0x2b)
+	.dwattr $C$DW$T$184, DW_AT_decl_column(0x1a)
 
 $C$DW$T$185	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$185, DW_AT_name("int64_t")
-	.dwattr $C$DW$T$185, DW_AT_type(*$C$DW$T$173)
+	.dwattr $C$DW$T$185, DW_AT_name("__intmax_t")
+	.dwattr $C$DW$T$185, DW_AT_type(*$C$DW$T$178)
 	.dwattr $C$DW$T$185, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$185, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$185, DW_AT_decl_line(0x35)
-	.dwattr $C$DW$T$185, DW_AT_decl_column(0x14)
+	.dwattr $C$DW$T$185, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$185, DW_AT_decl_line(0x52)
+	.dwattr $C$DW$T$185, DW_AT_decl_column(0x13)
+
+$C$DW$T$186	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$186, DW_AT_name("intmax_t")
+	.dwattr $C$DW$T$186, DW_AT_type(*$C$DW$T$185)
+	.dwattr $C$DW$T$186, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$186, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$186, DW_AT_decl_line(0x58)
+	.dwattr $C$DW$T$186, DW_AT_decl_column(0x15)
+
+$C$DW$T$187	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$187, DW_AT_name("__off64_t")
+	.dwattr $C$DW$T$187, DW_AT_type(*$C$DW$T$178)
+	.dwattr $C$DW$T$187, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$187, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$187, DW_AT_decl_line(0x3e)
+	.dwattr $C$DW$T$187, DW_AT_decl_column(0x13)
+
+$C$DW$T$188	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$188, DW_AT_name("__off_t")
+	.dwattr $C$DW$T$188, DW_AT_type(*$C$DW$T$178)
+	.dwattr $C$DW$T$188, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$188, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$188, DW_AT_decl_line(0x3d)
+	.dwattr $C$DW$T$188, DW_AT_decl_column(0x13)
+
+$C$DW$T$189	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$189, DW_AT_name("__rlim_t")
+	.dwattr $C$DW$T$189, DW_AT_type(*$C$DW$T$178)
+	.dwattr $C$DW$T$189, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$189, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$189, DW_AT_decl_line(0x40)
+	.dwattr $C$DW$T$189, DW_AT_decl_column(0x13)
+
+$C$DW$T$190	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$190, DW_AT_name("int64_t")
+	.dwattr $C$DW$T$190, DW_AT_type(*$C$DW$T$178)
+	.dwattr $C$DW$T$190, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$190, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$190, DW_AT_decl_line(0x35)
+	.dwattr $C$DW$T$190, DW_AT_decl_column(0x14)
 
 $C$DW$T$15	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$15, DW_AT_encoding(DW_ATE_unsigned)
 	.dwattr $C$DW$T$15, DW_AT_name("unsigned long long")
 	.dwattr $C$DW$T$15, DW_AT_byte_size(0x08)
 
-$C$DW$T$186	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$186, DW_AT_name("__uint64_t")
-	.dwattr $C$DW$T$186, DW_AT_type(*$C$DW$T$15)
-	.dwattr $C$DW$T$186, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$186, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$186, DW_AT_decl_line(0x48)
-	.dwattr $C$DW$T$186, DW_AT_decl_column(0x1c)
-
-$C$DW$T$187	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$187, DW_AT_name("__dev_t")
-	.dwattr $C$DW$T$187, DW_AT_type(*$C$DW$T$186)
-	.dwattr $C$DW$T$187, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$187, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$187, DW_AT_decl_line(0x7e)
-	.dwattr $C$DW$T$187, DW_AT_decl_column(0x14)
-
-$C$DW$T$188	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$188, DW_AT_name("__fsblkcnt_t")
-	.dwattr $C$DW$T$188, DW_AT_type(*$C$DW$T$186)
-	.dwattr $C$DW$T$188, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$188, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$188, DW_AT_decl_line(0x32)
-	.dwattr $C$DW$T$188, DW_AT_decl_column(0x14)
-
-$C$DW$T$189	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$189, DW_AT_name("__fsfilcnt_t")
-	.dwattr $C$DW$T$189, DW_AT_type(*$C$DW$T$186)
-	.dwattr $C$DW$T$189, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$189, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$189, DW_AT_decl_line(0x33)
-	.dwattr $C$DW$T$189, DW_AT_decl_column(0x14)
-
-$C$DW$T$190	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$190, DW_AT_name("__ino_t")
-	.dwattr $C$DW$T$190, DW_AT_type(*$C$DW$T$186)
-	.dwattr $C$DW$T$190, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$190, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$190, DW_AT_decl_line(0x36)
-	.dwattr $C$DW$T$190, DW_AT_decl_column(0x14)
-
 $C$DW$T$191	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$191, DW_AT_name("__nlink_t")
-	.dwattr $C$DW$T$191, DW_AT_type(*$C$DW$T$186)
+	.dwattr $C$DW$T$191, DW_AT_name("__uint64_t")
+	.dwattr $C$DW$T$191, DW_AT_type(*$C$DW$T$15)
 	.dwattr $C$DW$T$191, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$191, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$191, DW_AT_decl_line(0x3c)
-	.dwattr $C$DW$T$191, DW_AT_decl_column(0x14)
+	.dwattr $C$DW$T$191, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$191, DW_AT_decl_line(0x48)
+	.dwattr $C$DW$T$191, DW_AT_decl_column(0x1c)
 
 $C$DW$T$192	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$192, DW_AT_name("__uint_fast64_t")
-	.dwattr $C$DW$T$192, DW_AT_type(*$C$DW$T$186)
+	.dwattr $C$DW$T$192, DW_AT_name("__dev_t")
+	.dwattr $C$DW$T$192, DW_AT_type(*$C$DW$T$191)
 	.dwattr $C$DW$T$192, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$192, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$192, DW_AT_decl_line(0x6c)
+	.dwattr $C$DW$T$192, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$192, DW_AT_decl_line(0x7e)
 	.dwattr $C$DW$T$192, DW_AT_decl_column(0x14)
 
 $C$DW$T$193	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$193, DW_AT_name("uint_fast64_t")
-	.dwattr $C$DW$T$193, DW_AT_type(*$C$DW$T$192)
+	.dwattr $C$DW$T$193, DW_AT_name("__fsblkcnt_t")
+	.dwattr $C$DW$T$193, DW_AT_type(*$C$DW$T$191)
 	.dwattr $C$DW$T$193, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$193, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$193, DW_AT_decl_line(0x3a)
-	.dwattr $C$DW$T$193, DW_AT_decl_column(0x1a)
+	.dwattr $C$DW$T$193, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$193, DW_AT_decl_line(0x32)
+	.dwattr $C$DW$T$193, DW_AT_decl_column(0x14)
 
 $C$DW$T$194	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$194, DW_AT_name("__uint_least64_t")
-	.dwattr $C$DW$T$194, DW_AT_type(*$C$DW$T$186)
+	.dwattr $C$DW$T$194, DW_AT_name("__fsfilcnt_t")
+	.dwattr $C$DW$T$194, DW_AT_type(*$C$DW$T$191)
 	.dwattr $C$DW$T$194, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$194, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$194, DW_AT_decl_line(0x70)
+	.dwattr $C$DW$T$194, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$194, DW_AT_decl_line(0x33)
 	.dwattr $C$DW$T$194, DW_AT_decl_column(0x14)
 
 $C$DW$T$195	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$195, DW_AT_name("uint_least64_t")
-	.dwattr $C$DW$T$195, DW_AT_type(*$C$DW$T$194)
+	.dwattr $C$DW$T$195, DW_AT_name("__ino_t")
+	.dwattr $C$DW$T$195, DW_AT_type(*$C$DW$T$191)
 	.dwattr $C$DW$T$195, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$195, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
-	.dwattr $C$DW$T$195, DW_AT_decl_line(0x30)
-	.dwattr $C$DW$T$195, DW_AT_decl_column(0x1a)
+	.dwattr $C$DW$T$195, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$195, DW_AT_decl_line(0x36)
+	.dwattr $C$DW$T$195, DW_AT_decl_column(0x14)
 
 $C$DW$T$196	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$196, DW_AT_name("__uintmax_t")
-	.dwattr $C$DW$T$196, DW_AT_type(*$C$DW$T$186)
+	.dwattr $C$DW$T$196, DW_AT_name("__nlink_t")
+	.dwattr $C$DW$T$196, DW_AT_type(*$C$DW$T$191)
 	.dwattr $C$DW$T$196, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$196, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$196, DW_AT_decl_line(0x67)
+	.dwattr $C$DW$T$196, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$196, DW_AT_decl_line(0x3c)
 	.dwattr $C$DW$T$196, DW_AT_decl_column(0x14)
 
 $C$DW$T$197	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$197, DW_AT_name("__rman_res_t")
-	.dwattr $C$DW$T$197, DW_AT_type(*$C$DW$T$196)
+	.dwattr $C$DW$T$197, DW_AT_name("__uint_fast64_t")
+	.dwattr $C$DW$T$197, DW_AT_type(*$C$DW$T$191)
 	.dwattr $C$DW$T$197, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$197, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$197, DW_AT_decl_line(0x99)
-	.dwattr $C$DW$T$197, DW_AT_decl_column(0x19)
+	.dwattr $C$DW$T$197, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$197, DW_AT_decl_line(0x6c)
+	.dwattr $C$DW$T$197, DW_AT_decl_column(0x14)
 
 $C$DW$T$198	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$198, DW_AT_name("uintmax_t")
-	.dwattr $C$DW$T$198, DW_AT_type(*$C$DW$T$196)
+	.dwattr $C$DW$T$198, DW_AT_name("uint_fast64_t")
+	.dwattr $C$DW$T$198, DW_AT_type(*$C$DW$T$197)
 	.dwattr $C$DW$T$198, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$198, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$198, DW_AT_decl_line(0x5c)
-	.dwattr $C$DW$T$198, DW_AT_decl_column(0x16)
+	.dwattr $C$DW$T$198, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$198, DW_AT_decl_line(0x3a)
+	.dwattr $C$DW$T$198, DW_AT_decl_column(0x1a)
 
 $C$DW$T$199	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$199, DW_AT_name("uint64_t")
-	.dwattr $C$DW$T$199, DW_AT_type(*$C$DW$T$186)
+	.dwattr $C$DW$T$199, DW_AT_name("__uint_least64_t")
+	.dwattr $C$DW$T$199, DW_AT_type(*$C$DW$T$191)
 	.dwattr $C$DW$T$199, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$199, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
-	.dwattr $C$DW$T$199, DW_AT_decl_line(0x4b)
-	.dwattr $C$DW$T$199, DW_AT_decl_column(0x15)
+	.dwattr $C$DW$T$199, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$199, DW_AT_decl_line(0x70)
+	.dwattr $C$DW$T$199, DW_AT_decl_column(0x14)
+
+$C$DW$T$200	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$200, DW_AT_name("uint_least64_t")
+	.dwattr $C$DW$T$200, DW_AT_type(*$C$DW$T$199)
+	.dwattr $C$DW$T$200, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$200, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/stdint.h")
+	.dwattr $C$DW$T$200, DW_AT_decl_line(0x30)
+	.dwattr $C$DW$T$200, DW_AT_decl_column(0x1a)
+
+$C$DW$T$201	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$201, DW_AT_name("__uintmax_t")
+	.dwattr $C$DW$T$201, DW_AT_type(*$C$DW$T$191)
+	.dwattr $C$DW$T$201, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$201, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$201, DW_AT_decl_line(0x67)
+	.dwattr $C$DW$T$201, DW_AT_decl_column(0x14)
+
+$C$DW$T$202	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$202, DW_AT_name("__rman_res_t")
+	.dwattr $C$DW$T$202, DW_AT_type(*$C$DW$T$201)
+	.dwattr $C$DW$T$202, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$202, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$202, DW_AT_decl_line(0x99)
+	.dwattr $C$DW$T$202, DW_AT_decl_column(0x19)
+
+$C$DW$T$203	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$203, DW_AT_name("uintmax_t")
+	.dwattr $C$DW$T$203, DW_AT_type(*$C$DW$T$201)
+	.dwattr $C$DW$T$203, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$203, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$203, DW_AT_decl_line(0x5c)
+	.dwattr $C$DW$T$203, DW_AT_decl_column(0x16)
+
+$C$DW$T$204	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$204, DW_AT_name("uint64_t")
+	.dwattr $C$DW$T$204, DW_AT_type(*$C$DW$T$191)
+	.dwattr $C$DW$T$204, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$204, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_stdint.h")
+	.dwattr $C$DW$T$204, DW_AT_decl_line(0x4b)
+	.dwattr $C$DW$T$204, DW_AT_decl_column(0x15)
 
 $C$DW$T$16	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$16, DW_AT_encoding(DW_ATE_float)
 	.dwattr $C$DW$T$16, DW_AT_name("float")
 	.dwattr $C$DW$T$16, DW_AT_byte_size(0x04)
 
-$C$DW$T$200	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$200, DW_AT_name("__float_t")
-	.dwattr $C$DW$T$200, DW_AT_type(*$C$DW$T$16)
-	.dwattr $C$DW$T$200, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$200, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$200, DW_AT_decl_line(0x50)
-	.dwattr $C$DW$T$200, DW_AT_decl_column(0x10)
+$C$DW$T$205	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$205, DW_AT_name("__float_t")
+	.dwattr $C$DW$T$205, DW_AT_type(*$C$DW$T$16)
+	.dwattr $C$DW$T$205, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$205, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$205, DW_AT_decl_line(0x50)
+	.dwattr $C$DW$T$205, DW_AT_decl_column(0x10)
 
 $C$DW$T$17	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$17, DW_AT_encoding(DW_ATE_float)
 	.dwattr $C$DW$T$17, DW_AT_name("double")
 	.dwattr $C$DW$T$17, DW_AT_byte_size(0x08)
 
-$C$DW$T$201	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$201, DW_AT_name("__double_t")
-	.dwattr $C$DW$T$201, DW_AT_type(*$C$DW$T$17)
-	.dwattr $C$DW$T$201, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$201, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$201, DW_AT_decl_line(0x4f)
-	.dwattr $C$DW$T$201, DW_AT_decl_column(0x11)
+$C$DW$T$206	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$206, DW_AT_name("__double_t")
+	.dwattr $C$DW$T$206, DW_AT_type(*$C$DW$T$17)
+	.dwattr $C$DW$T$206, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$206, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$206, DW_AT_decl_line(0x4f)
+	.dwattr $C$DW$T$206, DW_AT_decl_column(0x11)
 
 $C$DW$T$18	.dwtag  DW_TAG_base_type
 	.dwattr $C$DW$T$18, DW_AT_encoding(DW_ATE_float)
 	.dwattr $C$DW$T$18, DW_AT_name("long double")
 	.dwattr $C$DW$T$18, DW_AT_byte_size(0x08)
 
-$C$DW$T$80	.dwtag  DW_TAG_pointer_type
-	.dwattr $C$DW$T$80, DW_AT_type(*$C$DW$T$6)
-	.dwattr $C$DW$T$80, DW_AT_address_class(0x20)
+$C$DW$T$84	.dwtag  DW_TAG_pointer_type
+	.dwattr $C$DW$T$84, DW_AT_type(*$C$DW$T$6)
+	.dwattr $C$DW$T$84, DW_AT_address_class(0x20)
 
 
-$C$DW$T$202	.dwtag  DW_TAG_array_type
-	.dwattr $C$DW$T$202, DW_AT_type(*$C$DW$T$6)
-	.dwattr $C$DW$T$202, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$202, DW_AT_byte_size(0x0c)
-$C$DW$433	.dwtag  DW_TAG_subrange_type
-	.dwattr $C$DW$433, DW_AT_upper_bound(0x0b)
+$C$DW$T$207	.dwtag  DW_TAG_array_type
+	.dwattr $C$DW$T$207, DW_AT_type(*$C$DW$T$6)
+	.dwattr $C$DW$T$207, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$207, DW_AT_byte_size(0x0c)
+$C$DW$448	.dwtag  DW_TAG_subrange_type
+	.dwattr $C$DW$448, DW_AT_upper_bound(0x0b)
 
-	.dwendtag $C$DW$T$202
+	.dwendtag $C$DW$T$207
 
 
 $C$DW$T$19	.dwtag  DW_TAG_structure_type
@@ -14074,98 +14451,98 @@ $C$DW$T$19	.dwtag  DW_TAG_structure_type
 	.dwattr $C$DW$T$19, DW_AT_decl_column(0x10)
 	.dwendtag $C$DW$T$19
 
-$C$DW$T$203	.dwtag  DW_TAG_pointer_type
-	.dwattr $C$DW$T$203, DW_AT_type(*$C$DW$T$19)
-	.dwattr $C$DW$T$203, DW_AT_address_class(0x20)
+$C$DW$T$208	.dwtag  DW_TAG_pointer_type
+	.dwattr $C$DW$T$208, DW_AT_type(*$C$DW$T$19)
+	.dwattr $C$DW$T$208, DW_AT_address_class(0x20)
 
-$C$DW$T$204	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$204, DW_AT_name("__mqd_t")
-	.dwattr $C$DW$T$204, DW_AT_type(*$C$DW$T$203)
-	.dwattr $C$DW$T$204, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$204, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$204, DW_AT_decl_line(0x4b)
-	.dwattr $C$DW$T$204, DW_AT_decl_column(0x16)
+$C$DW$T$209	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$209, DW_AT_name("__mqd_t")
+	.dwattr $C$DW$T$209, DW_AT_type(*$C$DW$T$208)
+	.dwattr $C$DW$T$209, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$209, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$209, DW_AT_decl_line(0x4b)
+	.dwattr $C$DW$T$209, DW_AT_decl_column(0x16)
 
 
 $C$DW$T$23	.dwtag  DW_TAG_structure_type
 	.dwattr $C$DW$T$23, DW_AT_name("__sFILE")
 	.dwattr $C$DW$T$23, DW_AT_byte_size(0x18)
-$C$DW$434	.dwtag  DW_TAG_member
-	.dwattr $C$DW$434, DW_AT_type(*$C$DW$T$10)
-	.dwattr $C$DW$434, DW_AT_name("fd")
-	.dwattr $C$DW$434, DW_AT_TI_symbol_name("fd")
-	.dwattr $C$DW$434, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-	.dwattr $C$DW$434, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$434, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$434, DW_AT_decl_line(0x52)
-	.dwattr $C$DW$434, DW_AT_decl_column(0x0b)
+$C$DW$449	.dwtag  DW_TAG_member
+	.dwattr $C$DW$449, DW_AT_type(*$C$DW$T$10)
+	.dwattr $C$DW$449, DW_AT_name("fd")
+	.dwattr $C$DW$449, DW_AT_TI_symbol_name("fd")
+	.dwattr $C$DW$449, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
+	.dwattr $C$DW$449, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$449, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$449, DW_AT_decl_line(0x52)
+	.dwattr $C$DW$449, DW_AT_decl_column(0x0b)
 
-$C$DW$435	.dwtag  DW_TAG_member
-	.dwattr $C$DW$435, DW_AT_type(*$C$DW$T$22)
-	.dwattr $C$DW$435, DW_AT_name("buf")
-	.dwattr $C$DW$435, DW_AT_TI_symbol_name("buf")
-	.dwattr $C$DW$435, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
-	.dwattr $C$DW$435, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$435, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$435, DW_AT_decl_line(0x53)
-	.dwattr $C$DW$435, DW_AT_decl_column(0x16)
+$C$DW$450	.dwtag  DW_TAG_member
+	.dwattr $C$DW$450, DW_AT_type(*$C$DW$T$22)
+	.dwattr $C$DW$450, DW_AT_name("buf")
+	.dwattr $C$DW$450, DW_AT_TI_symbol_name("buf")
+	.dwattr $C$DW$450, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
+	.dwattr $C$DW$450, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$450, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$450, DW_AT_decl_line(0x53)
+	.dwattr $C$DW$450, DW_AT_decl_column(0x16)
 
-$C$DW$436	.dwtag  DW_TAG_member
-	.dwattr $C$DW$436, DW_AT_type(*$C$DW$T$22)
-	.dwattr $C$DW$436, DW_AT_name("pos")
-	.dwattr $C$DW$436, DW_AT_TI_symbol_name("pos")
-	.dwattr $C$DW$436, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
-	.dwattr $C$DW$436, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$436, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$436, DW_AT_decl_line(0x54)
-	.dwattr $C$DW$436, DW_AT_decl_column(0x16)
+$C$DW$451	.dwtag  DW_TAG_member
+	.dwattr $C$DW$451, DW_AT_type(*$C$DW$T$22)
+	.dwattr $C$DW$451, DW_AT_name("pos")
+	.dwattr $C$DW$451, DW_AT_TI_symbol_name("pos")
+	.dwattr $C$DW$451, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
+	.dwattr $C$DW$451, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$451, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$451, DW_AT_decl_line(0x54)
+	.dwattr $C$DW$451, DW_AT_decl_column(0x16)
 
-$C$DW$437	.dwtag  DW_TAG_member
-	.dwattr $C$DW$437, DW_AT_type(*$C$DW$T$22)
-	.dwattr $C$DW$437, DW_AT_name("bufend")
-	.dwattr $C$DW$437, DW_AT_TI_symbol_name("bufend")
-	.dwattr $C$DW$437, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
-	.dwattr $C$DW$437, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$437, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$437, DW_AT_decl_line(0x55)
-	.dwattr $C$DW$437, DW_AT_decl_column(0x16)
+$C$DW$452	.dwtag  DW_TAG_member
+	.dwattr $C$DW$452, DW_AT_type(*$C$DW$T$22)
+	.dwattr $C$DW$452, DW_AT_name("bufend")
+	.dwattr $C$DW$452, DW_AT_TI_symbol_name("bufend")
+	.dwattr $C$DW$452, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
+	.dwattr $C$DW$452, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$452, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$452, DW_AT_decl_line(0x55)
+	.dwattr $C$DW$452, DW_AT_decl_column(0x16)
 
-$C$DW$438	.dwtag  DW_TAG_member
-	.dwattr $C$DW$438, DW_AT_type(*$C$DW$T$22)
-	.dwattr $C$DW$438, DW_AT_name("buff_stop")
-	.dwattr $C$DW$438, DW_AT_TI_symbol_name("buff_stop")
-	.dwattr $C$DW$438, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
-	.dwattr $C$DW$438, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$438, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$438, DW_AT_decl_line(0x56)
-	.dwattr $C$DW$438, DW_AT_decl_column(0x16)
+$C$DW$453	.dwtag  DW_TAG_member
+	.dwattr $C$DW$453, DW_AT_type(*$C$DW$T$22)
+	.dwattr $C$DW$453, DW_AT_name("buff_stop")
+	.dwattr $C$DW$453, DW_AT_TI_symbol_name("buff_stop")
+	.dwattr $C$DW$453, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
+	.dwattr $C$DW$453, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$453, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$453, DW_AT_decl_line(0x56)
+	.dwattr $C$DW$453, DW_AT_decl_column(0x16)
 
-$C$DW$439	.dwtag  DW_TAG_member
-	.dwattr $C$DW$439, DW_AT_type(*$C$DW$T$11)
-	.dwattr $C$DW$439, DW_AT_name("flags")
-	.dwattr $C$DW$439, DW_AT_TI_symbol_name("flags")
-	.dwattr $C$DW$439, DW_AT_data_member_location[DW_OP_plus_uconst 0x14]
-	.dwattr $C$DW$439, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$439, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$439, DW_AT_decl_line(0x57)
-	.dwattr $C$DW$439, DW_AT_decl_column(0x16)
+$C$DW$454	.dwtag  DW_TAG_member
+	.dwattr $C$DW$454, DW_AT_type(*$C$DW$T$11)
+	.dwattr $C$DW$454, DW_AT_name("flags")
+	.dwattr $C$DW$454, DW_AT_TI_symbol_name("flags")
+	.dwattr $C$DW$454, DW_AT_data_member_location[DW_OP_plus_uconst 0x14]
+	.dwattr $C$DW$454, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$454, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$454, DW_AT_decl_line(0x57)
+	.dwattr $C$DW$454, DW_AT_decl_column(0x16)
 
 	.dwattr $C$DW$T$23, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
 	.dwattr $C$DW$T$23, DW_AT_decl_line(0x51)
 	.dwattr $C$DW$T$23, DW_AT_decl_column(0x08)
 	.dwendtag $C$DW$T$23
 
-$C$DW$T$108	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$108, DW_AT_name("FILE")
-	.dwattr $C$DW$T$108, DW_AT_type(*$C$DW$T$23)
-	.dwattr $C$DW$T$108, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$108, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
-	.dwattr $C$DW$T$108, DW_AT_decl_line(0x5c)
-	.dwattr $C$DW$T$108, DW_AT_decl_column(0x18)
+$C$DW$T$113	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$113, DW_AT_name("FILE")
+	.dwattr $C$DW$T$113, DW_AT_type(*$C$DW$T$23)
+	.dwattr $C$DW$T$113, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$113, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdio.h")
+	.dwattr $C$DW$T$113, DW_AT_decl_line(0x5c)
+	.dwattr $C$DW$T$113, DW_AT_decl_column(0x18)
 
-$C$DW$T$109	.dwtag  DW_TAG_pointer_type
-	.dwattr $C$DW$T$109, DW_AT_type(*$C$DW$T$108)
-	.dwattr $C$DW$T$109, DW_AT_address_class(0x20)
+$C$DW$T$114	.dwtag  DW_TAG_pointer_type
+	.dwattr $C$DW$T$114, DW_AT_type(*$C$DW$T$113)
+	.dwattr $C$DW$T$114, DW_AT_address_class(0x20)
 
 
 $C$DW$T$20	.dwtag  DW_TAG_structure_type
@@ -14176,89 +14553,89 @@ $C$DW$T$20	.dwtag  DW_TAG_structure_type
 	.dwattr $C$DW$T$20, DW_AT_decl_column(0x10)
 	.dwendtag $C$DW$T$20
 
-$C$DW$T$205	.dwtag  DW_TAG_pointer_type
-	.dwattr $C$DW$T$205, DW_AT_type(*$C$DW$T$20)
-	.dwattr $C$DW$T$205, DW_AT_address_class(0x20)
+$C$DW$T$210	.dwtag  DW_TAG_pointer_type
+	.dwattr $C$DW$T$210, DW_AT_type(*$C$DW$T$20)
+	.dwattr $C$DW$T$210, DW_AT_address_class(0x20)
 
-$C$DW$T$206	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$206, DW_AT_name("__timer_t")
-	.dwattr $C$DW$T$206, DW_AT_type(*$C$DW$T$205)
-	.dwattr $C$DW$T$206, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$206, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
-	.dwattr $C$DW$T$206, DW_AT_decl_line(0x4a)
-	.dwattr $C$DW$T$206, DW_AT_decl_column(0x19)
+$C$DW$T$211	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$211, DW_AT_name("__timer_t")
+	.dwattr $C$DW$T$211, DW_AT_type(*$C$DW$T$210)
+	.dwattr $C$DW$T$211, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$211, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/sys/_types.h")
+	.dwattr $C$DW$T$211, DW_AT_decl_line(0x4a)
+	.dwattr $C$DW$T$211, DW_AT_decl_column(0x19)
 
 
 $C$DW$T$24	.dwtag  DW_TAG_structure_type
 	.dwattr $C$DW$T$24, DW_AT_name("__va_list_t")
 	.dwattr $C$DW$T$24, DW_AT_byte_size(0x04)
-$C$DW$440	.dwtag  DW_TAG_member
-	.dwattr $C$DW$440, DW_AT_type(*$C$DW$T$3)
-	.dwattr $C$DW$440, DW_AT_name("__ap")
-	.dwattr $C$DW$440, DW_AT_TI_symbol_name("__ap")
-	.dwattr $C$DW$440, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-	.dwattr $C$DW$440, DW_AT_accessibility(DW_ACCESS_public)
-	.dwattr $C$DW$440, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$440, DW_AT_decl_line(0x8c)
-	.dwattr $C$DW$440, DW_AT_decl_column(0x0c)
+$C$DW$455	.dwtag  DW_TAG_member
+	.dwattr $C$DW$455, DW_AT_type(*$C$DW$T$3)
+	.dwattr $C$DW$455, DW_AT_name("__ap")
+	.dwattr $C$DW$455, DW_AT_TI_symbol_name("__ap")
+	.dwattr $C$DW$455, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
+	.dwattr $C$DW$455, DW_AT_accessibility(DW_ACCESS_public)
+	.dwattr $C$DW$455, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$455, DW_AT_decl_line(0x8c)
+	.dwattr $C$DW$455, DW_AT_decl_column(0x0c)
 
 	.dwattr $C$DW$T$24, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
 	.dwattr $C$DW$T$24, DW_AT_decl_line(0x8b)
 	.dwattr $C$DW$T$24, DW_AT_decl_column(0x10)
 	.dwendtag $C$DW$T$24
 
-$C$DW$T$207	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$207, DW_AT_name("__va_list")
-	.dwattr $C$DW$T$207, DW_AT_type(*$C$DW$T$24)
-	.dwattr $C$DW$T$207, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$207, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
-	.dwattr $C$DW$T$207, DW_AT_decl_line(0x8d)
-	.dwattr $C$DW$T$207, DW_AT_decl_column(0x03)
+$C$DW$T$212	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$212, DW_AT_name("__va_list")
+	.dwattr $C$DW$T$212, DW_AT_type(*$C$DW$T$24)
+	.dwattr $C$DW$T$212, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$212, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_types.h")
+	.dwattr $C$DW$T$212, DW_AT_decl_line(0x8d)
+	.dwattr $C$DW$T$212, DW_AT_decl_column(0x03)
 
-$C$DW$T$208	.dwtag  DW_TAG_typedef
-	.dwattr $C$DW$T$208, DW_AT_name("va_list")
-	.dwattr $C$DW$T$208, DW_AT_type(*$C$DW$T$207)
-	.dwattr $C$DW$T$208, DW_AT_language(DW_LANG_C)
-	.dwattr $C$DW$T$208, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdarg.h")
-	.dwattr $C$DW$T$208, DW_AT_decl_line(0x33)
-	.dwattr $C$DW$T$208, DW_AT_decl_column(0x13)
+$C$DW$T$213	.dwtag  DW_TAG_typedef
+	.dwattr $C$DW$T$213, DW_AT_name("va_list")
+	.dwattr $C$DW$T$213, DW_AT_type(*$C$DW$T$212)
+	.dwattr $C$DW$T$213, DW_AT_language(DW_LANG_C)
+	.dwattr $C$DW$T$213, DW_AT_decl_file("C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/stdarg.h")
+	.dwattr $C$DW$T$213, DW_AT_decl_line(0x33)
+	.dwattr $C$DW$T$213, DW_AT_decl_column(0x13)
 
 
-$C$DW$T$50	.dwtag  DW_TAG_enumeration_type
-	.dwattr $C$DW$T$50, DW_AT_name("initRFlags")
-	.dwattr $C$DW$T$50, DW_AT_byte_size(0x01)
-$C$DW$441	.dwtag  DW_TAG_enumerator
-	.dwattr $C$DW$441, DW_AT_name("none")
-	.dwattr $C$DW$441, DW_AT_const_value(0x00)
-	.dwattr $C$DW$441, DW_AT_decl_file("..\ST7735.h")
-	.dwattr $C$DW$441, DW_AT_decl_line(0x5f)
-	.dwattr $C$DW$441, DW_AT_decl_column(0x03)
+$C$DW$T$54	.dwtag  DW_TAG_enumeration_type
+	.dwattr $C$DW$T$54, DW_AT_name("initRFlags")
+	.dwattr $C$DW$T$54, DW_AT_byte_size(0x01)
+$C$DW$456	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$456, DW_AT_name("none")
+	.dwattr $C$DW$456, DW_AT_const_value(0x00)
+	.dwattr $C$DW$456, DW_AT_decl_file("..\ST7735.h")
+	.dwattr $C$DW$456, DW_AT_decl_line(0x5f)
+	.dwattr $C$DW$456, DW_AT_decl_column(0x03)
 
-$C$DW$442	.dwtag  DW_TAG_enumerator
-	.dwattr $C$DW$442, DW_AT_name("INITR_GREENTAB")
-	.dwattr $C$DW$442, DW_AT_const_value(0x01)
-	.dwattr $C$DW$442, DW_AT_decl_file("..\ST7735.h")
-	.dwattr $C$DW$442, DW_AT_decl_line(0x60)
-	.dwattr $C$DW$442, DW_AT_decl_column(0x03)
+$C$DW$457	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$457, DW_AT_name("INITR_GREENTAB")
+	.dwattr $C$DW$457, DW_AT_const_value(0x01)
+	.dwattr $C$DW$457, DW_AT_decl_file("..\ST7735.h")
+	.dwattr $C$DW$457, DW_AT_decl_line(0x60)
+	.dwattr $C$DW$457, DW_AT_decl_column(0x03)
 
-$C$DW$443	.dwtag  DW_TAG_enumerator
-	.dwattr $C$DW$443, DW_AT_name("INITR_REDTAB")
-	.dwattr $C$DW$443, DW_AT_const_value(0x02)
-	.dwattr $C$DW$443, DW_AT_decl_file("..\ST7735.h")
-	.dwattr $C$DW$443, DW_AT_decl_line(0x61)
-	.dwattr $C$DW$443, DW_AT_decl_column(0x03)
+$C$DW$458	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$458, DW_AT_name("INITR_REDTAB")
+	.dwattr $C$DW$458, DW_AT_const_value(0x02)
+	.dwattr $C$DW$458, DW_AT_decl_file("..\ST7735.h")
+	.dwattr $C$DW$458, DW_AT_decl_line(0x61)
+	.dwattr $C$DW$458, DW_AT_decl_column(0x03)
 
-$C$DW$444	.dwtag  DW_TAG_enumerator
-	.dwattr $C$DW$444, DW_AT_name("INITR_BLACKTAB")
-	.dwattr $C$DW$444, DW_AT_const_value(0x03)
-	.dwattr $C$DW$444, DW_AT_decl_file("..\ST7735.h")
-	.dwattr $C$DW$444, DW_AT_decl_line(0x62)
-	.dwattr $C$DW$444, DW_AT_decl_column(0x03)
+$C$DW$459	.dwtag  DW_TAG_enumerator
+	.dwattr $C$DW$459, DW_AT_name("INITR_BLACKTAB")
+	.dwattr $C$DW$459, DW_AT_const_value(0x03)
+	.dwattr $C$DW$459, DW_AT_decl_file("..\ST7735.h")
+	.dwattr $C$DW$459, DW_AT_decl_line(0x62)
+	.dwattr $C$DW$459, DW_AT_decl_column(0x03)
 
-	.dwattr $C$DW$T$50, DW_AT_decl_file("..\ST7735.h")
-	.dwattr $C$DW$T$50, DW_AT_decl_line(0x5e)
-	.dwattr $C$DW$T$50, DW_AT_decl_column(0x06)
-	.dwendtag $C$DW$T$50
+	.dwattr $C$DW$T$54, DW_AT_decl_file("..\ST7735.h")
+	.dwattr $C$DW$T$54, DW_AT_decl_line(0x5e)
+	.dwattr $C$DW$T$54, DW_AT_decl_column(0x06)
+	.dwendtag $C$DW$T$54
 
 	.dwattr $C$DW$CU, DW_AT_language(DW_LANG_C)
 
@@ -14299,213 +14676,213 @@ $C$DW$CIE	.dwcie 14
 ;* DWARF REGISTER MAP                                          *
 ;***************************************************************
 
-$C$DW$445	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$445, DW_AT_name("A1")
-	.dwattr $C$DW$445, DW_AT_location[DW_OP_reg0]
-
-$C$DW$446	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$446, DW_AT_name("A2")
-	.dwattr $C$DW$446, DW_AT_location[DW_OP_reg1]
-
-$C$DW$447	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$447, DW_AT_name("A3")
-	.dwattr $C$DW$447, DW_AT_location[DW_OP_reg2]
-
-$C$DW$448	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$448, DW_AT_name("A4")
-	.dwattr $C$DW$448, DW_AT_location[DW_OP_reg3]
-
-$C$DW$449	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$449, DW_AT_name("V1")
-	.dwattr $C$DW$449, DW_AT_location[DW_OP_reg4]
-
-$C$DW$450	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$450, DW_AT_name("V2")
-	.dwattr $C$DW$450, DW_AT_location[DW_OP_reg5]
-
-$C$DW$451	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$451, DW_AT_name("V3")
-	.dwattr $C$DW$451, DW_AT_location[DW_OP_reg6]
-
-$C$DW$452	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$452, DW_AT_name("V4")
-	.dwattr $C$DW$452, DW_AT_location[DW_OP_reg7]
-
-$C$DW$453	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$453, DW_AT_name("V5")
-	.dwattr $C$DW$453, DW_AT_location[DW_OP_reg8]
-
-$C$DW$454	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$454, DW_AT_name("V6")
-	.dwattr $C$DW$454, DW_AT_location[DW_OP_reg9]
-
-$C$DW$455	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$455, DW_AT_name("V7")
-	.dwattr $C$DW$455, DW_AT_location[DW_OP_reg10]
-
-$C$DW$456	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$456, DW_AT_name("V8")
-	.dwattr $C$DW$456, DW_AT_location[DW_OP_reg11]
-
-$C$DW$457	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$457, DW_AT_name("V9")
-	.dwattr $C$DW$457, DW_AT_location[DW_OP_reg12]
-
-$C$DW$458	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$458, DW_AT_name("SP")
-	.dwattr $C$DW$458, DW_AT_location[DW_OP_reg13]
-
-$C$DW$459	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$459, DW_AT_name("LR")
-	.dwattr $C$DW$459, DW_AT_location[DW_OP_reg14]
-
 $C$DW$460	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$460, DW_AT_name("PC")
-	.dwattr $C$DW$460, DW_AT_location[DW_OP_reg15]
+	.dwattr $C$DW$460, DW_AT_name("A1")
+	.dwattr $C$DW$460, DW_AT_location[DW_OP_reg0]
 
 $C$DW$461	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$461, DW_AT_name("SR")
-	.dwattr $C$DW$461, DW_AT_location[DW_OP_reg17]
+	.dwattr $C$DW$461, DW_AT_name("A2")
+	.dwattr $C$DW$461, DW_AT_location[DW_OP_reg1]
 
 $C$DW$462	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$462, DW_AT_name("AP")
-	.dwattr $C$DW$462, DW_AT_location[DW_OP_reg7]
+	.dwattr $C$DW$462, DW_AT_name("A3")
+	.dwattr $C$DW$462, DW_AT_location[DW_OP_reg2]
 
 $C$DW$463	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$463, DW_AT_name("D0")
-	.dwattr $C$DW$463, DW_AT_location[DW_OP_regx 0x40]
+	.dwattr $C$DW$463, DW_AT_name("A4")
+	.dwattr $C$DW$463, DW_AT_location[DW_OP_reg3]
 
 $C$DW$464	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$464, DW_AT_name("D0_hi")
-	.dwattr $C$DW$464, DW_AT_location[DW_OP_regx 0x41]
+	.dwattr $C$DW$464, DW_AT_name("V1")
+	.dwattr $C$DW$464, DW_AT_location[DW_OP_reg4]
 
 $C$DW$465	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$465, DW_AT_name("D1")
-	.dwattr $C$DW$465, DW_AT_location[DW_OP_regx 0x42]
+	.dwattr $C$DW$465, DW_AT_name("V2")
+	.dwattr $C$DW$465, DW_AT_location[DW_OP_reg5]
 
 $C$DW$466	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$466, DW_AT_name("D1_hi")
-	.dwattr $C$DW$466, DW_AT_location[DW_OP_regx 0x43]
+	.dwattr $C$DW$466, DW_AT_name("V3")
+	.dwattr $C$DW$466, DW_AT_location[DW_OP_reg6]
 
 $C$DW$467	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$467, DW_AT_name("D2")
-	.dwattr $C$DW$467, DW_AT_location[DW_OP_regx 0x44]
+	.dwattr $C$DW$467, DW_AT_name("V4")
+	.dwattr $C$DW$467, DW_AT_location[DW_OP_reg7]
 
 $C$DW$468	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$468, DW_AT_name("D2_hi")
-	.dwattr $C$DW$468, DW_AT_location[DW_OP_regx 0x45]
+	.dwattr $C$DW$468, DW_AT_name("V5")
+	.dwattr $C$DW$468, DW_AT_location[DW_OP_reg8]
 
 $C$DW$469	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$469, DW_AT_name("D3")
-	.dwattr $C$DW$469, DW_AT_location[DW_OP_regx 0x46]
+	.dwattr $C$DW$469, DW_AT_name("V6")
+	.dwattr $C$DW$469, DW_AT_location[DW_OP_reg9]
 
 $C$DW$470	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$470, DW_AT_name("D3_hi")
-	.dwattr $C$DW$470, DW_AT_location[DW_OP_regx 0x47]
+	.dwattr $C$DW$470, DW_AT_name("V7")
+	.dwattr $C$DW$470, DW_AT_location[DW_OP_reg10]
 
 $C$DW$471	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$471, DW_AT_name("D4")
-	.dwattr $C$DW$471, DW_AT_location[DW_OP_regx 0x48]
+	.dwattr $C$DW$471, DW_AT_name("V8")
+	.dwattr $C$DW$471, DW_AT_location[DW_OP_reg11]
 
 $C$DW$472	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$472, DW_AT_name("D4_hi")
-	.dwattr $C$DW$472, DW_AT_location[DW_OP_regx 0x49]
+	.dwattr $C$DW$472, DW_AT_name("V9")
+	.dwattr $C$DW$472, DW_AT_location[DW_OP_reg12]
 
 $C$DW$473	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$473, DW_AT_name("D5")
-	.dwattr $C$DW$473, DW_AT_location[DW_OP_regx 0x4a]
+	.dwattr $C$DW$473, DW_AT_name("SP")
+	.dwattr $C$DW$473, DW_AT_location[DW_OP_reg13]
 
 $C$DW$474	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$474, DW_AT_name("D5_hi")
-	.dwattr $C$DW$474, DW_AT_location[DW_OP_regx 0x4b]
+	.dwattr $C$DW$474, DW_AT_name("LR")
+	.dwattr $C$DW$474, DW_AT_location[DW_OP_reg14]
 
 $C$DW$475	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$475, DW_AT_name("D6")
-	.dwattr $C$DW$475, DW_AT_location[DW_OP_regx 0x4c]
+	.dwattr $C$DW$475, DW_AT_name("PC")
+	.dwattr $C$DW$475, DW_AT_location[DW_OP_reg15]
 
 $C$DW$476	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$476, DW_AT_name("D6_hi")
-	.dwattr $C$DW$476, DW_AT_location[DW_OP_regx 0x4d]
+	.dwattr $C$DW$476, DW_AT_name("SR")
+	.dwattr $C$DW$476, DW_AT_location[DW_OP_reg17]
 
 $C$DW$477	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$477, DW_AT_name("D7")
-	.dwattr $C$DW$477, DW_AT_location[DW_OP_regx 0x4e]
+	.dwattr $C$DW$477, DW_AT_name("AP")
+	.dwattr $C$DW$477, DW_AT_location[DW_OP_reg7]
 
 $C$DW$478	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$478, DW_AT_name("D7_hi")
-	.dwattr $C$DW$478, DW_AT_location[DW_OP_regx 0x4f]
+	.dwattr $C$DW$478, DW_AT_name("D0")
+	.dwattr $C$DW$478, DW_AT_location[DW_OP_regx 0x40]
 
 $C$DW$479	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$479, DW_AT_name("D8")
-	.dwattr $C$DW$479, DW_AT_location[DW_OP_regx 0x50]
+	.dwattr $C$DW$479, DW_AT_name("D0_hi")
+	.dwattr $C$DW$479, DW_AT_location[DW_OP_regx 0x41]
 
 $C$DW$480	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$480, DW_AT_name("D8_hi")
-	.dwattr $C$DW$480, DW_AT_location[DW_OP_regx 0x51]
+	.dwattr $C$DW$480, DW_AT_name("D1")
+	.dwattr $C$DW$480, DW_AT_location[DW_OP_regx 0x42]
 
 $C$DW$481	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$481, DW_AT_name("D9")
-	.dwattr $C$DW$481, DW_AT_location[DW_OP_regx 0x52]
+	.dwattr $C$DW$481, DW_AT_name("D1_hi")
+	.dwattr $C$DW$481, DW_AT_location[DW_OP_regx 0x43]
 
 $C$DW$482	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$482, DW_AT_name("D9_hi")
-	.dwattr $C$DW$482, DW_AT_location[DW_OP_regx 0x53]
+	.dwattr $C$DW$482, DW_AT_name("D2")
+	.dwattr $C$DW$482, DW_AT_location[DW_OP_regx 0x44]
 
 $C$DW$483	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$483, DW_AT_name("D10")
-	.dwattr $C$DW$483, DW_AT_location[DW_OP_regx 0x54]
+	.dwattr $C$DW$483, DW_AT_name("D2_hi")
+	.dwattr $C$DW$483, DW_AT_location[DW_OP_regx 0x45]
 
 $C$DW$484	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$484, DW_AT_name("D10_hi")
-	.dwattr $C$DW$484, DW_AT_location[DW_OP_regx 0x55]
+	.dwattr $C$DW$484, DW_AT_name("D3")
+	.dwattr $C$DW$484, DW_AT_location[DW_OP_regx 0x46]
 
 $C$DW$485	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$485, DW_AT_name("D11")
-	.dwattr $C$DW$485, DW_AT_location[DW_OP_regx 0x56]
+	.dwattr $C$DW$485, DW_AT_name("D3_hi")
+	.dwattr $C$DW$485, DW_AT_location[DW_OP_regx 0x47]
 
 $C$DW$486	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$486, DW_AT_name("D11_hi")
-	.dwattr $C$DW$486, DW_AT_location[DW_OP_regx 0x57]
+	.dwattr $C$DW$486, DW_AT_name("D4")
+	.dwattr $C$DW$486, DW_AT_location[DW_OP_regx 0x48]
 
 $C$DW$487	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$487, DW_AT_name("D12")
-	.dwattr $C$DW$487, DW_AT_location[DW_OP_regx 0x58]
+	.dwattr $C$DW$487, DW_AT_name("D4_hi")
+	.dwattr $C$DW$487, DW_AT_location[DW_OP_regx 0x49]
 
 $C$DW$488	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$488, DW_AT_name("D12_hi")
-	.dwattr $C$DW$488, DW_AT_location[DW_OP_regx 0x59]
+	.dwattr $C$DW$488, DW_AT_name("D5")
+	.dwattr $C$DW$488, DW_AT_location[DW_OP_regx 0x4a]
 
 $C$DW$489	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$489, DW_AT_name("D13")
-	.dwattr $C$DW$489, DW_AT_location[DW_OP_regx 0x5a]
+	.dwattr $C$DW$489, DW_AT_name("D5_hi")
+	.dwattr $C$DW$489, DW_AT_location[DW_OP_regx 0x4b]
 
 $C$DW$490	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$490, DW_AT_name("D13_hi")
-	.dwattr $C$DW$490, DW_AT_location[DW_OP_regx 0x5b]
+	.dwattr $C$DW$490, DW_AT_name("D6")
+	.dwattr $C$DW$490, DW_AT_location[DW_OP_regx 0x4c]
 
 $C$DW$491	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$491, DW_AT_name("D14")
-	.dwattr $C$DW$491, DW_AT_location[DW_OP_regx 0x5c]
+	.dwattr $C$DW$491, DW_AT_name("D6_hi")
+	.dwattr $C$DW$491, DW_AT_location[DW_OP_regx 0x4d]
 
 $C$DW$492	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$492, DW_AT_name("D14_hi")
-	.dwattr $C$DW$492, DW_AT_location[DW_OP_regx 0x5d]
+	.dwattr $C$DW$492, DW_AT_name("D7")
+	.dwattr $C$DW$492, DW_AT_location[DW_OP_regx 0x4e]
 
 $C$DW$493	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$493, DW_AT_name("D15")
-	.dwattr $C$DW$493, DW_AT_location[DW_OP_regx 0x5e]
+	.dwattr $C$DW$493, DW_AT_name("D7_hi")
+	.dwattr $C$DW$493, DW_AT_location[DW_OP_regx 0x4f]
 
 $C$DW$494	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$494, DW_AT_name("D15_hi")
-	.dwattr $C$DW$494, DW_AT_location[DW_OP_regx 0x5f]
+	.dwattr $C$DW$494, DW_AT_name("D8")
+	.dwattr $C$DW$494, DW_AT_location[DW_OP_regx 0x50]
 
 $C$DW$495	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$495, DW_AT_name("FPEXC")
-	.dwattr $C$DW$495, DW_AT_location[DW_OP_reg18]
+	.dwattr $C$DW$495, DW_AT_name("D8_hi")
+	.dwattr $C$DW$495, DW_AT_location[DW_OP_regx 0x51]
 
 $C$DW$496	.dwtag  DW_TAG_TI_assign_register
-	.dwattr $C$DW$496, DW_AT_name("FPSCR")
-	.dwattr $C$DW$496, DW_AT_location[DW_OP_reg19]
+	.dwattr $C$DW$496, DW_AT_name("D9")
+	.dwattr $C$DW$496, DW_AT_location[DW_OP_regx 0x52]
+
+$C$DW$497	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$497, DW_AT_name("D9_hi")
+	.dwattr $C$DW$497, DW_AT_location[DW_OP_regx 0x53]
+
+$C$DW$498	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$498, DW_AT_name("D10")
+	.dwattr $C$DW$498, DW_AT_location[DW_OP_regx 0x54]
+
+$C$DW$499	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$499, DW_AT_name("D10_hi")
+	.dwattr $C$DW$499, DW_AT_location[DW_OP_regx 0x55]
+
+$C$DW$500	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$500, DW_AT_name("D11")
+	.dwattr $C$DW$500, DW_AT_location[DW_OP_regx 0x56]
+
+$C$DW$501	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$501, DW_AT_name("D11_hi")
+	.dwattr $C$DW$501, DW_AT_location[DW_OP_regx 0x57]
+
+$C$DW$502	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$502, DW_AT_name("D12")
+	.dwattr $C$DW$502, DW_AT_location[DW_OP_regx 0x58]
+
+$C$DW$503	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$503, DW_AT_name("D12_hi")
+	.dwattr $C$DW$503, DW_AT_location[DW_OP_regx 0x59]
+
+$C$DW$504	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$504, DW_AT_name("D13")
+	.dwattr $C$DW$504, DW_AT_location[DW_OP_regx 0x5a]
+
+$C$DW$505	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$505, DW_AT_name("D13_hi")
+	.dwattr $C$DW$505, DW_AT_location[DW_OP_regx 0x5b]
+
+$C$DW$506	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$506, DW_AT_name("D14")
+	.dwattr $C$DW$506, DW_AT_location[DW_OP_regx 0x5c]
+
+$C$DW$507	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$507, DW_AT_name("D14_hi")
+	.dwattr $C$DW$507, DW_AT_location[DW_OP_regx 0x5d]
+
+$C$DW$508	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$508, DW_AT_name("D15")
+	.dwattr $C$DW$508, DW_AT_location[DW_OP_regx 0x5e]
+
+$C$DW$509	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$509, DW_AT_name("D15_hi")
+	.dwattr $C$DW$509, DW_AT_location[DW_OP_regx 0x5f]
+
+$C$DW$510	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$510, DW_AT_name("FPEXC")
+	.dwattr $C$DW$510, DW_AT_location[DW_OP_reg18]
+
+$C$DW$511	.dwtag  DW_TAG_TI_assign_register
+	.dwattr $C$DW$511, DW_AT_name("FPSCR")
+	.dwattr $C$DW$511, DW_AT_location[DW_OP_reg19]
 
 	.dwendtag $C$DW$CU
 

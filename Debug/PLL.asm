@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM G3 C/C++ Codegen                                            PC v18.12.2.LTS *
-;* Date/Time created: Wed Jul 31 17:37:57 2019                                *
+;* Date/Time created: Thu Aug  1 00:10:46 2019                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -9,8 +9,8 @@ $C$DW$CU	.dwtag  DW_TAG_compile_unit
 	.dwattr $C$DW$CU, DW_AT_name("../PLL.c")
 	.dwattr $C$DW$CU, DW_AT_producer("TI TI ARM G3 C/C++ Codegen PC v18.12.2.LTS Copyright (c) 1996-2018 Texas Instruments Incorporated")
 	.dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-	.dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\jorda\Desktop\Embedded-Systems-Final-Project\Debug")
-;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\jorda\\AppData\\Local\\Temp\\{CAD2EB01-000E-4FCF-907B-77157A01BF10} 
+	.dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\Jordan\workspace_v9\ST7735_4C123\Debug")
+;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\Jordan\\AppData\\Local\\Temp\\{8F400267-1AFA-4380-99AC-D50B88B7FEFF} 
 	.sect	".text"
 	.clink
 	.thumbfunc PLL_Init

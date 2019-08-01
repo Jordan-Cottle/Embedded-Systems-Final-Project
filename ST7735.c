@@ -1654,30 +1654,39 @@ void Output_Color(uint32_t newColor){ // Set color of future output
   ST7735_SetTextColor(newColor);
 }
 
-typedef enum {IDLE, LOST, DEAD} pet_states;
+
+// TODO Move these functions out from the ST7735 library and into Main.c
+typedef enum {ALIVE, LOST, DEAD} pet_states;
 typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
 
-uint32_t happyBar = 100;
-uint32_t hungerBar = 0;
+uint32_t happiness = 100;
+uint32_t hunger = 0;
+
+game_states gameState = IDLE;
+pet_states petState = ALIVE;
 
 void feedingState () {
-    switch(game_states) {
-      case 1:
-      if (hungerBar > 0) {
-        hungerBar--;
-      return hungerBar;
-      }
+    switch(gameState) {
+      case FEEDING:
+          if (hunger > 0) {
+              hunger--;
+          }
+          break;
+      default: // do this in all other game states
+          hunger++;
     }
 }
+
+// TODO Dead state will be used for displaying the dead sprite (s), not for checking if the pet has died
 void deadState() {
-  switch(pet_states) {
-    case 1:
-    if (hungerBar == 150) {
-      return dead;
-      break;
+  switch(petState) {
+    case ALIVE:
+    if (hunger >= 150) {
+      gameState = IDLE; // go back to pet viewing state
+      petState = DEAD; // pet has died
     }
+    break;
 
   }
   
 }
-void 
