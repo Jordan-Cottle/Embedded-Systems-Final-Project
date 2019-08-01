@@ -115,7 +115,7 @@ void initADC(uint32_t adcPeriph, uint32_t adcBase, uint32_t sequencer, uint32_t 
 
     // Configure Sequencer
     ADCSequenceDisable(adcBase, sequencer);
-    ADCSequenceConfigure(adcBase, sequencer, ADC_TRIGGER_ALWAYS, 0);
+    ADCSequenceConfigure(adcBase, sequencer, ADC_TRIGGER_PROCESSOR, 0);
 
     ADCSequenceStepConfigure(adcBase, sequencer, 0, channel | ADC_CTL_IE | ADC_CTL_END);
     ADCSequenceEnable(adcBase, sequencer);
