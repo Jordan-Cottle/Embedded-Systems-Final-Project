@@ -134,6 +134,7 @@ void walkingState() {
         case WALKING:
             if (happiness < 100) {
                 happiness++;
+                hunger++;
             }
             break;
         default:
@@ -156,17 +157,6 @@ void deadState() {
 
   }
   
-}
-
-void lostState() {
-    switch(petState) {
-        case ALIVE:
-        if (happiness <= 0) {
-            gameState = IDLE; // back to pet viewing state
-            petState = LOST; // pet has run away
-        }
-        break;
-    }
 }
 
 void idleState(){
