@@ -99,6 +99,26 @@ uint32_t readADC(uint32_t adcBase, uint32_t sequencer){
     return value;
 }
 
+void aliveState() {
+    if(happiness >= 0 && hunger <= 150) {
+        gameState = ALIVE;
+    }
+
+
+}
+
+void idleState() {
+
+
+
+}
+
+void menuState() {
+
+
+
+}
+
 uint32_t happiness = 100;
 uint32_t hunger = 0;
 
@@ -122,6 +142,7 @@ void walkingState() {
         case WALKING:
             if (happiness < 100) {
                 happiness++;
+                hunger++;
             }
             break;
         default:
@@ -149,7 +170,7 @@ void deadState() {
 void lostState() {
     switch(petState) {
         case ALIVE:
-        if (happiness <= 0) {
+        if (happiness < 0) {
             gameState = IDLE; // back to pet viewing state
             petState = LOST; // pet has run away
         }
