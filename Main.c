@@ -28,6 +28,9 @@ typedef enum {ALIVE, LOST, DEAD} pet_states;
 typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
 typedef enum {BASE, BONUS} image_states;
 
+#define SPRITE_X 32
+#define SPRITE_Y 32
+
 void updateFrequency();
 void toggleSound();
 void updateInputDelay();
@@ -118,14 +121,21 @@ pet_states petState = ALIVE;
 image_states imageFrame = BASE;
 
 void feedingState () {
-    switch(gameState) {
-      case FEEDING:
-          if (hunger > 0) {
-              hunger--;
+    switch(petState) {
+      case ALIVE:
+          if(imageFrame == BASE){
+              drawSprite(ROCK_IDLE, SPRITE_X, SPRITE_Y);
+          }else{
+              drawSprite(ROCK_EATING, SPRITE_X, SPRITE_Y);
           }
           break;
-      default: // do this in all other game states
-          hunger++;
+      case DEAD:
+      case LOST:
+          gameState = IDLE;
+          break;
+      default: // bad state
+          gameState = IDLE;
+          petState = ALIVE;
     }
 }
 
