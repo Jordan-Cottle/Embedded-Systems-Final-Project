@@ -99,6 +99,67 @@ uint32_t readADC(uint32_t adcBase, uint32_t sequencer){
     return value;
 }
 
+uint32_t happiness = 100;
+uint32_t hunger = 0;
+
+game_states gameState = IDLE;
+pet_states petState = ALIVE;
+
+void feedingState () {
+    switch(gameState) {
+      case FEEDING:
+          if (hunger > 0) {
+              hunger--;
+          }
+          break;
+      default: // do this in all other game states
+          hunger++;
+    }
+}
+
+void walkingState() {
+    switch(gameState) {
+        case WALKING:
+            if (happiness < 100) {
+                happiness++;
+            }
+            break;
+        default:
+            happiness--;
+    }
+
+
+
+}
+
+// TODO Dead state will be used for displaying the dead sprite (s), not for checking if the pet has died
+void deadState() {
+  switch(petState) {
+    case ALIVE:
+    if (hunger >= 150) {
+      gameState = IDLE; // go back to pet viewing state
+      petState = DEAD; // pet has died
+    }
+    break;
+
+  }
+  
+}
+
+void lostState() {
+    switch(petState) {
+        case ALIVE:
+        if (happiness <= 0) {
+            gameState = IDLE; // back to pet viewing state
+            petState = LOST; // pet has run away
+        }
+        break;
+    }
+
+
+}
+
+
 int main(void)
 {
     init();
