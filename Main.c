@@ -28,7 +28,7 @@
 typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
 typedef enum {ALIVE, LOST, DEAD} pet_states;
 typedef enum {BASE, BONUS} image_states;
-typedef enum {MENU_STATES} menu_states;
+typedef enum {} menu_states;
 
 game_states gameState = IDLE;
 pet_states petState = ALIVE;
@@ -92,6 +92,20 @@ void tickHandler(){
     }else if(happiness == 0){
         petState = LOST;
     }
+}
+
+void imageHandler() {
+    TimerIntClear(TIMER_BASE, TIMER_TIMA_TIMEOUT);
+    switch(imageFrame) {
+        case BASE: 
+            imageFrame = BONUS;
+            break;
+        case BONUS:
+            imageFrame = BASE;
+            break;
+    }
+
+
 }
 
 
