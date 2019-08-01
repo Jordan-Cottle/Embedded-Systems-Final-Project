@@ -98,8 +98,8 @@ enum initRFlags{
   INITR_BLACKTAB
 };
 
-#define ST7735_TFTWIDTH  129
-#define ST7735_TFTHEIGHT 129
+#define ST7735_TFTWIDTH  136
+#define ST7735_TFTHEIGHT 136
 
 
 // Color definitions

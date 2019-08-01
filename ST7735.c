@@ -166,8 +166,8 @@ uint16_t StTextColor = ST7735_YELLOW;
                                             // PLL output (default)
 #define SYSCTL_RCGC1_SSI0       0x00000010  // SSI0 Clock Gating Control
 #define SYSCTL_RCGC2_GPIOA      0x00000001  // port A Clock Gating Control
-#define ST7735_TFTWIDTH  129
-#define ST7735_TFTHEIGHT 129
+#define ST7735_TFTWIDTH  136
+#define ST7735_TFTHEIGHT 136
 
 #define ST7735_NOP     0x00
 #define ST7735_SWRESET 0x01

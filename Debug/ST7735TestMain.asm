@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM G3 C/C++ Codegen                                            PC v18.12.2.LTS *
-;* Date/Time created: Thu Aug  1 00:10:47 2019                                *
+;* Date/Time created: Thu Aug  1 13:10:39 2019                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -9,7 +9,7 @@ $C$DW$CU	.dwtag  DW_TAG_compile_unit
 	.dwattr $C$DW$CU, DW_AT_name("../ST7735TestMain.c")
 	.dwattr $C$DW$CU, DW_AT_producer("TI TI ARM G3 C/C++ Codegen PC v18.12.2.LTS Copyright (c) 1996-2018 Texas Instruments Incorporated")
 	.dwattr $C$DW$CU, DW_AT_TI_version(0x01)
-	.dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\Jordan\workspace_v9\ST7735_4C123\Debug")
+	.dwattr $C$DW$CU, DW_AT_comp_dir("C:\Users\jorda\Desktop\Embedded-Systems-Final-Project\Debug")
 	.global	Test
 	.sect	".const:Test"
 	.align	2
@@ -13216,7 +13216,7 @@ $C$DW$57	.dwtag  DW_TAG_formal_parameter
 
 	.dwendtag $C$DW$53
 
-;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\Jordan\\AppData\\Local\\Temp\\{CAC20079-F0F1-4C87-9BCF-90F48AAB2B04} 
+;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\jorda\\AppData\\Local\\Temp\\{47F925E9-2AD9-4577-9033-C2ADBDF94CDE} 
 	.sect	".text"
 	.clink
 	.thumbfunc main0
@@ -15741,7 +15741,7 @@ $C$DW$211	.dwtag  DW_TAG_TI_branch
 ; 626 | if((x >= (ST7735_TFTWIDTH - 40 + 15)) || (x <= -15)){                  
 ;----------------------------------------------------------------------
         LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |626| 
-        CMP       A1, #104              ; [DPU_V7M3_PIPE] |626| 
+        CMP       A1, #111              ; [DPU_V7M3_PIPE] |626| 
         BGE       ||$C$L9||             ; [DPU_V7M3_PIPE] |626| 
         ; BRANCHCC OCCURS {||$C$L9||}    ; [] |626| 
 ;* --------------------------------------------------------------------------*
@@ -15765,12 +15765,12 @@ $C$DW$211	.dwtag  DW_TAG_TI_branch
 ; 629 | if((y >= (ST7735_TFTHEIGHT + 8)) || (y <= (ST7735_TFTHEIGHT - 8))){    
 ;----------------------------------------------------------------------
         LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |629| 
-        CMP       A1, #137              ; [DPU_V7M3_PIPE] |629| 
+        CMP       A1, #144              ; [DPU_V7M3_PIPE] |629| 
         BGE       ||$C$L11||            ; [DPU_V7M3_PIPE] |629| 
         ; BRANCHCC OCCURS {||$C$L11||}   ; [] |629| 
 ;* --------------------------------------------------------------------------*
         LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |629| 
-        CMP       A1, #121              ; [DPU_V7M3_PIPE] |629| 
+        CMP       A1, #128              ; [DPU_V7M3_PIPE] |629| 
         BGT       ||$C$L8||             ; [DPU_V7M3_PIPE] |629| 
         ; BRANCHCC OCCURS {||$C$L8||}    ; [] |629| 
 ;* --------------------------------------------------------------------------*
@@ -15898,7 +15898,7 @@ $C$DW$220	.dwtag  DW_TAG_TI_branch
         MOV       A4, A1                ; [DPU_V7M3_PIPE] |637| 
         LDR       A1, $C$CON3           ; [DPU_V7M3_PIPE] |637| 
         LDRSH     A2, [A1, #0]          ; [DPU_V7M3_PIPE] |637| 
-        MOVS      A3, #129              ; [DPU_V7M3_PIPE] |637| 
+        MOVS      A3, #136              ; [DPU_V7M3_PIPE] |637| 
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |637| 
 $C$DW$221	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$221, DW_AT_low_pc(0x00)
@@ -15922,7 +15922,7 @@ $C$DW$221	.dwtag  DW_TAG_TI_branch
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON3           ; [DPU_V7M3_PIPE] |639| 
         LDRH      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |639| 
-        CMP       A1, #129              ; [DPU_V7M3_PIPE] |639| 
+        CMP       A1, #136              ; [DPU_V7M3_PIPE] |639| 
         BLT       ||$C$L12||            ; [DPU_V7M3_PIPE] |639| 
         ; BRANCHCC OCCURS {||$C$L12||}   ; [] |639| 
 ;* --------------------------------------------------------------------------*
