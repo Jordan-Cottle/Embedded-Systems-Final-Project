@@ -28,10 +28,12 @@
 typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
 typedef enum {ALIVE, LOST, DEAD} pet_states;
 typedef enum {BASE, BONUS} image_states;
+typedef enum {MENU_STATES} menu_states;
 
 game_states gameState = IDLE;
 pet_states petState = ALIVE;
 image_states imageFrame = BASE;
+menu_states menuOptions = MENU_STATES;
 
 #define SPRITE_X 40
 #define SPRITE_Y 80
@@ -227,7 +229,15 @@ void idleState(){
 }
 
 void menuState(){
-
+    switch(menuOptions) {
+        case MENU_STATES:
+            printf("Menu \n");
+            printf("Walk \n");
+            printf("Feed \n");
+            printf("Exit \n");
+            break;
+    }
+    
 }
 
 
