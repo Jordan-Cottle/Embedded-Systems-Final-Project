@@ -708,8 +708,6 @@ void static commandList(const uint8_t *addr) {
     }
   }
 }
-
-
 // Initialization code common to both 'B' and 'R' type displays
 void static commonInit(const uint8_t *cmdList) {
   volatile uint32_t delay;

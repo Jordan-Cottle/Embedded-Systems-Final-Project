@@ -602,15 +602,21 @@ int happiness = 100, hunger = 0;
 
 if(menuOptions = walking){
   //trigger interrupt
+  interruptHandler();
   happiness = happiness + 10;
   hunger = hunger + 10;
 }
 if(menuOptions = feeding){
   //trigger interrupt
+  interruptHandler();
   hunger = hunger - 10;
 }
 
-void initPeriodicTimer(uint32_t timerPeriph, uint32_t timerBase, uint32_t count, void (*interuptHandler)(void)){
+void interruptHandler(){
+  TimerIntClear(TIMER_BASE, TIMER_TIMA_TIMEOUT)
+}
+
+void initPeriodicTimer(uint32_t timerPeriph, uint32_t timerBase, uint32_t count, void (*interruptHandler)(void)){
     // enable Timer
     initPeriph(timerPeriph);
 
@@ -623,7 +629,7 @@ void initPeriodicTimer(uint32_t timerPeriph, uint32_t timerBase, uint32_t count,
     // set initial value
     TimerLoadSet(timerBase, TIMER_A, count);
 
-    TimerIntRegister(timerBase, TIMER_BOTH, interuptHandler);
+    TimerIntRegister(timerBase, TIMER_BOTH, interruptHandler);
     TimerIntEnable(timerBase, TIMER_TIMA_TIMEOUT);
 
     TimerEnable(timerBase, TIMER_BOTH);
