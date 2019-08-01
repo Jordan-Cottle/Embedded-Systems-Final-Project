@@ -28,12 +28,12 @@
 typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
 typedef enum {ALIVE, LOST, DEAD} pet_states;
 typedef enum {BASE, BONUS} image_states;
-typedef enum {MENU_STATES} menu_states;
+typedef enum {TOP, MIDDLE, BOTTOM} menu_states;
 
 game_states gameState = IDLE;
 pet_states petState = ALIVE;
 image_states imageFrame = BASE;
-menu_states menuOptions = MENU_STATES;
+menu_states menuSelect = TOP;
 
 #define SPRITE_X 40
 #define SPRITE_Y 80
@@ -110,6 +110,7 @@ void tickHandler(){
 void stickInterruptHandler(){
     SysCtlDelay(DEBOUNCE_DELAY);
     if(!GPIOPinRead(STICK_CLICK_PORT, STICK_CLICK_PIN)){
+        gameState = MENU;
         clearScreen();
     }
     GPIOIntClear(STICK_CLICK_PORT, 0xFF); // clear interrupt flag
@@ -137,11 +138,11 @@ void init(){
     //initButtonInterupt(BUTTON_PERIPH, BUTTON_PORT, BUTTON_PIN, buttonInterruptHandler);
     //initPWMModule(BUZZER_PORT, BUZZER_PIN);
 
-    initADC(ADC0_PERIPH, ADC0, ADC_SEQUENCER, HORIZONTAL_ADC_CHANNEL,
-            HORIZONTAL_AXIS_PERIPH, HORIZONTAL_AXIS_PORT, HORIZONTAL_AXIS_PIN);
-
     initADC(ADC1_PERIPH, ADC1, ADC_SEQUENCER, VERTICAL_ADC_CHANNEL,
             VERTICAL_AXIS_PERIPH, VERTICAL_AXIS_PORT, VERTICAL_AXIS_PIN);
+
+    initADC(ADC0_PERIPH, ADC0, ADC_ACCEL_SEQUENCER, ACCEL_HORIZONTAL_ADC_CHANNEL,
+            ACCEL_HORIZONTAL_AXIS_PERIPH, ACCEL_HORIZONTAL_AXIS_PORT, ACCEL_HORIZONTAL_AXIS_PIN);
 
     // initialize tick counter
     initPeriodicTimer(TIMER_PERIPH, TIMER_BASE, TICK_DELAY, tickHandler);
@@ -197,15 +198,18 @@ void feedingState () {
 }
 
 void walkingState() {
-    switch(gameState) {
-        case WALKING:
-            if (happiness < 100) {
-                happiness++;
-                hunger++;
-            }
+    uint32_t verticalAxis = readADC(ADC0, ADC_ACCEL_SEQUENCER);
+    switch(petState) {
+        case ALIVE:
+            drawSprite(ROCK_IDLE, SPRITE_X-verticalAxis , SPRITE_Y);
             break;
-        default:
-            happiness--;
+        case DEAD:
+        case LOST:
+          gameState = IDLE;
+          break;
+        default: // bad state
+          gameState = IDLE;
+          petState = ALIVE;
     }
 }
 
@@ -229,15 +233,30 @@ void idleState(){
 }
 
 void menuState(){
-    switch(menuOptions) {
-        case MENU_STATES:
-            printf("Menu \n");
-            printf("Walk \n");
-            printf("Feed \n");
-            printf("Exit \n");
-            break;
-    }
+    //static char *menu = "MENU";
+    const uint8_t OFFSET = 16;
     
+    ST7735_DrawString(10, 1, "MENU", ST7735_Color565(255, 255, 255));
+    ST7735_DrawString(10, 3, "Walk!", ST7735_Color565(255, 255, 255));
+    ST7735_DrawString(10, 5, "Eat!", ST7735_Color565(255, 255, 255));
+    ST7735_DrawString(10, 7, "Exit!", ST7735_Color565(255, 255, 255));
+
+    switch(menuSelect){
+    case TOP:
+        ST7735_FillRect(32, 26, 90, 16, ST7735_Color565(80, 80, 80));
+        ST7735_DrawString(10, 3, "Walk!", ST7735_Color565(255, 255, 255));
+        break;
+    case MIDDLE:
+        ST7735_FillRect(32, 26 + OFFSET*2, 90, 16, ST7735_Color565(120, 120, 120));
+        ST7735_DrawString(10, 5, "Eat!", ST7735_Color565(255, 255, 255));
+        break;
+    case BOTTOM:
+        ST7735_FillRect(32, 26 + OFFSET*4, 90, 16, ST7735_Color565(160, 160, 160));
+        ST7735_DrawString(10, 7, "Exit!", ST7735_Color565(255, 255, 255));
+        break;
+    default:
+        return;
+    }
 }
 
 
