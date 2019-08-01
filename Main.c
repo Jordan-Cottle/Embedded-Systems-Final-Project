@@ -36,7 +36,7 @@ image_states imageFrame = BASE;
 #define SPRITE_X 40
 #define SPRITE_Y 80
 #define TICK_DELAY 32000000 // 1/4 second
-#define MAX_HUNGER 100
+#define MAX_HUNGER 125
 #define HUNGER_BAR_Y 104
 #define HAPPINESS_BAR_Y 118
 #define STATUS_BAR_X 8
@@ -69,7 +69,11 @@ void tickHandler(){
 
     switch(gameState){
         case FEEDING:
-            hunger -= 5;
+            if(hunger < 5){
+                hunger = 0;
+            }else{
+                hunger -= 5;
+            }
             happiness--;
             break;
         case WALKING:
@@ -78,14 +82,22 @@ void tickHandler(){
             break;
         default:
             hunger++;
-            happiness--;
+            if(happiness < 5){
+                happiness = 0;
+            }else{
+                happiness-=5;
+            }
+
     }
 
     if(happiness > 100){
         happiness = 100;
+    }else
+    if(hunger > MAX_HUNGER){
+        hunger = MAX_HUNGER;
     }
 
-    if(hunger > MAX_HUNGER + 20){
+    if(hunger == MAX_HUNGER){
         petState = DEAD;
     }else if(happiness == 0){
         petState = LOST;
@@ -150,7 +162,7 @@ void drawSprite(uint16_t image[], uint16_t x, uint16_t y){
 
 
 void drawStatusHunger(){
-    if(hunger <= MAX_HUNGER){
+    if(hunger <= 100){
         ST7735_FillRect(STATUS_BAR_X, HUNGER_BAR_Y, hunger, 12, ST7735_Color565(6, 86, 117));
     }else{
         ST7735_FillRect(STATUS_BAR_X, HUNGER_BAR_Y, MAX_HUNGER, 12, ST7735_Color565(0, 0, 255));
@@ -202,7 +214,7 @@ void idleState(){
             break;
         case LOST:
             // draw nothing
-            clearScreen();
+            ST7735_FillRect(0, 0, 128, 100, ST7735_Color565(0, 0, 0));
             break;
         case DEAD:
             drawSprite(ROCK_DEAD, SPRITE_X, SPRITE_Y);
