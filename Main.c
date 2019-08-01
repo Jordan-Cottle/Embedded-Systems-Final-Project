@@ -106,6 +106,20 @@ void tickHandler(){
     }
 }
 
+void imageHandler() {
+    TimerIntClear(TIMER_BASE, TIMER_TIMA_TIMEOUT);
+    switch(imageFrame) {
+        case BASE: 
+            imageFrame = BONUS;
+            break;
+        case BONUS:
+            imageFrame = BASE;
+            break;
+    }
+
+
+}
+
 
 void stickInterruptHandler(){
     SysCtlDelay(DEBOUNCE_DELAY);
