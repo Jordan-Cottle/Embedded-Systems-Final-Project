@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM G3 C/C++ Codegen                                            PC v18.12.2.LTS *
-;* Date/Time created: Wed Jul 31 14:32:14 2019                                *
+;* Date/Time created: Wed Jul 31 18:48:43 2019                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -2672,7 +2672,7 @@ $C$DW$8	.dwtag  DW_TAG_variable
 	.align	2
 	.elfsym	_width,SYM_SIZE(2)
 _width:
-	.bits		0x80,16
+	.bits		0x81,16
 			; _width @ 0
 
 $C$DW$9	.dwtag  DW_TAG_variable
@@ -2688,7 +2688,7 @@ $C$DW$9	.dwtag  DW_TAG_variable
 	.align	2
 	.elfsym	_height,SYM_SIZE(2)
 _height:
-	.bits		0xa0,16
+	.bits		0x81,16
 			; _height @ 0
 
 $C$DW$10	.dwtag  DW_TAG_variable
@@ -4406,7 +4406,7 @@ $C$DW$31	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$31, DW_AT_declaration
 	.dwattr $C$DW$31, DW_AT_external
 	.dwattr $C$DW$31, DW_AT_decl_file("..\functions.h")
-	.dwattr $C$DW$31, DW_AT_decl_line(0x58)
+	.dwattr $C$DW$31, DW_AT_decl_line(0x5a)
 	.dwattr $C$DW$31, DW_AT_decl_column(0x06)
 $C$DW$32	.dwtag  DW_TAG_formal_parameter
 	.dwattr $C$DW$32, DW_AT_type(*$C$DW$T$27)
@@ -4426,7 +4426,7 @@ $C$DW$35	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$35, DW_AT_declaration
 	.dwattr $C$DW$35, DW_AT_external
 	.dwattr $C$DW$35, DW_AT_decl_file("..\functions.h")
-	.dwattr $C$DW$35, DW_AT_decl_line(0x66)
+	.dwattr $C$DW$35, DW_AT_decl_line(0x68)
 	.dwattr $C$DW$35, DW_AT_decl_column(0x06)
 $C$DW$36	.dwtag  DW_TAG_formal_parameter
 	.dwattr $C$DW$36, DW_AT_type(*$C$DW$T$27)
@@ -4461,7 +4461,7 @@ $C$DW$41	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$41, DW_AT_declaration
 	.dwattr $C$DW$41, DW_AT_external
 	.dwattr $C$DW$41, DW_AT_decl_file("..\functions.h")
-	.dwattr $C$DW$41, DW_AT_decl_line(0x54)
+	.dwattr $C$DW$41, DW_AT_decl_line(0x56)
 	.dwattr $C$DW$41, DW_AT_decl_column(0x06)
 $C$DW$42	.dwtag  DW_TAG_formal_parameter
 	.dwattr $C$DW$42, DW_AT_type(*$C$DW$T$27)
@@ -4499,7 +4499,7 @@ $C$DW$47	.dwtag  DW_TAG_formal_parameter
 
 	.dwendtag $C$DW$45
 
-;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\jorda\\AppData\\Local\\Temp\\{3FD9B5FA-2F53-43A1-979B-BE0440C3436B} 
+;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\jorda\\AppData\\Local\\Temp\\{3683C42A-02A8-473E-9B41-380BF28ED15D} 
 	.sect	".text"
 	.clink
 	.thumbfunc writecommand
@@ -9806,14 +9806,14 @@ $C$DW$306	.dwtag  DW_TAG_TI_branch
 ; 1273 | _width  = ST7735_TFTWIDTH;                                             
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1273| 
-        MOVS      A1, #128              ; [DPU_V7M3_PIPE] |1273| 
+        MOVS      A1, #129              ; [DPU_V7M3_PIPE] |1273| 
         STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1273| 
 	.dwpsn	file "../ST7735.c",line 1274,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
 ; 1274 | _height = ST7735_TFTHEIGHT;                                            
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1274| 
-        MOVS      A1, #160              ; [DPU_V7M3_PIPE] |1274| 
+        MOVS      A1, #129              ; [DPU_V7M3_PIPE] |1274| 
         STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1274| 
 	.dwpsn	file "../ST7735.c",line 1275,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
@@ -9873,14 +9873,14 @@ $C$DW$308	.dwtag  DW_TAG_TI_branch
 ; 1282 | _width  = ST7735_TFTHEIGHT;                                            
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1282| 
-        MOVS      A1, #160              ; [DPU_V7M3_PIPE] |1282| 
+        MOVS      A1, #129              ; [DPU_V7M3_PIPE] |1282| 
         STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1282| 
 	.dwpsn	file "../ST7735.c",line 1283,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
 ; 1283 | _height = ST7735_TFTWIDTH;                                             
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1283| 
-        MOVS      A1, #128              ; [DPU_V7M3_PIPE] |1283| 
+        MOVS      A1, #129              ; [DPU_V7M3_PIPE] |1283| 
         STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1283| 
 	.dwpsn	file "../ST7735.c",line 1284,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
@@ -9940,14 +9940,14 @@ $C$DW$310	.dwtag  DW_TAG_TI_branch
 ; 1291 | _width  = ST7735_TFTWIDTH;                                             
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1291| 
-        MOVS      A1, #128              ; [DPU_V7M3_PIPE] |1291| 
+        MOVS      A1, #129              ; [DPU_V7M3_PIPE] |1291| 
         STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1291| 
 	.dwpsn	file "../ST7735.c",line 1292,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
 ; 1292 | _height = ST7735_TFTHEIGHT;                                            
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1292| 
-        MOVS      A1, #160              ; [DPU_V7M3_PIPE] |1292| 
+        MOVS      A1, #129              ; [DPU_V7M3_PIPE] |1292| 
         STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1292| 
 	.dwpsn	file "../ST7735.c",line 1293,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
@@ -10007,14 +10007,14 @@ $C$DW$312	.dwtag  DW_TAG_TI_branch
 ; 1300 | _width  = ST7735_TFTHEIGHT;                                            
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1300| 
-        MOVS      A1, #160              ; [DPU_V7M3_PIPE] |1300| 
+        MOVS      A1, #129              ; [DPU_V7M3_PIPE] |1300| 
         STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1300| 
 	.dwpsn	file "../ST7735.c",line 1301,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
 ; 1301 | _height = ST7735_TFTWIDTH;                                             
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1301| 
-        MOVS      A1, #128              ; [DPU_V7M3_PIPE] |1301| 
+        MOVS      A1, #129              ; [DPU_V7M3_PIPE] |1301| 
         STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1301| 
 	.dwpsn	file "../ST7735.c",line 1302,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
