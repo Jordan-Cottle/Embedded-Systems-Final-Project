@@ -1653,3 +1653,31 @@ void Output_On(void){ // Turns on the display
 void Output_Color(uint32_t newColor){ // Set color of future output
   ST7735_SetTextColor(newColor);
 }
+
+typedef enum {IDLE, LOST, DEAD} pet_states;
+typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
+
+uint32_t happyBar = 100;
+uint32_t hungerBar = 0;
+
+void feedingState () {
+    switch(game_states) {
+      case 1:
+      if (hungerBar > 0) {
+        hungerBar--;
+      return hungerBar;
+      }
+    }
+}
+void deadState() {
+  switch(pet_states) {
+    case 1:
+    if (hungerBar == 150) {
+      return dead;
+      break;
+    }
+
+  }
+  
+}
+void 
