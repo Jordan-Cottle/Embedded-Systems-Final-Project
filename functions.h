@@ -26,8 +26,11 @@
 #define ADC1_PERIPH SYSCTL_PERIPH_ADC1
 #define ADC1 ADC1_BASE
 
-#define ADC_SEQUENCER 3
+#define ADC_STICK_SEQUENCER 3
+#define ADC_ACCEL_SEQUENCER 4
 #define ADC_CHANNEL ADC_CTL_CH4
+
+#define ADC_CHANNEL 
 
 #define MAX_ADC_READ 4095
 #define MIN_ADC_READ 0
@@ -50,10 +53,17 @@
 #define VERTICAL_AXIS_PERIPH SYSCTL_PERIPH_GPIOD
 #define VERTICAL_AXIS_PORT GPIO_PORTD_BASE
 #define VERTICAL_AXIS_PIN GPIO_PIN_3
+#define VERTICAL_ADC_CHANNEL ADC_CTL_CH4
 
 #define HORIZONTAL_AXIS_PERIPH SYSCTL_PERIPH_GPIOB
 #define HORIZONTAL_AXIS_PORT GPIO_PORTB_BASE
 #define HORIZONTAL_AXIS_PIN GPIO_PIN_5
+#define HORIZONTAL_ADC_CHANNEL ADC_CTL_CH11
+
+#define ACCEL_HORIZONTAL_AXIS_PERIPH SYSCTL_PERIPH_GPIOD
+#define ACCEL_HORIZONTAL_AXIS_PORT GPIO_PORTD_BASE
+#define ACCEL_HORIZONTAL_AXIS_PIN GPIO_PIN_6
+#define ACCEL_HORIZONTAL_ADC_CHANNEL ADC_CTL_CH6
 
 #define DEBOUNCE_DELAY 5000
 #define INPUT_DELAY 64
@@ -97,7 +107,6 @@ void initPWMModule(uint32_t outputPort, uint8_t outputPin);
 
 // Set up an adc to read from a specific pin
 void initADC(uint32_t adcPeriph, uint32_t adcBase, uint32_t sequencer, uint32_t channel, uint32_t readPeriph, uint32_t readPort, uint8_t readPin);
-
 
 void initSSI(uint32_t periph, uint32_t base, uint32_t baudRate, uint32_t dataWidth);
 
