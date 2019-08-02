@@ -719,12 +719,9 @@ void static commonInit(const uint8_t *cmdList) {
   //SYSCTL_RCGCGPIO_R |= 0x01; // activate port A
   //while((SYSCTL_PRGPIO_R&0x01)==0){}; // allow time for clock to start
 
-
-  // Not sure if this is necessary
   initOutput(CS_PERIPH, CS_PORT, CS_PIN);
   GPIOPinWrite(CS_PORT, CS_PIN, 0);
 
-  // Also not sure if this is required
   initOutput(RESET_PERIPH, RESET_PORT, RESET_PIN);
   GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);
   Delay1ms(500);

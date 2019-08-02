@@ -1,6 +1,6 @@
 ;******************************************************************************
 ;* TI ARM G3 C/C++ Codegen                                            PC v18.12.2.LTS *
-;* Date/Time created: Thu Aug  1 17:30:44 2019                                *
+;* Date/Time created: Thu Aug  1 19:52:32 2019                                *
 ;******************************************************************************
 	.compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embedded_constants=on --endian=little --float_support=FPv4SPD16 --hll_source=on --object_format=elf --silicon_version=7M4 --symdebug:dwarf --symdebug:dwarf_version=3 --unaligned_access=on 
 	.thumb
@@ -3241,7 +3241,7 @@ $C$DW$16	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$16, DW_AT_type(*$C$DW$T$206)
 	.dwattr $C$DW$16, DW_AT_external
 	.dwattr $C$DW$16, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$16, DW_AT_decl_line(0x4af)
+	.dwattr $C$DW$16, DW_AT_decl_line(0x4ac)
 	.dwattr $C$DW$16, DW_AT_decl_column(0x06)
 
 	.global	Messageindex
@@ -3253,7 +3253,7 @@ $C$DW$17	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$17, DW_AT_type(*$C$DW$T$31)
 	.dwattr $C$DW$17, DW_AT_external
 	.dwattr $C$DW$17, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$17, DW_AT_decl_line(0x4b0)
+	.dwattr $C$DW$17, DW_AT_decl_line(0x4ad)
 	.dwattr $C$DW$17, DW_AT_decl_column(0x0a)
 
 	.global	Ymax
@@ -3265,7 +3265,7 @@ $C$DW$18	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$18, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$18, DW_AT_external
 	.dwattr $C$DW$18, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$18, DW_AT_decl_line(0x52c)
+	.dwattr $C$DW$18, DW_AT_decl_line(0x529)
 	.dwattr $C$DW$18, DW_AT_decl_column(0x09)
 
 	.global	Ymin
@@ -3277,7 +3277,7 @@ $C$DW$19	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$19, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$19, DW_AT_external
 	.dwattr $C$DW$19, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$19, DW_AT_decl_line(0x52c)
+	.dwattr $C$DW$19, DW_AT_decl_line(0x529)
 	.dwattr $C$DW$19, DW_AT_decl_column(0x0e)
 
 	.global	X
@@ -3289,7 +3289,7 @@ $C$DW$20	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$20, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$20, DW_AT_external
 	.dwattr $C$DW$20, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$20, DW_AT_decl_line(0x52c)
+	.dwattr $C$DW$20, DW_AT_decl_line(0x529)
 	.dwattr $C$DW$20, DW_AT_decl_column(0x13)
 
 	.global	Yrange
@@ -3301,7 +3301,7 @@ $C$DW$21	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$21, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$21, DW_AT_external
 	.dwattr $C$DW$21, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$21, DW_AT_decl_line(0x52d)
+	.dwattr $C$DW$21, DW_AT_decl_line(0x52a)
 	.dwattr $C$DW$21, DW_AT_decl_column(0x09)
 
 	.global	lastj
@@ -3319,7 +3319,7 @@ $C$DW$22	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$22, DW_AT_type(*$C$DW$T$79)
 	.dwattr $C$DW$22, DW_AT_external
 	.dwattr $C$DW$22, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$22, DW_AT_decl_line(0x55c)
+	.dwattr $C$DW$22, DW_AT_decl_line(0x559)
 	.dwattr $C$DW$22, DW_AT_decl_column(0x09)
 
 	.global	dBfs
@@ -4359,7 +4359,7 @@ $C$DW$23	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$23, DW_AT_type(*$C$DW$T$98)
 	.dwattr $C$DW$23, DW_AT_external
 	.dwattr $C$DW$23, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$23, DW_AT_decl_line(0x5a6)
+	.dwattr $C$DW$23, DW_AT_decl_line(0x5a3)
 	.dwattr $C$DW$23, DW_AT_decl_column(0x0f)
 
 
@@ -4499,7 +4499,7 @@ $C$DW$47	.dwtag  DW_TAG_formal_parameter
 
 	.dwendtag $C$DW$45
 
-;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\jorda\\AppData\\Local\\Temp\\{A1052976-E423-4BE9-9DEB-138755074642} 
+;	C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\bin\armacpia.exe -@C:\\Users\\jorda\\AppData\\Local\\Temp\\{738CF383-4651-4A78-8248-0D1B2D4DA7F4} 
 	.sect	".text"
 	.clink
 	.thumbfunc writecommand
@@ -5146,308 +5146,306 @@ $C$DW$77	.dwtag  DW_TAG_variable
 ; 718 | //SYSCTL_RCGCSSI_R |= 0x01;  // activate SSI0                          
 ; 719 | //SYSCTL_RCGCGPIO_R |= 0x01; // activate port A                        
 ; 720 | //while((SYSCTL_PRGPIO_R&0x01)==0){}; // allow time for clock to start 
-; 723 | // Not sure if this is necessary                                       
 ;----------------------------------------------------------------------
         LDR       A2, $C$CON4           ; [DPU_V7M3_PIPE] |716| 
         MOVS      A1, #0                ; [DPU_V7M3_PIPE] |716| 
         STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |716| 
         LDR       A2, $C$CON3           ; [DPU_V7M3_PIPE] |716| 
         STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |716| 
-	.dwpsn	file "../ST7735.c",line 724,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 722,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 724 | initOutput(CS_PERIPH, CS_PORT, CS_PIN);                                
+; 722 | initOutput(CS_PERIPH, CS_PORT, CS_PIN);                                
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON5           ; [DPU_V7M3_PIPE] |724| 
-        MOVS      A3, #8                ; [DPU_V7M3_PIPE] |724| 
-        MOV       A2, #1073758208       ; [DPU_V7M3_PIPE] |724| 
+        LDR       A1, $C$CON5           ; [DPU_V7M3_PIPE] |722| 
+        MOVS      A3, #8                ; [DPU_V7M3_PIPE] |722| 
+        MOV       A2, #1073758208       ; [DPU_V7M3_PIPE] |722| 
 $C$DW$78	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$78, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$78, DW_AT_name("initOutput")
 	.dwattr $C$DW$78, DW_AT_TI_call
 
-        BL        initOutput            ; [DPU_V7M3_PIPE] |724| 
-        ; CALL OCCURS {initOutput }      ; [] |724| 
-	.dwpsn	file "../ST7735.c",line 725,column 3,is_stmt,isa 1
+        BL        initOutput            ; [DPU_V7M3_PIPE] |722| 
+        ; CALL OCCURS {initOutput }      ; [] |722| 
+	.dwpsn	file "../ST7735.c",line 723,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 725 | GPIOPinWrite(CS_PORT, CS_PIN, 0);                                      
-; 727 | // Also not sure if this is required                                   
+; 723 | GPIOPinWrite(CS_PORT, CS_PIN, 0);                                      
 ;----------------------------------------------------------------------
-        MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |725| 
-        MOVS      A2, #8                ; [DPU_V7M3_PIPE] |725| 
-        MOVS      A3, #0                ; [DPU_V7M3_PIPE] |725| 
+        MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |723| 
+        MOVS      A2, #8                ; [DPU_V7M3_PIPE] |723| 
+        MOVS      A3, #0                ; [DPU_V7M3_PIPE] |723| 
 $C$DW$79	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$79, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$79, DW_AT_name("GPIOPinWrite")
 	.dwattr $C$DW$79, DW_AT_TI_call
 
-        BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |725| 
-        ; CALL OCCURS {GPIOPinWrite }    ; [] |725| 
-	.dwpsn	file "../ST7735.c",line 728,column 3,is_stmt,isa 1
+        BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |723| 
+        ; CALL OCCURS {GPIOPinWrite }    ; [] |723| 
+	.dwpsn	file "../ST7735.c",line 725,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 728 | initOutput(RESET_PERIPH, RESET_PORT, RESET_PIN);                       
+; 725 | initOutput(RESET_PERIPH, RESET_PORT, RESET_PIN);                       
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON5           ; [DPU_V7M3_PIPE] |728| 
-        MOV       A2, #1073758208       ; [DPU_V7M3_PIPE] |728| 
-        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |728| 
+        LDR       A1, $C$CON5           ; [DPU_V7M3_PIPE] |725| 
+        MOV       A2, #1073758208       ; [DPU_V7M3_PIPE] |725| 
+        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |725| 
 $C$DW$80	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$80, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$80, DW_AT_name("initOutput")
 	.dwattr $C$DW$80, DW_AT_TI_call
 
-        BL        initOutput            ; [DPU_V7M3_PIPE] |728| 
-        ; CALL OCCURS {initOutput }      ; [] |728| 
-	.dwpsn	file "../ST7735.c",line 729,column 3,is_stmt,isa 1
+        BL        initOutput            ; [DPU_V7M3_PIPE] |725| 
+        ; CALL OCCURS {initOutput }      ; [] |725| 
+	.dwpsn	file "../ST7735.c",line 726,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 729 | GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);                        
+; 726 | GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);                        
 ;----------------------------------------------------------------------
-        MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |729| 
-        MOVS      A2, #128              ; [DPU_V7M3_PIPE] |729| 
-        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |729| 
+        MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |726| 
+        MOVS      A2, #128              ; [DPU_V7M3_PIPE] |726| 
+        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |726| 
 $C$DW$81	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$81, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$81, DW_AT_name("GPIOPinWrite")
 	.dwattr $C$DW$81, DW_AT_TI_call
 
-        BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |729| 
-        ; CALL OCCURS {GPIOPinWrite }    ; [] |729| 
-	.dwpsn	file "../ST7735.c",line 730,column 3,is_stmt,isa 1
+        BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |726| 
+        ; CALL OCCURS {GPIOPinWrite }    ; [] |726| 
+	.dwpsn	file "../ST7735.c",line 727,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 730 | Delay1ms(500);                                                         
+; 727 | Delay1ms(500);                                                         
 ;----------------------------------------------------------------------
-        MOV       A1, #500              ; [DPU_V7M3_PIPE] |730| 
+        MOV       A1, #500              ; [DPU_V7M3_PIPE] |727| 
 $C$DW$82	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$82, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$82, DW_AT_name("Delay1ms")
 	.dwattr $C$DW$82, DW_AT_TI_call
 
-        BL        Delay1ms              ; [DPU_V7M3_PIPE] |730| 
-        ; CALL OCCURS {Delay1ms }        ; [] |730| 
-	.dwpsn	file "../ST7735.c",line 731,column 3,is_stmt,isa 1
+        BL        Delay1ms              ; [DPU_V7M3_PIPE] |727| 
+        ; CALL OCCURS {Delay1ms }        ; [] |727| 
+	.dwpsn	file "../ST7735.c",line 728,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 731 | GPIOPinWrite(RESET_PORT, RESET_PIN, 0);                                
+; 728 | GPIOPinWrite(RESET_PORT, RESET_PIN, 0);                                
 ;----------------------------------------------------------------------
-        MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |731| 
-        MOVS      A2, #128              ; [DPU_V7M3_PIPE] |731| 
-        MOVS      A3, #0                ; [DPU_V7M3_PIPE] |731| 
+        MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |728| 
+        MOVS      A2, #128              ; [DPU_V7M3_PIPE] |728| 
+        MOVS      A3, #0                ; [DPU_V7M3_PIPE] |728| 
 $C$DW$83	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$83, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$83, DW_AT_name("GPIOPinWrite")
 	.dwattr $C$DW$83, DW_AT_TI_call
 
-        BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |731| 
-        ; CALL OCCURS {GPIOPinWrite }    ; [] |731| 
+        BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |728| 
+        ; CALL OCCURS {GPIOPinWrite }    ; [] |728| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 732,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 729,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 732 | Delay1ms(500);                                                         
+; 729 | Delay1ms(500);                                                         
 ;----------------------------------------------------------------------
-        MOV       A1, #500              ; [DPU_V7M3_PIPE] |732| 
+        MOV       A1, #500              ; [DPU_V7M3_PIPE] |729| 
 $C$DW$84	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$84, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$84, DW_AT_name("Delay1ms")
 	.dwattr $C$DW$84, DW_AT_TI_call
 
-        BL        Delay1ms              ; [DPU_V7M3_PIPE] |732| 
-        ; CALL OCCURS {Delay1ms }        ; [] |732| 
-	.dwpsn	file "../ST7735.c",line 733,column 3,is_stmt,isa 1
+        BL        Delay1ms              ; [DPU_V7M3_PIPE] |729| 
+        ; CALL OCCURS {Delay1ms }        ; [] |729| 
+	.dwpsn	file "../ST7735.c",line 730,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 733 | GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);                        
+; 730 | GPIOPinWrite(RESET_PORT, RESET_PIN, RESET_PIN);                        
 ;----------------------------------------------------------------------
-        MOVS      A2, #128              ; [DPU_V7M3_PIPE] |733| 
-        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |733| 
-        MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |733| 
+        MOVS      A2, #128              ; [DPU_V7M3_PIPE] |730| 
+        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |730| 
+        MOV       A1, #1073758208       ; [DPU_V7M3_PIPE] |730| 
 $C$DW$85	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$85, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$85, DW_AT_name("GPIOPinWrite")
 	.dwattr $C$DW$85, DW_AT_TI_call
 
-        BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |733| 
-        ; CALL OCCURS {GPIOPinWrite }    ; [] |733| 
-	.dwpsn	file "../ST7735.c",line 734,column 3,is_stmt,isa 1
+        BL        GPIOPinWrite          ; [DPU_V7M3_PIPE] |730| 
+        ; CALL OCCURS {GPIOPinWrite }    ; [] |730| 
+	.dwpsn	file "../ST7735.c",line 731,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 734 | Delay1ms(500);                                                         
-; 737 | // toggle RST low to reset; CS low so it'll listen to us               
-; 749 | // SSI0Fss is temporarily used as GPIO                                 
-; 750 |   //GPIO_PORTA_DIR_R |= 0xC8;             // make PA3,6,7 out          
-; 751 |   //GPIO_PORTA_AFSEL_R &= ~0xC8;          // disable alt funct on PA3,6
+; 731 | Delay1ms(500);                                                         
+; 734 | // toggle RST low to reset; CS low so it'll listen to us               
+; 746 | // SSI0Fss is temporarily used as GPIO                                 
+; 747 |   //GPIO_PORTA_DIR_R |= 0xC8;             // make PA3,6,7 out          
+; 748 |   //GPIO_PORTA_AFSEL_R &= ~0xC8;          // disable alt funct on PA3,6
 ;     | ,7                                                                     
-; 752 |   //GPIO_PORTA_DEN_R |= 0xC8;             // enable digital I/O on PA3,
+; 749 |   //GPIO_PORTA_DEN_R |= 0xC8;             // enable digital I/O on PA3,
 ;     | 6,7                                                                    
-; 753 |                                         // configure PA3,6,7 as GPIO   
-; 754 |   //GPIO_PORTA_PCTL_R = (GPIO_PORTA_PCTL_R&0x00FF0FFF)+0x00000000;     
-; 755 |   //GPIO_PORTA_AMSEL_R &= ~0xC8;          // disable analog functionali
+; 750 |                                         // configure PA3,6,7 as GPIO   
+; 751 |   //GPIO_PORTA_PCTL_R = (GPIO_PORTA_PCTL_R&0x00FF0FFF)+0x00000000;     
+; 752 |   //GPIO_PORTA_AMSEL_R &= ~0xC8;          // disable analog functionali
 ;     | ty on PA3,6,7                                                          
 ;----------------------------------------------------------------------
-        MOV       A1, #500              ; [DPU_V7M3_PIPE] |734| 
+        MOV       A1, #500              ; [DPU_V7M3_PIPE] |731| 
 $C$DW$86	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$86, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$86, DW_AT_name("Delay1ms")
 	.dwattr $C$DW$86, DW_AT_TI_call
 
-        BL        Delay1ms              ; [DPU_V7M3_PIPE] |734| 
-        ; CALL OCCURS {Delay1ms }        ; [] |734| 
-	.dwpsn	file "../ST7735.c",line 756,column 3,is_stmt,isa 1
+        BL        Delay1ms              ; [DPU_V7M3_PIPE] |731| 
+        ; CALL OCCURS {Delay1ms }        ; [] |731| 
+	.dwpsn	file "../ST7735.c",line 753,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 756 | initOutput(SS_PERIPH, SS_PORT, SS_PIN);                                
+; 753 | initOutput(SS_PERIPH, SS_PORT, SS_PIN);                                
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON6           ; [DPU_V7M3_PIPE] |756| 
-        LDR       A2, $C$CON1           ; [DPU_V7M3_PIPE] |756| 
-        MOVS      A3, #16               ; [DPU_V7M3_PIPE] |756| 
+        LDR       A1, $C$CON6           ; [DPU_V7M3_PIPE] |753| 
+        LDR       A2, $C$CON1           ; [DPU_V7M3_PIPE] |753| 
+        MOVS      A3, #16               ; [DPU_V7M3_PIPE] |753| 
 $C$DW$87	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$87, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$87, DW_AT_name("initOutput")
 	.dwattr $C$DW$87, DW_AT_TI_call
 
-        BL        initOutput            ; [DPU_V7M3_PIPE] |756| 
-        ; CALL OCCURS {initOutput }      ; [] |756| 
-	.dwpsn	file "../ST7735.c",line 758,column 3,is_stmt,isa 1
+        BL        initOutput            ; [DPU_V7M3_PIPE] |753| 
+        ; CALL OCCURS {initOutput }      ; [] |753| 
+	.dwpsn	file "../ST7735.c",line 755,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 758 | initSSI(SSI_PERIPH, SSI_BASE, BAUD_RATE, DATA_WIDTH);                  
+; 755 | initSSI(SSI_PERIPH, SSI_BASE, BAUD_RATE, DATA_WIDTH);                  
 ;----------------------------------------------------------------------
 $C$DW$88	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$88, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$88, DW_AT_name("SysCtlClockGet")
 	.dwattr $C$DW$88, DW_AT_TI_call
 
-        BL        SysCtlClockGet        ; [DPU_V7M3_PIPE] |758| 
-        ; CALL OCCURS {SysCtlClockGet }  ; [] |758| 
-        LSRS      A3, A1, #1            ; [DPU_V7M3_PIPE] |758| 
-        LDR       A2, $C$CON2           ; [DPU_V7M3_PIPE] |758| 
-        LDR       A1, $C$CON7           ; [DPU_V7M3_PIPE] |758| 
-        MOVS      A4, #8                ; [DPU_V7M3_PIPE] |758| 
+        BL        SysCtlClockGet        ; [DPU_V7M3_PIPE] |755| 
+        ; CALL OCCURS {SysCtlClockGet }  ; [] |755| 
+        LSRS      A3, A1, #1            ; [DPU_V7M3_PIPE] |755| 
+        LDR       A2, $C$CON2           ; [DPU_V7M3_PIPE] |755| 
+        LDR       A1, $C$CON7           ; [DPU_V7M3_PIPE] |755| 
+        MOVS      A4, #8                ; [DPU_V7M3_PIPE] |755| 
 $C$DW$89	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$89, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$89, DW_AT_name("initSSI")
 	.dwattr $C$DW$89, DW_AT_TI_call
 
-        BL        initSSI               ; [DPU_V7M3_PIPE] |758| 
-        ; CALL OCCURS {initSSI }         ; [] |758| 
-	.dwpsn	file "../ST7735.c",line 759,column 3,is_stmt,isa 1
+        BL        initSSI               ; [DPU_V7M3_PIPE] |755| 
+        ; CALL OCCURS {initSSI }         ; [] |755| 
+	.dwpsn	file "../ST7735.c",line 756,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 759 | if(SSI_BASE == SSI0_BASE){                                             
-; 760 |     initPeriph(SYSCTL_PERIPH_GPIOA);                                   
-; 761 |     GPIOPinConfigure(GPIO_PA2_SSI0CLK);                                
-; 762 |     GPIOPinConfigure(GPIO_PA3_SSI0FSS);                                
-; 763 |     GPIOPinConfigure(GPIO_PA5_SSI0TX);                                 
-; 764 |     GPIOPinTypeSSI(GPIO_PORTA_BASE, GPIO_PIN_2 | GPIO_PIN_3 | GPIO_PIN_
+; 756 | if(SSI_BASE == SSI0_BASE){                                             
+; 757 |     initPeriph(SYSCTL_PERIPH_GPIOA);                                   
+; 758 |     GPIOPinConfigure(GPIO_PA2_SSI0CLK);                                
+; 759 |     GPIOPinConfigure(GPIO_PA3_SSI0FSS);                                
+; 760 |     GPIOPinConfigure(GPIO_PA5_SSI0TX);                                 
+; 761 |     GPIOPinTypeSSI(GPIO_PORTA_BASE, GPIO_PIN_2 | GPIO_PIN_3 | GPIO_PIN_
 ;     | 5);                                                                    
-; 765 | }else{                                                                 
+; 762 | }else{                                                                 
 ;----------------------------------------------------------------------
-        B         ||$C$L10||            ; [DPU_V7M3_PIPE] |759| 
-        ; BRANCH OCCURS {||$C$L10||}     ; [] |759| 
+        B         ||$C$L10||            ; [DPU_V7M3_PIPE] |756| 
+        ; BRANCH OCCURS {||$C$L10||}     ; [] |756| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L10||:    
-	.dwpsn	file "../ST7735.c",line 766,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 763,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 766 | initPeriph(SYSCTL_PERIPH_GPIOB);                                       
+; 763 | initPeriph(SYSCTL_PERIPH_GPIOB);                                       
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON8           ; [DPU_V7M3_PIPE] |766| 
+        LDR       A1, $C$CON8           ; [DPU_V7M3_PIPE] |763| 
 $C$DW$90	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$90, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$90, DW_AT_name("initPeriph")
 	.dwattr $C$DW$90, DW_AT_TI_call
 
-        BL        initPeriph            ; [DPU_V7M3_PIPE] |766| 
-        ; CALL OCCURS {initPeriph }      ; [] |766| 
-	.dwpsn	file "../ST7735.c",line 767,column 7,is_stmt,isa 1
+        BL        initPeriph            ; [DPU_V7M3_PIPE] |763| 
+        ; CALL OCCURS {initPeriph }      ; [] |763| 
+	.dwpsn	file "../ST7735.c",line 764,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 767 | GPIOPinConfigure(GPIO_PB4_SSI2CLK);                                    
+; 764 | GPIOPinConfigure(GPIO_PB4_SSI2CLK);                                    
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON9           ; [DPU_V7M3_PIPE] |767| 
+        LDR       A1, $C$CON9           ; [DPU_V7M3_PIPE] |764| 
 $C$DW$91	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$91, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$91, DW_AT_name("GPIOPinConfigure")
 	.dwattr $C$DW$91, DW_AT_TI_call
 
-        BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |767| 
-        ; CALL OCCURS {GPIOPinConfigure }  ; [] |767| 
-	.dwpsn	file "../ST7735.c",line 768,column 7,is_stmt,isa 1
+        BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |764| 
+        ; CALL OCCURS {GPIOPinConfigure }  ; [] |764| 
+	.dwpsn	file "../ST7735.c",line 765,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 768 | GPIOPinConfigure(GPIO_PB5_SSI2FSS);                                    
+; 765 | GPIOPinConfigure(GPIO_PB5_SSI2FSS);                                    
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON10          ; [DPU_V7M3_PIPE] |768| 
+        LDR       A1, $C$CON10          ; [DPU_V7M3_PIPE] |765| 
 $C$DW$92	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$92, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$92, DW_AT_name("GPIOPinConfigure")
 	.dwattr $C$DW$92, DW_AT_TI_call
 
-        BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |768| 
-        ; CALL OCCURS {GPIOPinConfigure }  ; [] |768| 
-	.dwpsn	file "../ST7735.c",line 769,column 7,is_stmt,isa 1
+        BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |765| 
+        ; CALL OCCURS {GPIOPinConfigure }  ; [] |765| 
+	.dwpsn	file "../ST7735.c",line 766,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 769 | GPIOPinConfigure(GPIO_PB7_SSI2TX);                                     
+; 766 | GPIOPinConfigure(GPIO_PB7_SSI2TX);                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON11          ; [DPU_V7M3_PIPE] |769| 
+        LDR       A1, $C$CON11          ; [DPU_V7M3_PIPE] |766| 
 $C$DW$93	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$93, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$93, DW_AT_name("GPIOPinConfigure")
 	.dwattr $C$DW$93, DW_AT_TI_call
 
-        BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |769| 
-        ; CALL OCCURS {GPIOPinConfigure }  ; [] |769| 
-	.dwpsn	file "../ST7735.c",line 770,column 7,is_stmt,isa 1
+        BL        GPIOPinConfigure      ; [DPU_V7M3_PIPE] |766| 
+        ; CALL OCCURS {GPIOPinConfigure }  ; [] |766| 
+	.dwpsn	file "../ST7735.c",line 767,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 770 | GPIOPinTypeSSI(GPIO_PORTB_BASE, GPIO_PIN_4 | GPIO_PIN_5 | GPIO_PIN_7); 
-; 773 | //GPIO_PORTA_AFSEL_R |= 0x20 | 0x8;// | 0x4;           // enable alt fu
+; 767 | GPIOPinTypeSSI(GPIO_PORTB_BASE, GPIO_PIN_4 | GPIO_PIN_5 | GPIO_PIN_7); 
+; 770 | //GPIO_PORTA_AFSEL_R |= 0x20 | 0x8;// | 0x4;           // enable alt fu
 ;     | nct on PA2,3,5                                                         
-; 774 | //GPIO_PORTA_DEN_R |= 0x2C;             // enable digital I/O on PA2,3,
+; 771 | //GPIO_PORTA_DEN_R |= 0x2C;             // enable digital I/O on PA2,3,
 ;     | 5                                                                      
-; 775 | //GPIO_PORTA_AMSEL_R &= ~0x2C;          // disable analog functionality
+; 772 | //GPIO_PORTA_AMSEL_R &= ~0x2C;          // disable analog functionality
 ;     |  on PA2,3,5                                                            
-; 776 |                                   // configure PA2,3,5 as SSI          
-; 777 | //GPIO_PORTA_PCTL_R = (GPIO_PORTA_PCTL_R&0xFF0F00FF)+0x00202200;       
-; 779 | //SSI0_CR1_R &= ~SSI_CR1_SSE;           // disable SSI                 
-; 780 | //SSI0_CR1_R &= ~SSI_CR1_MS;            // master mode                 
-; 781 |                                   // configure for system clock/PLL bau
+; 773 |                                   // configure PA2,3,5 as SSI          
+; 774 | //GPIO_PORTA_PCTL_R = (GPIO_PORTA_PCTL_R&0xFF0F00FF)+0x00202200;       
+; 776 | //SSI0_CR1_R &= ~SSI_CR1_SSE;           // disable SSI                 
+; 777 | //SSI0_CR1_R &= ~SSI_CR1_MS;            // master mode                 
+; 778 |                                   // configure for system clock/PLL bau
 ;     | d clock source                                                         
-; 782 | //SSI0_CC_R = (SSI0_CC_R&~SSI_CC_CS_M)+SSI_CC_CS_SYSPLL;               
-; 783 | //                                        // clock divider for 3.125 MH
+; 779 | //SSI0_CC_R = (SSI0_CC_R&~SSI_CC_CS_M)+SSI_CC_CS_SYSPLL;               
+; 780 | //                                        // clock divider for 3.125 MH
 ;     | z SSIClk (50 MHz PIOSC/16)                                             
-; 784 | //  SSI0_CPSR_R = (SSI0_CPSR_R&~SSI_CPSR_CPSDVSR_M)+16;                
-; 785 |                                   // clock divider for 8 MHz SSIClk (80
+; 781 | //  SSI0_CPSR_R = (SSI0_CPSR_R&~SSI_CPSR_CPSDVSR_M)+16;                
+; 782 |                                   // clock divider for 8 MHz SSIClk (80
 ;     |  MHz PLL/24)                                                           
-; 786 |                                   // SysClk/(CPSDVSR*(1+SCR))          
-; 787 |                                   // 80/(10*(1+0)) = 8 MHz (slower than
+; 783 |                                   // SysClk/(CPSDVSR*(1+SCR))          
+; 784 |                                   // 80/(10*(1+0)) = 8 MHz (slower than
 ;     |  4 MHz)                                                                
-; 788 | //SSI0_CPSR_R = (SSI0_CPSR_R&~SSI_CPSR_CPSDVSR_M)+10; // must be even n
+; 785 | //SSI0_CPSR_R = (SSI0_CPSR_R&~SSI_CPSR_CPSDVSR_M)+10; // must be even n
 ;     | umber                                                                  
-; 789 | //SSI0_CR0_R &= ~(SSI_CR0_SCR_M |       // SCR = 0 (8 Mbps data rate)  
-; 790 | //               SSI_CR0_SPH |         // SPH = 0                      
-; 791 | //                SSI_CR0_SPO);         // SPO = 0                     
-; 792 |                                   // FRF = Freescale format            
-; 793 | //SSI0_CR0_R = (SSI0_CR0_R&~SSI_CR0_FRF_M)+SSI_CR0_FRF_MOTO;           
-; 794 |                                   // DSS = 8-bit data                  
-; 795 | //SSI0_CR0_R = (SSI0_CR0_R&~SSI_CR0_DSS_M)+SSI_CR0_DSS_8;              
-; 796 | //SSI0_CR1_R |= SSI_CR1_SSE;            // enable SSI                  
+; 786 | //SSI0_CR0_R &= ~(SSI_CR0_SCR_M |       // SCR = 0 (8 Mbps data rate)  
+; 787 | //               SSI_CR0_SPH |         // SPH = 0                      
+; 788 | //                SSI_CR0_SPO);         // SPO = 0                     
+; 789 |                                   // FRF = Freescale format            
+; 790 | //SSI0_CR0_R = (SSI0_CR0_R&~SSI_CR0_FRF_M)+SSI_CR0_FRF_MOTO;           
+; 791 |                                   // DSS = 8-bit data                  
+; 792 | //SSI0_CR0_R = (SSI0_CR0_R&~SSI_CR0_DSS_M)+SSI_CR0_DSS_8;              
+; 793 | //SSI0_CR1_R |= SSI_CR1_SSE;            // enable SSI                  
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON12          ; [DPU_V7M3_PIPE] |770| 
-        MOVS      A2, #176              ; [DPU_V7M3_PIPE] |770| 
+        LDR       A1, $C$CON12          ; [DPU_V7M3_PIPE] |767| 
+        MOVS      A2, #176              ; [DPU_V7M3_PIPE] |767| 
 $C$DW$94	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$94, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$94, DW_AT_name("GPIOPinTypeSSI")
 	.dwattr $C$DW$94, DW_AT_TI_call
 
-        BL        GPIOPinTypeSSI        ; [DPU_V7M3_PIPE] |770| 
-        ; CALL OCCURS {GPIOPinTypeSSI }  ; [] |770| 
-	.dwpsn	file "../ST7735.c",line 798,column 3,is_stmt,isa 1
+        BL        GPIOPinTypeSSI        ; [DPU_V7M3_PIPE] |767| 
+        ; CALL OCCURS {GPIOPinTypeSSI }  ; [] |767| 
+	.dwpsn	file "../ST7735.c",line 795,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 798 | if(cmdList) commandList(cmdList);                                      
+; 795 | if(cmdList) commandList(cmdList);                                      
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |798| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |795| 
         CBZ       A1, ||$C$L11||        ; [] 
-        ; BRANCHCC OCCURS {||$C$L11||}   ; [] |798| 
+        ; BRANCHCC OCCURS {||$C$L11||}   ; [] |795| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 798,column 15,is_stmt,isa 1
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |798| 
+	.dwpsn	file "../ST7735.c",line 795,column 15,is_stmt,isa 1
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |795| 
 $C$DW$95	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$95, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$95, DW_AT_name("commandList")
 	.dwattr $C$DW$95, DW_AT_TI_call
 
-        BL        commandList           ; [DPU_V7M3_PIPE] |798| 
-        ; CALL OCCURS {commandList }     ; [] |798| 
-	.dwpsn	file "../ST7735.c",line 799,column 1,is_stmt,isa 1
+        BL        commandList           ; [DPU_V7M3_PIPE] |795| 
+        ; CALL OCCURS {commandList }     ; [] |795| 
+	.dwpsn	file "../ST7735.c",line 796,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L11||:    
 $C$DW$96	.dwtag  DW_TAG_TI_branch
@@ -5459,7 +5457,7 @@ $C$DW$96	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$75, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$75, DW_AT_TI_end_line(0x31f)
+	.dwattr $C$DW$75, DW_AT_TI_end_line(0x31c)
 	.dwattr $C$DW$75, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$75
@@ -5477,17 +5475,17 @@ $C$DW$97	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$97, DW_AT_TI_symbol_name("ST7735_InitB")
 	.dwattr $C$DW$97, DW_AT_external
 	.dwattr $C$DW$97, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$97, DW_AT_TI_begin_line(0x326)
+	.dwattr $C$DW$97, DW_AT_TI_begin_line(0x323)
 	.dwattr $C$DW$97, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$97, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$97, DW_AT_decl_line(0x326)
+	.dwattr $C$DW$97, DW_AT_decl_line(0x323)
 	.dwattr $C$DW$97, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$97, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 806,column 25,is_stmt,address ST7735_InitB,isa 1
+	.dwpsn	file "../ST7735.c",line 803,column 25,is_stmt,address ST7735_InitB,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_InitB
 ;----------------------------------------------------------------------
-; 806 | void ST7735_InitB(void) {                                              
+; 803 | void ST7735_InitB(void) {                                              
 ;----------------------------------------------------------------------
 
 ;*****************************************************************************
@@ -5508,51 +5506,51 @@ ST7735_InitB:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-	.dwpsn	file "../ST7735.c",line 807,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 804,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 807 | commonInit(Bcmd);                                                      
+; 804 | commonInit(Bcmd);                                                      
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON13          ; [DPU_V7M3_PIPE] |807| 
+        LDR       A1, $C$CON13          ; [DPU_V7M3_PIPE] |804| 
 $C$DW$98	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$98, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$98, DW_AT_name("commonInit")
 	.dwattr $C$DW$98, DW_AT_TI_call
 
-        BL        commonInit            ; [DPU_V7M3_PIPE] |807| 
-        ; CALL OCCURS {commonInit }      ; [] |807| 
-	.dwpsn	file "../ST7735.c",line 808,column 3,is_stmt,isa 1
+        BL        commonInit            ; [DPU_V7M3_PIPE] |804| 
+        ; CALL OCCURS {commonInit }      ; [] |804| 
+	.dwpsn	file "../ST7735.c",line 805,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 808 | ST7735_SetCursor(0,0);                                                 
+; 805 | ST7735_SetCursor(0,0);                                                 
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |808| 
-        MOVS      A2, #0                ; [DPU_V7M3_PIPE] |808| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |805| 
+        MOVS      A2, #0                ; [DPU_V7M3_PIPE] |805| 
 $C$DW$99	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$99, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$99, DW_AT_name("ST7735_SetCursor")
 	.dwattr $C$DW$99, DW_AT_TI_call
 
-        BL        ST7735_SetCursor      ; [DPU_V7M3_PIPE] |808| 
-        ; CALL OCCURS {ST7735_SetCursor }  ; [] |808| 
-	.dwpsn	file "../ST7735.c",line 809,column 3,is_stmt,isa 1
+        BL        ST7735_SetCursor      ; [DPU_V7M3_PIPE] |805| 
+        ; CALL OCCURS {ST7735_SetCursor }  ; [] |805| 
+	.dwpsn	file "../ST7735.c",line 806,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 809 | StTextColor = ST7735_YELLOW;                                           
+; 806 | StTextColor = ST7735_YELLOW;                                           
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON14          ; [DPU_V7M3_PIPE] |809| 
-        MOV       A1, #2047             ; [DPU_V7M3_PIPE] |809| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |809| 
-	.dwpsn	file "../ST7735.c",line 810,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON14          ; [DPU_V7M3_PIPE] |806| 
+        MOV       A1, #2047             ; [DPU_V7M3_PIPE] |806| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |806| 
+	.dwpsn	file "../ST7735.c",line 807,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 810 | ST7735_FillScreen(0);                 // set screen to black           
+; 807 | ST7735_FillScreen(0);                 // set screen to black           
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |810| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |807| 
 $C$DW$100	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$100, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$100, DW_AT_name("ST7735_FillScreen")
 	.dwattr $C$DW$100, DW_AT_TI_call
 
-        BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |810| 
-        ; CALL OCCURS {ST7735_FillScreen }  ; [] |810| 
-	.dwpsn	file "../ST7735.c",line 811,column 1,is_stmt,isa 1
+        BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |807| 
+        ; CALL OCCURS {ST7735_FillScreen }  ; [] |807| 
+	.dwpsn	file "../ST7735.c",line 808,column 1,is_stmt,isa 1
 $C$DW$101	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$101, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$101, DW_AT_TI_return
@@ -5562,7 +5560,7 @@ $C$DW$101	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$97, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$97, DW_AT_TI_end_line(0x32b)
+	.dwattr $C$DW$97, DW_AT_TI_end_line(0x328)
 	.dwattr $C$DW$97, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$97
@@ -5580,13 +5578,13 @@ $C$DW$102	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$102, DW_AT_TI_symbol_name("ST7735_InitR")
 	.dwattr $C$DW$102, DW_AT_external
 	.dwattr $C$DW$102, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$102, DW_AT_TI_begin_line(0x332)
+	.dwattr $C$DW$102, DW_AT_TI_begin_line(0x32f)
 	.dwattr $C$DW$102, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$102, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$102, DW_AT_decl_line(0x332)
+	.dwattr $C$DW$102, DW_AT_decl_line(0x32f)
 	.dwattr $C$DW$102, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$102, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 818,column 43,is_stmt,address ST7735_InitR,isa 1
+	.dwpsn	file "../ST7735.c",line 815,column 43,is_stmt,address ST7735_InitR,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_InitR
 $C$DW$103	.dwtag  DW_TAG_formal_parameter
@@ -5621,167 +5619,167 @@ $C$DW$104	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$104, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 818 | void ST7735_InitR(enum initRFlags option) {                            
+; 815 | void ST7735_InitR(enum initRFlags option) {                            
 ;----------------------------------------------------------------------
-        STRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |818| 
-	.dwpsn	file "../ST7735.c",line 819,column 3,is_stmt,isa 1
+        STRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |815| 
+	.dwpsn	file "../ST7735.c",line 816,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 819 | commonInit(Rcmd1);                                                     
+; 816 | commonInit(Rcmd1);                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON15          ; [DPU_V7M3_PIPE] |819| 
+        LDR       A1, $C$CON15          ; [DPU_V7M3_PIPE] |816| 
 $C$DW$105	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$105, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$105, DW_AT_name("commonInit")
 	.dwattr $C$DW$105, DW_AT_TI_call
 
-        BL        commonInit            ; [DPU_V7M3_PIPE] |819| 
-        ; CALL OCCURS {commonInit }      ; [] |819| 
-	.dwpsn	file "../ST7735.c",line 820,column 3,is_stmt,isa 1
+        BL        commonInit            ; [DPU_V7M3_PIPE] |816| 
+        ; CALL OCCURS {commonInit }      ; [] |816| 
+	.dwpsn	file "../ST7735.c",line 817,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 820 | if(option == INITR_GREENTAB) {                                         
+; 817 | if(option == INITR_GREENTAB) {                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |820| 
-        CMP       A1, #1                ; [DPU_V7M3_PIPE] |820| 
-        BNE       ||$C$L12||            ; [DPU_V7M3_PIPE] |820| 
-        ; BRANCHCC OCCURS {||$C$L12||}   ; [] |820| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |817| 
+        CMP       A1, #1                ; [DPU_V7M3_PIPE] |817| 
+        BNE       ||$C$L12||            ; [DPU_V7M3_PIPE] |817| 
+        ; BRANCHCC OCCURS {||$C$L12||}   ; [] |817| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 821,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 818,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 821 | commandList(Rcmd2green);                                               
+; 818 | commandList(Rcmd2green);                                               
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON16          ; [DPU_V7M3_PIPE] |821| 
+        LDR       A1, $C$CON16          ; [DPU_V7M3_PIPE] |818| 
 $C$DW$106	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$106, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$106, DW_AT_name("commandList")
 	.dwattr $C$DW$106, DW_AT_TI_call
 
-        BL        commandList           ; [DPU_V7M3_PIPE] |821| 
-        ; CALL OCCURS {commandList }     ; [] |821| 
-	.dwpsn	file "../ST7735.c",line 822,column 5,is_stmt,isa 1
+        BL        commandList           ; [DPU_V7M3_PIPE] |818| 
+        ; CALL OCCURS {commandList }     ; [] |818| 
+	.dwpsn	file "../ST7735.c",line 819,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 822 | ColStart = 2;                                                          
+; 819 | ColStart = 2;                                                          
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON3           ; [DPU_V7M3_PIPE] |822| 
-        MOVS      A1, #2                ; [DPU_V7M3_PIPE] |822| 
-        STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |822| 
-	.dwpsn	file "../ST7735.c",line 823,column 5,is_stmt,isa 1
+        LDR       A2, $C$CON3           ; [DPU_V7M3_PIPE] |819| 
+        MOVS      A1, #2                ; [DPU_V7M3_PIPE] |819| 
+        STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |819| 
+	.dwpsn	file "../ST7735.c",line 820,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 823 | RowStart = 1;                                                          
+; 820 | RowStart = 1;                                                          
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON4           ; [DPU_V7M3_PIPE] |823| 
-        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |823| 
-        STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |823| 
-	.dwpsn	file "../ST7735.c",line 824,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON4           ; [DPU_V7M3_PIPE] |820| 
+        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |820| 
+        STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |820| 
+	.dwpsn	file "../ST7735.c",line 821,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 824 | } else {                                                               
-; 825 |   // colstart, rowstart left at default '0' values                     
+; 821 | } else {                                                               
+; 822 |   // colstart, rowstart left at default '0' values                     
 ;----------------------------------------------------------------------
-        B         ||$C$L13||            ; [DPU_V7M3_PIPE] |824| 
-        ; BRANCH OCCURS {||$C$L13||}     ; [] |824| 
+        B         ||$C$L13||            ; [DPU_V7M3_PIPE] |821| 
+        ; BRANCH OCCURS {||$C$L13||}     ; [] |821| 
 ;* --------------------------------------------------------------------------*
 ||$C$L12||:    
-	.dwpsn	file "../ST7735.c",line 826,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 823,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 826 | commandList(Rcmd2red);                                                 
+; 823 | commandList(Rcmd2red);                                                 
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON17          ; [DPU_V7M3_PIPE] |826| 
+        LDR       A1, $C$CON17          ; [DPU_V7M3_PIPE] |823| 
 $C$DW$107	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$107, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$107, DW_AT_name("commandList")
 	.dwattr $C$DW$107, DW_AT_TI_call
 
-        BL        commandList           ; [DPU_V7M3_PIPE] |826| 
-        ; CALL OCCURS {commandList }     ; [] |826| 
+        BL        commandList           ; [DPU_V7M3_PIPE] |823| 
+        ; CALL OCCURS {commandList }     ; [] |823| 
 ;* --------------------------------------------------------------------------*
 ||$C$L13||:    
-	.dwpsn	file "../ST7735.c",line 828,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 825,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 828 | commandList(Rcmd3);                                                    
-; 830 | // if black, change MADCTL color filter                                
+; 825 | commandList(Rcmd3);                                                    
+; 827 | // if black, change MADCTL color filter                                
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON18          ; [DPU_V7M3_PIPE] |828| 
+        LDR       A1, $C$CON18          ; [DPU_V7M3_PIPE] |825| 
 $C$DW$108	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$108, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$108, DW_AT_name("commandList")
 	.dwattr $C$DW$108, DW_AT_TI_call
 
-        BL        commandList           ; [DPU_V7M3_PIPE] |828| 
-        ; CALL OCCURS {commandList }     ; [] |828| 
-	.dwpsn	file "../ST7735.c",line 831,column 3,is_stmt,isa 1
+        BL        commandList           ; [DPU_V7M3_PIPE] |825| 
+        ; CALL OCCURS {commandList }     ; [] |825| 
+	.dwpsn	file "../ST7735.c",line 828,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 831 | if (option == INITR_BLACKTAB) {                                        
+; 828 | if (option == INITR_BLACKTAB) {                                        
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |831| 
-        CMP       A1, #3                ; [DPU_V7M3_PIPE] |831| 
-        BNE       ||$C$L14||            ; [DPU_V7M3_PIPE] |831| 
-        ; BRANCHCC OCCURS {||$C$L14||}   ; [] |831| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |828| 
+        CMP       A1, #3                ; [DPU_V7M3_PIPE] |828| 
+        BNE       ||$C$L14||            ; [DPU_V7M3_PIPE] |828| 
+        ; BRANCHCC OCCURS {||$C$L14||}   ; [] |828| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 832,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 829,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 832 | writecommand(ST7735_MADCTL);                                           
+; 829 | writecommand(ST7735_MADCTL);                                           
 ;----------------------------------------------------------------------
-        MOVS      A1, #54               ; [DPU_V7M3_PIPE] |832| 
+        MOVS      A1, #54               ; [DPU_V7M3_PIPE] |829| 
 $C$DW$109	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$109, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$109, DW_AT_name("writecommand")
 	.dwattr $C$DW$109, DW_AT_TI_call
 
-        BL        writecommand          ; [DPU_V7M3_PIPE] |832| 
-        ; CALL OCCURS {writecommand }    ; [] |832| 
-	.dwpsn	file "../ST7735.c",line 833,column 5,is_stmt,isa 1
+        BL        writecommand          ; [DPU_V7M3_PIPE] |829| 
+        ; CALL OCCURS {writecommand }    ; [] |829| 
+	.dwpsn	file "../ST7735.c",line 830,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 833 | writedata(0xC0);                                                       
+; 830 | writedata(0xC0);                                                       
 ;----------------------------------------------------------------------
-        MOVS      A1, #192              ; [DPU_V7M3_PIPE] |833| 
+        MOVS      A1, #192              ; [DPU_V7M3_PIPE] |830| 
 $C$DW$110	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$110, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$110, DW_AT_name("writedata")
 	.dwattr $C$DW$110, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |833| 
-        ; CALL OCCURS {writedata }       ; [] |833| 
+        BL        writedata             ; [DPU_V7M3_PIPE] |830| 
+        ; CALL OCCURS {writedata }       ; [] |830| 
 ;* --------------------------------------------------------------------------*
 ||$C$L14||:    
-	.dwpsn	file "../ST7735.c",line 835,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 832,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 835 | TabColor = option;                                                     
+; 832 | TabColor = option;                                                     
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |835| 
-        LDR       A2, $C$CON19          ; [DPU_V7M3_PIPE] |835| 
-        STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |835| 
-	.dwpsn	file "../ST7735.c",line 836,column 3,is_stmt,isa 1
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |832| 
+        LDR       A2, $C$CON19          ; [DPU_V7M3_PIPE] |832| 
+        STRB      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |832| 
+	.dwpsn	file "../ST7735.c",line 833,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 836 | ST7735_SetCursor(0,0);                                                 
+; 833 | ST7735_SetCursor(0,0);                                                 
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |836| 
-        MOVS      A2, #0                ; [DPU_V7M3_PIPE] |836| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |833| 
+        MOVS      A2, #0                ; [DPU_V7M3_PIPE] |833| 
 $C$DW$111	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$111, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$111, DW_AT_name("ST7735_SetCursor")
 	.dwattr $C$DW$111, DW_AT_TI_call
 
-        BL        ST7735_SetCursor      ; [DPU_V7M3_PIPE] |836| 
-        ; CALL OCCURS {ST7735_SetCursor }  ; [] |836| 
-	.dwpsn	file "../ST7735.c",line 837,column 3,is_stmt,isa 1
+        BL        ST7735_SetCursor      ; [DPU_V7M3_PIPE] |833| 
+        ; CALL OCCURS {ST7735_SetCursor }  ; [] |833| 
+	.dwpsn	file "../ST7735.c",line 834,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 837 | StTextColor = ST7735_YELLOW;                                           
+; 834 | StTextColor = ST7735_YELLOW;                                           
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON14          ; [DPU_V7M3_PIPE] |837| 
-        MOV       A1, #2047             ; [DPU_V7M3_PIPE] |837| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |837| 
-	.dwpsn	file "../ST7735.c",line 838,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON14          ; [DPU_V7M3_PIPE] |834| 
+        MOV       A1, #2047             ; [DPU_V7M3_PIPE] |834| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |834| 
+	.dwpsn	file "../ST7735.c",line 835,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 838 | ST7735_FillScreen(0);                 // set screen to black           
+; 835 | ST7735_FillScreen(0);                 // set screen to black           
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |838| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |835| 
 $C$DW$112	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$112, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$112, DW_AT_name("ST7735_FillScreen")
 	.dwattr $C$DW$112, DW_AT_TI_call
 
-        BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |838| 
-        ; CALL OCCURS {ST7735_FillScreen }  ; [] |838| 
-	.dwpsn	file "../ST7735.c",line 839,column 1,is_stmt,isa 1
+        BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |835| 
+        ; CALL OCCURS {ST7735_FillScreen }  ; [] |835| 
+	.dwpsn	file "../ST7735.c",line 836,column 1,is_stmt,isa 1
 $C$DW$113	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$113, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$113, DW_AT_TI_return
@@ -5791,7 +5789,7 @@ $C$DW$113	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$102, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$102, DW_AT_TI_end_line(0x347)
+	.dwattr $C$DW$102, DW_AT_TI_end_line(0x344)
 	.dwattr $C$DW$102, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$102
@@ -5807,13 +5805,13 @@ $C$DW$114	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$114, DW_AT_high_pc(0x00)
 	.dwattr $C$DW$114, DW_AT_TI_symbol_name("setAddrWindow")
 	.dwattr $C$DW$114, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$114, DW_AT_TI_begin_line(0x34e)
+	.dwattr $C$DW$114, DW_AT_TI_begin_line(0x34b)
 	.dwattr $C$DW$114, DW_AT_TI_begin_column(0x0d)
 	.dwattr $C$DW$114, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$114, DW_AT_decl_line(0x34e)
+	.dwattr $C$DW$114, DW_AT_decl_line(0x34b)
 	.dwattr $C$DW$114, DW_AT_decl_column(0x0d)
 	.dwattr $C$DW$114, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 846,column 75,is_stmt,address setAddrWindow,isa 1
+	.dwpsn	file "../ST7735.c",line 843,column 75,is_stmt,address setAddrWindow,isa 1
 
 	.dwfde $C$DW$CIE, setAddrWindow
 $C$DW$115	.dwtag  DW_TAG_formal_parameter
@@ -5884,163 +5882,163 @@ $C$DW$122	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$122, DW_AT_location[DW_OP_breg13 3]
 
 ;----------------------------------------------------------------------
-; 846 | void static setAddrWindow(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y
+; 843 | void static setAddrWindow(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y
 ;     | 1) {                                                                   
 ;----------------------------------------------------------------------
-        STRB      A4, [SP, #3]          ; [DPU_V7M3_PIPE] |846| 
-        STRB      A3, [SP, #2]          ; [DPU_V7M3_PIPE] |846| 
-        STRB      A2, [SP, #1]          ; [DPU_V7M3_PIPE] |846| 
-        STRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |846| 
-	.dwpsn	file "../ST7735.c",line 848,column 3,is_stmt,isa 1
+        STRB      A4, [SP, #3]          ; [DPU_V7M3_PIPE] |843| 
+        STRB      A3, [SP, #2]          ; [DPU_V7M3_PIPE] |843| 
+        STRB      A2, [SP, #1]          ; [DPU_V7M3_PIPE] |843| 
+        STRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |843| 
+	.dwpsn	file "../ST7735.c",line 845,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 848 | writecommand(ST7735_CASET); // Column addr set                         
+; 845 | writecommand(ST7735_CASET); // Column addr set                         
 ;----------------------------------------------------------------------
-        MOVS      A1, #42               ; [DPU_V7M3_PIPE] |848| 
+        MOVS      A1, #42               ; [DPU_V7M3_PIPE] |845| 
 $C$DW$123	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$123, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$123, DW_AT_name("writecommand")
 	.dwattr $C$DW$123, DW_AT_TI_call
 
-        BL        writecommand          ; [DPU_V7M3_PIPE] |848| 
-        ; CALL OCCURS {writecommand }    ; [] |848| 
-	.dwpsn	file "../ST7735.c",line 849,column 3,is_stmt,isa 1
+        BL        writecommand          ; [DPU_V7M3_PIPE] |845| 
+        ; CALL OCCURS {writecommand }    ; [] |845| 
+	.dwpsn	file "../ST7735.c",line 846,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 849 | writedata(0x00);                                                       
+; 846 | writedata(0x00);                                                       
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |849| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |846| 
 $C$DW$124	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$124, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$124, DW_AT_name("writedata")
 	.dwattr $C$DW$124, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |849| 
-        ; CALL OCCURS {writedata }       ; [] |849| 
-	.dwpsn	file "../ST7735.c",line 850,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |846| 
+        ; CALL OCCURS {writedata }       ; [] |846| 
+	.dwpsn	file "../ST7735.c",line 847,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 850 | writedata(x0+ColStart);     // XSTART                                  
+; 847 | writedata(x0+ColStart);     // XSTART                                  
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON3           ; [DPU_V7M3_PIPE] |850| 
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |850| 
-        LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |850| 
-        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |850| 
-        UXTB      A1, A1                ; [DPU_V7M3_PIPE] |850| 
+        LDR       A2, $C$CON3           ; [DPU_V7M3_PIPE] |847| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |847| 
+        LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |847| 
+        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |847| 
+        UXTB      A1, A1                ; [DPU_V7M3_PIPE] |847| 
 $C$DW$125	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$125, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$125, DW_AT_name("writedata")
 	.dwattr $C$DW$125, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |850| 
-        ; CALL OCCURS {writedata }       ; [] |850| 
-	.dwpsn	file "../ST7735.c",line 851,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |847| 
+        ; CALL OCCURS {writedata }       ; [] |847| 
+	.dwpsn	file "../ST7735.c",line 848,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 851 | writedata(0x00);                                                       
+; 848 | writedata(0x00);                                                       
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |851| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |848| 
 $C$DW$126	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$126, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$126, DW_AT_name("writedata")
 	.dwattr $C$DW$126, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |851| 
-        ; CALL OCCURS {writedata }       ; [] |851| 
-	.dwpsn	file "../ST7735.c",line 852,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |848| 
+        ; CALL OCCURS {writedata }       ; [] |848| 
+	.dwpsn	file "../ST7735.c",line 849,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 852 | writedata(x1+ColStart);     // XEND                                    
+; 849 | writedata(x1+ColStart);     // XEND                                    
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON3           ; [DPU_V7M3_PIPE] |852| 
-        LDRB      A1, [SP, #2]          ; [DPU_V7M3_PIPE] |852| 
-        LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |852| 
-        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |852| 
-        UXTB      A1, A1                ; [DPU_V7M3_PIPE] |852| 
+        LDR       A2, $C$CON3           ; [DPU_V7M3_PIPE] |849| 
+        LDRB      A1, [SP, #2]          ; [DPU_V7M3_PIPE] |849| 
+        LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |849| 
+        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |849| 
+        UXTB      A1, A1                ; [DPU_V7M3_PIPE] |849| 
 $C$DW$127	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$127, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$127, DW_AT_name("writedata")
 	.dwattr $C$DW$127, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |852| 
-        ; CALL OCCURS {writedata }       ; [] |852| 
-	.dwpsn	file "../ST7735.c",line 854,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |849| 
+        ; CALL OCCURS {writedata }       ; [] |849| 
+	.dwpsn	file "../ST7735.c",line 851,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 854 | writecommand(ST7735_RASET); // Row addr set                            
+; 851 | writecommand(ST7735_RASET); // Row addr set                            
 ;----------------------------------------------------------------------
-        MOVS      A1, #43               ; [DPU_V7M3_PIPE] |854| 
+        MOVS      A1, #43               ; [DPU_V7M3_PIPE] |851| 
 $C$DW$128	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$128, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$128, DW_AT_name("writecommand")
 	.dwattr $C$DW$128, DW_AT_TI_call
 
-        BL        writecommand          ; [DPU_V7M3_PIPE] |854| 
-        ; CALL OCCURS {writecommand }    ; [] |854| 
+        BL        writecommand          ; [DPU_V7M3_PIPE] |851| 
+        ; CALL OCCURS {writecommand }    ; [] |851| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 855,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 852,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 855 | writedata(0x00);                                                       
+; 852 | writedata(0x00);                                                       
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |855| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |852| 
 $C$DW$129	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$129, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$129, DW_AT_name("writedata")
 	.dwattr $C$DW$129, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |855| 
-        ; CALL OCCURS {writedata }       ; [] |855| 
-	.dwpsn	file "../ST7735.c",line 856,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |852| 
+        ; CALL OCCURS {writedata }       ; [] |852| 
+	.dwpsn	file "../ST7735.c",line 853,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 856 | writedata(y0+RowStart);     // YSTART                                  
+; 853 | writedata(y0+RowStart);     // YSTART                                  
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON4           ; [DPU_V7M3_PIPE] |856| 
-        LDRB      A1, [SP, #1]          ; [DPU_V7M3_PIPE] |856| 
-        LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |856| 
-        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |856| 
-        UXTB      A1, A1                ; [DPU_V7M3_PIPE] |856| 
+        LDR       A2, $C$CON4           ; [DPU_V7M3_PIPE] |853| 
+        LDRB      A1, [SP, #1]          ; [DPU_V7M3_PIPE] |853| 
+        LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |853| 
+        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |853| 
+        UXTB      A1, A1                ; [DPU_V7M3_PIPE] |853| 
 $C$DW$130	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$130, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$130, DW_AT_name("writedata")
 	.dwattr $C$DW$130, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |856| 
-        ; CALL OCCURS {writedata }       ; [] |856| 
-	.dwpsn	file "../ST7735.c",line 857,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |853| 
+        ; CALL OCCURS {writedata }       ; [] |853| 
+	.dwpsn	file "../ST7735.c",line 854,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 857 | writedata(0x00);                                                       
+; 854 | writedata(0x00);                                                       
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |857| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |854| 
 $C$DW$131	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$131, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$131, DW_AT_name("writedata")
 	.dwattr $C$DW$131, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |857| 
-        ; CALL OCCURS {writedata }       ; [] |857| 
-	.dwpsn	file "../ST7735.c",line 858,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |854| 
+        ; CALL OCCURS {writedata }       ; [] |854| 
+	.dwpsn	file "../ST7735.c",line 855,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 858 | writedata(y1+RowStart);     // YEND                                    
+; 855 | writedata(y1+RowStart);     // YEND                                    
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON4           ; [DPU_V7M3_PIPE] |858| 
-        LDRB      A1, [SP, #3]          ; [DPU_V7M3_PIPE] |858| 
-        LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |858| 
-        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |858| 
-        UXTB      A1, A1                ; [DPU_V7M3_PIPE] |858| 
+        LDR       A2, $C$CON4           ; [DPU_V7M3_PIPE] |855| 
+        LDRB      A1, [SP, #3]          ; [DPU_V7M3_PIPE] |855| 
+        LDRB      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |855| 
+        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |855| 
+        UXTB      A1, A1                ; [DPU_V7M3_PIPE] |855| 
 $C$DW$132	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$132, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$132, DW_AT_name("writedata")
 	.dwattr $C$DW$132, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |858| 
-        ; CALL OCCURS {writedata }       ; [] |858| 
-	.dwpsn	file "../ST7735.c",line 860,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |855| 
+        ; CALL OCCURS {writedata }       ; [] |855| 
+	.dwpsn	file "../ST7735.c",line 857,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 860 | writecommand(ST7735_RAMWR); // write to RAM                            
+; 857 | writecommand(ST7735_RAMWR); // write to RAM                            
 ;----------------------------------------------------------------------
-        MOVS      A1, #44               ; [DPU_V7M3_PIPE] |860| 
+        MOVS      A1, #44               ; [DPU_V7M3_PIPE] |857| 
 $C$DW$133	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$133, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$133, DW_AT_name("writecommand")
 	.dwattr $C$DW$133, DW_AT_TI_call
 
-        BL        writecommand          ; [DPU_V7M3_PIPE] |860| 
-        ; CALL OCCURS {writecommand }    ; [] |860| 
-	.dwpsn	file "../ST7735.c",line 861,column 1,is_stmt,isa 1
+        BL        writecommand          ; [DPU_V7M3_PIPE] |857| 
+        ; CALL OCCURS {writecommand }    ; [] |857| 
+	.dwpsn	file "../ST7735.c",line 858,column 1,is_stmt,isa 1
 $C$DW$134	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$134, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$134, DW_AT_TI_return
@@ -6050,7 +6048,7 @@ $C$DW$134	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$114, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$114, DW_AT_TI_end_line(0x35d)
+	.dwattr $C$DW$114, DW_AT_TI_end_line(0x35a)
 	.dwattr $C$DW$114, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$114
@@ -6066,13 +6064,13 @@ $C$DW$135	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$135, DW_AT_high_pc(0x00)
 	.dwattr $C$DW$135, DW_AT_TI_symbol_name("pushColor")
 	.dwattr $C$DW$135, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$135, DW_AT_TI_begin_line(0x362)
+	.dwattr $C$DW$135, DW_AT_TI_begin_line(0x35f)
 	.dwattr $C$DW$135, DW_AT_TI_begin_column(0x0d)
 	.dwattr $C$DW$135, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$135, DW_AT_decl_line(0x362)
+	.dwattr $C$DW$135, DW_AT_decl_line(0x35f)
 	.dwattr $C$DW$135, DW_AT_decl_column(0x0d)
 	.dwattr $C$DW$135, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 866,column 39,is_stmt,address pushColor,isa 1
+	.dwpsn	file "../ST7735.c",line 863,column 39,is_stmt,address pushColor,isa 1
 
 	.dwfde $C$DW$CIE, pushColor
 $C$DW$136	.dwtag  DW_TAG_formal_parameter
@@ -6107,35 +6105,35 @@ $C$DW$137	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$137, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 866 | void static pushColor(uint16_t color) {                                
+; 863 | void static pushColor(uint16_t color) {                                
 ;----------------------------------------------------------------------
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |866| 
-	.dwpsn	file "../ST7735.c",line 867,column 3,is_stmt,isa 1
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |863| 
+	.dwpsn	file "../ST7735.c",line 864,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 867 | writedata((uint8_t)(color >> 8));                                      
+; 864 | writedata((uint8_t)(color >> 8));                                      
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |867| 
-        UXTB      A1, A1, ROR #8        ; [DPU_V7M3_PIPE] |867| 
+        LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |864| 
+        UXTB      A1, A1, ROR #8        ; [DPU_V7M3_PIPE] |864| 
 $C$DW$138	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$138, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$138, DW_AT_name("writedata")
 	.dwattr $C$DW$138, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |867| 
-        ; CALL OCCURS {writedata }       ; [] |867| 
-	.dwpsn	file "../ST7735.c",line 868,column 3,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |864| 
+        ; CALL OCCURS {writedata }       ; [] |864| 
+	.dwpsn	file "../ST7735.c",line 865,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 868 | writedata((uint8_t)color);                                             
+; 865 | writedata((uint8_t)color);                                             
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |868| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |865| 
 $C$DW$139	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$139, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$139, DW_AT_name("writedata")
 	.dwattr $C$DW$139, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |868| 
-        ; CALL OCCURS {writedata }       ; [] |868| 
-	.dwpsn	file "../ST7735.c",line 869,column 1,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |865| 
+        ; CALL OCCURS {writedata }       ; [] |865| 
+	.dwpsn	file "../ST7735.c",line 866,column 1,is_stmt,isa 1
 $C$DW$140	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$140, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$140, DW_AT_TI_return
@@ -6145,7 +6143,7 @@ $C$DW$140	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$135, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$135, DW_AT_TI_end_line(0x365)
+	.dwattr $C$DW$135, DW_AT_TI_end_line(0x362)
 	.dwattr $C$DW$135, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$135
@@ -6163,13 +6161,13 @@ $C$DW$141	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$141, DW_AT_TI_symbol_name("ST7735_DrawPixel")
 	.dwattr $C$DW$141, DW_AT_external
 	.dwattr $C$DW$141, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$141, DW_AT_TI_begin_line(0x373)
+	.dwattr $C$DW$141, DW_AT_TI_begin_line(0x370)
 	.dwattr $C$DW$141, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$141, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$141, DW_AT_decl_line(0x373)
+	.dwattr $C$DW$141, DW_AT_decl_line(0x370)
 	.dwattr $C$DW$141, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$141, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 883,column 61,is_stmt,address ST7735_DrawPixel,isa 1
+	.dwpsn	file "../ST7735.c",line 880,column 61,is_stmt,address ST7735_DrawPixel,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawPixel
 $C$DW$142	.dwtag  DW_TAG_formal_parameter
@@ -6230,73 +6228,73 @@ $C$DW$147	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$147, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
-; 883 | void ST7735_DrawPixel(int16_t x, int16_t y, uint16_t color) {          
+; 880 | void ST7735_DrawPixel(int16_t x, int16_t y, uint16_t color) {          
 ;----------------------------------------------------------------------
-        STRH      A3, [SP, #4]          ; [DPU_V7M3_PIPE] |883| 
-        STRH      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |883| 
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |883| 
-	.dwpsn	file "../ST7735.c",line 885,column 3,is_stmt,isa 1
+        STRH      A3, [SP, #4]          ; [DPU_V7M3_PIPE] |880| 
+        STRH      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |880| 
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |880| 
+	.dwpsn	file "../ST7735.c",line 882,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 885 | if((x < 0) || (x >= _width) || (y < 0) || (y >= _height)) return;      
-; 887 | //  setAddrWindow(x,y,x+1,y+1); // original code, bug???               
+; 882 | if((x < 0) || (x >= _width) || (y < 0) || (y >= _height)) return;      
+; 884 | //  setAddrWindow(x,y,x+1,y+1); // original code, bug???               
 ;----------------------------------------------------------------------
-        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |885| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |885| 
-        BMI       ||$C$L16||            ; [DPU_V7M3_PIPE] |885| 
-        ; BRANCHCC OCCURS {||$C$L16||}   ; [] |885| 
+        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |882| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |882| 
+        BMI       ||$C$L16||            ; [DPU_V7M3_PIPE] |882| 
+        ; BRANCHCC OCCURS {||$C$L16||}   ; [] |882| 
 ;* --------------------------------------------------------------------------*
-        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |885| 
-        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |885| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |885| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |885| 
-        BLE       ||$C$L16||            ; [DPU_V7M3_PIPE] |885| 
-        ; BRANCHCC OCCURS {||$C$L16||}   ; [] |885| 
+        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |882| 
+        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |882| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |882| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |882| 
+        BLE       ||$C$L16||            ; [DPU_V7M3_PIPE] |882| 
+        ; BRANCHCC OCCURS {||$C$L16||}   ; [] |882| 
 ;* --------------------------------------------------------------------------*
-        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |885| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |885| 
-        BMI       ||$C$L16||            ; [DPU_V7M3_PIPE] |885| 
-        ; BRANCHCC OCCURS {||$C$L16||}   ; [] |885| 
+        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |882| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |882| 
+        BMI       ||$C$L16||            ; [DPU_V7M3_PIPE] |882| 
+        ; BRANCHCC OCCURS {||$C$L16||}   ; [] |882| 
 ;* --------------------------------------------------------------------------*
-        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |885| 
-        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |885| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |885| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |885| 
-        BGT       ||$C$L15||            ; [DPU_V7M3_PIPE] |885| 
-        ; BRANCHCC OCCURS {||$C$L15||}   ; [] |885| 
+        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |882| 
+        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |882| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |882| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |882| 
+        BGT       ||$C$L15||            ; [DPU_V7M3_PIPE] |882| 
+        ; BRANCHCC OCCURS {||$C$L15||}   ; [] |882| 
 ;* --------------------------------------------------------------------------*
-        B         ||$C$L16||            ; [DPU_V7M3_PIPE] |885| 
-        ; BRANCH OCCURS {||$C$L16||}     ; [] |885| 
+        B         ||$C$L16||            ; [DPU_V7M3_PIPE] |882| 
+        ; BRANCH OCCURS {||$C$L16||}     ; [] |882| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L15||:    
-	.dwpsn	file "../ST7735.c",line 888,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 885,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 888 | setAddrWindow(x,y,x,y);                                                
+; 885 | setAddrWindow(x,y,x,y);                                                
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |888| 
-        LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |888| 
-        LDRB      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |888| 
-        LDRB      A4, [SP, #2]          ; [DPU_V7M3_PIPE] |888| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |885| 
+        LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |885| 
+        LDRB      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |885| 
+        LDRB      A4, [SP, #2]          ; [DPU_V7M3_PIPE] |885| 
 $C$DW$148	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$148, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$148, DW_AT_name("setAddrWindow")
 	.dwattr $C$DW$148, DW_AT_TI_call
 
-        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |888| 
-        ; CALL OCCURS {setAddrWindow }   ; [] |888| 
-	.dwpsn	file "../ST7735.c",line 890,column 3,is_stmt,isa 1
+        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |885| 
+        ; CALL OCCURS {setAddrWindow }   ; [] |885| 
+	.dwpsn	file "../ST7735.c",line 887,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 890 | pushColor(color);                                                      
+; 887 | pushColor(color);                                                      
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |890| 
+        LDRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |887| 
 $C$DW$149	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$149, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$149, DW_AT_name("pushColor")
 	.dwattr $C$DW$149, DW_AT_TI_call
 
-        BL        pushColor             ; [DPU_V7M3_PIPE] |890| 
-        ; CALL OCCURS {pushColor }       ; [] |890| 
-	.dwpsn	file "../ST7735.c",line 891,column 1,is_stmt,isa 1
+        BL        pushColor             ; [DPU_V7M3_PIPE] |887| 
+        ; CALL OCCURS {pushColor }       ; [] |887| 
+	.dwpsn	file "../ST7735.c",line 888,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L16||:    
 $C$DW$150	.dwtag  DW_TAG_TI_branch
@@ -6310,7 +6308,7 @@ $C$DW$150	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$141, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$141, DW_AT_TI_end_line(0x37b)
+	.dwattr $C$DW$141, DW_AT_TI_end_line(0x378)
 	.dwattr $C$DW$141, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$141
@@ -6338,13 +6336,13 @@ $C$DW$151	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$151, DW_AT_TI_symbol_name("ST7735_DrawFastVLine")
 	.dwattr $C$DW$151, DW_AT_external
 	.dwattr $C$DW$151, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$151, DW_AT_TI_begin_line(0x387)
+	.dwattr $C$DW$151, DW_AT_TI_begin_line(0x384)
 	.dwattr $C$DW$151, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$151, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$151, DW_AT_decl_line(0x387)
+	.dwattr $C$DW$151, DW_AT_decl_line(0x384)
 	.dwattr $C$DW$151, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$151, DW_AT_TI_max_frame_size(0x18)
-	.dwpsn	file "../ST7735.c",line 903,column 76,is_stmt,address ST7735_DrawFastVLine,isa 1
+	.dwpsn	file "../ST7735.c",line 900,column 76,is_stmt,address ST7735_DrawFastVLine,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawFastVLine
 $C$DW$152	.dwtag  DW_TAG_formal_parameter
@@ -6431,135 +6429,135 @@ $C$DW$161	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$161, DW_AT_location[DW_OP_breg13 9]
 
 ;----------------------------------------------------------------------
-; 903 | void ST7735_DrawFastVLine(int16_t x, int16_t y, int16_t h, uint16_t col
+; 900 | void ST7735_DrawFastVLine(int16_t x, int16_t y, int16_t h, uint16_t col
 ;     | or) {                                                                  
 ;----------------------------------------------------------------------
-        STRH      A4, [SP, #6]          ; [DPU_V7M3_PIPE] |903| 
-        STRH      A3, [SP, #4]          ; [DPU_V7M3_PIPE] |903| 
-        STRH      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |903| 
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |903| 
-	.dwpsn	file "../ST7735.c",line 904,column 14,is_stmt,isa 1
+        STRH      A4, [SP, #6]          ; [DPU_V7M3_PIPE] |900| 
+        STRH      A3, [SP, #4]          ; [DPU_V7M3_PIPE] |900| 
+        STRH      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |900| 
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |900| 
+	.dwpsn	file "../ST7735.c",line 901,column 14,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 904 | uint8_t hi = color >> 8, lo = color;                                   
+; 901 | uint8_t hi = color >> 8, lo = color;                                   
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |904| 
-        ASRS      A1, A1, #8            ; [DPU_V7M3_PIPE] |904| 
-        STRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |904| 
-	.dwpsn	file "../ST7735.c",line 904,column 31,is_stmt,isa 1
+        LDRH      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |901| 
+        ASRS      A1, A1, #8            ; [DPU_V7M3_PIPE] |901| 
+        STRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |901| 
+	.dwpsn	file "../ST7735.c",line 901,column 31,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 906 | // Rudimentary clipping                                                
+; 903 | // Rudimentary clipping                                                
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |904| 
-        STRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |904| 
-	.dwpsn	file "../ST7735.c",line 907,column 3,is_stmt,isa 1
+        LDRB      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |901| 
+        STRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |901| 
+	.dwpsn	file "../ST7735.c",line 904,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 907 | if((x >= _width) || (y >= _height)) return;                            
+; 904 | if((x >= _width) || (y >= _height)) return;                            
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |907| 
-        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |907| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |907| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |907| 
-        BLE       ||$C$L21||            ; [DPU_V7M3_PIPE] |907| 
-        ; BRANCHCC OCCURS {||$C$L21||}   ; [] |907| 
+        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |904| 
+        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |904| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |904| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |904| 
+        BLE       ||$C$L21||            ; [DPU_V7M3_PIPE] |904| 
+        ; BRANCHCC OCCURS {||$C$L21||}   ; [] |904| 
 ;* --------------------------------------------------------------------------*
-        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |907| 
-        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |907| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |907| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |907| 
-        BGT       ||$C$L17||            ; [DPU_V7M3_PIPE] |907| 
-        ; BRANCHCC OCCURS {||$C$L17||}   ; [] |907| 
+        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |904| 
+        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |904| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |904| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |904| 
+        BGT       ||$C$L17||            ; [DPU_V7M3_PIPE] |904| 
+        ; BRANCHCC OCCURS {||$C$L17||}   ; [] |904| 
 ;* --------------------------------------------------------------------------*
-        B         ||$C$L21||            ; [DPU_V7M3_PIPE] |907| 
-        ; BRANCH OCCURS {||$C$L21||}     ; [] |907| 
+        B         ||$C$L21||            ; [DPU_V7M3_PIPE] |904| 
+        ; BRANCH OCCURS {||$C$L21||}     ; [] |904| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L17||:    
-	.dwpsn	file "../ST7735.c",line 908,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 905,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 908 | if((y+h-1) >= _height) h = _height-y;                                  
+; 905 | if((y+h-1) >= _height) h = _height-y;                                  
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON21          ; [DPU_V7M3_PIPE] |908| 
-        LDRSH     A3, [SP, #4]          ; [DPU_V7M3_PIPE] |908| 
-        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |908| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |908| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |908| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |908| 
-        CMP       A2, A1                ; [DPU_V7M3_PIPE] |908| 
-        BGT       ||$C$L18||            ; [DPU_V7M3_PIPE] |908| 
-        ; BRANCHCC OCCURS {||$C$L18||}   ; [] |908| 
+        LDR       A2, $C$CON21          ; [DPU_V7M3_PIPE] |905| 
+        LDRSH     A3, [SP, #4]          ; [DPU_V7M3_PIPE] |905| 
+        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |905| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |905| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |905| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |905| 
+        CMP       A2, A1                ; [DPU_V7M3_PIPE] |905| 
+        BGT       ||$C$L18||            ; [DPU_V7M3_PIPE] |905| 
+        ; BRANCHCC OCCURS {||$C$L18||}   ; [] |905| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 908,column 26,is_stmt,isa 1
-        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |908| 
-        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |908| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |908| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |908| 
-        STRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |908| 
+	.dwpsn	file "../ST7735.c",line 905,column 26,is_stmt,isa 1
+        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |905| 
+        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |905| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |905| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |905| 
+        STRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |905| 
 ;* --------------------------------------------------------------------------*
 ||$C$L18||:    
-	.dwpsn	file "../ST7735.c",line 909,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 906,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 909 | setAddrWindow(x, y, x, y+h-1);                                         
+; 906 | setAddrWindow(x, y, x, y+h-1);                                         
 ;----------------------------------------------------------------------
-        LDRSH     V1, [SP, #4]          ; [DPU_V7M3_PIPE] |909| 
-        LDRSH     A4, [SP, #2]          ; [DPU_V7M3_PIPE] |909| 
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |909| 
-        LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |909| 
-        LDRB      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |909| 
-        ADDS      A4, A4, V1            ; [DPU_V7M3_PIPE] |909| 
-        SUBS      A4, A4, #1            ; [DPU_V7M3_PIPE] |909| 
-        UXTB      A4, A4                ; [DPU_V7M3_PIPE] |909| 
+        LDRSH     V1, [SP, #4]          ; [DPU_V7M3_PIPE] |906| 
+        LDRSH     A4, [SP, #2]          ; [DPU_V7M3_PIPE] |906| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |906| 
+        LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |906| 
+        LDRB      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |906| 
+        ADDS      A4, A4, V1            ; [DPU_V7M3_PIPE] |906| 
+        SUBS      A4, A4, #1            ; [DPU_V7M3_PIPE] |906| 
+        UXTB      A4, A4                ; [DPU_V7M3_PIPE] |906| 
 $C$DW$162	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$162, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$162, DW_AT_name("setAddrWindow")
 	.dwattr $C$DW$162, DW_AT_TI_call
 
-        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |909| 
-        ; CALL OCCURS {setAddrWindow }   ; [] |909| 
-	.dwpsn	file "../ST7735.c",line 911,column 3,is_stmt,isa 1
+        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |906| 
+        ; CALL OCCURS {setAddrWindow }   ; [] |906| 
+	.dwpsn	file "../ST7735.c",line 908,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 911 | while (h--) {                                                          
+; 908 | while (h--) {                                                          
 ;----------------------------------------------------------------------
-        B         ||$C$L20||            ; [DPU_V7M3_PIPE] |911| 
-        ; BRANCH OCCURS {||$C$L20||}     ; [] |911| 
+        B         ||$C$L20||            ; [DPU_V7M3_PIPE] |908| 
+        ; BRANCH OCCURS {||$C$L20||}     ; [] |908| 
 ;* --------------------------------------------------------------------------*
 ||$C$L19||:    
-	.dwpsn	file "../ST7735.c",line 912,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 909,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 912 | writedata(hi);                                                         
+; 909 | writedata(hi);                                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |912| 
+        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |909| 
 $C$DW$163	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$163, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$163, DW_AT_name("writedata")
 	.dwattr $C$DW$163, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |912| 
-        ; CALL OCCURS {writedata }       ; [] |912| 
-	.dwpsn	file "../ST7735.c",line 913,column 5,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |909| 
+        ; CALL OCCURS {writedata }       ; [] |909| 
+	.dwpsn	file "../ST7735.c",line 910,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 913 | writedata(lo);                                                         
+; 910 | writedata(lo);                                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |913| 
+        LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |910| 
 $C$DW$164	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$164, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$164, DW_AT_name("writedata")
 	.dwattr $C$DW$164, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |913| 
-        ; CALL OCCURS {writedata }       ; [] |913| 
+        BL        writedata             ; [DPU_V7M3_PIPE] |910| 
+        ; CALL OCCURS {writedata }       ; [] |910| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L20||
 ;* --------------------------------------------------------------------------*
 ||$C$L20||:    
-	.dwpsn	file "../ST7735.c",line 911,column 3,is_stmt,isa 1
-        LDRSH     A1, [SP, #4]          ; [DPU_V7M3_PIPE] |911| 
-        SUBS      A2, A1, #1            ; [DPU_V7M3_PIPE] |911| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |911| 
-        STRH      A2, [SP, #4]          ; [DPU_V7M3_PIPE] |911| 
-        BNE       ||$C$L19||            ; [DPU_V7M3_PIPE] |911| 
-        ; BRANCHCC OCCURS {||$C$L19||}   ; [] |911| 
+	.dwpsn	file "../ST7735.c",line 908,column 3,is_stmt,isa 1
+        LDRSH     A1, [SP, #4]          ; [DPU_V7M3_PIPE] |908| 
+        SUBS      A2, A1, #1            ; [DPU_V7M3_PIPE] |908| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |908| 
+        STRH      A2, [SP, #4]          ; [DPU_V7M3_PIPE] |908| 
+        BNE       ||$C$L19||            ; [DPU_V7M3_PIPE] |908| 
+        ; BRANCHCC OCCURS {||$C$L19||}   ; [] |908| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 915,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 912,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L21||:    
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] 
@@ -6576,7 +6574,7 @@ $C$DW$165	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 0
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$151, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$151, DW_AT_TI_end_line(0x393)
+	.dwattr $C$DW$151, DW_AT_TI_end_line(0x390)
 	.dwattr $C$DW$151, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$151
@@ -6605,13 +6603,13 @@ $C$DW$166	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$166, DW_AT_TI_symbol_name("ST7735_DrawFastHLine")
 	.dwattr $C$DW$166, DW_AT_external
 	.dwattr $C$DW$166, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$166, DW_AT_TI_begin_line(0x39f)
+	.dwattr $C$DW$166, DW_AT_TI_begin_line(0x39c)
 	.dwattr $C$DW$166, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$166, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$166, DW_AT_decl_line(0x39f)
+	.dwattr $C$DW$166, DW_AT_decl_line(0x39c)
 	.dwattr $C$DW$166, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$166, DW_AT_TI_max_frame_size(0x18)
-	.dwpsn	file "../ST7735.c",line 927,column 76,is_stmt,address ST7735_DrawFastHLine,isa 1
+	.dwpsn	file "../ST7735.c",line 924,column 76,is_stmt,address ST7735_DrawFastHLine,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawFastHLine
 $C$DW$167	.dwtag  DW_TAG_formal_parameter
@@ -6698,135 +6696,135 @@ $C$DW$176	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$176, DW_AT_location[DW_OP_breg13 9]
 
 ;----------------------------------------------------------------------
-; 927 | void ST7735_DrawFastHLine(int16_t x, int16_t y, int16_t w, uint16_t col
+; 924 | void ST7735_DrawFastHLine(int16_t x, int16_t y, int16_t w, uint16_t col
 ;     | or) {                                                                  
 ;----------------------------------------------------------------------
-        STRH      A4, [SP, #6]          ; [DPU_V7M3_PIPE] |927| 
-        STRH      A3, [SP, #4]          ; [DPU_V7M3_PIPE] |927| 
-        STRH      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |927| 
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |927| 
-	.dwpsn	file "../ST7735.c",line 928,column 14,is_stmt,isa 1
+        STRH      A4, [SP, #6]          ; [DPU_V7M3_PIPE] |924| 
+        STRH      A3, [SP, #4]          ; [DPU_V7M3_PIPE] |924| 
+        STRH      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |924| 
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |924| 
+	.dwpsn	file "../ST7735.c",line 925,column 14,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 928 | uint8_t hi = color >> 8, lo = color;                                   
+; 925 | uint8_t hi = color >> 8, lo = color;                                   
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |928| 
-        ASRS      A1, A1, #8            ; [DPU_V7M3_PIPE] |928| 
-        STRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |928| 
-	.dwpsn	file "../ST7735.c",line 928,column 31,is_stmt,isa 1
+        LDRH      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |925| 
+        ASRS      A1, A1, #8            ; [DPU_V7M3_PIPE] |925| 
+        STRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |925| 
+	.dwpsn	file "../ST7735.c",line 925,column 31,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 930 | // Rudimentary clipping                                                
+; 927 | // Rudimentary clipping                                                
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |928| 
-        STRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |928| 
-	.dwpsn	file "../ST7735.c",line 931,column 3,is_stmt,isa 1
+        LDRB      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |925| 
+        STRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |925| 
+	.dwpsn	file "../ST7735.c",line 928,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 931 | if((x >= _width) || (y >= _height)) return;                            
+; 928 | if((x >= _width) || (y >= _height)) return;                            
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |931| 
-        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |931| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |931| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |931| 
-        BLE       ||$C$L26||            ; [DPU_V7M3_PIPE] |931| 
-        ; BRANCHCC OCCURS {||$C$L26||}   ; [] |931| 
+        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |928| 
+        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |928| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |928| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |928| 
+        BLE       ||$C$L26||            ; [DPU_V7M3_PIPE] |928| 
+        ; BRANCHCC OCCURS {||$C$L26||}   ; [] |928| 
 ;* --------------------------------------------------------------------------*
-        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |931| 
-        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |931| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |931| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |931| 
-        BGT       ||$C$L22||            ; [DPU_V7M3_PIPE] |931| 
-        ; BRANCHCC OCCURS {||$C$L22||}   ; [] |931| 
+        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |928| 
+        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |928| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |928| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |928| 
+        BGT       ||$C$L22||            ; [DPU_V7M3_PIPE] |928| 
+        ; BRANCHCC OCCURS {||$C$L22||}   ; [] |928| 
 ;* --------------------------------------------------------------------------*
-        B         ||$C$L26||            ; [DPU_V7M3_PIPE] |931| 
-        ; BRANCH OCCURS {||$C$L26||}     ; [] |931| 
+        B         ||$C$L26||            ; [DPU_V7M3_PIPE] |928| 
+        ; BRANCH OCCURS {||$C$L26||}     ; [] |928| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L22||:    
-	.dwpsn	file "../ST7735.c",line 932,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 929,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 932 | if((x+w-1) >= _width)  w = _width-x;                                   
+; 929 | if((x+w-1) >= _width)  w = _width-x;                                   
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON20          ; [DPU_V7M3_PIPE] |932| 
-        LDRSH     A3, [SP, #4]          ; [DPU_V7M3_PIPE] |932| 
-        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |932| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |932| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |932| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |932| 
-        CMP       A2, A1                ; [DPU_V7M3_PIPE] |932| 
-        BGT       ||$C$L23||            ; [DPU_V7M3_PIPE] |932| 
-        ; BRANCHCC OCCURS {||$C$L23||}   ; [] |932| 
+        LDR       A2, $C$CON20          ; [DPU_V7M3_PIPE] |929| 
+        LDRSH     A3, [SP, #4]          ; [DPU_V7M3_PIPE] |929| 
+        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |929| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |929| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |929| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |929| 
+        CMP       A2, A1                ; [DPU_V7M3_PIPE] |929| 
+        BGT       ||$C$L23||            ; [DPU_V7M3_PIPE] |929| 
+        ; BRANCHCC OCCURS {||$C$L23||}   ; [] |929| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 932,column 26,is_stmt,isa 1
-        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |932| 
-        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |932| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |932| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |932| 
-        STRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |932| 
+	.dwpsn	file "../ST7735.c",line 929,column 26,is_stmt,isa 1
+        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |929| 
+        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |929| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |929| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |929| 
+        STRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |929| 
 ;* --------------------------------------------------------------------------*
 ||$C$L23||:    
-	.dwpsn	file "../ST7735.c",line 933,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 930,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 933 | setAddrWindow(x, y, x+w-1, y);                                         
+; 930 | setAddrWindow(x, y, x+w-1, y);                                         
 ;----------------------------------------------------------------------
-        LDRSH     V1, [SP, #4]          ; [DPU_V7M3_PIPE] |933| 
-        LDRSH     A3, [SP, #0]          ; [DPU_V7M3_PIPE] |933| 
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |933| 
-        LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |933| 
-        LDRB      A4, [SP, #2]          ; [DPU_V7M3_PIPE] |933| 
-        ADDS      A3, A3, V1            ; [DPU_V7M3_PIPE] |933| 
-        SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |933| 
-        UXTB      A3, A3                ; [DPU_V7M3_PIPE] |933| 
+        LDRSH     V1, [SP, #4]          ; [DPU_V7M3_PIPE] |930| 
+        LDRSH     A3, [SP, #0]          ; [DPU_V7M3_PIPE] |930| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |930| 
+        LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |930| 
+        LDRB      A4, [SP, #2]          ; [DPU_V7M3_PIPE] |930| 
+        ADDS      A3, A3, V1            ; [DPU_V7M3_PIPE] |930| 
+        SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |930| 
+        UXTB      A3, A3                ; [DPU_V7M3_PIPE] |930| 
 $C$DW$177	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$177, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$177, DW_AT_name("setAddrWindow")
 	.dwattr $C$DW$177, DW_AT_TI_call
 
-        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |933| 
-        ; CALL OCCURS {setAddrWindow }   ; [] |933| 
-	.dwpsn	file "../ST7735.c",line 935,column 3,is_stmt,isa 1
+        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |930| 
+        ; CALL OCCURS {setAddrWindow }   ; [] |930| 
+	.dwpsn	file "../ST7735.c",line 932,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 935 | while (w--) {                                                          
+; 932 | while (w--) {                                                          
 ;----------------------------------------------------------------------
-        B         ||$C$L25||            ; [DPU_V7M3_PIPE] |935| 
-        ; BRANCH OCCURS {||$C$L25||}     ; [] |935| 
+        B         ||$C$L25||            ; [DPU_V7M3_PIPE] |932| 
+        ; BRANCH OCCURS {||$C$L25||}     ; [] |932| 
 ;* --------------------------------------------------------------------------*
 ||$C$L24||:    
-	.dwpsn	file "../ST7735.c",line 936,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 933,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 936 | writedata(hi);                                                         
+; 933 | writedata(hi);                                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |936| 
+        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |933| 
 $C$DW$178	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$178, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$178, DW_AT_name("writedata")
 	.dwattr $C$DW$178, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |936| 
-        ; CALL OCCURS {writedata }       ; [] |936| 
-	.dwpsn	file "../ST7735.c",line 937,column 5,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |933| 
+        ; CALL OCCURS {writedata }       ; [] |933| 
+	.dwpsn	file "../ST7735.c",line 934,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 937 | writedata(lo);                                                         
+; 934 | writedata(lo);                                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |937| 
+        LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |934| 
 $C$DW$179	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$179, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$179, DW_AT_name("writedata")
 	.dwattr $C$DW$179, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |937| 
-        ; CALL OCCURS {writedata }       ; [] |937| 
+        BL        writedata             ; [DPU_V7M3_PIPE] |934| 
+        ; CALL OCCURS {writedata }       ; [] |934| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L25||
 ;* --------------------------------------------------------------------------*
 ||$C$L25||:    
-	.dwpsn	file "../ST7735.c",line 935,column 3,is_stmt,isa 1
-        LDRSH     A1, [SP, #4]          ; [DPU_V7M3_PIPE] |935| 
-        SUBS      A2, A1, #1            ; [DPU_V7M3_PIPE] |935| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |935| 
-        STRH      A2, [SP, #4]          ; [DPU_V7M3_PIPE] |935| 
-        BNE       ||$C$L24||            ; [DPU_V7M3_PIPE] |935| 
-        ; BRANCHCC OCCURS {||$C$L24||}   ; [] |935| 
+	.dwpsn	file "../ST7735.c",line 932,column 3,is_stmt,isa 1
+        LDRSH     A1, [SP, #4]          ; [DPU_V7M3_PIPE] |932| 
+        SUBS      A2, A1, #1            ; [DPU_V7M3_PIPE] |932| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |932| 
+        STRH      A2, [SP, #4]          ; [DPU_V7M3_PIPE] |932| 
+        BNE       ||$C$L24||            ; [DPU_V7M3_PIPE] |932| 
+        ; BRANCHCC OCCURS {||$C$L24||}   ; [] |932| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 939,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 936,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L26||:    
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] 
@@ -6843,7 +6841,7 @@ $C$DW$180	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 0
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$166, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$166, DW_AT_TI_end_line(0x3ab)
+	.dwattr $C$DW$166, DW_AT_TI_end_line(0x3a8)
 	.dwattr $C$DW$166, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$166
@@ -6861,13 +6859,13 @@ $C$DW$181	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$181, DW_AT_TI_symbol_name("ST7735_FillScreen")
 	.dwattr $C$DW$181, DW_AT_external
 	.dwattr $C$DW$181, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$181, DW_AT_TI_begin_line(0x3b3)
+	.dwattr $C$DW$181, DW_AT_TI_begin_line(0x3b0)
 	.dwattr $C$DW$181, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$181, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$181, DW_AT_decl_line(0x3b3)
+	.dwattr $C$DW$181, DW_AT_decl_line(0x3b0)
 	.dwattr $C$DW$181, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$181, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 947,column 40,is_stmt,address ST7735_FillScreen,isa 1
+	.dwpsn	file "../ST7735.c",line 944,column 40,is_stmt,address ST7735_FillScreen,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_FillScreen
 $C$DW$182	.dwtag  DW_TAG_formal_parameter
@@ -6904,31 +6902,31 @@ $C$DW$183	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$183, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
-; 947 | void ST7735_FillScreen(uint16_t color) {                               
+; 944 | void ST7735_FillScreen(uint16_t color) {                               
 ;----------------------------------------------------------------------
-        STRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |947| 
-	.dwpsn	file "../ST7735.c",line 948,column 3,is_stmt,isa 1
+        STRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |944| 
+	.dwpsn	file "../ST7735.c",line 945,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 948 | ST7735_FillRect(0, 0, _width, _height, color);  // original            
-; 949 | //  screen is actually 129 by 161 pixels, x 0 to 128, y goes from 0 to
+; 945 | ST7735_FillRect(0, 0, _width, _height, color);  // original            
+; 946 | //  screen is actually 129 by 161 pixels, x 0 to 128, y goes from 0 to
 ;     | 160                                                                    
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON21          ; [DPU_V7M3_PIPE] |948| 
-        LDRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |948| 
-        LDR       A3, $C$CON20          ; [DPU_V7M3_PIPE] |948| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |948| 
-        LDRSH     A4, [A2, #0]          ; [DPU_V7M3_PIPE] |948| 
-        LDRSH     A3, [A3, #0]          ; [DPU_V7M3_PIPE] |948| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |948| 
-        MOVS      A2, #0                ; [DPU_V7M3_PIPE] |948| 
+        LDR       A2, $C$CON21          ; [DPU_V7M3_PIPE] |945| 
+        LDRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |945| 
+        LDR       A3, $C$CON20          ; [DPU_V7M3_PIPE] |945| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |945| 
+        LDRSH     A4, [A2, #0]          ; [DPU_V7M3_PIPE] |945| 
+        LDRSH     A3, [A3, #0]          ; [DPU_V7M3_PIPE] |945| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |945| 
+        MOVS      A2, #0                ; [DPU_V7M3_PIPE] |945| 
 $C$DW$184	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$184, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$184, DW_AT_name("ST7735_FillRect")
 	.dwattr $C$DW$184, DW_AT_TI_call
 
-        BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |948| 
-        ; CALL OCCURS {ST7735_FillRect }  ; [] |948| 
-	.dwpsn	file "../ST7735.c",line 950,column 1,is_stmt,isa 1
+        BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |945| 
+        ; CALL OCCURS {ST7735_FillRect }  ; [] |945| 
+	.dwpsn	file "../ST7735.c",line 947,column 1,is_stmt,isa 1
 $C$DW$185	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$185, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$185, DW_AT_TI_return
@@ -6940,7 +6938,7 @@ $C$DW$185	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$181, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$181, DW_AT_TI_end_line(0x3b6)
+	.dwattr $C$DW$181, DW_AT_TI_end_line(0x3b3)
 	.dwattr $C$DW$181, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$181
@@ -6997,13 +6995,13 @@ $C$DW$186	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$186, DW_AT_TI_symbol_name("ST7735_FillRect")
 	.dwattr $C$DW$186, DW_AT_external
 	.dwattr $C$DW$186, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$186, DW_AT_TI_begin_line(0x3c2)
+	.dwattr $C$DW$186, DW_AT_TI_begin_line(0x3bf)
 	.dwattr $C$DW$186, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$186, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$186, DW_AT_decl_line(0x3c2)
+	.dwattr $C$DW$186, DW_AT_decl_line(0x3bf)
 	.dwattr $C$DW$186, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$186, DW_AT_TI_max_frame_size(0x20)
-	.dwpsn	file "../ST7735.c",line 962,column 82,is_stmt,address ST7735_FillRect,isa 1
+	.dwpsn	file "../ST7735.c",line 959,column 82,is_stmt,address ST7735_FillRect,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_FillRect
 $C$DW$187	.dwtag  DW_TAG_formal_parameter
@@ -7099,204 +7097,204 @@ $C$DW$197	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$197, DW_AT_location[DW_OP_breg13 9]
 
 ;----------------------------------------------------------------------
-; 962 | void ST7735_FillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16
+; 959 | void ST7735_FillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16
 ;     | _t color) {                                                            
 ;----------------------------------------------------------------------
-        STRH      A4, [SP, #6]          ; [DPU_V7M3_PIPE] |962| 
-        STRH      A3, [SP, #4]          ; [DPU_V7M3_PIPE] |962| 
-        STRH      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |962| 
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |962| 
-	.dwpsn	file "../ST7735.c",line 963,column 14,is_stmt,isa 1
+        STRH      A4, [SP, #6]          ; [DPU_V7M3_PIPE] |959| 
+        STRH      A3, [SP, #4]          ; [DPU_V7M3_PIPE] |959| 
+        STRH      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |959| 
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |959| 
+	.dwpsn	file "../ST7735.c",line 960,column 14,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 963 | uint8_t hi = color >> 8, lo = color;                                   
+; 960 | uint8_t hi = color >> 8, lo = color;                                   
 ;----------------------------------------------------------------------
-        LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |963| 
-        ASRS      A1, A1, #8            ; [DPU_V7M3_PIPE] |963| 
-        STRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |963| 
-	.dwpsn	file "../ST7735.c",line 963,column 31,is_stmt,isa 1
+        LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |960| 
+        ASRS      A1, A1, #8            ; [DPU_V7M3_PIPE] |960| 
+        STRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |960| 
+	.dwpsn	file "../ST7735.c",line 960,column 31,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 965 | // rudimentary clipping (drawChar w/big text requires this)            
+; 962 | // rudimentary clipping (drawChar w/big text requires this)            
 ;----------------------------------------------------------------------
-        LDRB      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |963| 
-        STRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |963| 
-	.dwpsn	file "../ST7735.c",line 966,column 3,is_stmt,isa 1
+        LDRB      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |960| 
+        STRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |960| 
+	.dwpsn	file "../ST7735.c",line 963,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 966 | if((x >= _width) || (y >= _height)) return;                            
+; 963 | if((x >= _width) || (y >= _height)) return;                            
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |966| 
-        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |966| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |966| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |966| 
-        BLE       ||$C$L33||            ; [DPU_V7M3_PIPE] |966| 
-        ; BRANCHCC OCCURS {||$C$L33||}   ; [] |966| 
+        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |963| 
+        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |963| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |963| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |963| 
+        BLE       ||$C$L33||            ; [DPU_V7M3_PIPE] |963| 
+        ; BRANCHCC OCCURS {||$C$L33||}   ; [] |963| 
 ;* --------------------------------------------------------------------------*
-        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |966| 
-        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |966| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |966| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |966| 
-        BGT       ||$C$L27||            ; [DPU_V7M3_PIPE] |966| 
-        ; BRANCHCC OCCURS {||$C$L27||}   ; [] |966| 
+        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |963| 
+        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |963| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |963| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |963| 
+        BGT       ||$C$L27||            ; [DPU_V7M3_PIPE] |963| 
+        ; BRANCHCC OCCURS {||$C$L27||}   ; [] |963| 
 ;* --------------------------------------------------------------------------*
-        B         ||$C$L33||            ; [DPU_V7M3_PIPE] |966| 
-        ; BRANCH OCCURS {||$C$L33||}     ; [] |966| 
+        B         ||$C$L33||            ; [DPU_V7M3_PIPE] |963| 
+        ; BRANCH OCCURS {||$C$L33||}     ; [] |963| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L27||:    
-	.dwpsn	file "../ST7735.c",line 967,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 964,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 967 | if((x + w - 1) >= _width)  w = _width  - x;                            
+; 964 | if((x + w - 1) >= _width)  w = _width  - x;                            
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON20          ; [DPU_V7M3_PIPE] |967| 
-        LDRSH     A3, [SP, #4]          ; [DPU_V7M3_PIPE] |967| 
-        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |967| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |967| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |967| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |967| 
-        CMP       A2, A1                ; [DPU_V7M3_PIPE] |967| 
-        BGT       ||$C$L28||            ; [DPU_V7M3_PIPE] |967| 
-        ; BRANCHCC OCCURS {||$C$L28||}   ; [] |967| 
+        LDR       A2, $C$CON20          ; [DPU_V7M3_PIPE] |964| 
+        LDRSH     A3, [SP, #4]          ; [DPU_V7M3_PIPE] |964| 
+        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |964| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |964| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |964| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |964| 
+        CMP       A2, A1                ; [DPU_V7M3_PIPE] |964| 
+        BGT       ||$C$L28||            ; [DPU_V7M3_PIPE] |964| 
+        ; BRANCHCC OCCURS {||$C$L28||}   ; [] |964| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 967,column 30,is_stmt,isa 1
-        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |967| 
-        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |967| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |967| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |967| 
-        STRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |967| 
+	.dwpsn	file "../ST7735.c",line 964,column 30,is_stmt,isa 1
+        LDR       A1, $C$CON20          ; [DPU_V7M3_PIPE] |964| 
+        LDRSH     A2, [SP, #0]          ; [DPU_V7M3_PIPE] |964| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |964| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |964| 
+        STRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |964| 
 ;* --------------------------------------------------------------------------*
 ||$C$L28||:    
-	.dwpsn	file "../ST7735.c",line 968,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 965,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 968 | if((y + h - 1) >= _height) h = _height - y;                            
+; 965 | if((y + h - 1) >= _height) h = _height - y;                            
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON21          ; [DPU_V7M3_PIPE] |968| 
-        LDRSH     A3, [SP, #6]          ; [DPU_V7M3_PIPE] |968| 
-        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |968| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |968| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |968| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |968| 
-        CMP       A2, A1                ; [DPU_V7M3_PIPE] |968| 
-        BGT       ||$C$L29||            ; [DPU_V7M3_PIPE] |968| 
-        ; BRANCHCC OCCURS {||$C$L29||}   ; [] |968| 
+        LDR       A2, $C$CON21          ; [DPU_V7M3_PIPE] |965| 
+        LDRSH     A3, [SP, #6]          ; [DPU_V7M3_PIPE] |965| 
+        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |965| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |965| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |965| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |965| 
+        CMP       A2, A1                ; [DPU_V7M3_PIPE] |965| 
+        BGT       ||$C$L29||            ; [DPU_V7M3_PIPE] |965| 
+        ; BRANCHCC OCCURS {||$C$L29||}   ; [] |965| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 968,column 30,is_stmt,isa 1
-        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |968| 
-        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |968| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |968| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |968| 
-        STRH      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |968| 
+	.dwpsn	file "../ST7735.c",line 965,column 30,is_stmt,isa 1
+        LDR       A1, $C$CON21          ; [DPU_V7M3_PIPE] |965| 
+        LDRSH     A2, [SP, #2]          ; [DPU_V7M3_PIPE] |965| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |965| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |965| 
+        STRH      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |965| 
 ;* --------------------------------------------------------------------------*
 ||$C$L29||:    
-	.dwpsn	file "../ST7735.c",line 970,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 967,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 970 | setAddrWindow(x, y, x+w-1, y+h-1);                                     
+; 967 | setAddrWindow(x, y, x+w-1, y+h-1);                                     
 ;----------------------------------------------------------------------
-        LDRSH     V2, [SP, #4]          ; [DPU_V7M3_PIPE] |970| 
-        LDRSH     A3, [SP, #0]          ; [DPU_V7M3_PIPE] |970| 
-        LDRSH     V1, [SP, #6]          ; [DPU_V7M3_PIPE] |970| 
-        LDRSH     A4, [SP, #2]          ; [DPU_V7M3_PIPE] |970| 
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |970| 
-        LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |970| 
-        ADDS      A3, A3, V2            ; [DPU_V7M3_PIPE] |970| 
-        ADDS      A4, A4, V1            ; [DPU_V7M3_PIPE] |970| 
-        SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |970| 
-        SUBS      A4, A4, #1            ; [DPU_V7M3_PIPE] |970| 
-        UXTB      A3, A3                ; [DPU_V7M3_PIPE] |970| 
-        UXTB      A4, A4                ; [DPU_V7M3_PIPE] |970| 
+        LDRSH     V2, [SP, #4]          ; [DPU_V7M3_PIPE] |967| 
+        LDRSH     A3, [SP, #0]          ; [DPU_V7M3_PIPE] |967| 
+        LDRSH     V1, [SP, #6]          ; [DPU_V7M3_PIPE] |967| 
+        LDRSH     A4, [SP, #2]          ; [DPU_V7M3_PIPE] |967| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |967| 
+        LDRB      A2, [SP, #2]          ; [DPU_V7M3_PIPE] |967| 
+        ADDS      A3, A3, V2            ; [DPU_V7M3_PIPE] |967| 
+        ADDS      A4, A4, V1            ; [DPU_V7M3_PIPE] |967| 
+        SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |967| 
+        SUBS      A4, A4, #1            ; [DPU_V7M3_PIPE] |967| 
+        UXTB      A3, A3                ; [DPU_V7M3_PIPE] |967| 
+        UXTB      A4, A4                ; [DPU_V7M3_PIPE] |967| 
 $C$DW$198	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$198, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$198, DW_AT_name("setAddrWindow")
 	.dwattr $C$DW$198, DW_AT_TI_call
 
-        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |970| 
-        ; CALL OCCURS {setAddrWindow }   ; [] |970| 
-	.dwpsn	file "../ST7735.c",line 972,column 7,is_stmt,isa 1
+        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |967| 
+        ; CALL OCCURS {setAddrWindow }   ; [] |967| 
+	.dwpsn	file "../ST7735.c",line 969,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 972 | for(y=h; y>0; y--) {                                                   
+; 969 | for(y=h; y>0; y--) {                                                   
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |972| 
-        STRH      A1, [SP, #2]          ; [DPU_V7M3_PIPE] |972| 
-	.dwpsn	file "../ST7735.c",line 972,column 12,is_stmt,isa 1
-        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |972| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |972| 
-        BLE       ||$C$L33||            ; [DPU_V7M3_PIPE] |972| 
-        ; BRANCHCC OCCURS {||$C$L33||}   ; [] |972| 
+        LDRH      A1, [SP, #6]          ; [DPU_V7M3_PIPE] |969| 
+        STRH      A1, [SP, #2]          ; [DPU_V7M3_PIPE] |969| 
+	.dwpsn	file "../ST7735.c",line 969,column 12,is_stmt,isa 1
+        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |969| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |969| 
+        BLE       ||$C$L33||            ; [DPU_V7M3_PIPE] |969| 
+        ; BRANCHCC OCCURS {||$C$L33||}   ; [] |969| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L30||
 ;*
-;*   Loop source line                : 972
-;*   Loop closing brace source line  : 977
+;*   Loop source line                : 969
+;*   Loop closing brace source line  : 974
 ;*   Known Minimum Trip Count        : 1
 ;*   Known Maximum Trip Count        : 4294967295
 ;*   Known Max Trip Count Factor     : 1
 ;* --------------------------------------------------------------------------*
 ||$C$L30||:    
-	.dwpsn	file "../ST7735.c",line 973,column 9,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 970,column 9,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 973 | for(x=w; x>0; x--) {                                                   
+; 970 | for(x=w; x>0; x--) {                                                   
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |973| 
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |973| 
-	.dwpsn	file "../ST7735.c",line 973,column 14,is_stmt,isa 1
-        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |973| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |973| 
-        BLE       ||$C$L32||            ; [DPU_V7M3_PIPE] |973| 
-        ; BRANCHCC OCCURS {||$C$L32||}   ; [] |973| 
+        LDRH      A1, [SP, #4]          ; [DPU_V7M3_PIPE] |970| 
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |970| 
+	.dwpsn	file "../ST7735.c",line 970,column 14,is_stmt,isa 1
+        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |970| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |970| 
+        BLE       ||$C$L32||            ; [DPU_V7M3_PIPE] |970| 
+        ; BRANCHCC OCCURS {||$C$L32||}   ; [] |970| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L31||
 ;*
-;*   Loop source line                : 973
-;*   Loop closing brace source line  : 976
+;*   Loop source line                : 970
+;*   Loop closing brace source line  : 973
 ;*   Known Minimum Trip Count        : 1
 ;*   Known Maximum Trip Count        : 4294967295
 ;*   Known Max Trip Count Factor     : 1
 ;* --------------------------------------------------------------------------*
 ||$C$L31||:    
-	.dwpsn	file "../ST7735.c",line 974,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 971,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 974 | writedata(hi);                                                         
+; 971 | writedata(hi);                                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |974| 
+        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |971| 
 $C$DW$199	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$199, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$199, DW_AT_name("writedata")
 	.dwattr $C$DW$199, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |974| 
-        ; CALL OCCURS {writedata }       ; [] |974| 
-	.dwpsn	file "../ST7735.c",line 975,column 7,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |971| 
+        ; CALL OCCURS {writedata }       ; [] |971| 
+	.dwpsn	file "../ST7735.c",line 972,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 975 | writedata(lo);                                                         
+; 972 | writedata(lo);                                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |975| 
+        LDRB      A1, [SP, #9]          ; [DPU_V7M3_PIPE] |972| 
 $C$DW$200	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$200, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$200, DW_AT_name("writedata")
 	.dwattr $C$DW$200, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |975| 
-        ; CALL OCCURS {writedata }       ; [] |975| 
-	.dwpsn	file "../ST7735.c",line 973,column 19,is_stmt,isa 1
-        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |973| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |973| 
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |973| 
-	.dwpsn	file "../ST7735.c",line 973,column 14,is_stmt,isa 1
-        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |973| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |973| 
-        BGT       ||$C$L31||            ; [DPU_V7M3_PIPE] |973| 
-        ; BRANCHCC OCCURS {||$C$L31||}   ; [] |973| 
+        BL        writedata             ; [DPU_V7M3_PIPE] |972| 
+        ; CALL OCCURS {writedata }       ; [] |972| 
+	.dwpsn	file "../ST7735.c",line 970,column 19,is_stmt,isa 1
+        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |970| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |970| 
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |970| 
+	.dwpsn	file "../ST7735.c",line 970,column 14,is_stmt,isa 1
+        LDRSH     A1, [SP, #0]          ; [DPU_V7M3_PIPE] |970| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |970| 
+        BGT       ||$C$L31||            ; [DPU_V7M3_PIPE] |970| 
+        ; BRANCHCC OCCURS {||$C$L31||}   ; [] |970| 
 ;* --------------------------------------------------------------------------*
 ||$C$L32||:    
-	.dwpsn	file "../ST7735.c",line 972,column 17,is_stmt,isa 1
-        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |972| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |972| 
-        STRH      A1, [SP, #2]          ; [DPU_V7M3_PIPE] |972| 
-	.dwpsn	file "../ST7735.c",line 972,column 12,is_stmt,isa 1
-        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |972| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |972| 
-        BGT       ||$C$L30||            ; [DPU_V7M3_PIPE] |972| 
-        ; BRANCHCC OCCURS {||$C$L30||}   ; [] |972| 
+	.dwpsn	file "../ST7735.c",line 969,column 17,is_stmt,isa 1
+        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |969| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |969| 
+        STRH      A1, [SP, #2]          ; [DPU_V7M3_PIPE] |969| 
+	.dwpsn	file "../ST7735.c",line 969,column 12,is_stmt,isa 1
+        LDRSH     A1, [SP, #2]          ; [DPU_V7M3_PIPE] |969| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |969| 
+        BGT       ||$C$L30||            ; [DPU_V7M3_PIPE] |969| 
+        ; BRANCHCC OCCURS {||$C$L30||}   ; [] |969| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 978,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 975,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L33||:    
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] 
@@ -7315,7 +7313,7 @@ $C$DW$201	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 0
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$186, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$186, DW_AT_TI_end_line(0x3d2)
+	.dwattr $C$DW$186, DW_AT_TI_end_line(0x3cf)
 	.dwattr $C$DW$186, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$186
@@ -7334,13 +7332,13 @@ $C$DW$202	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$202, DW_AT_external
 	.dwattr $C$DW$202, DW_AT_type(*$C$DW$T$60)
 	.dwattr $C$DW$202, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$202, DW_AT_TI_begin_line(0x3db)
+	.dwattr $C$DW$202, DW_AT_TI_begin_line(0x3d8)
 	.dwattr $C$DW$202, DW_AT_TI_begin_column(0x0a)
 	.dwattr $C$DW$202, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$202, DW_AT_decl_line(0x3db)
+	.dwattr $C$DW$202, DW_AT_decl_line(0x3d8)
 	.dwattr $C$DW$202, DW_AT_decl_column(0x0a)
 	.dwattr $C$DW$202, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 987,column 59,is_stmt,address ST7735_Color565,isa 1
+	.dwpsn	file "../ST7735.c",line 984,column 59,is_stmt,address ST7735_Color565,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_Color565
 $C$DW$203	.dwtag  DW_TAG_formal_parameter
@@ -7393,25 +7391,25 @@ $C$DW$208	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$208, DW_AT_location[DW_OP_breg13 2]
 
 ;----------------------------------------------------------------------
-; 987 | uint16_t ST7735_Color565(uint8_t r, uint8_t g, uint8_t b) {            
+; 984 | uint16_t ST7735_Color565(uint8_t r, uint8_t g, uint8_t b) {            
 ;----------------------------------------------------------------------
-        STRB      A3, [SP, #2]          ; [DPU_V7M3_PIPE] |987| 
-        STRB      A2, [SP, #1]          ; [DPU_V7M3_PIPE] |987| 
-        STRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |987| 
-	.dwpsn	file "../ST7735.c",line 988,column 3,is_stmt,isa 1
+        STRB      A3, [SP, #2]          ; [DPU_V7M3_PIPE] |984| 
+        STRB      A2, [SP, #1]          ; [DPU_V7M3_PIPE] |984| 
+        STRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |984| 
+	.dwpsn	file "../ST7735.c",line 985,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 988 | return ((b & 0xF8) << 8) | ((g & 0xFC) << 3) | (r >> 3);               
+; 985 | return ((b & 0xF8) << 8) | ((g & 0xFC) << 3) | (r >> 3);               
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #2]          ; [DPU_V7M3_PIPE] |988| 
-        LDRB      A2, [SP, #1]          ; [DPU_V7M3_PIPE] |988| 
-        LDRB      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |988| 
-        AND       A1, A1, #248          ; [DPU_V7M3_PIPE] |988| 
-        AND       A2, A2, #252          ; [DPU_V7M3_PIPE] |988| 
-        LSLS      A1, A1, #8            ; [DPU_V7M3_PIPE] |988| 
-        ORR       A1, A1, A2, LSL #3    ; [DPU_V7M3_PIPE] |988| 
-        ORR       A1, A1, A3, ASR #3    ; [DPU_V7M3_PIPE] |988| 
-        UXTH      A1, A1                ; [DPU_V7M3_PIPE] |988| 
-	.dwpsn	file "../ST7735.c",line 989,column 1,is_stmt,isa 1
+        LDRB      A1, [SP, #2]          ; [DPU_V7M3_PIPE] |985| 
+        LDRB      A2, [SP, #1]          ; [DPU_V7M3_PIPE] |985| 
+        LDRB      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |985| 
+        AND       A1, A1, #248          ; [DPU_V7M3_PIPE] |985| 
+        AND       A2, A2, #252          ; [DPU_V7M3_PIPE] |985| 
+        LSLS      A1, A1, #8            ; [DPU_V7M3_PIPE] |985| 
+        ORR       A1, A1, A2, LSL #3    ; [DPU_V7M3_PIPE] |985| 
+        ORR       A1, A1, A3, ASR #3    ; [DPU_V7M3_PIPE] |985| 
+        UXTH      A1, A1                ; [DPU_V7M3_PIPE] |985| 
+	.dwpsn	file "../ST7735.c",line 986,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 $C$DW$209	.dwtag  DW_TAG_TI_branch
@@ -7421,7 +7419,7 @@ $C$DW$209	.dwtag  DW_TAG_TI_branch
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$202, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$202, DW_AT_TI_end_line(0x3dd)
+	.dwattr $C$DW$202, DW_AT_TI_end_line(0x3da)
 	.dwattr $C$DW$202, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$202
@@ -7440,13 +7438,13 @@ $C$DW$210	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$210, DW_AT_external
 	.dwattr $C$DW$210, DW_AT_type(*$C$DW$T$60)
 	.dwattr $C$DW$210, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$210, DW_AT_TI_begin_line(0x3e5)
+	.dwattr $C$DW$210, DW_AT_TI_begin_line(0x3e2)
 	.dwattr $C$DW$210, DW_AT_TI_begin_column(0x0a)
 	.dwattr $C$DW$210, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$210, DW_AT_decl_line(0x3e5)
+	.dwattr $C$DW$210, DW_AT_decl_line(0x3e2)
 	.dwattr $C$DW$210, DW_AT_decl_column(0x0a)
 	.dwattr $C$DW$210, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 997,column 39,is_stmt,address ST7735_SwapColor,isa 1
+	.dwpsn	file "../ST7735.c",line 994,column 39,is_stmt,address ST7735_SwapColor,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_SwapColor
 $C$DW$211	.dwtag  DW_TAG_formal_parameter
@@ -7475,21 +7473,21 @@ $C$DW$212	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$212, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 997 | uint16_t ST7735_SwapColor(uint16_t x) {                                
+; 994 | uint16_t ST7735_SwapColor(uint16_t x) {                                
 ;----------------------------------------------------------------------
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |997| 
-	.dwpsn	file "../ST7735.c",line 998,column 3,is_stmt,isa 1
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |994| 
+	.dwpsn	file "../ST7735.c",line 995,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 998 | return (x << 11) | (x & 0x07E0) | (x >> 11);                           
+; 995 | return (x << 11) | (x & 0x07E0) | (x >> 11);                           
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |998| 
-        LDRH      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |998| 
-        LDRH      A2, [SP, #0]          ; [DPU_V7M3_PIPE] |998| 
-        AND       A1, A1, #2016         ; [DPU_V7M3_PIPE] |998| 
-        ORR       A1, A1, A3, LSL #11   ; [DPU_V7M3_PIPE] |998| 
-        ORR       A1, A1, A2, ASR #11   ; [DPU_V7M3_PIPE] |998| 
-        UXTH      A1, A1                ; [DPU_V7M3_PIPE] |998| 
-	.dwpsn	file "../ST7735.c",line 999,column 1,is_stmt,isa 1
+        LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |995| 
+        LDRH      A3, [SP, #0]          ; [DPU_V7M3_PIPE] |995| 
+        LDRH      A2, [SP, #0]          ; [DPU_V7M3_PIPE] |995| 
+        AND       A1, A1, #2016         ; [DPU_V7M3_PIPE] |995| 
+        ORR       A1, A1, A3, LSL #11   ; [DPU_V7M3_PIPE] |995| 
+        ORR       A1, A1, A2, ASR #11   ; [DPU_V7M3_PIPE] |995| 
+        UXTH      A1, A1                ; [DPU_V7M3_PIPE] |995| 
+	.dwpsn	file "../ST7735.c",line 996,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 $C$DW$213	.dwtag  DW_TAG_TI_branch
@@ -7499,7 +7497,7 @@ $C$DW$213	.dwtag  DW_TAG_TI_branch
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$210, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$210, DW_AT_TI_end_line(0x3e7)
+	.dwattr $C$DW$210, DW_AT_TI_end_line(0x3e4)
 	.dwattr $C$DW$210, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$210
@@ -7525,13 +7523,13 @@ $C$DW$214	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$214, DW_AT_TI_symbol_name("ST7735_DrawBitmap")
 	.dwattr $C$DW$214, DW_AT_external
 	.dwattr $C$DW$214, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$214, DW_AT_TI_begin_line(0x3fd)
+	.dwattr $C$DW$214, DW_AT_TI_begin_line(0x3fa)
 	.dwattr $C$DW$214, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$214, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$214, DW_AT_decl_line(0x3fd)
+	.dwattr $C$DW$214, DW_AT_decl_line(0x3fa)
 	.dwattr $C$DW$214, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$214, DW_AT_TI_max_frame_size(0x28)
-	.dwpsn	file "../ST7735.c",line 1021,column 90,is_stmt,address ST7735_DrawBitmap,isa 1
+	.dwpsn	file "../ST7735.c",line 1018,column 90,is_stmt,address ST7735_DrawBitmap,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawBitmap
 $C$DW$215	.dwtag  DW_TAG_formal_parameter
@@ -7631,375 +7629,375 @@ $C$DW$226	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$226, DW_AT_location[DW_OP_breg13 16]
 
 ;----------------------------------------------------------------------
-; 1021 | void ST7735_DrawBitmap(int16_t x, int16_t y, const uint16_t *image, int
+; 1018 | void ST7735_DrawBitmap(int16_t x, int16_t y, const uint16_t *image, int
 ;     | 16_t w, int16_t h){                                                    
 ;----------------------------------------------------------------------
-        STRH      A4, [SP, #12]         ; [DPU_V7M3_PIPE] |1021| 
-        STR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1021| 
-        STRH      A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1021| 
-        STRH      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1021| 
-	.dwpsn	file "../ST7735.c",line 1022,column 17,is_stmt,isa 1
+        STRH      A4, [SP, #12]         ; [DPU_V7M3_PIPE] |1018| 
+        STR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1018| 
+        STRH      A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1018| 
+        STRH      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1018| 
+	.dwpsn	file "../ST7735.c",line 1019,column 17,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1022 | int16_t skipC = 0;                      // non-zero if columns need to
+; 1019 | int16_t skipC = 0;                      // non-zero if columns need to
 ;     | be skipped due to clipping                                             
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1022| 
-        STRH      A1, [SP, #14]         ; [DPU_V7M3_PIPE] |1022| 
-	.dwpsn	file "../ST7735.c",line 1023,column 25,is_stmt,isa 1
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1019| 
+        STRH      A1, [SP, #14]         ; [DPU_V7M3_PIPE] |1019| 
+	.dwpsn	file "../ST7735.c",line 1020,column 25,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1023 | int16_t originalWidth = w;              // save this value; even if not
+; 1020 | int16_t originalWidth = w;              // save this value; even if not
 ;     |  all columns fit on the screen, the image is still this width in ROM   
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1023| 
-        STRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1023| 
-	.dwpsn	file "../ST7735.c",line 1024,column 9,is_stmt,isa 1
+        LDRH      A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1020| 
+        STRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1020| 
+	.dwpsn	file "../ST7735.c",line 1021,column 9,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1024 | int i = w*(h - 1);                                                     
+; 1021 | int i = w*(h - 1);                                                     
 ;----------------------------------------------------------------------
-        LDRSH     A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1024| 
-        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1024| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1024| 
-        MULS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1024| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1024| 
-	.dwpsn	file "../ST7735.c",line 1026,column 3,is_stmt,isa 1
+        LDRSH     A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1021| 
+        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1021| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1021| 
+        MULS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1021| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1021| 
+	.dwpsn	file "../ST7735.c",line 1023,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1026 | if((x >= _width) || ((y - h + 1) >= _height) || ((x + w) <= 0) || (y <
+; 1023 | if((x >= _width) || ((y - h + 1) >= _height) || ((x + w) <= 0) || (y <
 ;     | 0)){                                                                   
-; 1027 |   return;                             // image is totally off the scree
+; 1024 |   return;                             // image is totally off the scree
 ;     | n, do nothing                                                          
 ;----------------------------------------------------------------------
+        LDR       A1, $C$CON22          ; [DPU_V7M3_PIPE] |1023| 
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1023| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1023| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1023| 
+        BLE       ||$C$L44||            ; [DPU_V7M3_PIPE] |1023| 
+        ; BRANCHCC OCCURS {||$C$L44||}   ; [] |1023| 
+;* --------------------------------------------------------------------------*
+        LDR       A2, $C$CON23          ; [DPU_V7M3_PIPE] |1023| 
+        LDRSH     A3, [V4, #0]          ; [DPU_V7M3_PIPE] |1023| 
+        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1023| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1023| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1023| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1023| 
+        CMP       A2, A1                ; [DPU_V7M3_PIPE] |1023| 
+        BLE       ||$C$L44||            ; [DPU_V7M3_PIPE] |1023| 
+        ; BRANCHCC OCCURS {||$C$L44||}   ; [] |1023| 
+;* --------------------------------------------------------------------------*
+        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1023| 
+        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1023| 
+        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1023| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1023| 
+        BLE       ||$C$L44||            ; [DPU_V7M3_PIPE] |1023| 
+        ; BRANCHCC OCCURS {||$C$L44||}   ; [] |1023| 
+;* --------------------------------------------------------------------------*
+        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1023| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1023| 
+        BPL       ||$C$L34||            ; [DPU_V7M3_PIPE] |1023| 
+        ; BRANCHCC OCCURS {||$C$L34||}   ; [] |1023| 
+;* --------------------------------------------------------------------------*
+        B         ||$C$L44||            ; [DPU_V7M3_PIPE] |1023| 
+        ; BRANCH OCCURS {||$C$L44||}     ; [] |1023| 
+;* --------------------------------------------------------------------------*
+;* --------------------------------------------------------------------------*
+||$C$L34||:    
+	.dwpsn	file "../ST7735.c",line 1026,column 3,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1026 | if((w > _width) || (h > _height)){    // image is too wide for the scre
+;     | en, do nothing                                                         
+; 1027 |   //***This isn't necessarily a fatal error, but it makes the          
+; 1028 |   //following logic much more complicated, since you can have          
+; 1029 |   //an image that exceeds multiple boundaries and needs to be          
+; 1030 |   //clipped on more than one side.                                     
+; 1031 |   return;                                                              
+;----------------------------------------------------------------------
         LDR       A1, $C$CON22          ; [DPU_V7M3_PIPE] |1026| 
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1026| 
+        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1026| 
         LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1026| 
         CMP       A1, A2                ; [DPU_V7M3_PIPE] |1026| 
-        BLE       ||$C$L44||            ; [DPU_V7M3_PIPE] |1026| 
+        BLT       ||$C$L44||            ; [DPU_V7M3_PIPE] |1026| 
         ; BRANCHCC OCCURS {||$C$L44||}   ; [] |1026| 
 ;* --------------------------------------------------------------------------*
-        LDR       A2, $C$CON23          ; [DPU_V7M3_PIPE] |1026| 
-        LDRSH     A3, [V4, #0]          ; [DPU_V7M3_PIPE] |1026| 
-        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1026| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1026| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1026| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1026| 
-        CMP       A2, A1                ; [DPU_V7M3_PIPE] |1026| 
-        BLE       ||$C$L44||            ; [DPU_V7M3_PIPE] |1026| 
-        ; BRANCHCC OCCURS {||$C$L44||}   ; [] |1026| 
-;* --------------------------------------------------------------------------*
-        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1026| 
-        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1026| 
-        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1026| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1026| 
-        BLE       ||$C$L44||            ; [DPU_V7M3_PIPE] |1026| 
-        ; BRANCHCC OCCURS {||$C$L44||}   ; [] |1026| 
-;* --------------------------------------------------------------------------*
-        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1026| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1026| 
-        BPL       ||$C$L34||            ; [DPU_V7M3_PIPE] |1026| 
-        ; BRANCHCC OCCURS {||$C$L34||}   ; [] |1026| 
+        LDR       A1, $C$CON23          ; [DPU_V7M3_PIPE] |1026| 
+        LDRSH     A2, [V4, #0]          ; [DPU_V7M3_PIPE] |1026| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1026| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1026| 
+        BGE       ||$C$L35||            ; [DPU_V7M3_PIPE] |1026| 
+        ; BRANCHCC OCCURS {||$C$L35||}   ; [] |1026| 
 ;* --------------------------------------------------------------------------*
         B         ||$C$L44||            ; [DPU_V7M3_PIPE] |1026| 
         ; BRANCH OCCURS {||$C$L44||}     ; [] |1026| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
-||$C$L34||:    
-	.dwpsn	file "../ST7735.c",line 1029,column 3,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1029 | if((w > _width) || (h > _height)){    // image is too wide for the scre
-;     | en, do nothing                                                         
-; 1030 |   //***This isn't necessarily a fatal error, but it makes the          
-; 1031 |   //following logic much more complicated, since you can have          
-; 1032 |   //an image that exceeds multiple boundaries and needs to be          
-; 1033 |   //clipped on more than one side.                                     
-; 1034 |   return;                                                              
-;----------------------------------------------------------------------
-        LDR       A1, $C$CON22          ; [DPU_V7M3_PIPE] |1029| 
-        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1029| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1029| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1029| 
-        BLT       ||$C$L44||            ; [DPU_V7M3_PIPE] |1029| 
-        ; BRANCHCC OCCURS {||$C$L44||}   ; [] |1029| 
-;* --------------------------------------------------------------------------*
-        LDR       A1, $C$CON23          ; [DPU_V7M3_PIPE] |1029| 
-        LDRSH     A2, [V4, #0]          ; [DPU_V7M3_PIPE] |1029| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1029| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1029| 
-        BGE       ||$C$L35||            ; [DPU_V7M3_PIPE] |1029| 
-        ; BRANCHCC OCCURS {||$C$L35||}   ; [] |1029| 
-;* --------------------------------------------------------------------------*
-        B         ||$C$L44||            ; [DPU_V7M3_PIPE] |1029| 
-        ; BRANCH OCCURS {||$C$L44||}     ; [] |1029| 
-;* --------------------------------------------------------------------------*
-;* --------------------------------------------------------------------------*
 ||$C$L35||:    
-	.dwpsn	file "../ST7735.c",line 1036,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1033,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1036 | if((x + w - 1) >= _width){            // image exceeds right of screen 
+; 1033 | if((x + w - 1) >= _width){            // image exceeds right of screen 
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON22          ; [DPU_V7M3_PIPE] |1036| 
-        LDRSH     A3, [SP, #12]         ; [DPU_V7M3_PIPE] |1036| 
-        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1036| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1036| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1036| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1036| 
-        CMP       A2, A1                ; [DPU_V7M3_PIPE] |1036| 
-        BGT       ||$C$L36||            ; [DPU_V7M3_PIPE] |1036| 
-        ; BRANCHCC OCCURS {||$C$L36||}   ; [] |1036| 
+        LDR       A2, $C$CON22          ; [DPU_V7M3_PIPE] |1033| 
+        LDRSH     A3, [SP, #12]         ; [DPU_V7M3_PIPE] |1033| 
+        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1033| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1033| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1033| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1033| 
+        CMP       A2, A1                ; [DPU_V7M3_PIPE] |1033| 
+        BGT       ||$C$L36||            ; [DPU_V7M3_PIPE] |1033| 
+        ; BRANCHCC OCCURS {||$C$L36||}   ; [] |1033| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1037,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1034,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1037 | skipC = (x + w) - _width;           // skip cut off columns            
+; 1034 | skipC = (x + w) - _width;           // skip cut off columns            
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON22          ; [DPU_V7M3_PIPE] |1037| 
-        LDRSH     A3, [SP, #12]         ; [DPU_V7M3_PIPE] |1037| 
-        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1037| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1037| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1037| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1037| 
-        STRH      A1, [SP, #14]         ; [DPU_V7M3_PIPE] |1037| 
-	.dwpsn	file "../ST7735.c",line 1038,column 5,is_stmt,isa 1
+        LDR       A2, $C$CON22          ; [DPU_V7M3_PIPE] |1034| 
+        LDRSH     A3, [SP, #12]         ; [DPU_V7M3_PIPE] |1034| 
+        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1034| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1034| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1034| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1034| 
+        STRH      A1, [SP, #14]         ; [DPU_V7M3_PIPE] |1034| 
+	.dwpsn	file "../ST7735.c",line 1035,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1038 | w = _width - x;                                                        
+; 1035 | w = _width - x;                                                        
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON22          ; [DPU_V7M3_PIPE] |1038| 
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1038| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1038| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1038| 
-        STRH      A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1038| 
+        LDR       A1, $C$CON22          ; [DPU_V7M3_PIPE] |1035| 
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1035| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1035| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1035| 
+        STRH      A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1035| 
 ;* --------------------------------------------------------------------------*
 ||$C$L36||:    
-	.dwpsn	file "../ST7735.c",line 1040,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1037,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1040 | if((y - h + 1) < 0){                  // image exceeds top of screen   
+; 1037 | if((y - h + 1) < 0){                  // image exceeds top of screen   
 ;----------------------------------------------------------------------
-        LDRSH     A2, [V4, #0]          ; [DPU_V7M3_PIPE] |1040| 
-        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1040| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1040| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1040| 
-        BPL       ||$C$L37||            ; [DPU_V7M3_PIPE] |1040| 
-        ; BRANCHCC OCCURS {||$C$L37||}   ; [] |1040| 
+        LDRSH     A2, [V4, #0]          ; [DPU_V7M3_PIPE] |1037| 
+        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1037| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1037| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1037| 
+        BPL       ||$C$L37||            ; [DPU_V7M3_PIPE] |1037| 
+        ; BRANCHCC OCCURS {||$C$L37||}   ; [] |1037| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1041,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1038,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1041 | i = i - (h - y - 1)*originalWidth;  // skip the last cut off rows      
+; 1038 | i = i - (h - y - 1)*originalWidth;  // skip the last cut off rows      
 ;----------------------------------------------------------------------
-        LDRSH     A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1041| 
-        LDRSH     A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1041| 
-        LDRSH     A3, [SP, #16]         ; [DPU_V7M3_PIPE] |1041| 
-        LDR       A4, [SP, #4]          ; [DPU_V7M3_PIPE] |1041| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1041| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1041| 
-        MLS       A1, A3, A1, A4        ; [DPU_V7M3_PIPE] |1041| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1041| 
-	.dwpsn	file "../ST7735.c",line 1042,column 5,is_stmt,isa 1
+        LDRSH     A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1038| 
+        LDRSH     A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1038| 
+        LDRSH     A3, [SP, #16]         ; [DPU_V7M3_PIPE] |1038| 
+        LDR       A4, [SP, #4]          ; [DPU_V7M3_PIPE] |1038| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1038| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1038| 
+        MLS       A1, A3, A1, A4        ; [DPU_V7M3_PIPE] |1038| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1038| 
+	.dwpsn	file "../ST7735.c",line 1039,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1042 | h = y + 1;                                                             
+; 1039 | h = y + 1;                                                             
 ;----------------------------------------------------------------------
-        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1042| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1042| 
-        STRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1042| 
+        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1039| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1039| 
+        STRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1039| 
 ;* --------------------------------------------------------------------------*
 ||$C$L37||:    
-	.dwpsn	file "../ST7735.c",line 1044,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1041,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1044 | if(x < 0){                            // image exceeds left of screen  
+; 1041 | if(x < 0){                            // image exceeds left of screen  
 ;----------------------------------------------------------------------
-        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1044| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1044| 
-        BPL       ||$C$L38||            ; [DPU_V7M3_PIPE] |1044| 
-        ; BRANCHCC OCCURS {||$C$L38||}   ; [] |1044| 
+        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1041| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1041| 
+        BPL       ||$C$L38||            ; [DPU_V7M3_PIPE] |1041| 
+        ; BRANCHCC OCCURS {||$C$L38||}   ; [] |1041| 
 ;* --------------------------------------------------------------------------*
+	.dwpsn	file "../ST7735.c",line 1042,column 5,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1042 | w = w + x;                                                             
+;----------------------------------------------------------------------
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1042| 
+        LDRSH     A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1042| 
+        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1042| 
+        STRH      A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1042| 
+	.dwpsn	file "../ST7735.c",line 1043,column 5,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1043 | skipC = -1*x;                       // skip cut off columns            
+;----------------------------------------------------------------------
+        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1043| 
+        RSBS      A1, A1, #0            ; [DPU_V7M3_PIPE] |1043| 
+        STRH      A1, [SP, #14]         ; [DPU_V7M3_PIPE] |1043| 
+	.dwpsn	file "../ST7735.c",line 1044,column 5,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1044 | i = i - x;                          // skip the first cut off columns  
+;----------------------------------------------------------------------
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1044| 
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1044| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1044| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1044| 
 	.dwpsn	file "../ST7735.c",line 1045,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1045 | w = w + x;                                                             
+; 1045 | x = 0;                                                                 
 ;----------------------------------------------------------------------
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1045| 
-        LDRSH     A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1045| 
-        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1045| 
-        STRH      A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1045| 
-	.dwpsn	file "../ST7735.c",line 1046,column 5,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1046 | skipC = -1*x;                       // skip cut off columns            
-;----------------------------------------------------------------------
-        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1046| 
-        RSBS      A1, A1, #0            ; [DPU_V7M3_PIPE] |1046| 
-        STRH      A1, [SP, #14]         ; [DPU_V7M3_PIPE] |1046| 
-	.dwpsn	file "../ST7735.c",line 1047,column 5,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1047 | i = i - x;                          // skip the first cut off columns  
-;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1047| 
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1047| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1047| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1047| 
-	.dwpsn	file "../ST7735.c",line 1048,column 5,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1048 | x = 0;                                                                 
-;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1048| 
-        STRH      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1048| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1045| 
+        STRH      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1045| 
 ;* --------------------------------------------------------------------------*
 ||$C$L38||:    
-	.dwpsn	file "../ST7735.c",line 1050,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1047,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1050 | if(y >= _height){                     // image exceeds bottom of screen
+; 1047 | if(y >= _height){                     // image exceeds bottom of screen
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON23          ; [DPU_V7M3_PIPE] |1050| 
-        LDRSH     A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1050| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1050| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1050| 
-        BGT       ||$C$L39||            ; [DPU_V7M3_PIPE] |1050| 
-        ; BRANCHCC OCCURS {||$C$L39||}   ; [] |1050| 
+        LDR       A1, $C$CON23          ; [DPU_V7M3_PIPE] |1047| 
+        LDRSH     A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1047| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1047| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1047| 
+        BGT       ||$C$L39||            ; [DPU_V7M3_PIPE] |1047| 
+        ; BRANCHCC OCCURS {||$C$L39||}   ; [] |1047| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1051,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1048,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1051 | h = h - (y - _height + 1);                                             
+; 1048 | h = h - (y - _height + 1);                                             
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON23          ; [DPU_V7M3_PIPE] |1051| 
-        LDRSH     A3, [SP, #10]         ; [DPU_V7M3_PIPE] |1051| 
-        LDRSH     A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1051| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1051| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1051| 
-        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1051| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1051| 
-        STRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1051| 
-	.dwpsn	file "../ST7735.c",line 1052,column 5,is_stmt,isa 1
+        LDR       A2, $C$CON23          ; [DPU_V7M3_PIPE] |1048| 
+        LDRSH     A3, [SP, #10]         ; [DPU_V7M3_PIPE] |1048| 
+        LDRSH     A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1048| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1048| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1048| 
+        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1048| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1048| 
+        STRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1048| 
+	.dwpsn	file "../ST7735.c",line 1049,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1052 | y = _height - 1;                                                       
+; 1049 | y = _height - 1;                                                       
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON23          ; [DPU_V7M3_PIPE] |1052| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1052| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1052| 
-        STRH      A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1052| 
+        LDR       A1, $C$CON23          ; [DPU_V7M3_PIPE] |1049| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1049| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1049| 
+        STRH      A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1049| 
 ;* --------------------------------------------------------------------------*
 ||$C$L39||:    
-	.dwpsn	file "../ST7735.c",line 1055,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1052,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1055 | setAddrWindow(x, y-h+1, x+w-1, y);                                     
+; 1052 | setAddrWindow(x, y-h+1, x+w-1, y);                                     
 ;----------------------------------------------------------------------
-        LDRSH     V2, [V4, #0]          ; [DPU_V7M3_PIPE] |1055| 
-        LDRSH     A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1055| 
-        LDRSH     V1, [SP, #12]         ; [DPU_V7M3_PIPE] |1055| 
-        LDRSH     A3, [SP, #8]          ; [DPU_V7M3_PIPE] |1055| 
-        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1055| 
-        LDRB      A4, [SP, #10]         ; [DPU_V7M3_PIPE] |1055| 
-        SUBS      A2, A2, V2            ; [DPU_V7M3_PIPE] |1055| 
-        ADDS      A3, A3, V1            ; [DPU_V7M3_PIPE] |1055| 
-        ADDS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1055| 
-        SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |1055| 
-        UXTB      A2, A2                ; [DPU_V7M3_PIPE] |1055| 
-        UXTB      A3, A3                ; [DPU_V7M3_PIPE] |1055| 
+        LDRSH     V2, [V4, #0]          ; [DPU_V7M3_PIPE] |1052| 
+        LDRSH     A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1052| 
+        LDRSH     V1, [SP, #12]         ; [DPU_V7M3_PIPE] |1052| 
+        LDRSH     A3, [SP, #8]          ; [DPU_V7M3_PIPE] |1052| 
+        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1052| 
+        LDRB      A4, [SP, #10]         ; [DPU_V7M3_PIPE] |1052| 
+        SUBS      A2, A2, V2            ; [DPU_V7M3_PIPE] |1052| 
+        ADDS      A3, A3, V1            ; [DPU_V7M3_PIPE] |1052| 
+        ADDS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1052| 
+        SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |1052| 
+        UXTB      A2, A2                ; [DPU_V7M3_PIPE] |1052| 
+        UXTB      A3, A3                ; [DPU_V7M3_PIPE] |1052| 
 $C$DW$227	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$227, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$227, DW_AT_name("setAddrWindow")
 	.dwattr $C$DW$227, DW_AT_TI_call
 
-        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |1055| 
-        ; CALL OCCURS {setAddrWindow }   ; [] |1055| 
-	.dwpsn	file "../ST7735.c",line 1057,column 7,is_stmt,isa 1
+        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |1052| 
+        ; CALL OCCURS {setAddrWindow }   ; [] |1052| 
+	.dwpsn	file "../ST7735.c",line 1054,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1057 | for(y=0; y<h; y=y+1){                                                  
+; 1054 | for(y=0; y<h; y=y+1){                                                  
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1057| 
-        STRH      A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1057| 
-        B         ||$C$L43||            ; [DPU_V7M3_PIPE] |1057| 
-        ; BRANCH OCCURS {||$C$L43||}     ; [] |1057| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1054| 
+        STRH      A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1054| 
+        B         ||$C$L43||            ; [DPU_V7M3_PIPE] |1054| 
+        ; BRANCH OCCURS {||$C$L43||}     ; [] |1054| 
 ;* --------------------------------------------------------------------------*
 ||$C$L40||:    
-	.dwpsn	file "../ST7735.c",line 1058,column 9,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1055,column 9,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1058 | for(x=0; x<w; x=x+1){                                                  
-; 1059 |                                     // send the top 8 bits             
+; 1055 | for(x=0; x<w; x=x+1){                                                  
+; 1056 |                                     // send the top 8 bits             
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1058| 
-        STRH      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1058| 
-        B         ||$C$L42||            ; [DPU_V7M3_PIPE] |1058| 
-        ; BRANCH OCCURS {||$C$L42||}     ; [] |1058| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1055| 
+        STRH      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1055| 
+        B         ||$C$L42||            ; [DPU_V7M3_PIPE] |1055| 
+        ; BRANCH OCCURS {||$C$L42||}     ; [] |1055| 
 ;* --------------------------------------------------------------------------*
 ||$C$L41||:    
-	.dwpsn	file "../ST7735.c",line 1060,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1057,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1060 | writedata((uint8_t)(image[i] >> 8));                                   
-; 1061 |                                   // send the bottom 8 bits            
+; 1057 | writedata((uint8_t)(image[i] >> 8));                                   
+; 1058 |                                   // send the bottom 8 bits            
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1060| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1060| 
-        LDRH      A1, [A2, +A1, LSL #1] ; [DPU_V7M3_PIPE] |1060| 
-        UXTB      A1, A1, ROR #8        ; [DPU_V7M3_PIPE] |1060| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1057| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1057| 
+        LDRH      A1, [A2, +A1, LSL #1] ; [DPU_V7M3_PIPE] |1057| 
+        UXTB      A1, A1, ROR #8        ; [DPU_V7M3_PIPE] |1057| 
 $C$DW$228	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$228, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$228, DW_AT_name("writedata")
 	.dwattr $C$DW$228, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1060| 
-        ; CALL OCCURS {writedata }       ; [] |1060| 
-	.dwpsn	file "../ST7735.c",line 1062,column 7,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |1057| 
+        ; CALL OCCURS {writedata }       ; [] |1057| 
+	.dwpsn	file "../ST7735.c",line 1059,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1062 | writedata((uint8_t)image[i]);                                          
+; 1059 | writedata((uint8_t)image[i]);                                          
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1062| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1062| 
-        LDRB      A1, [A2, +A1, LSL #1] ; [DPU_V7M3_PIPE] |1062| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1059| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1059| 
+        LDRB      A1, [A2, +A1, LSL #1] ; [DPU_V7M3_PIPE] |1059| 
 $C$DW$229	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$229, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$229, DW_AT_name("writedata")
 	.dwattr $C$DW$229, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1062| 
-        ; CALL OCCURS {writedata }       ; [] |1062| 
-	.dwpsn	file "../ST7735.c",line 1063,column 7,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |1059| 
+        ; CALL OCCURS {writedata }       ; [] |1059| 
+	.dwpsn	file "../ST7735.c",line 1060,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1063 | i = i + 1;                        // go to the next pixel              
+; 1060 | i = i + 1;                        // go to the next pixel              
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1063| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1063| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1063| 
-	.dwpsn	file "../ST7735.c",line 1058,column 19,is_stmt,isa 1
-        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1058| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1058| 
-        STRH      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1058| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1060| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1060| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1060| 
+	.dwpsn	file "../ST7735.c",line 1055,column 19,is_stmt,isa 1
+        LDRSH     A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1055| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1055| 
+        STRH      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1055| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L42||
 ;* --------------------------------------------------------------------------*
 ||$C$L42||:    
-	.dwpsn	file "../ST7735.c",line 1058,column 14,is_stmt,isa 1
-        LDRSH     A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1058| 
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1058| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1058| 
-        BGT       ||$C$L41||            ; [DPU_V7M3_PIPE] |1058| 
-        ; BRANCHCC OCCURS {||$C$L41||}   ; [] |1058| 
+	.dwpsn	file "../ST7735.c",line 1055,column 14,is_stmt,isa 1
+        LDRSH     A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1055| 
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1055| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1055| 
+        BGT       ||$C$L41||            ; [DPU_V7M3_PIPE] |1055| 
+        ; BRANCHCC OCCURS {||$C$L41||}   ; [] |1055| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1065,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1062,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1065 | i = i + skipC;                                                         
+; 1062 | i = i + skipC;                                                         
 ;----------------------------------------------------------------------
-        LDRSH     A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1065| 
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1065| 
-        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1065| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1065| 
-	.dwpsn	file "../ST7735.c",line 1066,column 5,is_stmt,isa 1
+        LDRSH     A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1062| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1062| 
+        ADDS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1062| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1062| 
+	.dwpsn	file "../ST7735.c",line 1063,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1066 | i = i - 2*originalWidth;                                               
+; 1063 | i = i - 2*originalWidth;                                               
 ;----------------------------------------------------------------------
-        LDRSH     A2, [SP, #16]         ; [DPU_V7M3_PIPE] |1066| 
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1066| 
-        SUB       A1, A1, A2, LSL #1    ; [DPU_V7M3_PIPE] |1066| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1066| 
-	.dwpsn	file "../ST7735.c",line 1057,column 17,is_stmt,isa 1
-        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1057| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1057| 
-        STRH      A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1057| 
+        LDRSH     A2, [SP, #16]         ; [DPU_V7M3_PIPE] |1063| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1063| 
+        SUB       A1, A1, A2, LSL #1    ; [DPU_V7M3_PIPE] |1063| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1063| 
+	.dwpsn	file "../ST7735.c",line 1054,column 17,is_stmt,isa 1
+        LDRSH     A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1054| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1054| 
+        STRH      A1, [SP, #10]         ; [DPU_V7M3_PIPE] |1054| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L43||
 ;* --------------------------------------------------------------------------*
 ||$C$L43||:    
-	.dwpsn	file "../ST7735.c",line 1057,column 12,is_stmt,isa 1
-        LDRSH     A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1057| 
-        LDRSH     A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1057| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1057| 
-        BGT       ||$C$L40||            ; [DPU_V7M3_PIPE] |1057| 
-        ; BRANCHCC OCCURS {||$C$L40||}   ; [] |1057| 
+	.dwpsn	file "../ST7735.c",line 1054,column 12,is_stmt,isa 1
+        LDRSH     A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1054| 
+        LDRSH     A2, [SP, #10]         ; [DPU_V7M3_PIPE] |1054| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1054| 
+        BGT       ||$C$L40||            ; [DPU_V7M3_PIPE] |1054| 
+        ; BRANCHCC OCCURS {||$C$L40||}   ; [] |1054| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1068,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1065,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L44||:    
         ADD       SP, SP, #24           ; [DPU_V7M3_PIPE] 
@@ -8015,7 +8013,7 @@ $C$DW$230	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 4
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$214, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$214, DW_AT_TI_end_line(0x42c)
+	.dwattr $C$DW$214, DW_AT_TI_end_line(0x429)
 	.dwattr $C$DW$214, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$214
@@ -8033,13 +8031,13 @@ $C$DW$231	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$231, DW_AT_TI_symbol_name("ST7735_DrawCharS")
 	.dwattr $C$DW$231, DW_AT_external
 	.dwattr $C$DW$231, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$231, DW_AT_TI_begin_line(0x43e)
+	.dwattr $C$DW$231, DW_AT_TI_begin_line(0x43b)
 	.dwattr $C$DW$231, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$231, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$231, DW_AT_decl_line(0x43e)
+	.dwattr $C$DW$231, DW_AT_decl_line(0x43b)
 	.dwattr $C$DW$231, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$231, DW_AT_TI_max_frame_size(0x28)
-	.dwpsn	file "../ST7735.c",line 1086,column 102,is_stmt,address ST7735_DrawCharS,isa 1
+	.dwpsn	file "../ST7735.c",line 1083,column 102,is_stmt,address ST7735_DrawCharS,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawCharS
 $C$DW$232	.dwtag  DW_TAG_formal_parameter
@@ -8146,305 +8144,305 @@ $C$DW$244	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$244, DW_AT_location[DW_OP_breg13 19]
 
 ;----------------------------------------------------------------------
-; 1086 | void ST7735_DrawCharS(int16_t x, int16_t y, char c, int16_t textColor,
+; 1083 | void ST7735_DrawCharS(int16_t x, int16_t y, char c, int16_t textColor,
 ;     | int16_t bgColor, uint8_t size){                                        
-; 1087 | uint8_t line; // vertical column of pixels of character in font        
-; 1088 | int32_t i, j;                                                          
+; 1084 | uint8_t line; // vertical column of pixels of character in font        
+; 1085 | int32_t i, j;                                                          
 ;----------------------------------------------------------------------
-        STRH      A4, [SP, #16]         ; [DPU_V7M3_PIPE] |1086| 
-        STRB      A3, [SP, #18]         ; [DPU_V7M3_PIPE] |1086| 
-        STRH      A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1086| 
-        STRH      A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1086| 
-	.dwpsn	file "../ST7735.c",line 1089,column 3,is_stmt,isa 1
+        STRH      A4, [SP, #16]         ; [DPU_V7M3_PIPE] |1083| 
+        STRB      A3, [SP, #18]         ; [DPU_V7M3_PIPE] |1083| 
+        STRH      A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1083| 
+        STRH      A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1083| 
+	.dwpsn	file "../ST7735.c",line 1086,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1089 | if((x >= _width)            || // Clip right                           
-; 1090 |    (y >= _height)           || // Clip bottom                          
-; 1091 |    ((x + 5 * size - 1) < 0) || // Clip left                            
-; 1092 |    ((y + 8 * size - 1) < 0))   // Clip top                             
-; 1093 |   return;                                                              
+; 1086 | if((x >= _width)            || // Clip right                           
+; 1087 |    (y >= _height)           || // Clip bottom                          
+; 1088 |    ((x + 5 * size - 1) < 0) || // Clip left                            
+; 1089 |    ((y + 8 * size - 1) < 0))   // Clip top                             
+; 1090 |   return;                                                              
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON22          ; [DPU_V7M3_PIPE] |1089| 
-        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1089| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1089| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1089| 
-        BLE       ||$C$L55||            ; [DPU_V7M3_PIPE] |1089| 
-        ; BRANCHCC OCCURS {||$C$L55||}   ; [] |1089| 
+        LDR       A1, $C$CON22          ; [DPU_V7M3_PIPE] |1086| 
+        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1086| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1086| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1086| 
+        BLE       ||$C$L55||            ; [DPU_V7M3_PIPE] |1086| 
+        ; BRANCHCC OCCURS {||$C$L55||}   ; [] |1086| 
 ;* --------------------------------------------------------------------------*
-        LDR       A1, $C$CON23          ; [DPU_V7M3_PIPE] |1089| 
-        LDRSH     A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1089| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1089| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1089| 
-        BLE       ||$C$L55||            ; [DPU_V7M3_PIPE] |1089| 
-        ; BRANCHCC OCCURS {||$C$L55||}   ; [] |1089| 
+        LDR       A1, $C$CON23          ; [DPU_V7M3_PIPE] |1086| 
+        LDRSH     A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1086| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1086| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1086| 
+        BLE       ||$C$L55||            ; [DPU_V7M3_PIPE] |1086| 
+        ; BRANCHCC OCCURS {||$C$L55||}   ; [] |1086| 
 ;* --------------------------------------------------------------------------*
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1089| 
-        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1089| 
-        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1089| 
-        ADDS      A2, A2, A1            ; [DPU_V7M3_PIPE] |1089| 
-        SUBS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1089| 
-        BMI       ||$C$L55||            ; [DPU_V7M3_PIPE] |1089| 
-        ; BRANCHCC OCCURS {||$C$L55||}   ; [] |1089| 
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1086| 
+        LDRSH     A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1086| 
+        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1086| 
+        ADDS      A2, A2, A1            ; [DPU_V7M3_PIPE] |1086| 
+        SUBS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1086| 
+        BMI       ||$C$L55||            ; [DPU_V7M3_PIPE] |1086| 
+        ; BRANCHCC OCCURS {||$C$L55||}   ; [] |1086| 
 ;* --------------------------------------------------------------------------*
-        LDRB      A2, [V4, #4]          ; [DPU_V7M3_PIPE] |1089| 
-        LDRSH     A1, [SP, #14]         ; [DPU_V7M3_PIPE] |1089| 
-        ADD       A1, A1, A2, LSL #3    ; [DPU_V7M3_PIPE] |1089| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1089| 
-        BPL       ||$C$L45||            ; [DPU_V7M3_PIPE] |1089| 
-        ; BRANCHCC OCCURS {||$C$L45||}   ; [] |1089| 
+        LDRB      A2, [V4, #4]          ; [DPU_V7M3_PIPE] |1086| 
+        LDRSH     A1, [SP, #14]         ; [DPU_V7M3_PIPE] |1086| 
+        ADD       A1, A1, A2, LSL #3    ; [DPU_V7M3_PIPE] |1086| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1086| 
+        BPL       ||$C$L45||            ; [DPU_V7M3_PIPE] |1086| 
+        ; BRANCHCC OCCURS {||$C$L45||}   ; [] |1086| 
 ;* --------------------------------------------------------------------------*
-        B         ||$C$L55||            ; [DPU_V7M3_PIPE] |1089| 
-        ; BRANCH OCCURS {||$C$L55||}     ; [] |1089| 
+        B         ||$C$L55||            ; [DPU_V7M3_PIPE] |1086| 
+        ; BRANCH OCCURS {||$C$L55||}     ; [] |1086| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L45||:    
-	.dwpsn	file "../ST7735.c",line 1095,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1092,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1095 | for (i=0; i<6; i++ ) {                                                 
+; 1092 | for (i=0; i<6; i++ ) {                                                 
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1095| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1095| 
-	.dwpsn	file "../ST7735.c",line 1095,column 13,is_stmt,isa 1
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1095| 
-        CMP       A1, #6                ; [DPU_V7M3_PIPE] |1095| 
-        BGE       ||$C$L55||            ; [DPU_V7M3_PIPE] |1095| 
-        ; BRANCHCC OCCURS {||$C$L55||}   ; [] |1095| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1092| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1092| 
+	.dwpsn	file "../ST7735.c",line 1092,column 13,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1092| 
+        CMP       A1, #6                ; [DPU_V7M3_PIPE] |1092| 
+        BGE       ||$C$L55||            ; [DPU_V7M3_PIPE] |1092| 
+        ; BRANCHCC OCCURS {||$C$L55||}   ; [] |1092| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L46||
 ;*
-;*   Loop source line                : 1095
-;*   Loop closing brace source line  : 1116
+;*   Loop source line                : 1092
+;*   Loop closing brace source line  : 1113
 ;*   Known Minimum Trip Count        : 1
 ;*   Known Maximum Trip Count        : 4294967295
 ;*   Known Max Trip Count Factor     : 1
 ;* --------------------------------------------------------------------------*
 ||$C$L46||:    
-	.dwpsn	file "../ST7735.c",line 1096,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1093,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1096 | if (i == 5)                                                            
+; 1093 | if (i == 5)                                                            
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1096| 
-        CMP       A1, #5                ; [DPU_V7M3_PIPE] |1096| 
-        BNE       ||$C$L47||            ; [DPU_V7M3_PIPE] |1096| 
-        ; BRANCHCC OCCURS {||$C$L47||}   ; [] |1096| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1093| 
+        CMP       A1, #5                ; [DPU_V7M3_PIPE] |1093| 
+        BNE       ||$C$L47||            ; [DPU_V7M3_PIPE] |1093| 
+        ; BRANCHCC OCCURS {||$C$L47||}   ; [] |1093| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1097,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1094,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1097 | line = 0x0;                                                            
-; 1098 | else                                                                   
+; 1094 | line = 0x0;                                                            
+; 1095 | else                                                                   
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1097| 
-        STRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1097| 
-        B         ||$C$L48||            ; [DPU_V7M3_PIPE] |1097| 
-        ; BRANCH OCCURS {||$C$L48||}     ; [] |1097| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1094| 
+        STRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1094| 
+        B         ||$C$L48||            ; [DPU_V7M3_PIPE] |1094| 
+        ; BRANCH OCCURS {||$C$L48||}     ; [] |1094| 
 ;* --------------------------------------------------------------------------*
 ||$C$L47||:    
-	.dwpsn	file "../ST7735.c",line 1099,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1096,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1099 | line = Font[(c*5)+i];                                                  
+; 1096 | line = Font[(c*5)+i];                                                  
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #18]         ; [DPU_V7M3_PIPE] |1099| 
-        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1099| 
-        LDR       A2, $C$CON24          ; [DPU_V7M3_PIPE] |1099| 
-        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1099| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1099| 
-        LDRB      A1, [A2, +A1]         ; [DPU_V7M3_PIPE] |1099| 
-        STRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1099| 
+        LDRB      A1, [SP, #18]         ; [DPU_V7M3_PIPE] |1096| 
+        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1096| 
+        LDR       A2, $C$CON24          ; [DPU_V7M3_PIPE] |1096| 
+        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1096| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1096| 
+        LDRB      A1, [A2, +A1]         ; [DPU_V7M3_PIPE] |1096| 
+        STRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1096| 
 ;* --------------------------------------------------------------------------*
 ||$C$L48||:    
-	.dwpsn	file "../ST7735.c",line 1100,column 10,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1097,column 10,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1100 | for (j = 0; j<8; j++) {                                                
+; 1097 | for (j = 0; j<8; j++) {                                                
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1100| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1100| 
-	.dwpsn	file "../ST7735.c",line 1100,column 17,is_stmt,isa 1
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1100| 
-        CMP       A1, #8                ; [DPU_V7M3_PIPE] |1100| 
-        BGE       ||$C$L54||            ; [DPU_V7M3_PIPE] |1100| 
-        ; BRANCHCC OCCURS {||$C$L54||}   ; [] |1100| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1097| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1097| 
+	.dwpsn	file "../ST7735.c",line 1097,column 17,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1097| 
+        CMP       A1, #8                ; [DPU_V7M3_PIPE] |1097| 
+        BGE       ||$C$L54||            ; [DPU_V7M3_PIPE] |1097| 
+        ; BRANCHCC OCCURS {||$C$L54||}   ; [] |1097| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L49||
 ;*
-;*   Loop source line                : 1100
-;*   Loop closing brace source line  : 1115
+;*   Loop source line                : 1097
+;*   Loop closing brace source line  : 1112
 ;*   Known Minimum Trip Count        : 1
 ;*   Known Maximum Trip Count        : 4294967295
 ;*   Known Max Trip Count Factor     : 1
 ;* --------------------------------------------------------------------------*
 ||$C$L49||:    
-	.dwpsn	file "../ST7735.c",line 1101,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1098,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1101 | if (line & 0x1) {                                                      
+; 1098 | if (line & 0x1) {                                                      
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1101| 
-        LSRS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1101| 
-        BCC       ||$C$L51||            ; [DPU_V7M3_PIPE] |1101| 
-        ; BRANCHCC OCCURS {||$C$L51||}   ; [] |1101| 
+        LDRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1098| 
+        LSRS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1098| 
+        BCC       ||$C$L51||            ; [DPU_V7M3_PIPE] |1098| 
+        ; BRANCHCC OCCURS {||$C$L51||}   ; [] |1098| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1102,column 9,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1099,column 9,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1102 | if (size == 1) // default size                                         
+; 1099 | if (size == 1) // default size                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1102| 
-        CMP       A1, #1                ; [DPU_V7M3_PIPE] |1102| 
-        BNE       ||$C$L50||            ; [DPU_V7M3_PIPE] |1102| 
-        ; BRANCHCC OCCURS {||$C$L50||}   ; [] |1102| 
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1099| 
+        CMP       A1, #1                ; [DPU_V7M3_PIPE] |1099| 
+        BNE       ||$C$L50||            ; [DPU_V7M3_PIPE] |1099| 
+        ; BRANCHCC OCCURS {||$C$L50||}   ; [] |1099| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1103,column 11,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1100,column 11,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1103 | ST7735_DrawPixel(x+i, y+j, textColor);                                 
-; 1104 | else {  // big size                                                    
+; 1100 | ST7735_DrawPixel(x+i, y+j, textColor);                                 
+; 1101 | else {  // big size                                                    
 ;----------------------------------------------------------------------
-        LDR       V1, [SP, #4]          ; [DPU_V7M3_PIPE] |1103| 
-        LDRSH     A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1103| 
-        LDR       A4, [SP, #8]          ; [DPU_V7M3_PIPE] |1103| 
-        LDRSH     A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1103| 
-        LDRH      A3, [SP, #16]         ; [DPU_V7M3_PIPE] |1103| 
-        ADDS      A1, A1, V1            ; [DPU_V7M3_PIPE] |1103| 
-        ADDS      A2, A2, A4            ; [DPU_V7M3_PIPE] |1103| 
-        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1103| 
-        SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1103| 
+        LDR       V1, [SP, #4]          ; [DPU_V7M3_PIPE] |1100| 
+        LDRSH     A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1100| 
+        LDR       A4, [SP, #8]          ; [DPU_V7M3_PIPE] |1100| 
+        LDRSH     A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1100| 
+        LDRH      A3, [SP, #16]         ; [DPU_V7M3_PIPE] |1100| 
+        ADDS      A1, A1, V1            ; [DPU_V7M3_PIPE] |1100| 
+        ADDS      A2, A2, A4            ; [DPU_V7M3_PIPE] |1100| 
+        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1100| 
+        SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1100| 
 $C$DW$245	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$245, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$245, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$245, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1103| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1103| 
-        B         ||$C$L53||            ; [DPU_V7M3_PIPE] |1103| 
-        ; BRANCH OCCURS {||$C$L53||}     ; [] |1103| 
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1100| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1100| 
+        B         ||$C$L53||            ; [DPU_V7M3_PIPE] |1100| 
+        ; BRANCH OCCURS {||$C$L53||}     ; [] |1100| 
 ;* --------------------------------------------------------------------------*
 ||$C$L50||:    
-	.dwpsn	file "../ST7735.c",line 1105,column 11,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1102,column 11,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1105 | ST7735_FillRect(x+(i*size), y+(j*size), size, size, textColor);        
+; 1102 | ST7735_FillRect(x+(i*size), y+(j*size), size, size, textColor);        
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1105| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1105| 
-        LDR       V9, [SP, #4]          ; [DPU_V7M3_PIPE] |1105| 
-        LDRB      A2, [V4, #4]          ; [DPU_V7M3_PIPE] |1105| 
-        LDRSH     V3, [SP, #12]         ; [DPU_V7M3_PIPE] |1105| 
-        LDR       V2, [SP, #8]          ; [DPU_V7M3_PIPE] |1105| 
-        LDRSH     V1, [SP, #14]         ; [DPU_V7M3_PIPE] |1105| 
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1105| 
-        LDRB      A3, [V4, #4]          ; [DPU_V7M3_PIPE] |1105| 
-        LDRB      A4, [V4, #4]          ; [DPU_V7M3_PIPE] |1105| 
-        MLA       A2, A2, V9, V3        ; [DPU_V7M3_PIPE] |1105| 
-        MLA       V1, A1, V2, V1        ; [DPU_V7M3_PIPE] |1105| 
-        SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1105| 
-        SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1105| 
+        LDRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1102| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1102| 
+        LDR       V9, [SP, #4]          ; [DPU_V7M3_PIPE] |1102| 
+        LDRB      A2, [V4, #4]          ; [DPU_V7M3_PIPE] |1102| 
+        LDRSH     V3, [SP, #12]         ; [DPU_V7M3_PIPE] |1102| 
+        LDR       V2, [SP, #8]          ; [DPU_V7M3_PIPE] |1102| 
+        LDRSH     V1, [SP, #14]         ; [DPU_V7M3_PIPE] |1102| 
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1102| 
+        LDRB      A3, [V4, #4]          ; [DPU_V7M3_PIPE] |1102| 
+        LDRB      A4, [V4, #4]          ; [DPU_V7M3_PIPE] |1102| 
+        MLA       A2, A2, V9, V3        ; [DPU_V7M3_PIPE] |1102| 
+        MLA       V1, A1, V2, V1        ; [DPU_V7M3_PIPE] |1102| 
+        SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1102| 
+        SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1102| 
 $C$DW$246	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$246, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$246, DW_AT_name("ST7735_FillRect")
 	.dwattr $C$DW$246, DW_AT_TI_call
 
-        BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1105| 
-        ; CALL OCCURS {ST7735_FillRect }  ; [] |1105| 
-	.dwpsn	file "../ST7735.c",line 1107,column 7,is_stmt,isa 1
+        BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1102| 
+        ; CALL OCCURS {ST7735_FillRect }  ; [] |1102| 
+	.dwpsn	file "../ST7735.c",line 1104,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1107 | } else if (bgColor != textColor) {                                     
+; 1104 | } else if (bgColor != textColor) {                                     
 ;----------------------------------------------------------------------
-        B         ||$C$L53||            ; [DPU_V7M3_PIPE] |1107| 
-        ; BRANCH OCCURS {||$C$L53||}     ; [] |1107| 
+        B         ||$C$L53||            ; [DPU_V7M3_PIPE] |1104| 
+        ; BRANCH OCCURS {||$C$L53||}     ; [] |1104| 
 ;* --------------------------------------------------------------------------*
 ||$C$L51||:    
-	.dwpsn	file "../ST7735.c",line 1107,column 14,is_stmt,isa 1
-        LDRSH     A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1107| 
-        LDRSH     A2, [V4, #0]          ; [DPU_V7M3_PIPE] |1107| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1107| 
-        BEQ       ||$C$L53||            ; [DPU_V7M3_PIPE] |1107| 
-        ; BRANCHCC OCCURS {||$C$L53||}   ; [] |1107| 
+	.dwpsn	file "../ST7735.c",line 1104,column 14,is_stmt,isa 1
+        LDRSH     A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1104| 
+        LDRSH     A2, [V4, #0]          ; [DPU_V7M3_PIPE] |1104| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1104| 
+        BEQ       ||$C$L53||            ; [DPU_V7M3_PIPE] |1104| 
+        ; BRANCHCC OCCURS {||$C$L53||}   ; [] |1104| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1108,column 9,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1105,column 9,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1108 | if (size == 1) // default size                                         
+; 1105 | if (size == 1) // default size                                         
 ;----------------------------------------------------------------------
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1108| 
-        CMP       A1, #1                ; [DPU_V7M3_PIPE] |1108| 
-        BNE       ||$C$L52||            ; [DPU_V7M3_PIPE] |1108| 
-        ; BRANCHCC OCCURS {||$C$L52||}   ; [] |1108| 
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1105| 
+        CMP       A1, #1                ; [DPU_V7M3_PIPE] |1105| 
+        BNE       ||$C$L52||            ; [DPU_V7M3_PIPE] |1105| 
+        ; BRANCHCC OCCURS {||$C$L52||}   ; [] |1105| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1109,column 11,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1106,column 11,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1109 | ST7735_DrawPixel(x+i, y+j, bgColor);                                   
-; 1110 | else {  // big size                                                    
+; 1106 | ST7735_DrawPixel(x+i, y+j, bgColor);                                   
+; 1107 | else {  // big size                                                    
 ;----------------------------------------------------------------------
-        LDR       V1, [SP, #4]          ; [DPU_V7M3_PIPE] |1109| 
-        LDRSH     A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1109| 
-        LDR       A4, [SP, #8]          ; [DPU_V7M3_PIPE] |1109| 
-        LDRSH     A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1109| 
-        LDRH      A3, [V4, #0]          ; [DPU_V7M3_PIPE] |1109| 
-        ADDS      A1, A1, V1            ; [DPU_V7M3_PIPE] |1109| 
-        ADDS      A2, A2, A4            ; [DPU_V7M3_PIPE] |1109| 
-        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1109| 
-        SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1109| 
+        LDR       V1, [SP, #4]          ; [DPU_V7M3_PIPE] |1106| 
+        LDRSH     A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1106| 
+        LDR       A4, [SP, #8]          ; [DPU_V7M3_PIPE] |1106| 
+        LDRSH     A2, [SP, #14]         ; [DPU_V7M3_PIPE] |1106| 
+        LDRH      A3, [V4, #0]          ; [DPU_V7M3_PIPE] |1106| 
+        ADDS      A1, A1, V1            ; [DPU_V7M3_PIPE] |1106| 
+        ADDS      A2, A2, A4            ; [DPU_V7M3_PIPE] |1106| 
+        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1106| 
+        SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1106| 
 $C$DW$247	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$247, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$247, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$247, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1109| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1109| 
-        B         ||$C$L53||            ; [DPU_V7M3_PIPE] |1109| 
-        ; BRANCH OCCURS {||$C$L53||}     ; [] |1109| 
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1106| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1106| 
+        B         ||$C$L53||            ; [DPU_V7M3_PIPE] |1106| 
+        ; BRANCH OCCURS {||$C$L53||}     ; [] |1106| 
 ;* --------------------------------------------------------------------------*
 ||$C$L52||:    
-	.dwpsn	file "../ST7735.c",line 1111,column 11,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1108,column 11,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1111 | ST7735_FillRect(x+i*size, y+j*size, size, size, bgColor);              
+; 1108 | ST7735_FillRect(x+i*size, y+j*size, size, size, bgColor);              
 ;----------------------------------------------------------------------
-        LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1111| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1111| 
-        LDR       V9, [SP, #4]          ; [DPU_V7M3_PIPE] |1111| 
-        LDRB      A2, [V4, #4]          ; [DPU_V7M3_PIPE] |1111| 
-        LDRSH     V3, [SP, #12]         ; [DPU_V7M3_PIPE] |1111| 
-        LDR       V2, [SP, #8]          ; [DPU_V7M3_PIPE] |1111| 
-        LDRSH     V1, [SP, #14]         ; [DPU_V7M3_PIPE] |1111| 
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1111| 
-        LDRB      A3, [V4, #4]          ; [DPU_V7M3_PIPE] |1111| 
-        LDRB      A4, [V4, #4]          ; [DPU_V7M3_PIPE] |1111| 
-        MLA       A2, A2, V9, V3        ; [DPU_V7M3_PIPE] |1111| 
-        MLA       V1, A1, V2, V1        ; [DPU_V7M3_PIPE] |1111| 
-        SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1111| 
-        SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1111| 
+        LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1108| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1108| 
+        LDR       V9, [SP, #4]          ; [DPU_V7M3_PIPE] |1108| 
+        LDRB      A2, [V4, #4]          ; [DPU_V7M3_PIPE] |1108| 
+        LDRSH     V3, [SP, #12]         ; [DPU_V7M3_PIPE] |1108| 
+        LDR       V2, [SP, #8]          ; [DPU_V7M3_PIPE] |1108| 
+        LDRSH     V1, [SP, #14]         ; [DPU_V7M3_PIPE] |1108| 
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1108| 
+        LDRB      A3, [V4, #4]          ; [DPU_V7M3_PIPE] |1108| 
+        LDRB      A4, [V4, #4]          ; [DPU_V7M3_PIPE] |1108| 
+        MLA       A2, A2, V9, V3        ; [DPU_V7M3_PIPE] |1108| 
+        MLA       V1, A1, V2, V1        ; [DPU_V7M3_PIPE] |1108| 
+        SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1108| 
+        SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1108| 
 $C$DW$248	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$248, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$248, DW_AT_name("ST7735_FillRect")
 	.dwattr $C$DW$248, DW_AT_TI_call
 
-        BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1111| 
-        ; CALL OCCURS {ST7735_FillRect }  ; [] |1111| 
+        BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1108| 
+        ; CALL OCCURS {ST7735_FillRect }  ; [] |1108| 
 ;* --------------------------------------------------------------------------*
 ||$C$L53||:    
-	.dwpsn	file "../ST7735.c",line 1114,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1111,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1114 | line >>= 1;                                                            
+; 1111 | line >>= 1;                                                            
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1114| 
-        ASRS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1114| 
-        STRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1114| 
-	.dwpsn	file "../ST7735.c",line 1100,column 22,is_stmt,isa 1
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1100| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1100| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1100| 
-	.dwpsn	file "../ST7735.c",line 1100,column 17,is_stmt,isa 1
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1100| 
-        CMP       A1, #8                ; [DPU_V7M3_PIPE] |1100| 
-        BLT       ||$C$L49||            ; [DPU_V7M3_PIPE] |1100| 
-        ; BRANCHCC OCCURS {||$C$L49||}   ; [] |1100| 
+        LDRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1111| 
+        ASRS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1111| 
+        STRB      A1, [SP, #19]         ; [DPU_V7M3_PIPE] |1111| 
+	.dwpsn	file "../ST7735.c",line 1097,column 22,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1097| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1097| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1097| 
+	.dwpsn	file "../ST7735.c",line 1097,column 17,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1097| 
+        CMP       A1, #8                ; [DPU_V7M3_PIPE] |1097| 
+        BLT       ||$C$L49||            ; [DPU_V7M3_PIPE] |1097| 
+        ; BRANCHCC OCCURS {||$C$L49||}   ; [] |1097| 
 ;* --------------------------------------------------------------------------*
 ||$C$L54||:    
-	.dwpsn	file "../ST7735.c",line 1095,column 18,is_stmt,isa 1
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1095| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1095| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1095| 
-	.dwpsn	file "../ST7735.c",line 1095,column 13,is_stmt,isa 1
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1095| 
-        CMP       A1, #6                ; [DPU_V7M3_PIPE] |1095| 
-        BLT       ||$C$L46||            ; [DPU_V7M3_PIPE] |1095| 
-        ; BRANCHCC OCCURS {||$C$L46||}   ; [] |1095| 
+	.dwpsn	file "../ST7735.c",line 1092,column 18,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1092| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1092| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1092| 
+	.dwpsn	file "../ST7735.c",line 1092,column 13,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1092| 
+        CMP       A1, #6                ; [DPU_V7M3_PIPE] |1092| 
+        BLT       ||$C$L46||            ; [DPU_V7M3_PIPE] |1092| 
+        ; BRANCHCC OCCURS {||$C$L46||}   ; [] |1092| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1117,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1114,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L55||:    
         ADD       SP, SP, #20           ; [DPU_V7M3_PIPE] 
@@ -8461,7 +8459,7 @@ $C$DW$249	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 4
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$231, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$231, DW_AT_TI_end_line(0x45d)
+	.dwattr $C$DW$231, DW_AT_TI_end_line(0x45a)
 	.dwattr $C$DW$231, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$231
@@ -8487,13 +8485,13 @@ $C$DW$250	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$250, DW_AT_TI_symbol_name("ST7735_DrawChar")
 	.dwattr $C$DW$250, DW_AT_external
 	.dwattr $C$DW$250, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$250, DW_AT_TI_begin_line(0x46d)
+	.dwattr $C$DW$250, DW_AT_TI_begin_line(0x46a)
 	.dwattr $C$DW$250, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$250, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$250, DW_AT_decl_line(0x46d)
+	.dwattr $C$DW$250, DW_AT_decl_line(0x46a)
 	.dwattr $C$DW$250, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$250, DW_AT_TI_max_frame_size(0x30)
-	.dwpsn	file "../ST7735.c",line 1133,column 101,is_stmt,address ST7735_DrawChar,isa 1
+	.dwpsn	file "../ST7735.c",line 1130,column 101,is_stmt,address ST7735_DrawChar,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawChar
 $C$DW$251	.dwtag  DW_TAG_formal_parameter
@@ -8612,367 +8610,367 @@ $C$DW$265	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$265, DW_AT_location[DW_OP_breg13 23]
 
 ;----------------------------------------------------------------------
-; 1133 | void ST7735_DrawChar(int16_t x, int16_t y, char c, int16_t textColor, i
+; 1130 | void ST7735_DrawChar(int16_t x, int16_t y, char c, int16_t textColor, i
 ;     | nt16_t bgColor, uint8_t size){                                         
-; 1134 | uint8_t line; // horizontal row of pixels of character                 
-; 1135 | int32_t col, row, i, j;// loop indices                                 
+; 1131 | uint8_t line; // horizontal row of pixels of character                 
+; 1132 | int32_t col, row, i, j;// loop indices                                 
 ;----------------------------------------------------------------------
-        STRH      A4, [SP, #20]         ; [DPU_V7M3_PIPE] |1133| 
-        STRB      A3, [SP, #22]         ; [DPU_V7M3_PIPE] |1133| 
-        STRH      A2, [SP, #18]         ; [DPU_V7M3_PIPE] |1133| 
-        STRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1133| 
-	.dwpsn	file "../ST7735.c",line 1136,column 3,is_stmt,isa 1
+        STRH      A4, [SP, #20]         ; [DPU_V7M3_PIPE] |1130| 
+        STRB      A3, [SP, #22]         ; [DPU_V7M3_PIPE] |1130| 
+        STRH      A2, [SP, #18]         ; [DPU_V7M3_PIPE] |1130| 
+        STRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1130| 
+	.dwpsn	file "../ST7735.c",line 1133,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1136 | if(((x + 5*size - 1) >= _width)  || // Clip right                      
-; 1137 |    ((y + 8*size - 1) >= _height) || // Clip bottom                     
-; 1138 |    ((x + 5*size - 1) < 0)        || // Clip left                       
-; 1139 |    ((y + 8*size - 1) < 0)){         // Clip top                        
-; 1140 |   return;                                                              
+; 1133 | if(((x + 5*size - 1) >= _width)  || // Clip right                      
+; 1134 |    ((y + 8*size - 1) >= _height) || // Clip bottom                     
+; 1135 |    ((x + 5*size - 1) < 0)        || // Clip left                       
+; 1136 |    ((y + 8*size - 1) < 0)){         // Clip top                        
+; 1137 |   return;                                                              
 ;----------------------------------------------------------------------
-        LDR       A3, $C$CON25          ; [DPU_V7M3_PIPE] |1136| 
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1136| 
-        LDRSH     A2, [SP, #16]         ; [DPU_V7M3_PIPE] |1136| 
-        LDRSH     A3, [A3, #0]          ; [DPU_V7M3_PIPE] |1136| 
-        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1136| 
-        ADDS      A2, A2, A1            ; [DPU_V7M3_PIPE] |1136| 
-        SUBS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1136| 
-        CMP       A3, A2                ; [DPU_V7M3_PIPE] |1136| 
-        BLE       ||$C$L68||            ; [DPU_V7M3_PIPE] |1136| 
-        ; BRANCHCC OCCURS {||$C$L68||}   ; [] |1136| 
+        LDR       A3, $C$CON25          ; [DPU_V7M3_PIPE] |1133| 
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1133| 
+        LDRSH     A2, [SP, #16]         ; [DPU_V7M3_PIPE] |1133| 
+        LDRSH     A3, [A3, #0]          ; [DPU_V7M3_PIPE] |1133| 
+        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1133| 
+        ADDS      A2, A2, A1            ; [DPU_V7M3_PIPE] |1133| 
+        SUBS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1133| 
+        CMP       A3, A2                ; [DPU_V7M3_PIPE] |1133| 
+        BLE       ||$C$L68||            ; [DPU_V7M3_PIPE] |1133| 
+        ; BRANCHCC OCCURS {||$C$L68||}   ; [] |1133| 
 ;* --------------------------------------------------------------------------*
-        LDR       A2, $C$CON26          ; [DPU_V7M3_PIPE] |1136| 
-        LDRB      A3, [V4, #4]          ; [DPU_V7M3_PIPE] |1136| 
-        LDRSH     A1, [SP, #18]         ; [DPU_V7M3_PIPE] |1136| 
-        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1136| 
-        ADD       A1, A1, A3, LSL #3    ; [DPU_V7M3_PIPE] |1136| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1136| 
-        CMP       A2, A1                ; [DPU_V7M3_PIPE] |1136| 
-        BLE       ||$C$L68||            ; [DPU_V7M3_PIPE] |1136| 
-        ; BRANCHCC OCCURS {||$C$L68||}   ; [] |1136| 
+        LDR       A2, $C$CON26          ; [DPU_V7M3_PIPE] |1133| 
+        LDRB      A3, [V4, #4]          ; [DPU_V7M3_PIPE] |1133| 
+        LDRSH     A1, [SP, #18]         ; [DPU_V7M3_PIPE] |1133| 
+        LDRSH     A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1133| 
+        ADD       A1, A1, A3, LSL #3    ; [DPU_V7M3_PIPE] |1133| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1133| 
+        CMP       A2, A1                ; [DPU_V7M3_PIPE] |1133| 
+        BLE       ||$C$L68||            ; [DPU_V7M3_PIPE] |1133| 
+        ; BRANCHCC OCCURS {||$C$L68||}   ; [] |1133| 
 ;* --------------------------------------------------------------------------*
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1136| 
-        LDRSH     A2, [SP, #16]         ; [DPU_V7M3_PIPE] |1136| 
-        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1136| 
-        ADDS      A2, A2, A1            ; [DPU_V7M3_PIPE] |1136| 
-        SUBS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1136| 
-        BMI       ||$C$L68||            ; [DPU_V7M3_PIPE] |1136| 
-        ; BRANCHCC OCCURS {||$C$L68||}   ; [] |1136| 
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1133| 
+        LDRSH     A2, [SP, #16]         ; [DPU_V7M3_PIPE] |1133| 
+        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1133| 
+        ADDS      A2, A2, A1            ; [DPU_V7M3_PIPE] |1133| 
+        SUBS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1133| 
+        BMI       ||$C$L68||            ; [DPU_V7M3_PIPE] |1133| 
+        ; BRANCHCC OCCURS {||$C$L68||}   ; [] |1133| 
 ;* --------------------------------------------------------------------------*
-        LDRB      A2, [V4, #4]          ; [DPU_V7M3_PIPE] |1136| 
-        LDRSH     A1, [SP, #18]         ; [DPU_V7M3_PIPE] |1136| 
-        ADD       A1, A1, A2, LSL #3    ; [DPU_V7M3_PIPE] |1136| 
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1136| 
-        BPL       ||$C$L56||            ; [DPU_V7M3_PIPE] |1136| 
-        ; BRANCHCC OCCURS {||$C$L56||}   ; [] |1136| 
+        LDRB      A2, [V4, #4]          ; [DPU_V7M3_PIPE] |1133| 
+        LDRSH     A1, [SP, #18]         ; [DPU_V7M3_PIPE] |1133| 
+        ADD       A1, A1, A2, LSL #3    ; [DPU_V7M3_PIPE] |1133| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1133| 
+        BPL       ||$C$L56||            ; [DPU_V7M3_PIPE] |1133| 
+        ; BRANCHCC OCCURS {||$C$L56||}   ; [] |1133| 
 ;* --------------------------------------------------------------------------*
-        B         ||$C$L68||            ; [DPU_V7M3_PIPE] |1136| 
-        ; BRANCH OCCURS {||$C$L68||}     ; [] |1136| 
+        B         ||$C$L68||            ; [DPU_V7M3_PIPE] |1133| 
+        ; BRANCH OCCURS {||$C$L68||}     ; [] |1133| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L56||:    
-	.dwpsn	file "../ST7735.c",line 1143,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1140,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1143 | setAddrWindow(x, y, x+6*size-1, y+8*size-1);                           
+; 1140 | setAddrWindow(x, y, x+6*size-1, y+8*size-1);                           
 ;----------------------------------------------------------------------
-        LDRB      V3, [V4, #4]          ; [DPU_V7M3_PIPE] |1143| 
-        LDRB      V2, [V4, #4]          ; [DPU_V7M3_PIPE] |1143| 
-        LDRSH     A3, [SP, #18]         ; [DPU_V7M3_PIPE] |1143| 
-        LDRSH     V1, [SP, #16]         ; [DPU_V7M3_PIPE] |1143| 
-        LDRB      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1143| 
-        LDRB      A2, [SP, #18]         ; [DPU_V7M3_PIPE] |1143| 
-        LSLS      A4, V3, #1            ; [DPU_V7M3_PIPE] |1143| 
-        ADD       A3, A3, V2, LSL #3    ; [DPU_V7M3_PIPE] |1143| 
-        ADD       A4, A4, V3, LSL #2    ; [DPU_V7M3_PIPE] |1143| 
-        SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |1143| 
-        ADDS      V1, V1, A4            ; [DPU_V7M3_PIPE] |1143| 
-        SUBS      V1, V1, #1            ; [DPU_V7M3_PIPE] |1143| 
-        UXTB      A4, A3                ; [DPU_V7M3_PIPE] |1143| 
-        UXTB      A3, V1                ; [DPU_V7M3_PIPE] |1143| 
+        LDRB      V3, [V4, #4]          ; [DPU_V7M3_PIPE] |1140| 
+        LDRB      V2, [V4, #4]          ; [DPU_V7M3_PIPE] |1140| 
+        LDRSH     A3, [SP, #18]         ; [DPU_V7M3_PIPE] |1140| 
+        LDRSH     V1, [SP, #16]         ; [DPU_V7M3_PIPE] |1140| 
+        LDRB      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1140| 
+        LDRB      A2, [SP, #18]         ; [DPU_V7M3_PIPE] |1140| 
+        LSLS      A4, V3, #1            ; [DPU_V7M3_PIPE] |1140| 
+        ADD       A3, A3, V2, LSL #3    ; [DPU_V7M3_PIPE] |1140| 
+        ADD       A4, A4, V3, LSL #2    ; [DPU_V7M3_PIPE] |1140| 
+        SUBS      A3, A3, #1            ; [DPU_V7M3_PIPE] |1140| 
+        ADDS      V1, V1, A4            ; [DPU_V7M3_PIPE] |1140| 
+        SUBS      V1, V1, #1            ; [DPU_V7M3_PIPE] |1140| 
+        UXTB      A4, A3                ; [DPU_V7M3_PIPE] |1140| 
+        UXTB      A3, V1                ; [DPU_V7M3_PIPE] |1140| 
 $C$DW$266	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$266, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$266, DW_AT_name("setAddrWindow")
 	.dwattr $C$DW$266, DW_AT_TI_call
 
-        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |1143| 
-        ; CALL OCCURS {setAddrWindow }   ; [] |1143| 
-	.dwpsn	file "../ST7735.c",line 1145,column 3,is_stmt,isa 1
+        BL        setAddrWindow         ; [DPU_V7M3_PIPE] |1140| 
+        ; CALL OCCURS {setAddrWindow }   ; [] |1140| 
+	.dwpsn	file "../ST7735.c",line 1142,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1145 | line = 0x01;        // print the top row first                         
-; 1146 | // print the rows, starting at the top                                 
+; 1142 | line = 0x01;        // print the top row first                         
+; 1143 | // print the rows, starting at the top                                 
 ;----------------------------------------------------------------------
-        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |1145| 
-        STRB      A1, [SP, #23]         ; [DPU_V7M3_PIPE] |1145| 
-	.dwpsn	file "../ST7735.c",line 1147,column 7,is_stmt,isa 1
+        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |1142| 
+        STRB      A1, [SP, #23]         ; [DPU_V7M3_PIPE] |1142| 
+	.dwpsn	file "../ST7735.c",line 1144,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1147 | for(row=0; row<8; row=row+1){                                          
+; 1144 | for(row=0; row<8; row=row+1){                                          
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1147| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1147| 
-	.dwpsn	file "../ST7735.c",line 1147,column 14,is_stmt,isa 1
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1147| 
-        CMP       A1, #8                ; [DPU_V7M3_PIPE] |1147| 
-        BGE       ||$C$L68||            ; [DPU_V7M3_PIPE] |1147| 
-        ; BRANCHCC OCCURS {||$C$L68||}   ; [] |1147| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1144| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1144| 
+	.dwpsn	file "../ST7735.c",line 1144,column 14,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1144| 
+        CMP       A1, #8                ; [DPU_V7M3_PIPE] |1144| 
+        BGE       ||$C$L68||            ; [DPU_V7M3_PIPE] |1144| 
+        ; BRANCHCC OCCURS {||$C$L68||}   ; [] |1144| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L57||
 ;*
-;*   Loop source line                : 1147
-;*   Loop closing brace source line  : 1169
-;*   Known Minimum Trip Count        : 1
-;*   Known Maximum Trip Count        : 4294967295
-;*   Known Max Trip Count Factor     : 1
-;* --------------------------------------------------------------------------*
-||$C$L57||:    
-	.dwpsn	file "../ST7735.c",line 1148,column 9,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1148 | for(i=0; i<size; i=i+1){                                               
-;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1148| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1148| 
-	.dwpsn	file "../ST7735.c",line 1148,column 14,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1149 | // print the columns, starting on the left                             
-;----------------------------------------------------------------------
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1148| 
-        LDR       A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1148| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1148| 
-        BLE       ||$C$L67||            ; [DPU_V7M3_PIPE] |1148| 
-        ; BRANCHCC OCCURS {||$C$L67||}   ; [] |1148| 
-;* --------------------------------------------------------------------------*
-;*   BEGIN LOOP ||$C$L58||
-;*
-;*   Loop source line                : 1148
-;*   Loop closing brace source line  : 1167
-;*   Known Minimum Trip Count        : 1
-;*   Known Maximum Trip Count        : 4294967295
-;*   Known Max Trip Count Factor     : 1
-;* --------------------------------------------------------------------------*
-||$C$L58||:    
-	.dwpsn	file "../ST7735.c",line 1150,column 11,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1150 | for(col=0; col<5; col=col+1){                                          
-;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1150| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1150| 
-	.dwpsn	file "../ST7735.c",line 1150,column 18,is_stmt,isa 1
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1150| 
-        CMP       A1, #5                ; [DPU_V7M3_PIPE] |1150| 
-        BGE       ||$C$L64||            ; [DPU_V7M3_PIPE] |1150| 
-        ; BRANCHCC OCCURS {||$C$L64||}   ; [] |1150| 
-;* --------------------------------------------------------------------------*
-;*   BEGIN LOOP ||$C$L59||
-;*
-;*   Loop source line                : 1150
-;*   Loop closing brace source line  : 1162
-;*   Known Minimum Trip Count        : 1
-;*   Known Maximum Trip Count        : 4294967295
-;*   Known Max Trip Count Factor     : 1
-;* --------------------------------------------------------------------------*
-||$C$L59||:    
-	.dwpsn	file "../ST7735.c",line 1151,column 9,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1151 | if(Font[(c*5)+col]&line){                                              
-; 1152 |   // bit is set in Font, print pixel(s) in text color                  
-;----------------------------------------------------------------------
-        LDRB      A1, [SP, #22]         ; [DPU_V7M3_PIPE] |1151| 
-        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1151| 
-        LDR       A2, $C$CON24          ; [DPU_V7M3_PIPE] |1151| 
-        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1151| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1151| 
-        LDRB      A3, [SP, #23]         ; [DPU_V7M3_PIPE] |1151| 
-        LDRB      A1, [A2, +A1]         ; [DPU_V7M3_PIPE] |1151| 
-        TST       A3, A1                ; [DPU_V7M3_PIPE] |1151| 
-        BEQ       ||$C$L61||            ; [DPU_V7M3_PIPE] |1151| 
-        ; BRANCHCC OCCURS {||$C$L61||}   ; [] |1151| 
-;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1153,column 15,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1153 | for(j=0; j<size; j=j+1){                                               
-;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1153| 
-        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1153| 
-	.dwpsn	file "../ST7735.c",line 1153,column 20,is_stmt,isa 1
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1153| 
-        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1153| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1153| 
-        BLE       ||$C$L63||            ; [DPU_V7M3_PIPE] |1153| 
-        ; BRANCHCC OCCURS {||$C$L63||}   ; [] |1153| 
-;* --------------------------------------------------------------------------*
-;*   BEGIN LOOP ||$C$L60||
-;*
-;*   Loop source line                : 1153
-;*   Loop closing brace source line  : 1155
-;*   Known Minimum Trip Count        : 1
-;*   Known Maximum Trip Count        : 4294967295
-;*   Known Max Trip Count Factor     : 1
-;* --------------------------------------------------------------------------*
-||$C$L60||:    
-	.dwpsn	file "../ST7735.c",line 1154,column 13,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1154 | pushColor(textColor);                                                  
-;----------------------------------------------------------------------
-        LDRH      A1, [SP, #20]         ; [DPU_V7M3_PIPE] |1154| 
-$C$DW$267	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$267, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$267, DW_AT_name("pushColor")
-	.dwattr $C$DW$267, DW_AT_TI_call
-
-        BL        pushColor             ; [DPU_V7M3_PIPE] |1154| 
-        ; CALL OCCURS {pushColor }       ; [] |1154| 
-	.dwpsn	file "../ST7735.c",line 1153,column 28,is_stmt,isa 1
-        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1153| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1153| 
-        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1153| 
-	.dwpsn	file "../ST7735.c",line 1153,column 20,is_stmt,isa 1
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1153| 
-        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1153| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1153| 
-        BGT       ||$C$L60||            ; [DPU_V7M3_PIPE] |1153| 
-        ; BRANCHCC OCCURS {||$C$L60||}   ; [] |1153| 
-;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1156,column 9,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1156 | } else{                                                                
-; 1157 |   // bit is cleared in Font, print pixel(s) in background color        
-;----------------------------------------------------------------------
-        B         ||$C$L63||            ; [DPU_V7M3_PIPE] |1156| 
-        ; BRANCH OCCURS {||$C$L63||}     ; [] |1156| 
-;* --------------------------------------------------------------------------*
-||$C$L61||:    
-	.dwpsn	file "../ST7735.c",line 1158,column 15,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1158 | for(j=0; j<size; j=j+1){                                               
-;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1158| 
-        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1158| 
-	.dwpsn	file "../ST7735.c",line 1158,column 20,is_stmt,isa 1
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1158| 
-        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1158| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1158| 
-        BLE       ||$C$L63||            ; [DPU_V7M3_PIPE] |1158| 
-        ; BRANCHCC OCCURS {||$C$L63||}   ; [] |1158| 
-;* --------------------------------------------------------------------------*
-;*   BEGIN LOOP ||$C$L62||
-;*
-;*   Loop source line                : 1158
-;*   Loop closing brace source line  : 1160
-;*   Known Minimum Trip Count        : 1
-;*   Known Maximum Trip Count        : 4294967295
-;*   Known Max Trip Count Factor     : 1
-;* --------------------------------------------------------------------------*
-||$C$L62||:    
-	.dwpsn	file "../ST7735.c",line 1159,column 13,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1159 | pushColor(bgColor);                                                    
-; 1163 | // print blank column(s) to the right of character                     
-;----------------------------------------------------------------------
-        LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1159| 
-$C$DW$268	.dwtag  DW_TAG_TI_branch
-	.dwattr $C$DW$268, DW_AT_low_pc(0x00)
-	.dwattr $C$DW$268, DW_AT_name("pushColor")
-	.dwattr $C$DW$268, DW_AT_TI_call
-
-        BL        pushColor             ; [DPU_V7M3_PIPE] |1159| 
-        ; CALL OCCURS {pushColor }       ; [] |1159| 
-	.dwpsn	file "../ST7735.c",line 1158,column 28,is_stmt,isa 1
-        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1158| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1158| 
-        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1158| 
-	.dwpsn	file "../ST7735.c",line 1158,column 20,is_stmt,isa 1
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1158| 
-        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1158| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1158| 
-        BGT       ||$C$L62||            ; [DPU_V7M3_PIPE] |1158| 
-        ; BRANCHCC OCCURS {||$C$L62||}   ; [] |1158| 
-;* --------------------------------------------------------------------------*
-||$C$L63||:    
-	.dwpsn	file "../ST7735.c",line 1150,column 25,is_stmt,isa 1
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1150| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1150| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1150| 
-	.dwpsn	file "../ST7735.c",line 1150,column 18,is_stmt,isa 1
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1150| 
-        CMP       A1, #5                ; [DPU_V7M3_PIPE] |1150| 
-        BLT       ||$C$L59||            ; [DPU_V7M3_PIPE] |1150| 
-        ; BRANCHCC OCCURS {||$C$L59||}   ; [] |1150| 
-;* --------------------------------------------------------------------------*
-||$C$L64||:    
-	.dwpsn	file "../ST7735.c",line 1164,column 11,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1164 | for(j=0; j<size; j=j+1){                                               
-;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1164| 
-        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1164| 
-	.dwpsn	file "../ST7735.c",line 1164,column 16,is_stmt,isa 1
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1164| 
-        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1164| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1164| 
-        BLE       ||$C$L66||            ; [DPU_V7M3_PIPE] |1164| 
-        ; BRANCHCC OCCURS {||$C$L66||}   ; [] |1164| 
-;* --------------------------------------------------------------------------*
-;*   BEGIN LOOP ||$C$L65||
-;*
-;*   Loop source line                : 1164
+;*   Loop source line                : 1144
 ;*   Loop closing brace source line  : 1166
 ;*   Known Minimum Trip Count        : 1
 ;*   Known Maximum Trip Count        : 4294967295
 ;*   Known Max Trip Count Factor     : 1
 ;* --------------------------------------------------------------------------*
+||$C$L57||:    
+	.dwpsn	file "../ST7735.c",line 1145,column 9,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1145 | for(i=0; i<size; i=i+1){                                               
+;----------------------------------------------------------------------
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1145| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1145| 
+	.dwpsn	file "../ST7735.c",line 1145,column 14,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1146 | // print the columns, starting on the left                             
+;----------------------------------------------------------------------
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1145| 
+        LDR       A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1145| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1145| 
+        BLE       ||$C$L67||            ; [DPU_V7M3_PIPE] |1145| 
+        ; BRANCHCC OCCURS {||$C$L67||}   ; [] |1145| 
+;* --------------------------------------------------------------------------*
+;*   BEGIN LOOP ||$C$L58||
+;*
+;*   Loop source line                : 1145
+;*   Loop closing brace source line  : 1164
+;*   Known Minimum Trip Count        : 1
+;*   Known Maximum Trip Count        : 4294967295
+;*   Known Max Trip Count Factor     : 1
+;* --------------------------------------------------------------------------*
+||$C$L58||:    
+	.dwpsn	file "../ST7735.c",line 1147,column 11,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1147 | for(col=0; col<5; col=col+1){                                          
+;----------------------------------------------------------------------
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1147| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1147| 
+	.dwpsn	file "../ST7735.c",line 1147,column 18,is_stmt,isa 1
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1147| 
+        CMP       A1, #5                ; [DPU_V7M3_PIPE] |1147| 
+        BGE       ||$C$L64||            ; [DPU_V7M3_PIPE] |1147| 
+        ; BRANCHCC OCCURS {||$C$L64||}   ; [] |1147| 
+;* --------------------------------------------------------------------------*
+;*   BEGIN LOOP ||$C$L59||
+;*
+;*   Loop source line                : 1147
+;*   Loop closing brace source line  : 1159
+;*   Known Minimum Trip Count        : 1
+;*   Known Maximum Trip Count        : 4294967295
+;*   Known Max Trip Count Factor     : 1
+;* --------------------------------------------------------------------------*
+||$C$L59||:    
+	.dwpsn	file "../ST7735.c",line 1148,column 9,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1148 | if(Font[(c*5)+col]&line){                                              
+; 1149 |   // bit is set in Font, print pixel(s) in text color                  
+;----------------------------------------------------------------------
+        LDRB      A1, [SP, #22]         ; [DPU_V7M3_PIPE] |1148| 
+        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1148| 
+        LDR       A2, $C$CON24          ; [DPU_V7M3_PIPE] |1148| 
+        ADD       A1, A1, A1, LSL #2    ; [DPU_V7M3_PIPE] |1148| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1148| 
+        LDRB      A3, [SP, #23]         ; [DPU_V7M3_PIPE] |1148| 
+        LDRB      A1, [A2, +A1]         ; [DPU_V7M3_PIPE] |1148| 
+        TST       A3, A1                ; [DPU_V7M3_PIPE] |1148| 
+        BEQ       ||$C$L61||            ; [DPU_V7M3_PIPE] |1148| 
+        ; BRANCHCC OCCURS {||$C$L61||}   ; [] |1148| 
+;* --------------------------------------------------------------------------*
+	.dwpsn	file "../ST7735.c",line 1150,column 15,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1150 | for(j=0; j<size; j=j+1){                                               
+;----------------------------------------------------------------------
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1150| 
+        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1150| 
+	.dwpsn	file "../ST7735.c",line 1150,column 20,is_stmt,isa 1
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1150| 
+        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1150| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1150| 
+        BLE       ||$C$L63||            ; [DPU_V7M3_PIPE] |1150| 
+        ; BRANCHCC OCCURS {||$C$L63||}   ; [] |1150| 
+;* --------------------------------------------------------------------------*
+;*   BEGIN LOOP ||$C$L60||
+;*
+;*   Loop source line                : 1150
+;*   Loop closing brace source line  : 1152
+;*   Known Minimum Trip Count        : 1
+;*   Known Maximum Trip Count        : 4294967295
+;*   Known Max Trip Count Factor     : 1
+;* --------------------------------------------------------------------------*
+||$C$L60||:    
+	.dwpsn	file "../ST7735.c",line 1151,column 13,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1151 | pushColor(textColor);                                                  
+;----------------------------------------------------------------------
+        LDRH      A1, [SP, #20]         ; [DPU_V7M3_PIPE] |1151| 
+$C$DW$267	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$267, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$267, DW_AT_name("pushColor")
+	.dwattr $C$DW$267, DW_AT_TI_call
+
+        BL        pushColor             ; [DPU_V7M3_PIPE] |1151| 
+        ; CALL OCCURS {pushColor }       ; [] |1151| 
+	.dwpsn	file "../ST7735.c",line 1150,column 28,is_stmt,isa 1
+        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1150| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1150| 
+        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1150| 
+	.dwpsn	file "../ST7735.c",line 1150,column 20,is_stmt,isa 1
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1150| 
+        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1150| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1150| 
+        BGT       ||$C$L60||            ; [DPU_V7M3_PIPE] |1150| 
+        ; BRANCHCC OCCURS {||$C$L60||}   ; [] |1150| 
+;* --------------------------------------------------------------------------*
+	.dwpsn	file "../ST7735.c",line 1153,column 9,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1153 | } else{                                                                
+; 1154 |   // bit is cleared in Font, print pixel(s) in background color        
+;----------------------------------------------------------------------
+        B         ||$C$L63||            ; [DPU_V7M3_PIPE] |1153| 
+        ; BRANCH OCCURS {||$C$L63||}     ; [] |1153| 
+;* --------------------------------------------------------------------------*
+||$C$L61||:    
+	.dwpsn	file "../ST7735.c",line 1155,column 15,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1155 | for(j=0; j<size; j=j+1){                                               
+;----------------------------------------------------------------------
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1155| 
+        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1155| 
+	.dwpsn	file "../ST7735.c",line 1155,column 20,is_stmt,isa 1
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1155| 
+        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1155| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1155| 
+        BLE       ||$C$L63||            ; [DPU_V7M3_PIPE] |1155| 
+        ; BRANCHCC OCCURS {||$C$L63||}   ; [] |1155| 
+;* --------------------------------------------------------------------------*
+;*   BEGIN LOOP ||$C$L62||
+;*
+;*   Loop source line                : 1155
+;*   Loop closing brace source line  : 1157
+;*   Known Minimum Trip Count        : 1
+;*   Known Maximum Trip Count        : 4294967295
+;*   Known Max Trip Count Factor     : 1
+;* --------------------------------------------------------------------------*
+||$C$L62||:    
+	.dwpsn	file "../ST7735.c",line 1156,column 13,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1156 | pushColor(bgColor);                                                    
+; 1160 | // print blank column(s) to the right of character                     
+;----------------------------------------------------------------------
+        LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1156| 
+$C$DW$268	.dwtag  DW_TAG_TI_branch
+	.dwattr $C$DW$268, DW_AT_low_pc(0x00)
+	.dwattr $C$DW$268, DW_AT_name("pushColor")
+	.dwattr $C$DW$268, DW_AT_TI_call
+
+        BL        pushColor             ; [DPU_V7M3_PIPE] |1156| 
+        ; CALL OCCURS {pushColor }       ; [] |1156| 
+	.dwpsn	file "../ST7735.c",line 1155,column 28,is_stmt,isa 1
+        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1155| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1155| 
+        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1155| 
+	.dwpsn	file "../ST7735.c",line 1155,column 20,is_stmt,isa 1
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1155| 
+        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1155| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1155| 
+        BGT       ||$C$L62||            ; [DPU_V7M3_PIPE] |1155| 
+        ; BRANCHCC OCCURS {||$C$L62||}   ; [] |1155| 
+;* --------------------------------------------------------------------------*
+||$C$L63||:    
+	.dwpsn	file "../ST7735.c",line 1147,column 25,is_stmt,isa 1
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1147| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1147| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1147| 
+	.dwpsn	file "../ST7735.c",line 1147,column 18,is_stmt,isa 1
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1147| 
+        CMP       A1, #5                ; [DPU_V7M3_PIPE] |1147| 
+        BLT       ||$C$L59||            ; [DPU_V7M3_PIPE] |1147| 
+        ; BRANCHCC OCCURS {||$C$L59||}   ; [] |1147| 
+;* --------------------------------------------------------------------------*
+||$C$L64||:    
+	.dwpsn	file "../ST7735.c",line 1161,column 11,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1161 | for(j=0; j<size; j=j+1){                                               
+;----------------------------------------------------------------------
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1161| 
+        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1161| 
+	.dwpsn	file "../ST7735.c",line 1161,column 16,is_stmt,isa 1
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1161| 
+        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1161| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1161| 
+        BLE       ||$C$L66||            ; [DPU_V7M3_PIPE] |1161| 
+        ; BRANCHCC OCCURS {||$C$L66||}   ; [] |1161| 
+;* --------------------------------------------------------------------------*
+;*   BEGIN LOOP ||$C$L65||
+;*
+;*   Loop source line                : 1161
+;*   Loop closing brace source line  : 1163
+;*   Known Minimum Trip Count        : 1
+;*   Known Maximum Trip Count        : 4294967295
+;*   Known Max Trip Count Factor     : 1
+;* --------------------------------------------------------------------------*
 ||$C$L65||:    
-	.dwpsn	file "../ST7735.c",line 1165,column 9,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1162,column 9,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1165 | pushColor(bgColor);                                                    
+; 1162 | pushColor(bgColor);                                                    
 ;----------------------------------------------------------------------
-        LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1165| 
+        LDRH      A1, [V4, #0]          ; [DPU_V7M3_PIPE] |1162| 
 $C$DW$269	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$269, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$269, DW_AT_name("pushColor")
 	.dwattr $C$DW$269, DW_AT_TI_call
 
-        BL        pushColor             ; [DPU_V7M3_PIPE] |1165| 
-        ; CALL OCCURS {pushColor }       ; [] |1165| 
-	.dwpsn	file "../ST7735.c",line 1164,column 24,is_stmt,isa 1
-        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1164| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1164| 
-        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1164| 
-	.dwpsn	file "../ST7735.c",line 1164,column 16,is_stmt,isa 1
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1164| 
-        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1164| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1164| 
-        BGT       ||$C$L65||            ; [DPU_V7M3_PIPE] |1164| 
-        ; BRANCHCC OCCURS {||$C$L65||}   ; [] |1164| 
+        BL        pushColor             ; [DPU_V7M3_PIPE] |1162| 
+        ; CALL OCCURS {pushColor }       ; [] |1162| 
+	.dwpsn	file "../ST7735.c",line 1161,column 24,is_stmt,isa 1
+        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1161| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1161| 
+        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1161| 
+	.dwpsn	file "../ST7735.c",line 1161,column 16,is_stmt,isa 1
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1161| 
+        LDR       A2, [SP, #12]         ; [DPU_V7M3_PIPE] |1161| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1161| 
+        BGT       ||$C$L65||            ; [DPU_V7M3_PIPE] |1161| 
+        ; BRANCHCC OCCURS {||$C$L65||}   ; [] |1161| 
 ;* --------------------------------------------------------------------------*
 ||$C$L66||:    
-	.dwpsn	file "../ST7735.c",line 1148,column 22,is_stmt,isa 1
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1148| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1148| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1148| 
-	.dwpsn	file "../ST7735.c",line 1148,column 14,is_stmt,isa 1
-        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1148| 
-        LDR       A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1148| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1148| 
-        BGT       ||$C$L58||            ; [DPU_V7M3_PIPE] |1148| 
-        ; BRANCHCC OCCURS {||$C$L58||}   ; [] |1148| 
+	.dwpsn	file "../ST7735.c",line 1145,column 22,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1145| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1145| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1145| 
+	.dwpsn	file "../ST7735.c",line 1145,column 14,is_stmt,isa 1
+        LDRB      A1, [V4, #4]          ; [DPU_V7M3_PIPE] |1145| 
+        LDR       A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1145| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1145| 
+        BGT       ||$C$L58||            ; [DPU_V7M3_PIPE] |1145| 
+        ; BRANCHCC OCCURS {||$C$L58||}   ; [] |1145| 
 ;* --------------------------------------------------------------------------*
 ||$C$L67||:    
-	.dwpsn	file "../ST7735.c",line 1168,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1165,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1168 | line = line<<1;   // move up to the next row                           
+; 1165 | line = line<<1;   // move up to the next row                           
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #23]         ; [DPU_V7M3_PIPE] |1168| 
-        LSLS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1168| 
-        STRB      A1, [SP, #23]         ; [DPU_V7M3_PIPE] |1168| 
-	.dwpsn	file "../ST7735.c",line 1147,column 21,is_stmt,isa 1
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1147| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1147| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1147| 
-	.dwpsn	file "../ST7735.c",line 1147,column 14,is_stmt,isa 1
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1147| 
-        CMP       A1, #8                ; [DPU_V7M3_PIPE] |1147| 
-        BLT       ||$C$L57||            ; [DPU_V7M3_PIPE] |1147| 
-        ; BRANCHCC OCCURS {||$C$L57||}   ; [] |1147| 
+        LDRB      A1, [SP, #23]         ; [DPU_V7M3_PIPE] |1165| 
+        LSLS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1165| 
+        STRB      A1, [SP, #23]         ; [DPU_V7M3_PIPE] |1165| 
+	.dwpsn	file "../ST7735.c",line 1144,column 21,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1144| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1144| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1144| 
+	.dwpsn	file "../ST7735.c",line 1144,column 14,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1144| 
+        CMP       A1, #8                ; [DPU_V7M3_PIPE] |1144| 
+        BLT       ||$C$L57||            ; [DPU_V7M3_PIPE] |1144| 
+        ; BRANCHCC OCCURS {||$C$L57||}   ; [] |1144| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1170,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1167,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L68||:    
         ADD       SP, SP, #28           ; [DPU_V7M3_PIPE] 
@@ -8989,7 +8987,7 @@ $C$DW$270	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 4
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$250, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$250, DW_AT_TI_end_line(0x492)
+	.dwattr $C$DW$250, DW_AT_TI_end_line(0x48f)
 	.dwattr $C$DW$250, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$250
@@ -9008,13 +9006,13 @@ $C$DW$271	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$271, DW_AT_external
 	.dwattr $C$DW$271, DW_AT_type(*$C$DW$T$31)
 	.dwattr $C$DW$271, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$271, DW_AT_TI_begin_line(0x49d)
+	.dwattr $C$DW$271, DW_AT_TI_begin_line(0x49a)
 	.dwattr $C$DW$271, DW_AT_TI_begin_column(0x0a)
 	.dwattr $C$DW$271, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$271, DW_AT_decl_line(0x49d)
+	.dwattr $C$DW$271, DW_AT_decl_line(0x49a)
 	.dwattr $C$DW$271, DW_AT_decl_column(0x0a)
 	.dwattr $C$DW$271, DW_AT_TI_max_frame_size(0x28)
-	.dwpsn	file "../ST7735.c",line 1181,column 80,is_stmt,address ST7735_DrawString,isa 1
+	.dwpsn	file "../ST7735.c",line 1178,column 80,is_stmt,address ST7735_DrawString,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_DrawString
 $C$DW$272	.dwtag  DW_TAG_formal_parameter
@@ -9094,119 +9092,119 @@ $C$DW$280	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$280, DW_AT_location[DW_OP_breg13 20]
 
 ;----------------------------------------------------------------------
-; 1181 | uint32_t ST7735_DrawString(uint16_t x, uint16_t y, char *pt, int16_t te
+; 1178 | uint32_t ST7735_DrawString(uint16_t x, uint16_t y, char *pt, int16_t te
 ;     | xtColor){                                                              
 ;----------------------------------------------------------------------
-        STRH      A4, [SP, #20]         ; [DPU_V7M3_PIPE] |1181| 
-        STR       A3, [SP, #8]          ; [DPU_V7M3_PIPE] |1181| 
-        STRH      A2, [SP, #18]         ; [DPU_V7M3_PIPE] |1181| 
-        STRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1181| 
-	.dwpsn	file "../ST7735.c",line 1182,column 18,is_stmt,isa 1
+        STRH      A4, [SP, #20]         ; [DPU_V7M3_PIPE] |1178| 
+        STR       A3, [SP, #8]          ; [DPU_V7M3_PIPE] |1178| 
+        STRH      A2, [SP, #18]         ; [DPU_V7M3_PIPE] |1178| 
+        STRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1178| 
+	.dwpsn	file "../ST7735.c",line 1179,column 18,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1182 | uint32_t count = 0;                                                    
+; 1179 | uint32_t count = 0;                                                    
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1182| 
-        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1182| 
-	.dwpsn	file "../ST7735.c",line 1183,column 3,is_stmt,isa 1
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1179| 
+        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1179| 
+	.dwpsn	file "../ST7735.c",line 1180,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1183 | if(y>15) return 0;                                                     
+; 1180 | if(y>15) return 0;                                                     
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #18]         ; [DPU_V7M3_PIPE] |1183| 
-        CMP       A1, #15               ; [DPU_V7M3_PIPE] |1183| 
-        BLE       ||$C$L71||            ; [DPU_V7M3_PIPE] |1183| 
-        ; BRANCHCC OCCURS {||$C$L71||}   ; [] |1183| 
+        LDRH      A1, [SP, #18]         ; [DPU_V7M3_PIPE] |1180| 
+        CMP       A1, #15               ; [DPU_V7M3_PIPE] |1180| 
+        BLE       ||$C$L71||            ; [DPU_V7M3_PIPE] |1180| 
+        ; BRANCHCC OCCURS {||$C$L71||}   ; [] |1180| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1183,column 12,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1180,column 12,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1184 | while(*pt){                                                            
+; 1181 | while(*pt){                                                            
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1183| 
-        B         ||$C$L72||            ; [DPU_V7M3_PIPE] |1183| 
-        ; BRANCH OCCURS {||$C$L72||}     ; [] |1183| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1180| 
+        B         ||$C$L72||            ; [DPU_V7M3_PIPE] |1180| 
+        ; BRANCH OCCURS {||$C$L72||}     ; [] |1180| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L69||:    
-	.dwpsn	file "../ST7735.c",line 1185,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1182,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1185 | ST7735_DrawCharS(x*6, y*10, *pt, textColor, ST7735_BLACK, 1);          
+; 1182 | ST7735_DrawCharS(x*6, y*10, *pt, textColor, ST7735_BLACK, 1);          
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1185| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1185| 
-        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |1185| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1185| 
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1185| 
-        LDRH      V2, [SP, #16]         ; [DPU_V7M3_PIPE] |1185| 
-        LDRH      V1, [SP, #18]         ; [DPU_V7M3_PIPE] |1185| 
-        LDRSH     A4, [SP, #20]         ; [DPU_V7M3_PIPE] |1185| 
-        LDRB      A3, [A1, #0]          ; [DPU_V7M3_PIPE] |1185| 
-        LSLS      A2, V2, #1            ; [DPU_V7M3_PIPE] |1185| 
-        ADD       A2, A2, V2, LSL #2    ; [DPU_V7M3_PIPE] |1185| 
-        LSLS      A1, V1, #1            ; [DPU_V7M3_PIPE] |1185| 
-        ADD       V1, A1, V1, LSL #3    ; [DPU_V7M3_PIPE] |1185| 
-        SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1185| 
-        SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1185| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1182| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1182| 
+        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |1182| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1182| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1182| 
+        LDRH      V2, [SP, #16]         ; [DPU_V7M3_PIPE] |1182| 
+        LDRH      V1, [SP, #18]         ; [DPU_V7M3_PIPE] |1182| 
+        LDRSH     A4, [SP, #20]         ; [DPU_V7M3_PIPE] |1182| 
+        LDRB      A3, [A1, #0]          ; [DPU_V7M3_PIPE] |1182| 
+        LSLS      A2, V2, #1            ; [DPU_V7M3_PIPE] |1182| 
+        ADD       A2, A2, V2, LSL #2    ; [DPU_V7M3_PIPE] |1182| 
+        LSLS      A1, V1, #1            ; [DPU_V7M3_PIPE] |1182| 
+        ADD       V1, A1, V1, LSL #3    ; [DPU_V7M3_PIPE] |1182| 
+        SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1182| 
+        SXTH      A2, V1                ; [DPU_V7M3_PIPE] |1182| 
 $C$DW$281	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$281, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$281, DW_AT_name("ST7735_DrawCharS")
 	.dwattr $C$DW$281, DW_AT_TI_call
 
-        BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1185| 
-        ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1185| 
-	.dwpsn	file "../ST7735.c",line 1186,column 5,is_stmt,isa 1
+        BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1182| 
+        ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1182| 
+	.dwpsn	file "../ST7735.c",line 1183,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1186 | pt++;                                                                  
+; 1183 | pt++;                                                                  
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1186| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1186| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1186| 
-	.dwpsn	file "../ST7735.c",line 1187,column 5,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1183| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1183| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1183| 
+	.dwpsn	file "../ST7735.c",line 1184,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1187 | x = x+1;                                                               
+; 1184 | x = x+1;                                                               
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1187| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1187| 
-        STRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1187| 
-	.dwpsn	file "../ST7735.c",line 1188,column 5,is_stmt,isa 1
+        LDRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1184| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1184| 
+        STRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1184| 
+	.dwpsn	file "../ST7735.c",line 1185,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1188 | if(x>20) return count;  // number of characters printed                
+; 1185 | if(x>20) return count;  // number of characters printed                
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1188| 
-        CMP       A1, #20               ; [DPU_V7M3_PIPE] |1188| 
-        BLE       ||$C$L70||            ; [DPU_V7M3_PIPE] |1188| 
-        ; BRANCHCC OCCURS {||$C$L70||}   ; [] |1188| 
+        LDRH      A1, [SP, #16]         ; [DPU_V7M3_PIPE] |1185| 
+        CMP       A1, #20               ; [DPU_V7M3_PIPE] |1185| 
+        BLE       ||$C$L70||            ; [DPU_V7M3_PIPE] |1185| 
+        ; BRANCHCC OCCURS {||$C$L70||}   ; [] |1185| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1188,column 14,is_stmt,isa 1
-        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1188| 
-        B         ||$C$L72||            ; [DPU_V7M3_PIPE] |1188| 
-        ; BRANCH OCCURS {||$C$L72||}     ; [] |1188| 
+	.dwpsn	file "../ST7735.c",line 1185,column 14,is_stmt,isa 1
+        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1185| 
+        B         ||$C$L72||            ; [DPU_V7M3_PIPE] |1185| 
+        ; BRANCH OCCURS {||$C$L72||}     ; [] |1185| 
 ;* --------------------------------------------------------------------------*
 ||$C$L70||:    
-	.dwpsn	file "../ST7735.c",line 1189,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1186,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1189 | count++;                                                               
+; 1186 | count++;                                                               
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1189| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1189| 
-        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1189| 
+        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1186| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1186| 
+        STR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1186| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L71||
 ;* --------------------------------------------------------------------------*
 ||$C$L71||:    
-	.dwpsn	file "../ST7735.c",line 1184,column 3,is_stmt,isa 1
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1184| 
-        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1184| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1184| 
-        BNE       ||$C$L69||            ; [DPU_V7M3_PIPE] |1184| 
-        ; BRANCHCC OCCURS {||$C$L69||}   ; [] |1184| 
+	.dwpsn	file "../ST7735.c",line 1181,column 3,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1181| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1181| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1181| 
+        BNE       ||$C$L69||            ; [DPU_V7M3_PIPE] |1181| 
+        ; BRANCHCC OCCURS {||$C$L69||}   ; [] |1181| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1191,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1188,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1191 | return count;  // number of characters printed                         
+; 1188 | return count;  // number of characters printed                         
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1191| 
+        LDR       A1, [SP, #12]         ; [DPU_V7M3_PIPE] |1188| 
 ;* --------------------------------------------------------------------------*
 ||$C$L72||:    
-	.dwpsn	file "../ST7735.c",line 1192,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1189,column 1,is_stmt,isa 1
         ADD       SP, SP, #28           ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 12
 $C$DW$282	.dwtag  DW_TAG_TI_branch
@@ -9219,7 +9217,7 @@ $C$DW$282	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 4
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$271, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$271, DW_AT_TI_end_line(0x4a8)
+	.dwattr $C$DW$271, DW_AT_TI_end_line(0x4a5)
 	.dwattr $C$DW$271, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$271
@@ -9243,13 +9241,13 @@ $C$DW$283	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$283, DW_AT_TI_symbol_name("fillmessage")
 	.dwattr $C$DW$283, DW_AT_external
 	.dwattr $C$DW$283, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$283, DW_AT_TI_begin_line(0x4b2)
+	.dwattr $C$DW$283, DW_AT_TI_begin_line(0x4af)
 	.dwattr $C$DW$283, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$283, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$283, DW_AT_decl_line(0x4b2)
+	.dwattr $C$DW$283, DW_AT_decl_line(0x4af)
 	.dwattr $C$DW$283, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$283, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1202,column 29,is_stmt,address fillmessage,isa 1
+	.dwpsn	file "../ST7735.c",line 1199,column 29,is_stmt,address fillmessage,isa 1
 
 	.dwfde $C$DW$CIE, fillmessage
 $C$DW$284	.dwtag  DW_TAG_formal_parameter
@@ -9284,72 +9282,72 @@ $C$DW$285	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$285, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 1202 | void fillmessage(uint32_t n){                                          
-; 1203 | // This function uses recursion to convert decimal number              
-; 1204 | //   of unspecified length as an ASCII string                          
+; 1199 | void fillmessage(uint32_t n){                                          
+; 1200 | // This function uses recursion to convert decimal number              
+; 1201 | //   of unspecified length as an ASCII string                          
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1202| 
-	.dwpsn	file "../ST7735.c",line 1205,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1199| 
+	.dwpsn	file "../ST7735.c",line 1202,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1205 | if(n >= 10){                                                           
+; 1202 | if(n >= 10){                                                           
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1205| 
-        CMP       A1, #10               ; [DPU_V7M3_PIPE] |1205| 
-        BCC       ||$C$L73||            ; [DPU_V7M3_PIPE] |1205| 
-        ; BRANCHCC OCCURS {||$C$L73||}   ; [] |1205| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1202| 
+        CMP       A1, #10               ; [DPU_V7M3_PIPE] |1202| 
+        BCC       ||$C$L73||            ; [DPU_V7M3_PIPE] |1202| 
+        ; BRANCHCC OCCURS {||$C$L73||}   ; [] |1202| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1206,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1203,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1206 | fillmessage(n/10);                                                     
+; 1203 | fillmessage(n/10);                                                     
 ;----------------------------------------------------------------------
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1206| 
-        MOVS      A1, #10               ; [DPU_V7M3_PIPE] |1206| 
-        UDIV      A1, A2, A1            ; [DPU_V7M3_PIPE] |1206| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1203| 
+        MOVS      A1, #10               ; [DPU_V7M3_PIPE] |1203| 
+        UDIV      A1, A2, A1            ; [DPU_V7M3_PIPE] |1203| 
 $C$DW$286	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$286, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$286, DW_AT_name("fillmessage")
 	.dwattr $C$DW$286, DW_AT_TI_call
 
-        BL        fillmessage           ; [DPU_V7M3_PIPE] |1206| 
-        ; CALL OCCURS {fillmessage }     ; [] |1206| 
-	.dwpsn	file "../ST7735.c",line 1207,column 5,is_stmt,isa 1
+        BL        fillmessage           ; [DPU_V7M3_PIPE] |1203| 
+        ; CALL OCCURS {fillmessage }     ; [] |1203| 
+	.dwpsn	file "../ST7735.c",line 1204,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1207 | n = n%10;                                                              
+; 1204 | n = n%10;                                                              
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1207| 
-        MOVS      A3, #10               ; [DPU_V7M3_PIPE] |1207| 
-        UDIV      A2, A1, A3            ; [DPU_V7M3_PIPE] |1207| 
-        MULS      A2, A2, A3            ; [DPU_V7M3_PIPE] |1207| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1207| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1207| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1204| 
+        MOVS      A3, #10               ; [DPU_V7M3_PIPE] |1204| 
+        UDIV      A2, A1, A3            ; [DPU_V7M3_PIPE] |1204| 
+        MULS      A2, A2, A3            ; [DPU_V7M3_PIPE] |1204| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1204| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1204| 
 ;* --------------------------------------------------------------------------*
 ||$C$L73||:    
-	.dwpsn	file "../ST7735.c",line 1209,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1206,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1209 | Message[Messageindex] = (n+'0'); /* n is between 0 and 9 */            
+; 1206 | Message[Messageindex] = (n+'0'); /* n is between 0 and 9 */            
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON28          ; [DPU_V7M3_PIPE] |1209| 
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1209| 
-        LDR       A3, $C$CON27          ; [DPU_V7M3_PIPE] |1209| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1209| 
-        ADDS      A1, A1, #48           ; [DPU_V7M3_PIPE] |1209| 
-        STRB      A1, [A3, +A2]         ; [DPU_V7M3_PIPE] |1209| 
-	.dwpsn	file "../ST7735.c",line 1210,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON28          ; [DPU_V7M3_PIPE] |1206| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1206| 
+        LDR       A3, $C$CON27          ; [DPU_V7M3_PIPE] |1206| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1206| 
+        ADDS      A1, A1, #48           ; [DPU_V7M3_PIPE] |1206| 
+        STRB      A1, [A3, +A2]         ; [DPU_V7M3_PIPE] |1206| 
+	.dwpsn	file "../ST7735.c",line 1207,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1210 | if(Messageindex<11)Messageindex++;                                     
+; 1207 | if(Messageindex<11)Messageindex++;                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON28          ; [DPU_V7M3_PIPE] |1210| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1210| 
-        CMP       A1, #11               ; [DPU_V7M3_PIPE] |1210| 
-        BCS       ||$C$L74||            ; [DPU_V7M3_PIPE] |1210| 
-        ; BRANCHCC OCCURS {||$C$L74||}   ; [] |1210| 
+        LDR       A1, $C$CON28          ; [DPU_V7M3_PIPE] |1207| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1207| 
+        CMP       A1, #11               ; [DPU_V7M3_PIPE] |1207| 
+        BCS       ||$C$L74||            ; [DPU_V7M3_PIPE] |1207| 
+        ; BRANCHCC OCCURS {||$C$L74||}   ; [] |1207| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1210,column 22,is_stmt,isa 1
-        LDR       A2, $C$CON28          ; [DPU_V7M3_PIPE] |1210| 
-        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1210| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1210| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1210| 
-	.dwpsn	file "../ST7735.c",line 1211,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1207,column 22,is_stmt,isa 1
+        LDR       A2, $C$CON28          ; [DPU_V7M3_PIPE] |1207| 
+        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1207| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1207| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1207| 
+	.dwpsn	file "../ST7735.c",line 1208,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L74||:    
 $C$DW$287	.dwtag  DW_TAG_TI_branch
@@ -9361,7 +9359,7 @@ $C$DW$287	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$283, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$283, DW_AT_TI_end_line(0x4bb)
+	.dwattr $C$DW$283, DW_AT_TI_end_line(0x4b8)
 	.dwattr $C$DW$283, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$283
@@ -9379,13 +9377,13 @@ $C$DW$288	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$288, DW_AT_TI_symbol_name("ST7735_SetCursor")
 	.dwattr $C$DW$288, DW_AT_external
 	.dwattr $C$DW$288, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$288, DW_AT_TI_begin_line(0x4c3)
+	.dwattr $C$DW$288, DW_AT_TI_begin_line(0x4c0)
 	.dwattr $C$DW$288, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$288, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$288, DW_AT_decl_line(0x4c3)
+	.dwattr $C$DW$288, DW_AT_decl_line(0x4c0)
 	.dwattr $C$DW$288, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$288, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1219,column 52,is_stmt,address ST7735_SetCursor,isa 1
+	.dwpsn	file "../ST7735.c",line 1216,column 52,is_stmt,address ST7735_SetCursor,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_SetCursor
 $C$DW$289	.dwtag  DW_TAG_formal_parameter
@@ -9426,45 +9424,45 @@ $C$DW$292	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$292, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
-; 1219 | void ST7735_SetCursor(uint32_t newX, uint32_t newY){                   
+; 1216 | void ST7735_SetCursor(uint32_t newX, uint32_t newY){                   
 ;----------------------------------------------------------------------
-        STR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1219| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1219| 
-	.dwpsn	file "../ST7735.c",line 1220,column 3,is_stmt,isa 1
+        STR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1216| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1216| 
+	.dwpsn	file "../ST7735.c",line 1217,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1220 | if((newX > 20) || (newY > 15)){       // bad input                     
-; 1221 |   return;                             // do nothing                    
+; 1217 | if((newX > 20) || (newY > 15)){       // bad input                     
+; 1218 |   return;                             // do nothing                    
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1220| 
-        CMP       A1, #20               ; [DPU_V7M3_PIPE] |1220| 
-        BHI       ||$C$L76||            ; [DPU_V7M3_PIPE] |1220| 
-        ; BRANCHCC OCCURS {||$C$L76||}   ; [] |1220| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1217| 
+        CMP       A1, #20               ; [DPU_V7M3_PIPE] |1217| 
+        BHI       ||$C$L76||            ; [DPU_V7M3_PIPE] |1217| 
+        ; BRANCHCC OCCURS {||$C$L76||}   ; [] |1217| 
 ;* --------------------------------------------------------------------------*
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1220| 
-        CMP       A1, #15               ; [DPU_V7M3_PIPE] |1220| 
-        BLS       ||$C$L75||            ; [DPU_V7M3_PIPE] |1220| 
-        ; BRANCHCC OCCURS {||$C$L75||}   ; [] |1220| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1217| 
+        CMP       A1, #15               ; [DPU_V7M3_PIPE] |1217| 
+        BLS       ||$C$L75||            ; [DPU_V7M3_PIPE] |1217| 
+        ; BRANCHCC OCCURS {||$C$L75||}   ; [] |1217| 
 ;* --------------------------------------------------------------------------*
-        B         ||$C$L76||            ; [DPU_V7M3_PIPE] |1220| 
-        ; BRANCH OCCURS {||$C$L76||}     ; [] |1220| 
+        B         ||$C$L76||            ; [DPU_V7M3_PIPE] |1217| 
+        ; BRANCH OCCURS {||$C$L76||}     ; [] |1217| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L75||:    
-	.dwpsn	file "../ST7735.c",line 1223,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1220,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1223 | StX = newX;                                                            
+; 1220 | StX = newX;                                                            
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1223| 
-        LDR       A2, $C$CON29          ; [DPU_V7M3_PIPE] |1223| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1223| 
-	.dwpsn	file "../ST7735.c",line 1224,column 3,is_stmt,isa 1
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1220| 
+        LDR       A2, $C$CON29          ; [DPU_V7M3_PIPE] |1220| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1220| 
+	.dwpsn	file "../ST7735.c",line 1221,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1224 | StY = newY;                                                            
+; 1221 | StY = newY;                                                            
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1224| 
-        LDR       A2, $C$CON30          ; [DPU_V7M3_PIPE] |1224| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1224| 
-	.dwpsn	file "../ST7735.c",line 1225,column 1,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1221| 
+        LDR       A2, $C$CON30          ; [DPU_V7M3_PIPE] |1221| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1221| 
+	.dwpsn	file "../ST7735.c",line 1222,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L76||:    
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
@@ -9476,7 +9474,7 @@ $C$DW$293	.dwtag  DW_TAG_TI_branch
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$288, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$288, DW_AT_TI_end_line(0x4c9)
+	.dwattr $C$DW$288, DW_AT_TI_end_line(0x4c6)
 	.dwattr $C$DW$288, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$288
@@ -9494,13 +9492,13 @@ $C$DW$294	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$294, DW_AT_TI_symbol_name("ST7735_OutUDec")
 	.dwattr $C$DW$294, DW_AT_external
 	.dwattr $C$DW$294, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$294, DW_AT_TI_begin_line(0x4d1)
+	.dwattr $C$DW$294, DW_AT_TI_begin_line(0x4ce)
 	.dwattr $C$DW$294, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$294, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$294, DW_AT_decl_line(0x4d1)
+	.dwattr $C$DW$294, DW_AT_decl_line(0x4ce)
 	.dwattr $C$DW$294, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$294, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 1233,column 32,is_stmt,address ST7735_OutUDec,isa 1
+	.dwpsn	file "../ST7735.c",line 1230,column 32,is_stmt,address ST7735_OutUDec,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_OutUDec
 $C$DW$295	.dwtag  DW_TAG_formal_parameter
@@ -9537,111 +9535,111 @@ $C$DW$296	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$296, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
-; 1233 | void ST7735_OutUDec(uint32_t n){                                       
+; 1230 | void ST7735_OutUDec(uint32_t n){                                       
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1233| 
-	.dwpsn	file "../ST7735.c",line 1234,column 3,is_stmt,isa 1
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1230| 
+	.dwpsn	file "../ST7735.c",line 1231,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1234 | Messageindex = 0;                                                      
+; 1231 | Messageindex = 0;                                                      
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON28          ; [DPU_V7M3_PIPE] |1234| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1234| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1234| 
-	.dwpsn	file "../ST7735.c",line 1235,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON28          ; [DPU_V7M3_PIPE] |1231| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1231| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1231| 
+	.dwpsn	file "../ST7735.c",line 1232,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1235 | fillmessage(n);                                                        
+; 1232 | fillmessage(n);                                                        
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1235| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1232| 
 $C$DW$297	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$297, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$297, DW_AT_name("fillmessage")
 	.dwattr $C$DW$297, DW_AT_TI_call
 
-        BL        fillmessage           ; [DPU_V7M3_PIPE] |1235| 
-        ; CALL OCCURS {fillmessage }     ; [] |1235| 
-	.dwpsn	file "../ST7735.c",line 1236,column 3,is_stmt,isa 1
+        BL        fillmessage           ; [DPU_V7M3_PIPE] |1232| 
+        ; CALL OCCURS {fillmessage }     ; [] |1232| 
+	.dwpsn	file "../ST7735.c",line 1233,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1236 | Message[Messageindex] = 0; // terminate                                
+; 1233 | Message[Messageindex] = 0; // terminate                                
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON28          ; [DPU_V7M3_PIPE] |1236| 
-        LDR       A3, $C$CON27          ; [DPU_V7M3_PIPE] |1236| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1236| 
-        MOVS      A2, #0                ; [DPU_V7M3_PIPE] |1236| 
-        STRB      A2, [A3, +A1]         ; [DPU_V7M3_PIPE] |1236| 
-	.dwpsn	file "../ST7735.c",line 1237,column 3,is_stmt,isa 1
+        LDR       A1, $C$CON28          ; [DPU_V7M3_PIPE] |1233| 
+        LDR       A3, $C$CON27          ; [DPU_V7M3_PIPE] |1233| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1233| 
+        MOVS      A2, #0                ; [DPU_V7M3_PIPE] |1233| 
+        STRB      A2, [A3, +A1]         ; [DPU_V7M3_PIPE] |1233| 
+	.dwpsn	file "../ST7735.c",line 1234,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1237 | ST7735_DrawString(StX,StY,Message,StTextColor);                        
+; 1234 | ST7735_DrawString(StX,StY,Message,StTextColor);                        
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON30          ; [DPU_V7M3_PIPE] |1237| 
-        LDR       A3, $C$CON31          ; [DPU_V7M3_PIPE] |1237| 
-        LDR       A1, $C$CON29          ; [DPU_V7M3_PIPE] |1237| 
-        LDRSH     A4, [A3, #0]          ; [DPU_V7M3_PIPE] |1237| 
-        LDRH      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1237| 
-        LDRH      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1237| 
-        LDR       A3, $C$CON27          ; [DPU_V7M3_PIPE] |1237| 
+        LDR       A2, $C$CON30          ; [DPU_V7M3_PIPE] |1234| 
+        LDR       A3, $C$CON31          ; [DPU_V7M3_PIPE] |1234| 
+        LDR       A1, $C$CON29          ; [DPU_V7M3_PIPE] |1234| 
+        LDRSH     A4, [A3, #0]          ; [DPU_V7M3_PIPE] |1234| 
+        LDRH      A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1234| 
+        LDRH      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1234| 
+        LDR       A3, $C$CON27          ; [DPU_V7M3_PIPE] |1234| 
 $C$DW$298	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$298, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$298, DW_AT_name("ST7735_DrawString")
 	.dwattr $C$DW$298, DW_AT_TI_call
 
-        BL        ST7735_DrawString     ; [DPU_V7M3_PIPE] |1237| 
-        ; CALL OCCURS {ST7735_DrawString }  ; [] |1237| 
-	.dwpsn	file "../ST7735.c",line 1238,column 3,is_stmt,isa 1
+        BL        ST7735_DrawString     ; [DPU_V7M3_PIPE] |1234| 
+        ; CALL OCCURS {ST7735_DrawString }  ; [] |1234| 
+	.dwpsn	file "../ST7735.c",line 1235,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1238 | StX = StX+Messageindex;                                                
+; 1235 | StX = StX+Messageindex;                                                
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON28          ; [DPU_V7M3_PIPE] |1238| 
-        LDR       A1, $C$CON29          ; [DPU_V7M3_PIPE] |1238| 
-        LDR       A3, [A2, #0]          ; [DPU_V7M3_PIPE] |1238| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1238| 
-        LDR       A2, $C$CON29          ; [DPU_V7M3_PIPE] |1238| 
-        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1238| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1238| 
-	.dwpsn	file "../ST7735.c",line 1239,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON28          ; [DPU_V7M3_PIPE] |1235| 
+        LDR       A1, $C$CON29          ; [DPU_V7M3_PIPE] |1235| 
+        LDR       A3, [A2, #0]          ; [DPU_V7M3_PIPE] |1235| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1235| 
+        LDR       A2, $C$CON29          ; [DPU_V7M3_PIPE] |1235| 
+        ADDS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1235| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1235| 
+	.dwpsn	file "../ST7735.c",line 1236,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1239 | if(StX>20){                                                            
+; 1236 | if(StX>20){                                                            
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON29          ; [DPU_V7M3_PIPE] |1239| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1239| 
-        CMP       A1, #20               ; [DPU_V7M3_PIPE] |1239| 
-        BLS       ||$C$L77||            ; [DPU_V7M3_PIPE] |1239| 
-        ; BRANCHCC OCCURS {||$C$L77||}   ; [] |1239| 
+        LDR       A1, $C$CON29          ; [DPU_V7M3_PIPE] |1236| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1236| 
+        CMP       A1, #20               ; [DPU_V7M3_PIPE] |1236| 
+        BLS       ||$C$L77||            ; [DPU_V7M3_PIPE] |1236| 
+        ; BRANCHCC OCCURS {||$C$L77||}   ; [] |1236| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1240,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1237,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1240 | StX = 20;                                                              
+; 1237 | StX = 20;                                                              
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON29          ; [DPU_V7M3_PIPE] |1240| 
-        MOVS      A1, #20               ; [DPU_V7M3_PIPE] |1240| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1240| 
-	.dwpsn	file "../ST7735.c",line 1241,column 5,is_stmt,isa 1
+        LDR       A2, $C$CON29          ; [DPU_V7M3_PIPE] |1237| 
+        MOVS      A1, #20               ; [DPU_V7M3_PIPE] |1237| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1237| 
+	.dwpsn	file "../ST7735.c",line 1238,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1241 | ST7735_DrawCharS(StX*6,StY*10,'*',ST7735_RED,ST7735_BLACK, 1);         
+; 1238 | ST7735_DrawCharS(StX*6,StY*10,'*',ST7735_RED,ST7735_BLACK, 1);         
 ;----------------------------------------------------------------------
-        MOVS      A3, #1                ; [DPU_V7M3_PIPE] |1241| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1241| 
-        LDR       A2, $C$CON30          ; [DPU_V7M3_PIPE] |1241| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1241| 
-        LDR       A1, $C$CON29          ; [DPU_V7M3_PIPE] |1241| 
-        STR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1241| 
-        LDR       A4, [A2, #0]          ; [DPU_V7M3_PIPE] |1241| 
-        LDR       A3, [A1, #0]          ; [DPU_V7M3_PIPE] |1241| 
-        LSLS      A1, A4, #1            ; [DPU_V7M3_PIPE] |1241| 
-        LSLS      A2, A3, #1            ; [DPU_V7M3_PIPE] |1241| 
-        ADD       A1, A1, A4, LSL #3    ; [DPU_V7M3_PIPE] |1241| 
-        ADD       A3, A2, A3, LSL #2    ; [DPU_V7M3_PIPE] |1241| 
-        SXTH      A2, A1                ; [DPU_V7M3_PIPE] |1241| 
-        MOVS      A4, #31               ; [DPU_V7M3_PIPE] |1241| 
-        SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1241| 
-        MOVS      A3, #42               ; [DPU_V7M3_PIPE] |1241| 
+        MOVS      A3, #1                ; [DPU_V7M3_PIPE] |1238| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1238| 
+        LDR       A2, $C$CON30          ; [DPU_V7M3_PIPE] |1238| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1238| 
+        LDR       A1, $C$CON29          ; [DPU_V7M3_PIPE] |1238| 
+        STR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1238| 
+        LDR       A4, [A2, #0]          ; [DPU_V7M3_PIPE] |1238| 
+        LDR       A3, [A1, #0]          ; [DPU_V7M3_PIPE] |1238| 
+        LSLS      A1, A4, #1            ; [DPU_V7M3_PIPE] |1238| 
+        LSLS      A2, A3, #1            ; [DPU_V7M3_PIPE] |1238| 
+        ADD       A1, A1, A4, LSL #3    ; [DPU_V7M3_PIPE] |1238| 
+        ADD       A3, A2, A3, LSL #2    ; [DPU_V7M3_PIPE] |1238| 
+        SXTH      A2, A1                ; [DPU_V7M3_PIPE] |1238| 
+        MOVS      A4, #31               ; [DPU_V7M3_PIPE] |1238| 
+        SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1238| 
+        MOVS      A3, #42               ; [DPU_V7M3_PIPE] |1238| 
 $C$DW$299	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$299, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$299, DW_AT_name("ST7735_DrawCharS")
 	.dwattr $C$DW$299, DW_AT_TI_call
 
-        BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1241| 
-        ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1241| 
-	.dwpsn	file "../ST7735.c",line 1243,column 1,is_stmt,isa 1
+        BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1238| 
+        ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1238| 
+	.dwpsn	file "../ST7735.c",line 1240,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L77||:    
 $C$DW$300	.dwtag  DW_TAG_TI_branch
@@ -9655,7 +9653,7 @@ $C$DW$300	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$294, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$294, DW_AT_TI_end_line(0x4db)
+	.dwattr $C$DW$294, DW_AT_TI_end_line(0x4d8)
 	.dwattr $C$DW$294, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$294
@@ -9681,13 +9679,13 @@ $C$DW$301	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$301, DW_AT_TI_symbol_name("ST7735_SetRotation")
 	.dwattr $C$DW$301, DW_AT_external
 	.dwattr $C$DW$301, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$301, DW_AT_TI_begin_line(0x4ee)
+	.dwattr $C$DW$301, DW_AT_TI_begin_line(0x4eb)
 	.dwattr $C$DW$301, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$301, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$301, DW_AT_decl_line(0x4ee)
+	.dwattr $C$DW$301, DW_AT_decl_line(0x4eb)
 	.dwattr $C$DW$301, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$301, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1262,column 36,is_stmt,address ST7735_SetRotation,isa 1
+	.dwpsn	file "../ST7735.c",line 1259,column 36,is_stmt,address ST7735_SetRotation,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_SetRotation
 $C$DW$302	.dwtag  DW_TAG_formal_parameter
@@ -9722,330 +9720,330 @@ $C$DW$303	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$303, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 1262 | void ST7735_SetRotation(uint8_t m) {                                   
+; 1259 | void ST7735_SetRotation(uint8_t m) {                                   
 ;----------------------------------------------------------------------
-        STRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1262| 
-	.dwpsn	file "../ST7735.c",line 1264,column 3,is_stmt,isa 1
+        STRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1259| 
+	.dwpsn	file "../ST7735.c",line 1261,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1264 | writecommand(ST7735_MADCTL);                                           
+; 1261 | writecommand(ST7735_MADCTL);                                           
 ;----------------------------------------------------------------------
-        MOVS      A1, #54               ; [DPU_V7M3_PIPE] |1264| 
+        MOVS      A1, #54               ; [DPU_V7M3_PIPE] |1261| 
 $C$DW$304	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$304, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$304, DW_AT_name("writecommand")
 	.dwattr $C$DW$304, DW_AT_TI_call
 
-        BL        writecommand          ; [DPU_V7M3_PIPE] |1264| 
-        ; CALL OCCURS {writecommand }    ; [] |1264| 
-	.dwpsn	file "../ST7735.c",line 1265,column 3,is_stmt,isa 1
+        BL        writecommand          ; [DPU_V7M3_PIPE] |1261| 
+        ; CALL OCCURS {writecommand }    ; [] |1261| 
+	.dwpsn	file "../ST7735.c",line 1262,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1265 | Rotation = m % 4; // can't be higher than 3                            
+; 1262 | Rotation = m % 4; // can't be higher than 3                            
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1265| 
-        LDR       A3, $C$CON32          ; [DPU_V7M3_PIPE] |1265| 
-        ASRS      A2, A1, #1            ; [DPU_V7M3_PIPE] |1265| 
-        ADD       A2, A1, A2, LSR #30   ; [DPU_V7M3_PIPE] |1265| 
-        BIC       A2, A2, #3            ; [DPU_V7M3_PIPE] |1265| 
-        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1265| 
-        STRB      A1, [A3, #0]          ; [DPU_V7M3_PIPE] |1265| 
-	.dwpsn	file "../ST7735.c",line 1266,column 3,is_stmt,isa 1
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1262| 
+        LDR       A3, $C$CON32          ; [DPU_V7M3_PIPE] |1262| 
+        ASRS      A2, A1, #1            ; [DPU_V7M3_PIPE] |1262| 
+        ADD       A2, A1, A2, LSR #30   ; [DPU_V7M3_PIPE] |1262| 
+        BIC       A2, A2, #3            ; [DPU_V7M3_PIPE] |1262| 
+        SUBS      A1, A1, A2            ; [DPU_V7M3_PIPE] |1262| 
+        STRB      A1, [A3, #0]          ; [DPU_V7M3_PIPE] |1262| 
+	.dwpsn	file "../ST7735.c",line 1263,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1266 | switch (Rotation) {                                                    
-; 1267 |  case 0:                                                               
+; 1263 | switch (Rotation) {                                                    
+; 1264 |  case 0:                                                               
 ;----------------------------------------------------------------------
-        B         ||$C$L90||            ; [DPU_V7M3_PIPE] |1266| 
-        ; BRANCH OCCURS {||$C$L90||}     ; [] |1266| 
+        B         ||$C$L90||            ; [DPU_V7M3_PIPE] |1263| 
+        ; BRANCH OCCURS {||$C$L90||}     ; [] |1263| 
 ;* --------------------------------------------------------------------------*
 ||$C$L78||:    
-	.dwpsn	file "../ST7735.c",line 1268,column 6,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1265,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1268 | if (TabColor == INITR_BLACKTAB) {                                      
+; 1265 | if (TabColor == INITR_BLACKTAB) {                                      
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON33          ; [DPU_V7M3_PIPE] |1268| 
-        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1268| 
-        CMP       A1, #3                ; [DPU_V7M3_PIPE] |1268| 
-        BNE       ||$C$L79||            ; [DPU_V7M3_PIPE] |1268| 
-        ; BRANCHCC OCCURS {||$C$L79||}   ; [] |1268| 
+        LDR       A1, $C$CON33          ; [DPU_V7M3_PIPE] |1265| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1265| 
+        CMP       A1, #3                ; [DPU_V7M3_PIPE] |1265| 
+        BNE       ||$C$L79||            ; [DPU_V7M3_PIPE] |1265| 
+        ; BRANCHCC OCCURS {||$C$L79||}   ; [] |1265| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1269,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1266,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1269 | writedata(MADCTL_MX | MADCTL_MY | MADCTL_RGB);                         
+; 1266 | writedata(MADCTL_MX | MADCTL_MY | MADCTL_RGB);                         
 ;----------------------------------------------------------------------
-        MOVS      A1, #192              ; [DPU_V7M3_PIPE] |1269| 
+        MOVS      A1, #192              ; [DPU_V7M3_PIPE] |1266| 
 $C$DW$305	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$305, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$305, DW_AT_name("writedata")
 	.dwattr $C$DW$305, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1269| 
-        ; CALL OCCURS {writedata }       ; [] |1269| 
-	.dwpsn	file "../ST7735.c",line 1270,column 6,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |1266| 
+        ; CALL OCCURS {writedata }       ; [] |1266| 
+	.dwpsn	file "../ST7735.c",line 1267,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1270 | } else {                                                               
+; 1267 | } else {                                                               
 ;----------------------------------------------------------------------
-        B         ||$C$L80||            ; [DPU_V7M3_PIPE] |1270| 
-        ; BRANCH OCCURS {||$C$L80||}     ; [] |1270| 
+        B         ||$C$L80||            ; [DPU_V7M3_PIPE] |1267| 
+        ; BRANCH OCCURS {||$C$L80||}     ; [] |1267| 
 ;* --------------------------------------------------------------------------*
 ||$C$L79||:    
-	.dwpsn	file "../ST7735.c",line 1271,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1268,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1271 | writedata(MADCTL_MX | MADCTL_MY | MADCTL_BGR);                         
+; 1268 | writedata(MADCTL_MX | MADCTL_MY | MADCTL_BGR);                         
 ;----------------------------------------------------------------------
-        MOVS      A1, #200              ; [DPU_V7M3_PIPE] |1271| 
+        MOVS      A1, #200              ; [DPU_V7M3_PIPE] |1268| 
 $C$DW$306	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$306, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$306, DW_AT_name("writedata")
 	.dwattr $C$DW$306, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1271| 
-        ; CALL OCCURS {writedata }       ; [] |1271| 
+        BL        writedata             ; [DPU_V7M3_PIPE] |1268| 
+        ; CALL OCCURS {writedata }       ; [] |1268| 
 ;* --------------------------------------------------------------------------*
 ||$C$L80||:    
-	.dwpsn	file "../ST7735.c",line 1273,column 6,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1270,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1273 | _width  = ST7735_TFTWIDTH;                                             
+; 1270 | _width  = ST7735_TFTWIDTH;                                             
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1273| 
-        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1273| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1273| 
-	.dwpsn	file "../ST7735.c",line 1274,column 6,is_stmt,isa 1
+        LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1270| 
+        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1270| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1270| 
+	.dwpsn	file "../ST7735.c",line 1271,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1274 | _height = ST7735_TFTHEIGHT;                                            
+; 1271 | _height = ST7735_TFTHEIGHT;                                            
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1274| 
-        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1274| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1274| 
-	.dwpsn	file "../ST7735.c",line 1275,column 6,is_stmt,isa 1
+        LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1271| 
+        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1271| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1271| 
+	.dwpsn	file "../ST7735.c",line 1272,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1275 | break;                                                                 
-; 1276 | case 1:                                                                
+; 1272 | break;                                                                 
+; 1273 | case 1:                                                                
 ;----------------------------------------------------------------------
-        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1275| 
-        ; BRANCH OCCURS {||$C$L91||}     ; [] |1275| 
+        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1272| 
+        ; BRANCH OCCURS {||$C$L91||}     ; [] |1272| 
 ;* --------------------------------------------------------------------------*
 ||$C$L81||:    
-	.dwpsn	file "../ST7735.c",line 1277,column 6,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1274,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1277 | if (TabColor == INITR_BLACKTAB) {                                      
+; 1274 | if (TabColor == INITR_BLACKTAB) {                                      
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON33          ; [DPU_V7M3_PIPE] |1277| 
-        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1277| 
-        CMP       A1, #3                ; [DPU_V7M3_PIPE] |1277| 
-        BNE       ||$C$L82||            ; [DPU_V7M3_PIPE] |1277| 
-        ; BRANCHCC OCCURS {||$C$L82||}   ; [] |1277| 
+        LDR       A1, $C$CON33          ; [DPU_V7M3_PIPE] |1274| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1274| 
+        CMP       A1, #3                ; [DPU_V7M3_PIPE] |1274| 
+        BNE       ||$C$L82||            ; [DPU_V7M3_PIPE] |1274| 
+        ; BRANCHCC OCCURS {||$C$L82||}   ; [] |1274| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1278,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1275,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1278 | writedata(MADCTL_MY | MADCTL_MV | MADCTL_RGB);                         
+; 1275 | writedata(MADCTL_MY | MADCTL_MV | MADCTL_RGB);                         
 ;----------------------------------------------------------------------
-        MOVS      A1, #160              ; [DPU_V7M3_PIPE] |1278| 
+        MOVS      A1, #160              ; [DPU_V7M3_PIPE] |1275| 
 $C$DW$307	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$307, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$307, DW_AT_name("writedata")
 	.dwattr $C$DW$307, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1278| 
-        ; CALL OCCURS {writedata }       ; [] |1278| 
-	.dwpsn	file "../ST7735.c",line 1279,column 6,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |1275| 
+        ; CALL OCCURS {writedata }       ; [] |1275| 
+	.dwpsn	file "../ST7735.c",line 1276,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1279 | } else {                                                               
+; 1276 | } else {                                                               
 ;----------------------------------------------------------------------
-        B         ||$C$L83||            ; [DPU_V7M3_PIPE] |1279| 
-        ; BRANCH OCCURS {||$C$L83||}     ; [] |1279| 
+        B         ||$C$L83||            ; [DPU_V7M3_PIPE] |1276| 
+        ; BRANCH OCCURS {||$C$L83||}     ; [] |1276| 
 ;* --------------------------------------------------------------------------*
 ||$C$L82||:    
-	.dwpsn	file "../ST7735.c",line 1280,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1277,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1280 | writedata(MADCTL_MY | MADCTL_MV | MADCTL_BGR);                         
+; 1277 | writedata(MADCTL_MY | MADCTL_MV | MADCTL_BGR);                         
 ;----------------------------------------------------------------------
-        MOVS      A1, #168              ; [DPU_V7M3_PIPE] |1280| 
+        MOVS      A1, #168              ; [DPU_V7M3_PIPE] |1277| 
 $C$DW$308	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$308, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$308, DW_AT_name("writedata")
 	.dwattr $C$DW$308, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1280| 
-        ; CALL OCCURS {writedata }       ; [] |1280| 
+        BL        writedata             ; [DPU_V7M3_PIPE] |1277| 
+        ; CALL OCCURS {writedata }       ; [] |1277| 
 ;* --------------------------------------------------------------------------*
 ||$C$L83||:    
-	.dwpsn	file "../ST7735.c",line 1282,column 6,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1279,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1282 | _width  = ST7735_TFTHEIGHT;                                            
+; 1279 | _width  = ST7735_TFTHEIGHT;                                            
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1282| 
-        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1282| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1282| 
-	.dwpsn	file "../ST7735.c",line 1283,column 6,is_stmt,isa 1
+        LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1279| 
+        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1279| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1279| 
+	.dwpsn	file "../ST7735.c",line 1280,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1283 | _height = ST7735_TFTWIDTH;                                             
+; 1280 | _height = ST7735_TFTWIDTH;                                             
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1283| 
-        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1283| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1283| 
-	.dwpsn	file "../ST7735.c",line 1284,column 6,is_stmt,isa 1
+        LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1280| 
+        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1280| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1280| 
+	.dwpsn	file "../ST7735.c",line 1281,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1284 | break;                                                                 
-; 1285 | case 2:                                                                
+; 1281 | break;                                                                 
+; 1282 | case 2:                                                                
 ;----------------------------------------------------------------------
-        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1284| 
-        ; BRANCH OCCURS {||$C$L91||}     ; [] |1284| 
+        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1281| 
+        ; BRANCH OCCURS {||$C$L91||}     ; [] |1281| 
 ;* --------------------------------------------------------------------------*
 ||$C$L84||:    
-	.dwpsn	file "../ST7735.c",line 1286,column 6,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1283,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1286 | if (TabColor == INITR_BLACKTAB) {                                      
+; 1283 | if (TabColor == INITR_BLACKTAB) {                                      
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON33          ; [DPU_V7M3_PIPE] |1286| 
-        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1286| 
-        CMP       A1, #3                ; [DPU_V7M3_PIPE] |1286| 
-        BNE       ||$C$L85||            ; [DPU_V7M3_PIPE] |1286| 
-        ; BRANCHCC OCCURS {||$C$L85||}   ; [] |1286| 
+        LDR       A1, $C$CON33          ; [DPU_V7M3_PIPE] |1283| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1283| 
+        CMP       A1, #3                ; [DPU_V7M3_PIPE] |1283| 
+        BNE       ||$C$L85||            ; [DPU_V7M3_PIPE] |1283| 
+        ; BRANCHCC OCCURS {||$C$L85||}   ; [] |1283| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1287,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1284,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1287 | writedata(MADCTL_RGB);                                                 
+; 1284 | writedata(MADCTL_RGB);                                                 
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1287| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1284| 
 $C$DW$309	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$309, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$309, DW_AT_name("writedata")
 	.dwattr $C$DW$309, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1287| 
-        ; CALL OCCURS {writedata }       ; [] |1287| 
-	.dwpsn	file "../ST7735.c",line 1288,column 6,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |1284| 
+        ; CALL OCCURS {writedata }       ; [] |1284| 
+	.dwpsn	file "../ST7735.c",line 1285,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1288 | } else {                                                               
+; 1285 | } else {                                                               
 ;----------------------------------------------------------------------
-        B         ||$C$L86||            ; [DPU_V7M3_PIPE] |1288| 
-        ; BRANCH OCCURS {||$C$L86||}     ; [] |1288| 
+        B         ||$C$L86||            ; [DPU_V7M3_PIPE] |1285| 
+        ; BRANCH OCCURS {||$C$L86||}     ; [] |1285| 
 ;* --------------------------------------------------------------------------*
 ||$C$L85||:    
-	.dwpsn	file "../ST7735.c",line 1289,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1286,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1289 | writedata(MADCTL_BGR);                                                 
+; 1286 | writedata(MADCTL_BGR);                                                 
 ;----------------------------------------------------------------------
-        MOVS      A1, #8                ; [DPU_V7M3_PIPE] |1289| 
+        MOVS      A1, #8                ; [DPU_V7M3_PIPE] |1286| 
 $C$DW$310	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$310, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$310, DW_AT_name("writedata")
 	.dwattr $C$DW$310, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1289| 
-        ; CALL OCCURS {writedata }       ; [] |1289| 
+        BL        writedata             ; [DPU_V7M3_PIPE] |1286| 
+        ; CALL OCCURS {writedata }       ; [] |1286| 
 ;* --------------------------------------------------------------------------*
 ||$C$L86||:    
-	.dwpsn	file "../ST7735.c",line 1291,column 6,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1288,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1291 | _width  = ST7735_TFTWIDTH;                                             
+; 1288 | _width  = ST7735_TFTWIDTH;                                             
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1291| 
-        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1291| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1291| 
-	.dwpsn	file "../ST7735.c",line 1292,column 6,is_stmt,isa 1
+        LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1288| 
+        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1288| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1288| 
+	.dwpsn	file "../ST7735.c",line 1289,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1292 | _height = ST7735_TFTHEIGHT;                                            
+; 1289 | _height = ST7735_TFTHEIGHT;                                            
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1292| 
-        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1292| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1292| 
-	.dwpsn	file "../ST7735.c",line 1293,column 5,is_stmt,isa 1
+        LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1289| 
+        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1289| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1289| 
+	.dwpsn	file "../ST7735.c",line 1290,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1293 | break;                                                                 
-; 1294 | case 3:                                                                
+; 1290 | break;                                                                 
+; 1291 | case 3:                                                                
 ;----------------------------------------------------------------------
-        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1293| 
-        ; BRANCH OCCURS {||$C$L91||}     ; [] |1293| 
+        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1290| 
+        ; BRANCH OCCURS {||$C$L91||}     ; [] |1290| 
 ;* --------------------------------------------------------------------------*
 ||$C$L87||:    
-	.dwpsn	file "../ST7735.c",line 1295,column 6,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1292,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1295 | if (TabColor == INITR_BLACKTAB) {                                      
+; 1292 | if (TabColor == INITR_BLACKTAB) {                                      
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON33          ; [DPU_V7M3_PIPE] |1295| 
-        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1295| 
-        CMP       A1, #3                ; [DPU_V7M3_PIPE] |1295| 
-        BNE       ||$C$L88||            ; [DPU_V7M3_PIPE] |1295| 
-        ; BRANCHCC OCCURS {||$C$L88||}   ; [] |1295| 
+        LDR       A1, $C$CON33          ; [DPU_V7M3_PIPE] |1292| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1292| 
+        CMP       A1, #3                ; [DPU_V7M3_PIPE] |1292| 
+        BNE       ||$C$L88||            ; [DPU_V7M3_PIPE] |1292| 
+        ; BRANCHCC OCCURS {||$C$L88||}   ; [] |1292| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1296,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1293,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1296 | writedata(MADCTL_MX | MADCTL_MV | MADCTL_RGB);                         
+; 1293 | writedata(MADCTL_MX | MADCTL_MV | MADCTL_RGB);                         
 ;----------------------------------------------------------------------
-        MOVS      A1, #96               ; [DPU_V7M3_PIPE] |1296| 
+        MOVS      A1, #96               ; [DPU_V7M3_PIPE] |1293| 
 $C$DW$311	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$311, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$311, DW_AT_name("writedata")
 	.dwattr $C$DW$311, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1296| 
-        ; CALL OCCURS {writedata }       ; [] |1296| 
-	.dwpsn	file "../ST7735.c",line 1297,column 6,is_stmt,isa 1
+        BL        writedata             ; [DPU_V7M3_PIPE] |1293| 
+        ; CALL OCCURS {writedata }       ; [] |1293| 
+	.dwpsn	file "../ST7735.c",line 1294,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1297 | } else {                                                               
+; 1294 | } else {                                                               
 ;----------------------------------------------------------------------
-        B         ||$C$L89||            ; [DPU_V7M3_PIPE] |1297| 
-        ; BRANCH OCCURS {||$C$L89||}     ; [] |1297| 
+        B         ||$C$L89||            ; [DPU_V7M3_PIPE] |1294| 
+        ; BRANCH OCCURS {||$C$L89||}     ; [] |1294| 
 ;* --------------------------------------------------------------------------*
 ||$C$L88||:    
-	.dwpsn	file "../ST7735.c",line 1298,column 8,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1295,column 8,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1298 | writedata(MADCTL_MX | MADCTL_MV | MADCTL_BGR);                         
+; 1295 | writedata(MADCTL_MX | MADCTL_MV | MADCTL_BGR);                         
 ;----------------------------------------------------------------------
-        MOVS      A1, #104              ; [DPU_V7M3_PIPE] |1298| 
+        MOVS      A1, #104              ; [DPU_V7M3_PIPE] |1295| 
 $C$DW$312	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$312, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$312, DW_AT_name("writedata")
 	.dwattr $C$DW$312, DW_AT_TI_call
 
-        BL        writedata             ; [DPU_V7M3_PIPE] |1298| 
-        ; CALL OCCURS {writedata }       ; [] |1298| 
+        BL        writedata             ; [DPU_V7M3_PIPE] |1295| 
+        ; CALL OCCURS {writedata }       ; [] |1295| 
 ;* --------------------------------------------------------------------------*
 ||$C$L89||:    
-	.dwpsn	file "../ST7735.c",line 1300,column 6,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1297,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1300 | _width  = ST7735_TFTHEIGHT;                                            
+; 1297 | _width  = ST7735_TFTHEIGHT;                                            
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1300| 
-        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1300| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1300| 
-	.dwpsn	file "../ST7735.c",line 1301,column 6,is_stmt,isa 1
+        LDR       A2, $C$CON34          ; [DPU_V7M3_PIPE] |1297| 
+        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1297| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1297| 
+	.dwpsn	file "../ST7735.c",line 1298,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1301 | _height = ST7735_TFTWIDTH;                                             
+; 1298 | _height = ST7735_TFTWIDTH;                                             
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1301| 
-        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1301| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1301| 
-	.dwpsn	file "../ST7735.c",line 1302,column 6,is_stmt,isa 1
+        LDR       A2, $C$CON35          ; [DPU_V7M3_PIPE] |1298| 
+        MOVS      A1, #136              ; [DPU_V7M3_PIPE] |1298| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1298| 
+	.dwpsn	file "../ST7735.c",line 1299,column 6,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1302 | break;                                                                 
+; 1299 | break;                                                                 
 ;----------------------------------------------------------------------
-        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1302| 
-        ; BRANCH OCCURS {||$C$L91||}     ; [] |1302| 
+        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1299| 
+        ; BRANCH OCCURS {||$C$L91||}     ; [] |1299| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L90||:    
-	.dwpsn	file "../ST7735.c",line 1266,column 3,is_stmt,isa 1
-        LDR       A1, $C$CON32          ; [DPU_V7M3_PIPE] |1266| 
-        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1266| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1266| 
-        BEQ       ||$C$L78||            ; [DPU_V7M3_PIPE] |1266| 
-        ; BRANCHCC OCCURS {||$C$L78||}   ; [] |1266| 
+	.dwpsn	file "../ST7735.c",line 1263,column 3,is_stmt,isa 1
+        LDR       A1, $C$CON32          ; [DPU_V7M3_PIPE] |1263| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1263| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1263| 
+        BEQ       ||$C$L78||            ; [DPU_V7M3_PIPE] |1263| 
+        ; BRANCHCC OCCURS {||$C$L78||}   ; [] |1263| 
 ;* --------------------------------------------------------------------------*
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1266| 
-        BEQ       ||$C$L81||            ; [DPU_V7M3_PIPE] |1266| 
-        ; BRANCHCC OCCURS {||$C$L81||}   ; [] |1266| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1263| 
+        BEQ       ||$C$L81||            ; [DPU_V7M3_PIPE] |1263| 
+        ; BRANCHCC OCCURS {||$C$L81||}   ; [] |1263| 
 ;* --------------------------------------------------------------------------*
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1266| 
-        BEQ       ||$C$L84||            ; [DPU_V7M3_PIPE] |1266| 
-        ; BRANCHCC OCCURS {||$C$L84||}   ; [] |1266| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1263| 
+        BEQ       ||$C$L84||            ; [DPU_V7M3_PIPE] |1263| 
+        ; BRANCHCC OCCURS {||$C$L84||}   ; [] |1263| 
 ;* --------------------------------------------------------------------------*
-        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1266| 
-        BEQ       ||$C$L87||            ; [DPU_V7M3_PIPE] |1266| 
-        ; BRANCHCC OCCURS {||$C$L87||}   ; [] |1266| 
+        SUBS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1263| 
+        BEQ       ||$C$L87||            ; [DPU_V7M3_PIPE] |1263| 
+        ; BRANCHCC OCCURS {||$C$L87||}   ; [] |1263| 
 ;* --------------------------------------------------------------------------*
-        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1266| 
-        ; BRANCH OCCURS {||$C$L91||}     ; [] |1266| 
+        B         ||$C$L91||            ; [DPU_V7M3_PIPE] |1263| 
+        ; BRANCH OCCURS {||$C$L91||}     ; [] |1263| 
 ;* --------------------------------------------------------------------------*
 ;* --------------------------------------------------------------------------*
 ||$C$L91||:    
@@ -10058,7 +10056,7 @@ $C$DW$313	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$301, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$301, DW_AT_TI_end_line(0x518)
+	.dwattr $C$DW$301, DW_AT_TI_end_line(0x515)
 	.dwattr $C$DW$301, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$301
@@ -10076,13 +10074,13 @@ $C$DW$314	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$314, DW_AT_TI_symbol_name("ST7735_InvertDisplay")
 	.dwattr $C$DW$314, DW_AT_external
 	.dwattr $C$DW$314, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$314, DW_AT_TI_begin_line(0x520)
+	.dwattr $C$DW$314, DW_AT_TI_begin_line(0x51d)
 	.dwattr $C$DW$314, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$314, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$314, DW_AT_decl_line(0x520)
+	.dwattr $C$DW$314, DW_AT_decl_line(0x51d)
 	.dwattr $C$DW$314, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$314, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1312,column 34,is_stmt,address ST7735_InvertDisplay,isa 1
+	.dwpsn	file "../ST7735.c",line 1309,column 34,is_stmt,address ST7735_InvertDisplay,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_InvertDisplay
 $C$DW$315	.dwtag  DW_TAG_formal_parameter
@@ -10117,50 +10115,50 @@ $C$DW$316	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$316, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 1312 | void ST7735_InvertDisplay(int i) {                                     
+; 1309 | void ST7735_InvertDisplay(int i) {                                     
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1312| 
-	.dwpsn	file "../ST7735.c",line 1313,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1309| 
+	.dwpsn	file "../ST7735.c",line 1310,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1313 | if(i){                                                                 
+; 1310 | if(i){                                                                 
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1313| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1310| 
         CBZ       A1, ||$C$L92||        ; [] 
-        ; BRANCHCC OCCURS {||$C$L92||}   ; [] |1313| 
+        ; BRANCHCC OCCURS {||$C$L92||}   ; [] |1310| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1314,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1311,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1314 | writecommand(ST7735_INVON);                                            
+; 1311 | writecommand(ST7735_INVON);                                            
 ;----------------------------------------------------------------------
-        MOVS      A1, #33               ; [DPU_V7M3_PIPE] |1314| 
+        MOVS      A1, #33               ; [DPU_V7M3_PIPE] |1311| 
 $C$DW$317	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$317, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$317, DW_AT_name("writecommand")
 	.dwattr $C$DW$317, DW_AT_TI_call
 
-        BL        writecommand          ; [DPU_V7M3_PIPE] |1314| 
-        ; CALL OCCURS {writecommand }    ; [] |1314| 
-	.dwpsn	file "../ST7735.c",line 1315,column 3,is_stmt,isa 1
+        BL        writecommand          ; [DPU_V7M3_PIPE] |1311| 
+        ; CALL OCCURS {writecommand }    ; [] |1311| 
+	.dwpsn	file "../ST7735.c",line 1312,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1315 | } else{                                                                
+; 1312 | } else{                                                                
 ;----------------------------------------------------------------------
-        B         ||$C$L93||            ; [DPU_V7M3_PIPE] |1315| 
-        ; BRANCH OCCURS {||$C$L93||}     ; [] |1315| 
+        B         ||$C$L93||            ; [DPU_V7M3_PIPE] |1312| 
+        ; BRANCH OCCURS {||$C$L93||}     ; [] |1312| 
 ;* --------------------------------------------------------------------------*
 ||$C$L92||:    
-	.dwpsn	file "../ST7735.c",line 1316,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1313,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1316 | writecommand(ST7735_INVOFF);                                           
+; 1313 | writecommand(ST7735_INVOFF);                                           
 ;----------------------------------------------------------------------
-        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1316| 
+        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1313| 
 $C$DW$318	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$318, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$318, DW_AT_name("writecommand")
 	.dwattr $C$DW$318, DW_AT_TI_call
 
-        BL        writecommand          ; [DPU_V7M3_PIPE] |1316| 
-        ; CALL OCCURS {writecommand }    ; [] |1316| 
-	.dwpsn	file "../ST7735.c",line 1318,column 1,is_stmt,isa 1
+        BL        writecommand          ; [DPU_V7M3_PIPE] |1313| 
+        ; CALL OCCURS {writecommand }    ; [] |1313| 
+	.dwpsn	file "../ST7735.c",line 1315,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L93||:    
 $C$DW$319	.dwtag  DW_TAG_TI_branch
@@ -10172,7 +10170,7 @@ $C$DW$319	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$314, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$314, DW_AT_TI_end_line(0x526)
+	.dwattr $C$DW$314, DW_AT_TI_end_line(0x523)
 	.dwattr $C$DW$314, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$314
@@ -10190,13 +10188,13 @@ $C$DW$320	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$320, DW_AT_TI_symbol_name("ST7735_PlotClear")
 	.dwattr $C$DW$320, DW_AT_external
 	.dwattr $C$DW$320, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$320, DW_AT_TI_begin_line(0x534)
+	.dwattr $C$DW$320, DW_AT_TI_begin_line(0x531)
 	.dwattr $C$DW$320, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$320, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$320, DW_AT_decl_line(0x534)
+	.dwattr $C$DW$320, DW_AT_decl_line(0x531)
 	.dwattr $C$DW$320, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$320, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 1332,column 50,is_stmt,address ST7735_PlotClear,isa 1
+	.dwpsn	file "../ST7735.c",line 1329,column 50,is_stmt,address ST7735_PlotClear,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotClear
 $C$DW$321	.dwtag  DW_TAG_formal_parameter
@@ -10245,112 +10243,112 @@ $C$DW$324	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$324, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
-; 1332 | void ST7735_PlotClear(int32_t ymin, int32_t ymax){                     
+; 1329 | void ST7735_PlotClear(int32_t ymin, int32_t ymax){                     
 ;----------------------------------------------------------------------
-        STR       A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1332| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1332| 
-	.dwpsn	file "../ST7735.c",line 1333,column 3,is_stmt,isa 1
+        STR       A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1329| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1329| 
+	.dwpsn	file "../ST7735.c",line 1330,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1333 | ST7735_FillRect(0, 32, 128, 128, ST7735_Color565(228,228,228)); // ligh
+; 1330 | ST7735_FillRect(0, 32, 128, 128, ST7735_Color565(228,228,228)); // ligh
 ;     | t grey                                                                 
 ;----------------------------------------------------------------------
-        MOVS      A3, #228              ; [DPU_V7M3_PIPE] |1333| 
-        MOVS      A1, #228              ; [DPU_V7M3_PIPE] |1333| 
-        MOVS      A2, #228              ; [DPU_V7M3_PIPE] |1333| 
+        MOVS      A3, #228              ; [DPU_V7M3_PIPE] |1330| 
+        MOVS      A1, #228              ; [DPU_V7M3_PIPE] |1330| 
+        MOVS      A2, #228              ; [DPU_V7M3_PIPE] |1330| 
 $C$DW$325	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$325, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$325, DW_AT_name("ST7735_Color565")
 	.dwattr $C$DW$325, DW_AT_TI_call
 
-        BL        ST7735_Color565       ; [DPU_V7M3_PIPE] |1333| 
-        ; CALL OCCURS {ST7735_Color565 }  ; [] |1333| 
-        MOVS      A4, #128              ; [DPU_V7M3_PIPE] |1333| 
-        MOVS      A2, #32               ; [DPU_V7M3_PIPE] |1333| 
-        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |1333| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1333| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1333| 
+        BL        ST7735_Color565       ; [DPU_V7M3_PIPE] |1330| 
+        ; CALL OCCURS {ST7735_Color565 }  ; [] |1330| 
+        MOVS      A4, #128              ; [DPU_V7M3_PIPE] |1330| 
+        MOVS      A2, #32               ; [DPU_V7M3_PIPE] |1330| 
+        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |1330| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1330| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1330| 
 $C$DW$326	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$326, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$326, DW_AT_name("ST7735_FillRect")
 	.dwattr $C$DW$326, DW_AT_TI_call
 
-        BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1333| 
-        ; CALL OCCURS {ST7735_FillRect }  ; [] |1333| 
-	.dwpsn	file "../ST7735.c",line 1334,column 3,is_stmt,isa 1
+        BL        ST7735_FillRect       ; [DPU_V7M3_PIPE] |1330| 
+        ; CALL OCCURS {ST7735_FillRect }  ; [] |1330| 
+	.dwpsn	file "../ST7735.c",line 1331,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1334 | if(ymax>ymin){                                                         
+; 1331 | if(ymax>ymin){                                                         
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1334| 
-        LDR       A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1334| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1334| 
-        BGE       ||$C$L94||            ; [DPU_V7M3_PIPE] |1334| 
-        ; BRANCHCC OCCURS {||$C$L94||}   ; [] |1334| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1331| 
+        LDR       A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1331| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1331| 
+        BGE       ||$C$L94||            ; [DPU_V7M3_PIPE] |1331| 
+        ; BRANCHCC OCCURS {||$C$L94||}   ; [] |1331| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1335,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1332,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1335 | Ymax = ymax;                                                           
+; 1332 | Ymax = ymax;                                                           
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1335| 
-        LDR       A2, $C$CON36          ; [DPU_V7M3_PIPE] |1335| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1335| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1332| 
+        LDR       A2, $C$CON36          ; [DPU_V7M3_PIPE] |1332| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1332| 
+	.dwpsn	file "../ST7735.c",line 1333,column 5,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1333 | Ymin = ymin;                                                           
+;----------------------------------------------------------------------
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1333| 
+        LDR       A2, $C$CON37          ; [DPU_V7M3_PIPE] |1333| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1333| 
+	.dwpsn	file "../ST7735.c",line 1334,column 5,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1334 | Yrange = ymax-ymin;                                                    
+;----------------------------------------------------------------------
+        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1334| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1334| 
+        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1334| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1334| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1334| 
+	.dwpsn	file "../ST7735.c",line 1335,column 3,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1335 | } else{                                                                
+;----------------------------------------------------------------------
+        B         ||$C$L95||            ; [DPU_V7M3_PIPE] |1335| 
+        ; BRANCH OCCURS {||$C$L95||}     ; [] |1335| 
+;* --------------------------------------------------------------------------*
+||$C$L94||:    
 	.dwpsn	file "../ST7735.c",line 1336,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1336 | Ymin = ymin;                                                           
+; 1336 | Ymax = ymin;                                                           
 ;----------------------------------------------------------------------
         LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1336| 
-        LDR       A2, $C$CON37          ; [DPU_V7M3_PIPE] |1336| 
+        LDR       A2, $C$CON36          ; [DPU_V7M3_PIPE] |1336| 
         STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1336| 
 	.dwpsn	file "../ST7735.c",line 1337,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1337 | Yrange = ymax-ymin;                                                    
+; 1337 | Ymin = ymax;                                                           
 ;----------------------------------------------------------------------
-        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1337| 
         LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1337| 
-        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1337| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1337| 
+        LDR       A2, $C$CON37          ; [DPU_V7M3_PIPE] |1337| 
         STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1337| 
-	.dwpsn	file "../ST7735.c",line 1338,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1338,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1338 | } else{                                                                
+; 1338 | Yrange = ymax-ymin;                                                    
+; 1340 | //YrangeDiv2 = Yrange/2;                                               
 ;----------------------------------------------------------------------
-        B         ||$C$L95||            ; [DPU_V7M3_PIPE] |1338| 
-        ; BRANCH OCCURS {||$C$L95||}     ; [] |1338| 
-;* --------------------------------------------------------------------------*
-||$C$L94||:    
-	.dwpsn	file "../ST7735.c",line 1339,column 5,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1339 | Ymax = ymin;                                                           
-;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1339| 
-        LDR       A2, $C$CON36          ; [DPU_V7M3_PIPE] |1339| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1339| 
-	.dwpsn	file "../ST7735.c",line 1340,column 5,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1340 | Ymin = ymax;                                                           
-;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1340| 
-        LDR       A2, $C$CON37          ; [DPU_V7M3_PIPE] |1340| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1340| 
-	.dwpsn	file "../ST7735.c",line 1341,column 5,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1341 | Yrange = ymax-ymin;                                                    
-; 1343 | //YrangeDiv2 = Yrange/2;                                               
-;----------------------------------------------------------------------
-        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1341| 
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1341| 
-        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1341| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1341| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1341| 
+        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1338| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1338| 
+        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1338| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1338| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1338| 
 ;* --------------------------------------------------------------------------*
 ||$C$L95||:    
-	.dwpsn	file "../ST7735.c",line 1344,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1341,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1344 | X = 0;                                                                 
+; 1341 | X = 0;                                                                 
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON39          ; [DPU_V7M3_PIPE] |1344| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1344| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1344| 
-	.dwpsn	file "../ST7735.c",line 1345,column 1,is_stmt,isa 1
+        LDR       A2, $C$CON39          ; [DPU_V7M3_PIPE] |1341| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1341| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1341| 
+	.dwpsn	file "../ST7735.c",line 1342,column 1,is_stmt,isa 1
 $C$DW$327	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$327, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$327, DW_AT_TI_return
@@ -10362,7 +10360,7 @@ $C$DW$327	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$320, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$320, DW_AT_TI_end_line(0x541)
+	.dwattr $C$DW$320, DW_AT_TI_end_line(0x53e)
 	.dwattr $C$DW$320, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$320
@@ -10380,13 +10378,13 @@ $C$DW$328	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$328, DW_AT_TI_symbol_name("ST7735_PlotPoint")
 	.dwattr $C$DW$328, DW_AT_external
 	.dwattr $C$DW$328, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$328, DW_AT_TI_begin_line(0x548)
+	.dwattr $C$DW$328, DW_AT_TI_begin_line(0x545)
 	.dwattr $C$DW$328, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$328, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$328, DW_AT_decl_line(0x548)
+	.dwattr $C$DW$328, DW_AT_decl_line(0x545)
 	.dwattr $C$DW$328, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$328, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 1352,column 33,is_stmt,address ST7735_PlotPoint,isa 1
+	.dwpsn	file "../ST7735.c",line 1349,column 33,is_stmt,address ST7735_PlotPoint,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotPoint
 $C$DW$329	.dwtag  DW_TAG_formal_parameter
@@ -10429,160 +10427,160 @@ $C$DW$331	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$331, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
-; 1352 | void ST7735_PlotPoint(int32_t y){int32_t j;                            
+; 1349 | void ST7735_PlotPoint(int32_t y){int32_t j;                            
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1352| 
-	.dwpsn	file "../ST7735.c",line 1353,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1349| 
+	.dwpsn	file "../ST7735.c",line 1350,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1353 | if(y<Ymin) y=Ymin;                                                     
+; 1350 | if(y<Ymin) y=Ymin;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1353| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1353| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1353| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1353| 
-        BLE       ||$C$L96||            ; [DPU_V7M3_PIPE] |1353| 
-        ; BRANCHCC OCCURS {||$C$L96||}   ; [] |1353| 
+        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1350| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1350| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1350| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1350| 
+        BLE       ||$C$L96||            ; [DPU_V7M3_PIPE] |1350| 
+        ; BRANCHCC OCCURS {||$C$L96||}   ; [] |1350| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1353,column 14,is_stmt,isa 1
-        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1353| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1353| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1353| 
+	.dwpsn	file "../ST7735.c",line 1350,column 14,is_stmt,isa 1
+        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1350| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1350| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1350| 
 ;* --------------------------------------------------------------------------*
 ||$C$L96||:    
-	.dwpsn	file "../ST7735.c",line 1354,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1351,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1354 | if(y>Ymax) y=Ymax;                                                     
+; 1351 | if(y>Ymax) y=Ymax;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1354| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1354| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1354| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1354| 
-        BGE       ||$C$L97||            ; [DPU_V7M3_PIPE] |1354| 
-        ; BRANCHCC OCCURS {||$C$L97||}   ; [] |1354| 
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1351| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1351| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1351| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1351| 
+        BGE       ||$C$L97||            ; [DPU_V7M3_PIPE] |1351| 
+        ; BRANCHCC OCCURS {||$C$L97||}   ; [] |1351| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1354,column 14,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1351,column 14,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1355 | // X goes from 0 to 127                                                
-; 1356 | // j goes from 159 to 32                                               
-; 1357 | // y=Ymax maps to j=32                                                 
-; 1358 | // y=Ymin maps to j=159                                                
+; 1352 | // X goes from 0 to 127                                                
+; 1353 | // j goes from 159 to 32                                               
+; 1354 | // y=Ymax maps to j=32                                                 
+; 1355 | // y=Ymin maps to j=159                                                
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1354| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1354| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1354| 
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1351| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1351| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1351| 
 ;* --------------------------------------------------------------------------*
 ||$C$L97||:    
-	.dwpsn	file "../ST7735.c",line 1359,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1356,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1359 | j = 32+(127*(Ymax-y))/Yrange;                                          
+; 1356 | j = 32+(127*(Ymax-y))/Yrange;                                          
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1359| 
-        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1359| 
-        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1359| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1359| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1359| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1359| 
-        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1359| 
-        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1359| 
-        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1359| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1359| 
-	.dwpsn	file "../ST7735.c",line 1360,column 3,is_stmt,isa 1
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1356| 
+        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1356| 
+        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1356| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1356| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1356| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1356| 
+        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1356| 
+        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1356| 
+        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1356| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1356| 
+	.dwpsn	file "../ST7735.c",line 1357,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1360 | if(j<32) j = 32;                                                       
+; 1357 | if(j<32) j = 32;                                                       
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1360| 
-        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1360| 
-        BGE       ||$C$L98||            ; [DPU_V7M3_PIPE] |1360| 
-        ; BRANCHCC OCCURS {||$C$L98||}   ; [] |1360| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1357| 
+        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1357| 
+        BGE       ||$C$L98||            ; [DPU_V7M3_PIPE] |1357| 
+        ; BRANCHCC OCCURS {||$C$L98||}   ; [] |1357| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1360,column 12,is_stmt,isa 1
-        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1360| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1360| 
+	.dwpsn	file "../ST7735.c",line 1357,column 12,is_stmt,isa 1
+        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1357| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1357| 
 ;* --------------------------------------------------------------------------*
 ||$C$L98||:    
-	.dwpsn	file "../ST7735.c",line 1361,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1358,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1361 | if(j>159) j = 159;                                                     
+; 1358 | if(j>159) j = 159;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1361| 
-        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1361| 
-        BLE       ||$C$L99||            ; [DPU_V7M3_PIPE] |1361| 
-        ; BRANCHCC OCCURS {||$C$L99||}   ; [] |1361| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1358| 
+        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1358| 
+        BLE       ||$C$L99||            ; [DPU_V7M3_PIPE] |1358| 
+        ; BRANCHCC OCCURS {||$C$L99||}   ; [] |1358| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1361,column 13,is_stmt,isa 1
-        MOVS      A1, #159              ; [DPU_V7M3_PIPE] |1361| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1361| 
+	.dwpsn	file "../ST7735.c",line 1358,column 13,is_stmt,isa 1
+        MOVS      A1, #159              ; [DPU_V7M3_PIPE] |1358| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1358| 
 ;* --------------------------------------------------------------------------*
 ||$C$L99||:    
-	.dwpsn	file "../ST7735.c",line 1362,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1359,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1362 | ST7735_DrawPixel(X,   j,   ST7735_BLUE);                               
+; 1359 | ST7735_DrawPixel(X,   j,   ST7735_BLUE);                               
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1362| 
-        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1362| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1362| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1362| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1359| 
+        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1359| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1359| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1359| 
 $C$DW$332	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$332, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$332, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$332, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1362| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1362| 
-	.dwpsn	file "../ST7735.c",line 1363,column 3,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1359| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1359| 
+	.dwpsn	file "../ST7735.c",line 1360,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1363 | ST7735_DrawPixel(X+1, j,   ST7735_BLUE);                               
+; 1360 | ST7735_DrawPixel(X+1, j,   ST7735_BLUE);                               
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1363| 
-        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1363| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1363| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1363| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1363| 
-        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1363| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1360| 
+        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1360| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1360| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1360| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1360| 
+        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1360| 
 $C$DW$333	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$333, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$333, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$333, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1363| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1363| 
-	.dwpsn	file "../ST7735.c",line 1364,column 3,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1360| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1360| 
+	.dwpsn	file "../ST7735.c",line 1361,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1364 | ST7735_DrawPixel(X,   j+1, ST7735_BLUE);                               
+; 1361 | ST7735_DrawPixel(X,   j+1, ST7735_BLUE);                               
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1364| 
-        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1364| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1364| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1364| 
-        ADDS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1364| 
-        SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1364| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1361| 
+        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1361| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1361| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1361| 
+        ADDS      A2, A2, #1            ; [DPU_V7M3_PIPE] |1361| 
+        SXTH      A2, A2                ; [DPU_V7M3_PIPE] |1361| 
 $C$DW$334	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$334, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$334, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$334, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1364| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1364| 
-	.dwpsn	file "../ST7735.c",line 1365,column 3,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1361| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1361| 
+	.dwpsn	file "../ST7735.c",line 1362,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1365 | ST7735_DrawPixel(X+1, j+1, ST7735_BLUE);                               
+; 1362 | ST7735_DrawPixel(X+1, j+1, ST7735_BLUE);                               
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON39          ; [DPU_V7M3_PIPE] |1365| 
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1365| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1365| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1365| 
-        ADDS      A3, A2, #1            ; [DPU_V7M3_PIPE] |1365| 
-        SXTH      A2, A1                ; [DPU_V7M3_PIPE] |1365| 
-        SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1365| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1365| 
+        LDR       A2, $C$CON39          ; [DPU_V7M3_PIPE] |1362| 
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1362| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1362| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1362| 
+        ADDS      A3, A2, #1            ; [DPU_V7M3_PIPE] |1362| 
+        SXTH      A2, A1                ; [DPU_V7M3_PIPE] |1362| 
+        SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1362| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1362| 
 $C$DW$335	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$335, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$335, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$335, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1365| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1365| 
-	.dwpsn	file "../ST7735.c",line 1366,column 1,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1362| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1362| 
+	.dwpsn	file "../ST7735.c",line 1363,column 1,is_stmt,isa 1
 $C$DW$336	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$336, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$336, DW_AT_TI_return
@@ -10594,7 +10592,7 @@ $C$DW$336	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$328, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$328, DW_AT_TI_end_line(0x556)
+	.dwattr $C$DW$328, DW_AT_TI_end_line(0x553)
 	.dwattr $C$DW$328, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$328
@@ -10634,13 +10632,13 @@ $C$DW$337	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$337, DW_AT_TI_symbol_name("ST7735_PlotLine")
 	.dwattr $C$DW$337, DW_AT_external
 	.dwattr $C$DW$337, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$337, DW_AT_TI_begin_line(0x55d)
+	.dwattr $C$DW$337, DW_AT_TI_begin_line(0x55a)
 	.dwattr $C$DW$337, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$337, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$337, DW_AT_decl_line(0x55d)
+	.dwattr $C$DW$337, DW_AT_decl_line(0x55a)
 	.dwattr $C$DW$337, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$337, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 1373,column 32,is_stmt,address ST7735_PlotLine,isa 1
+	.dwpsn	file "../ST7735.c",line 1370,column 32,is_stmt,address ST7735_PlotLine,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotLine
 $C$DW$338	.dwtag  DW_TAG_formal_parameter
@@ -10689,334 +10687,334 @@ $C$DW$341	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$341, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
-; 1373 | void ST7735_PlotLine(int32_t y){int32_t i,j;                           
+; 1370 | void ST7735_PlotLine(int32_t y){int32_t i,j;                           
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1373| 
-	.dwpsn	file "../ST7735.c",line 1374,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1370| 
+	.dwpsn	file "../ST7735.c",line 1371,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1374 | if(y<Ymin) y=Ymin;                                                     
+; 1371 | if(y<Ymin) y=Ymin;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1374| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1374| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1374| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1374| 
-        BLE       ||$C$L100||           ; [DPU_V7M3_PIPE] |1374| 
-        ; BRANCHCC OCCURS {||$C$L100||}  ; [] |1374| 
+        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1371| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1371| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1371| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1371| 
+        BLE       ||$C$L100||           ; [DPU_V7M3_PIPE] |1371| 
+        ; BRANCHCC OCCURS {||$C$L100||}  ; [] |1371| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1374,column 14,is_stmt,isa 1
-        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1374| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1374| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1374| 
+	.dwpsn	file "../ST7735.c",line 1371,column 14,is_stmt,isa 1
+        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1371| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1371| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1371| 
 ;* --------------------------------------------------------------------------*
 ||$C$L100||:    
-	.dwpsn	file "../ST7735.c",line 1375,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1372,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1375 | if(y>Ymax) y=Ymax;                                                     
+; 1372 | if(y>Ymax) y=Ymax;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1375| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1375| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1375| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1375| 
-        BGE       ||$C$L101||           ; [DPU_V7M3_PIPE] |1375| 
-        ; BRANCHCC OCCURS {||$C$L101||}  ; [] |1375| 
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1372| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1372| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1372| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1372| 
+        BGE       ||$C$L101||           ; [DPU_V7M3_PIPE] |1372| 
+        ; BRANCHCC OCCURS {||$C$L101||}  ; [] |1372| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1375,column 14,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1372,column 14,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1376 | // X goes from 0 to 127                                                
-; 1377 | // j goes from 159 to 32                                               
-; 1378 | // y=Ymax maps to j=32                                                 
-; 1379 | // y=Ymin maps to j=159                                                
+; 1373 | // X goes from 0 to 127                                                
+; 1374 | // j goes from 159 to 32                                               
+; 1375 | // y=Ymax maps to j=32                                                 
+; 1376 | // y=Ymin maps to j=159                                                
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1375| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1375| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1375| 
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1372| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1372| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1372| 
 ;* --------------------------------------------------------------------------*
 ||$C$L101||:    
-	.dwpsn	file "../ST7735.c",line 1380,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1377,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1380 | j = 32+(127*(Ymax-y))/Yrange;                                          
+; 1377 | j = 32+(127*(Ymax-y))/Yrange;                                          
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1380| 
-        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1380| 
-        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1380| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1380| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1380| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1380| 
-        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1380| 
-        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1380| 
-        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1380| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1380| 
-	.dwpsn	file "../ST7735.c",line 1381,column 3,is_stmt,isa 1
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1377| 
+        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1377| 
+        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1377| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1377| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1377| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1377| 
+        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1377| 
+        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1377| 
+        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1377| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1377| 
+	.dwpsn	file "../ST7735.c",line 1378,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1381 | if(j < 32) j = 32;                                                     
+; 1378 | if(j < 32) j = 32;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1381| 
-        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1381| 
-        BGE       ||$C$L102||           ; [DPU_V7M3_PIPE] |1381| 
-        ; BRANCHCC OCCURS {||$C$L102||}  ; [] |1381| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1378| 
+        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1378| 
+        BGE       ||$C$L102||           ; [DPU_V7M3_PIPE] |1378| 
+        ; BRANCHCC OCCURS {||$C$L102||}  ; [] |1378| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1381,column 14,is_stmt,isa 1
-        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1381| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1381| 
+	.dwpsn	file "../ST7735.c",line 1378,column 14,is_stmt,isa 1
+        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1378| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1378| 
 ;* --------------------------------------------------------------------------*
 ||$C$L102||:    
-	.dwpsn	file "../ST7735.c",line 1382,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1379,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1382 | if(j > 159) j = 159;                                                   
+; 1379 | if(j > 159) j = 159;                                                   
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1382| 
-        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1382| 
-        BLE       ||$C$L103||           ; [DPU_V7M3_PIPE] |1382| 
-        ; BRANCHCC OCCURS {||$C$L103||}  ; [] |1382| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1379| 
+        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1379| 
+        BLE       ||$C$L103||           ; [DPU_V7M3_PIPE] |1379| 
+        ; BRANCHCC OCCURS {||$C$L103||}  ; [] |1379| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1382,column 15,is_stmt,isa 1
-        MOVS      A1, #159              ; [DPU_V7M3_PIPE] |1382| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1382| 
+	.dwpsn	file "../ST7735.c",line 1379,column 15,is_stmt,isa 1
+        MOVS      A1, #159              ; [DPU_V7M3_PIPE] |1379| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1379| 
 ;* --------------------------------------------------------------------------*
 ||$C$L103||:    
-	.dwpsn	file "../ST7735.c",line 1383,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1380,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1383 | if(lastj < 32) lastj = j;                                              
+; 1380 | if(lastj < 32) lastj = j;                                              
+;----------------------------------------------------------------------
+        LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1380| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1380| 
+        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1380| 
+        BGE       ||$C$L104||           ; [DPU_V7M3_PIPE] |1380| 
+        ; BRANCHCC OCCURS {||$C$L104||}  ; [] |1380| 
+;* --------------------------------------------------------------------------*
+	.dwpsn	file "../ST7735.c",line 1380,column 18,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1380| 
+        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1380| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1380| 
+;* --------------------------------------------------------------------------*
+||$C$L104||:    
+	.dwpsn	file "../ST7735.c",line 1381,column 3,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1381 | if(lastj > 159) lastj = j;                                             
+;----------------------------------------------------------------------
+        LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1381| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1381| 
+        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1381| 
+        BLE       ||$C$L105||           ; [DPU_V7M3_PIPE] |1381| 
+        ; BRANCHCC OCCURS {||$C$L105||}  ; [] |1381| 
+;* --------------------------------------------------------------------------*
+	.dwpsn	file "../ST7735.c",line 1381,column 19,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1381| 
+        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1381| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1381| 
+;* --------------------------------------------------------------------------*
+||$C$L105||:    
+	.dwpsn	file "../ST7735.c",line 1382,column 3,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1382 | if(lastj < j){                                                         
+;----------------------------------------------------------------------
+        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1382| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1382| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1382| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1382| 
+        BLE       ||$C$L107||           ; [DPU_V7M3_PIPE] |1382| 
+        ; BRANCHCC OCCURS {||$C$L107||}  ; [] |1382| 
+;* --------------------------------------------------------------------------*
+	.dwpsn	file "../ST7735.c",line 1383,column 9,is_stmt,isa 1
+;----------------------------------------------------------------------
+; 1383 | for(i = lastj+1; i<=j ; i++){                                          
 ;----------------------------------------------------------------------
         LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1383| 
         LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1383| 
-        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1383| 
-        BGE       ||$C$L104||           ; [DPU_V7M3_PIPE] |1383| 
-        ; BRANCHCC OCCURS {||$C$L104||}  ; [] |1383| 
-;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1383,column 18,is_stmt,isa 1
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1383| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1383| 
+	.dwpsn	file "../ST7735.c",line 1383,column 22,is_stmt,isa 1
         LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1383| 
-        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1383| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1383| 
-;* --------------------------------------------------------------------------*
-||$C$L104||:    
-	.dwpsn	file "../ST7735.c",line 1384,column 3,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1384 | if(lastj > 159) lastj = j;                                             
-;----------------------------------------------------------------------
-        LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1384| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1384| 
-        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1384| 
-        BLE       ||$C$L105||           ; [DPU_V7M3_PIPE] |1384| 
-        ; BRANCHCC OCCURS {||$C$L105||}  ; [] |1384| 
-;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1384,column 19,is_stmt,isa 1
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1384| 
-        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1384| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1384| 
-;* --------------------------------------------------------------------------*
-||$C$L105||:    
-	.dwpsn	file "../ST7735.c",line 1385,column 3,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1385 | if(lastj < j){                                                         
-;----------------------------------------------------------------------
-        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1385| 
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1385| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1385| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1385| 
-        BLE       ||$C$L107||           ; [DPU_V7M3_PIPE] |1385| 
-        ; BRANCHCC OCCURS {||$C$L107||}  ; [] |1385| 
-;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1386,column 9,is_stmt,isa 1
-;----------------------------------------------------------------------
-; 1386 | for(i = lastj+1; i<=j ; i++){                                          
-;----------------------------------------------------------------------
-        LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1386| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1386| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1386| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1386| 
-	.dwpsn	file "../ST7735.c",line 1386,column 22,is_stmt,isa 1
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1386| 
-        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1386| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1386| 
-        BLT       ||$C$L110||           ; [DPU_V7M3_PIPE] |1386| 
-        ; BRANCHCC OCCURS {||$C$L110||}  ; [] |1386| 
+        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1383| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1383| 
+        BLT       ||$C$L110||           ; [DPU_V7M3_PIPE] |1383| 
+        ; BRANCHCC OCCURS {||$C$L110||}  ; [] |1383| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L106||
 ;*
-;*   Loop source line                : 1386
-;*   Loop closing brace source line  : 1389
+;*   Loop source line                : 1383
+;*   Loop closing brace source line  : 1386
 ;*   Known Minimum Trip Count        : 1
 ;*   Known Maximum Trip Count        : 4294967295
 ;*   Known Max Trip Count Factor     : 1
 ;* --------------------------------------------------------------------------*
 ||$C$L106||:    
-	.dwpsn	file "../ST7735.c",line 1387,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1384,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1387 | ST7735_DrawPixel(X,   i,   ST7735_BLUE) ;                              
+; 1384 | ST7735_DrawPixel(X,   i,   ST7735_BLUE) ;                              
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1387| 
-        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1387| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1387| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1387| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1384| 
+        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1384| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1384| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1384| 
 $C$DW$342	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$342, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$342, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$342, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1387| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1387| 
-	.dwpsn	file "../ST7735.c",line 1388,column 7,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1384| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1384| 
+	.dwpsn	file "../ST7735.c",line 1385,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1388 | ST7735_DrawPixel(X+1, i,   ST7735_BLUE) ;                              
+; 1385 | ST7735_DrawPixel(X+1, i,   ST7735_BLUE) ;                              
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1388| 
-        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1388| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1388| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1388| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1388| 
-        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1388| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1385| 
+        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1385| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1385| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1385| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1385| 
+        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1385| 
 $C$DW$343	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$343, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$343, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$343, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1388| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1388| 
-	.dwpsn	file "../ST7735.c",line 1386,column 29,is_stmt,isa 1
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1386| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1386| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1386| 
-	.dwpsn	file "../ST7735.c",line 1386,column 22,is_stmt,isa 1
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1386| 
-        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1386| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1386| 
-        BGE       ||$C$L106||           ; [DPU_V7M3_PIPE] |1386| 
-        ; BRANCHCC OCCURS {||$C$L106||}  ; [] |1386| 
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1385| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1385| 
+	.dwpsn	file "../ST7735.c",line 1383,column 29,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1383| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1383| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1383| 
+	.dwpsn	file "../ST7735.c",line 1383,column 22,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1383| 
+        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1383| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1383| 
+        BGE       ||$C$L106||           ; [DPU_V7M3_PIPE] |1383| 
+        ; BRANCHCC OCCURS {||$C$L106||}  ; [] |1383| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1390,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1387,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1390 | }else if(lastj > j){                                                   
+; 1387 | }else if(lastj > j){                                                   
 ;----------------------------------------------------------------------
-        B         ||$C$L110||           ; [DPU_V7M3_PIPE] |1390| 
-        ; BRANCH OCCURS {||$C$L110||}    ; [] |1390| 
+        B         ||$C$L110||           ; [DPU_V7M3_PIPE] |1387| 
+        ; BRANCH OCCURS {||$C$L110||}    ; [] |1387| 
 ;* --------------------------------------------------------------------------*
 ||$C$L107||:    
-	.dwpsn	file "../ST7735.c",line 1390,column 9,is_stmt,isa 1
-        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1390| 
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1390| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1390| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1390| 
-        BGE       ||$C$L109||           ; [DPU_V7M3_PIPE] |1390| 
-        ; BRANCHCC OCCURS {||$C$L109||}  ; [] |1390| 
+	.dwpsn	file "../ST7735.c",line 1387,column 9,is_stmt,isa 1
+        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1387| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1387| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1387| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1387| 
+        BGE       ||$C$L109||           ; [DPU_V7M3_PIPE] |1387| 
+        ; BRANCHCC OCCURS {||$C$L109||}  ; [] |1387| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1391,column 9,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1388,column 9,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1391 | for(i = j; i<lastj ; i++){                                             
+; 1388 | for(i = j; i<lastj ; i++){                                             
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1391| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1391| 
-	.dwpsn	file "../ST7735.c",line 1391,column 16,is_stmt,isa 1
-        LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1391| 
-        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1391| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1391| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1391| 
-        BLE       ||$C$L110||           ; [DPU_V7M3_PIPE] |1391| 
-        ; BRANCHCC OCCURS {||$C$L110||}  ; [] |1391| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1388| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1388| 
+	.dwpsn	file "../ST7735.c",line 1388,column 16,is_stmt,isa 1
+        LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1388| 
+        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1388| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1388| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1388| 
+        BLE       ||$C$L110||           ; [DPU_V7M3_PIPE] |1388| 
+        ; BRANCHCC OCCURS {||$C$L110||}  ; [] |1388| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L108||
 ;*
-;*   Loop source line                : 1391
-;*   Loop closing brace source line  : 1394
+;*   Loop source line                : 1388
+;*   Loop closing brace source line  : 1391
 ;*   Known Minimum Trip Count        : 1
 ;*   Known Maximum Trip Count        : 4294967295
 ;*   Known Max Trip Count Factor     : 1
 ;* --------------------------------------------------------------------------*
 ||$C$L108||:    
-	.dwpsn	file "../ST7735.c",line 1392,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1389,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1392 | ST7735_DrawPixel(X,   i,   ST7735_BLUE) ;                              
+; 1389 | ST7735_DrawPixel(X,   i,   ST7735_BLUE) ;                              
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1392| 
-        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1392| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1392| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1392| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1389| 
+        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1389| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1389| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1389| 
 $C$DW$344	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$344, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$344, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$344, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1392| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1392| 
-	.dwpsn	file "../ST7735.c",line 1393,column 7,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1389| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1389| 
+	.dwpsn	file "../ST7735.c",line 1390,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1393 | ST7735_DrawPixel(X+1, i,   ST7735_BLUE) ;                              
+; 1390 | ST7735_DrawPixel(X+1, i,   ST7735_BLUE) ;                              
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1393| 
-        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1393| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1393| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1393| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1393| 
-        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1393| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1390| 
+        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1390| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1390| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1390| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1390| 
+        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1390| 
 $C$DW$345	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$345, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$345, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$345, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1393| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1393| 
-	.dwpsn	file "../ST7735.c",line 1391,column 26,is_stmt,isa 1
-        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1391| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1391| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1391| 
-	.dwpsn	file "../ST7735.c",line 1391,column 16,is_stmt,isa 1
-        LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1391| 
-        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1391| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1391| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1391| 
-        BGT       ||$C$L108||           ; [DPU_V7M3_PIPE] |1391| 
-        ; BRANCHCC OCCURS {||$C$L108||}  ; [] |1391| 
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1390| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1390| 
+	.dwpsn	file "../ST7735.c",line 1388,column 26,is_stmt,isa 1
+        LDR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1388| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1388| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1388| 
+	.dwpsn	file "../ST7735.c",line 1388,column 16,is_stmt,isa 1
+        LDR       A1, $C$CON40          ; [DPU_V7M3_PIPE] |1388| 
+        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1388| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1388| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1388| 
+        BGT       ||$C$L108||           ; [DPU_V7M3_PIPE] |1388| 
+        ; BRANCHCC OCCURS {||$C$L108||}  ; [] |1388| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1395,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1392,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1395 | }else{                                                                 
+; 1392 | }else{                                                                 
 ;----------------------------------------------------------------------
-        B         ||$C$L110||           ; [DPU_V7M3_PIPE] |1395| 
-        ; BRANCH OCCURS {||$C$L110||}    ; [] |1395| 
+        B         ||$C$L110||           ; [DPU_V7M3_PIPE] |1392| 
+        ; BRANCH OCCURS {||$C$L110||}    ; [] |1392| 
 ;* --------------------------------------------------------------------------*
 ||$C$L109||:    
-	.dwpsn	file "../ST7735.c",line 1396,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1393,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1396 | ST7735_DrawPixel(X,   j,   ST7735_BLUE) ;                              
+; 1393 | ST7735_DrawPixel(X,   j,   ST7735_BLUE) ;                              
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1396| 
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1396| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1396| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1396| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1393| 
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1393| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1393| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1393| 
 $C$DW$346	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$346, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$346, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$346, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1396| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1396| 
-	.dwpsn	file "../ST7735.c",line 1397,column 5,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1393| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1393| 
+	.dwpsn	file "../ST7735.c",line 1394,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1397 | ST7735_DrawPixel(X+1, j,   ST7735_BLUE) ;                              
+; 1394 | ST7735_DrawPixel(X+1, j,   ST7735_BLUE) ;                              
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1397| 
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1397| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1397| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1397| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1397| 
-        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1397| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1394| 
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1394| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1394| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1394| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1394| 
+        SXTH      A1, A1                ; [DPU_V7M3_PIPE] |1394| 
 $C$DW$347	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$347, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$347, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$347, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1397| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1397| 
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1394| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1394| 
 ;* --------------------------------------------------------------------------*
 ||$C$L110||:    
-	.dwpsn	file "../ST7735.c",line 1399,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1396,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1399 | lastj = j;                                                             
+; 1396 | lastj = j;                                                             
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1399| 
-        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1399| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1399| 
-	.dwpsn	file "../ST7735.c",line 1400,column 1,is_stmt,isa 1
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1396| 
+        LDR       A2, $C$CON40          ; [DPU_V7M3_PIPE] |1396| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1396| 
+	.dwpsn	file "../ST7735.c",line 1397,column 1,is_stmt,isa 1
 $C$DW$348	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$348, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$348, DW_AT_TI_return
@@ -11028,7 +11026,7 @@ $C$DW$348	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$337, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$337, DW_AT_TI_end_line(0x578)
+	.dwattr $C$DW$337, DW_AT_TI_end_line(0x575)
 	.dwattr $C$DW$337, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$337
@@ -11046,13 +11044,13 @@ $C$DW$349	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$349, DW_AT_TI_symbol_name("ST7735_PlotPoints")
 	.dwattr $C$DW$349, DW_AT_external
 	.dwattr $C$DW$349, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$349, DW_AT_TI_begin_line(0x580)
+	.dwattr $C$DW$349, DW_AT_TI_begin_line(0x57d)
 	.dwattr $C$DW$349, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$349, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$349, DW_AT_decl_line(0x580)
+	.dwattr $C$DW$349, DW_AT_decl_line(0x57d)
 	.dwattr $C$DW$349, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$349, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 1408,column 46,is_stmt,address ST7735_PlotPoints,isa 1
+	.dwpsn	file "../ST7735.c",line 1405,column 46,is_stmt,address ST7735_PlotPoints,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotPoints
 $C$DW$350	.dwtag  DW_TAG_formal_parameter
@@ -11107,134 +11105,134 @@ $C$DW$354	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$354, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
-; 1408 | void ST7735_PlotPoints(int32_t y1,int32_t y2){int32_t j;               
+; 1405 | void ST7735_PlotPoints(int32_t y1,int32_t y2){int32_t j;               
 ;----------------------------------------------------------------------
-        STR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1408| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1408| 
-	.dwpsn	file "../ST7735.c",line 1409,column 3,is_stmt,isa 1
+        STR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1405| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1405| 
+	.dwpsn	file "../ST7735.c",line 1406,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1409 | if(y1<Ymin) y1=Ymin;                                                   
+; 1406 | if(y1<Ymin) y1=Ymin;                                                   
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1409| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1409| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1409| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1409| 
-        BLE       ||$C$L111||           ; [DPU_V7M3_PIPE] |1409| 
-        ; BRANCHCC OCCURS {||$C$L111||}  ; [] |1409| 
+        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1406| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1406| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1406| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1406| 
+        BLE       ||$C$L111||           ; [DPU_V7M3_PIPE] |1406| 
+        ; BRANCHCC OCCURS {||$C$L111||}  ; [] |1406| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1409,column 15,is_stmt,isa 1
-        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1409| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1409| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1409| 
+	.dwpsn	file "../ST7735.c",line 1406,column 15,is_stmt,isa 1
+        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1406| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1406| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1406| 
 ;* --------------------------------------------------------------------------*
 ||$C$L111||:    
-	.dwpsn	file "../ST7735.c",line 1410,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1407,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1410 | if(y1>Ymax) y1=Ymax;                                                   
+; 1407 | if(y1>Ymax) y1=Ymax;                                                   
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1410| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1410| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1410| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1410| 
-        BGE       ||$C$L112||           ; [DPU_V7M3_PIPE] |1410| 
-        ; BRANCHCC OCCURS {||$C$L112||}  ; [] |1410| 
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1407| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1407| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1407| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1407| 
+        BGE       ||$C$L112||           ; [DPU_V7M3_PIPE] |1407| 
+        ; BRANCHCC OCCURS {||$C$L112||}  ; [] |1407| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1410,column 15,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1407,column 15,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1411 | // X goes from 0 to 127                                                
-; 1412 | // j goes from 159 to 32                                               
-; 1413 | // y=Ymax maps to j=32                                                 
-; 1414 | // y=Ymin maps to j=159                                                
+; 1408 | // X goes from 0 to 127                                                
+; 1409 | // j goes from 159 to 32                                               
+; 1410 | // y=Ymax maps to j=32                                                 
+; 1411 | // y=Ymin maps to j=159                                                
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1410| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1410| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1410| 
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1407| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1407| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1407| 
 ;* --------------------------------------------------------------------------*
 ||$C$L112||:    
-	.dwpsn	file "../ST7735.c",line 1415,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1412,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1415 | j = 32+(127*(Ymax-y1))/Yrange;                                         
+; 1412 | j = 32+(127*(Ymax-y1))/Yrange;                                         
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1415| 
-        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1415| 
-        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1415| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1415| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1415| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1415| 
-        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1415| 
-        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1415| 
-        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1415| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1415| 
-	.dwpsn	file "../ST7735.c",line 1416,column 3,is_stmt,isa 1
+        LDR       A1, $C$CON36          ; [DPU_V7M3_PIPE] |1412| 
+        LDR       A2, $C$CON38          ; [DPU_V7M3_PIPE] |1412| 
+        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1412| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1412| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1412| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1412| 
+        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1412| 
+        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1412| 
+        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1412| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1412| 
+	.dwpsn	file "../ST7735.c",line 1413,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1416 | if(j<32) j = 32;                                                       
+; 1413 | if(j<32) j = 32;                                                       
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1416| 
-        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1416| 
-        BGE       ||$C$L113||           ; [DPU_V7M3_PIPE] |1416| 
-        ; BRANCHCC OCCURS {||$C$L113||}  ; [] |1416| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1413| 
+        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1413| 
+        BGE       ||$C$L113||           ; [DPU_V7M3_PIPE] |1413| 
+        ; BRANCHCC OCCURS {||$C$L113||}  ; [] |1413| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1416,column 12,is_stmt,isa 1
-        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1416| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1416| 
+	.dwpsn	file "../ST7735.c",line 1413,column 12,is_stmt,isa 1
+        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1413| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1413| 
 ;* --------------------------------------------------------------------------*
 ||$C$L113||:    
-	.dwpsn	file "../ST7735.c",line 1417,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1414,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1417 | if(j>159) j = 159;                                                     
+; 1414 | if(j>159) j = 159;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1417| 
-        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1417| 
-        BLE       ||$C$L114||           ; [DPU_V7M3_PIPE] |1417| 
-        ; BRANCHCC OCCURS {||$C$L114||}  ; [] |1417| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1414| 
+        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1414| 
+        BLE       ||$C$L114||           ; [DPU_V7M3_PIPE] |1414| 
+        ; BRANCHCC OCCURS {||$C$L114||}  ; [] |1414| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1417,column 13,is_stmt,isa 1
-        MOVS      A1, #159              ; [DPU_V7M3_PIPE] |1417| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1417| 
+	.dwpsn	file "../ST7735.c",line 1414,column 13,is_stmt,isa 1
+        MOVS      A1, #159              ; [DPU_V7M3_PIPE] |1414| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1414| 
 ;* --------------------------------------------------------------------------*
 ||$C$L114||:    
-	.dwpsn	file "../ST7735.c",line 1418,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1415,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1418 | ST7735_DrawPixel(X, j, ST7735_BLUE);                                   
+; 1415 | ST7735_DrawPixel(X, j, ST7735_BLUE);                                   
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1418| 
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1418| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1418| 
-        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1418| 
+        LDR       A1, $C$CON39          ; [DPU_V7M3_PIPE] |1415| 
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1415| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1415| 
+        MOV       A3, #63488            ; [DPU_V7M3_PIPE] |1415| 
 $C$DW$355	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$355, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$355, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$355, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1418| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1418| 
-	.dwpsn	file "../ST7735.c",line 1419,column 3,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1415| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1415| 
+	.dwpsn	file "../ST7735.c",line 1416,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1419 | if(y2<Ymin) y2=Ymin;                                                   
+; 1416 | if(y2<Ymin) y2=Ymin;                                                   
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1419| 
-        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1419| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1419| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1419| 
-        BLE       ||$C$L115||           ; [DPU_V7M3_PIPE] |1419| 
-        ; BRANCHCC OCCURS {||$C$L115||}  ; [] |1419| 
+        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1416| 
+        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1416| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1416| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1416| 
+        BLE       ||$C$L115||           ; [DPU_V7M3_PIPE] |1416| 
+        ; BRANCHCC OCCURS {||$C$L115||}  ; [] |1416| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1419,column 15,is_stmt,isa 1
-        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1419| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1419| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1419| 
+	.dwpsn	file "../ST7735.c",line 1416,column 15,is_stmt,isa 1
+        LDR       A1, $C$CON37          ; [DPU_V7M3_PIPE] |1416| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1416| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1416| 
 ;* --------------------------------------------------------------------------*
 ||$C$L115||:    
-	.dwpsn	file "../ST7735.c",line 1420,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1417,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1420 | if(y2>Ymax) y2=Ymax;                                                   
+; 1417 | if(y2>Ymax) y2=Ymax;                                                   
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1420| 
-        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1420| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1420| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1420| 
-        BGE       ||$C$L117||           ; [DPU_V7M3_PIPE] |1420| 
-        ; BRANCHCC OCCURS {||$C$L117||}  ; [] |1420| 
+        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1417| 
+        LDR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1417| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1417| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1417| 
+        BGE       ||$C$L117||           ; [DPU_V7M3_PIPE] |1417| 
+        ; BRANCHCC OCCURS {||$C$L117||}  ; [] |1417| 
 ;* --------------------------------------------------------------------------*
         B         ||$C$L116||           ; [] 
         ; BRANCH OCCURS {||$C$L116||}    ; [] 
@@ -11252,70 +11250,70 @@ $C$DW$355	.dwtag  DW_TAG_TI_branch
 ||$C$CON39||:	.bits	X,32
 ;* --------------------------------------------------------------------------*
 ||$C$L116||:    
-	.dwpsn	file "../ST7735.c",line 1420,column 15,is_stmt,isa 1
-        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1420| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1420| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1420| 
+	.dwpsn	file "../ST7735.c",line 1417,column 15,is_stmt,isa 1
+        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1417| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1417| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1417| 
 ;* --------------------------------------------------------------------------*
 ||$C$L117||:    
-	.dwpsn	file "../ST7735.c",line 1421,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1418,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1421 | j = 32+(127*(Ymax-y2))/Yrange;                                         
+; 1418 | j = 32+(127*(Ymax-y2))/Yrange;                                         
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1421| 
-        LDR       A2, $C$CON42          ; [DPU_V7M3_PIPE] |1421| 
-        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1421| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1421| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1421| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1421| 
-        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1421| 
-        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1421| 
-        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1421| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1421| 
-	.dwpsn	file "../ST7735.c",line 1422,column 3,is_stmt,isa 1
+        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1418| 
+        LDR       A2, $C$CON42          ; [DPU_V7M3_PIPE] |1418| 
+        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1418| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1418| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1418| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1418| 
+        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1418| 
+        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1418| 
+        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1418| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1418| 
+	.dwpsn	file "../ST7735.c",line 1419,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1422 | if(j<32) j = 32;                                                       
+; 1419 | if(j<32) j = 32;                                                       
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1422| 
-        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1422| 
-        BGE       ||$C$L118||           ; [DPU_V7M3_PIPE] |1422| 
-        ; BRANCHCC OCCURS {||$C$L118||}  ; [] |1422| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1419| 
+        CMP       A1, #32               ; [DPU_V7M3_PIPE] |1419| 
+        BGE       ||$C$L118||           ; [DPU_V7M3_PIPE] |1419| 
+        ; BRANCHCC OCCURS {||$C$L118||}  ; [] |1419| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1422,column 12,is_stmt,isa 1
-        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1422| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1422| 
+	.dwpsn	file "../ST7735.c",line 1419,column 12,is_stmt,isa 1
+        MOVS      A1, #32               ; [DPU_V7M3_PIPE] |1419| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1419| 
 ;* --------------------------------------------------------------------------*
 ||$C$L118||:    
-	.dwpsn	file "../ST7735.c",line 1423,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1420,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1423 | if(j>159) j = 159;                                                     
+; 1420 | if(j>159) j = 159;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1423| 
-        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1423| 
-        BLE       ||$C$L119||           ; [DPU_V7M3_PIPE] |1423| 
-        ; BRANCHCC OCCURS {||$C$L119||}  ; [] |1423| 
+        LDR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1420| 
+        CMP       A1, #159              ; [DPU_V7M3_PIPE] |1420| 
+        BLE       ||$C$L119||           ; [DPU_V7M3_PIPE] |1420| 
+        ; BRANCHCC OCCURS {||$C$L119||}  ; [] |1420| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1423,column 13,is_stmt,isa 1
-        MOVS      A1, #159              ; [DPU_V7M3_PIPE] |1423| 
-        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1423| 
+	.dwpsn	file "../ST7735.c",line 1420,column 13,is_stmt,isa 1
+        MOVS      A1, #159              ; [DPU_V7M3_PIPE] |1420| 
+        STR       A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1420| 
 ;* --------------------------------------------------------------------------*
 ||$C$L119||:    
-	.dwpsn	file "../ST7735.c",line 1424,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1421,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1424 | ST7735_DrawPixel(X, j, ST7735_BLACK);                                  
+; 1421 | ST7735_DrawPixel(X, j, ST7735_BLACK);                                  
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1424| 
-        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1424| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1424| 
-        MOVS      A3, #0                ; [DPU_V7M3_PIPE] |1424| 
+        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1421| 
+        LDRSH     A2, [SP, #8]          ; [DPU_V7M3_PIPE] |1421| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1421| 
+        MOVS      A3, #0                ; [DPU_V7M3_PIPE] |1421| 
 $C$DW$356	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$356, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$356, DW_AT_name("ST7735_DrawPixel")
 	.dwattr $C$DW$356, DW_AT_TI_call
 
-        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1424| 
-        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1424| 
-	.dwpsn	file "../ST7735.c",line 1425,column 1,is_stmt,isa 1
+        BL        ST7735_DrawPixel      ; [DPU_V7M3_PIPE] |1421| 
+        ; CALL OCCURS {ST7735_DrawPixel }  ; [] |1421| 
+	.dwpsn	file "../ST7735.c",line 1422,column 1,is_stmt,isa 1
 $C$DW$357	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$357, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$357, DW_AT_TI_return
@@ -11327,7 +11325,7 @@ $C$DW$357	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$349, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$349, DW_AT_TI_end_line(0x591)
+	.dwattr $C$DW$349, DW_AT_TI_end_line(0x58e)
 	.dwattr $C$DW$349, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$349
@@ -11345,13 +11343,13 @@ $C$DW$358	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$358, DW_AT_TI_symbol_name("ST7735_PlotBar")
 	.dwattr $C$DW$358, DW_AT_external
 	.dwattr $C$DW$358, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$358, DW_AT_TI_begin_line(0x597)
+	.dwattr $C$DW$358, DW_AT_TI_begin_line(0x594)
 	.dwattr $C$DW$358, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$358, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$358, DW_AT_decl_line(0x597)
+	.dwattr $C$DW$358, DW_AT_decl_line(0x594)
 	.dwattr $C$DW$358, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$358, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 1431,column 31,is_stmt,address ST7735_PlotBar,isa 1
+	.dwpsn	file "../ST7735.c",line 1428,column 31,is_stmt,address ST7735_PlotBar,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotBar
 $C$DW$359	.dwtag  DW_TAG_formal_parameter
@@ -11394,83 +11392,83 @@ $C$DW$361	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$361, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
-; 1431 | void ST7735_PlotBar(int32_t y){                                        
-; 1432 | int32_t j;                                                             
+; 1428 | void ST7735_PlotBar(int32_t y){                                        
+; 1429 | int32_t j;                                                             
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1431| 
-	.dwpsn	file "../ST7735.c",line 1433,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1428| 
+	.dwpsn	file "../ST7735.c",line 1430,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1433 | if(y<Ymin) y=Ymin;                                                     
+; 1430 | if(y<Ymin) y=Ymin;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON44          ; [DPU_V7M3_PIPE] |1433| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1433| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1433| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1433| 
-        BLE       ||$C$L120||           ; [DPU_V7M3_PIPE] |1433| 
-        ; BRANCHCC OCCURS {||$C$L120||}  ; [] |1433| 
+        LDR       A1, $C$CON44          ; [DPU_V7M3_PIPE] |1430| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1430| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1430| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1430| 
+        BLE       ||$C$L120||           ; [DPU_V7M3_PIPE] |1430| 
+        ; BRANCHCC OCCURS {||$C$L120||}  ; [] |1430| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1433,column 14,is_stmt,isa 1
-        LDR       A1, $C$CON44          ; [DPU_V7M3_PIPE] |1433| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1433| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1433| 
+	.dwpsn	file "../ST7735.c",line 1430,column 14,is_stmt,isa 1
+        LDR       A1, $C$CON44          ; [DPU_V7M3_PIPE] |1430| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1430| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1430| 
 ;* --------------------------------------------------------------------------*
 ||$C$L120||:    
-	.dwpsn	file "../ST7735.c",line 1434,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1431,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1434 | if(y>Ymax) y=Ymax;                                                     
+; 1431 | if(y>Ymax) y=Ymax;                                                     
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1434| 
-        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1434| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1434| 
-        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1434| 
-        BGE       ||$C$L121||           ; [DPU_V7M3_PIPE] |1434| 
-        ; BRANCHCC OCCURS {||$C$L121||}  ; [] |1434| 
+        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1431| 
+        LDR       A2, [SP, #0]          ; [DPU_V7M3_PIPE] |1431| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1431| 
+        CMP       A1, A2                ; [DPU_V7M3_PIPE] |1431| 
+        BGE       ||$C$L121||           ; [DPU_V7M3_PIPE] |1431| 
+        ; BRANCHCC OCCURS {||$C$L121||}  ; [] |1431| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1434,column 14,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1431,column 14,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1435 | // X goes from 0 to 127                                                
-; 1436 | // j goes from 159 to 32                                               
-; 1437 | // y=Ymax maps to j=32                                                 
-; 1438 | // y=Ymin maps to j=159                                                
+; 1432 | // X goes from 0 to 127                                                
+; 1433 | // j goes from 159 to 32                                               
+; 1434 | // y=Ymax maps to j=32                                                 
+; 1435 | // y=Ymin maps to j=159                                                
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1434| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1434| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1434| 
+        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1431| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1431| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1431| 
 ;* --------------------------------------------------------------------------*
 ||$C$L121||:    
-	.dwpsn	file "../ST7735.c",line 1439,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1436,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1439 | j = 32+(127*(Ymax-y))/Yrange;                                          
+; 1436 | j = 32+(127*(Ymax-y))/Yrange;                                          
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1439| 
-        LDR       A2, $C$CON42          ; [DPU_V7M3_PIPE] |1439| 
-        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1439| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1439| 
-        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1439| 
-        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1439| 
-        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1439| 
-        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1439| 
-        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1439| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1439| 
-	.dwpsn	file "../ST7735.c",line 1440,column 3,is_stmt,isa 1
+        LDR       A1, $C$CON41          ; [DPU_V7M3_PIPE] |1436| 
+        LDR       A2, $C$CON42          ; [DPU_V7M3_PIPE] |1436| 
+        LDR       A3, [SP, #0]          ; [DPU_V7M3_PIPE] |1436| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1436| 
+        LDR       A2, [A2, #0]          ; [DPU_V7M3_PIPE] |1436| 
+        SUBS      A1, A1, A3            ; [DPU_V7M3_PIPE] |1436| 
+        RSB       A1, A1, A1, LSL #7    ; [DPU_V7M3_PIPE] |1436| 
+        SDIV      A1, A1, A2            ; [DPU_V7M3_PIPE] |1436| 
+        ADDS      A1, A1, #32           ; [DPU_V7M3_PIPE] |1436| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1436| 
+	.dwpsn	file "../ST7735.c",line 1437,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1440 | ST7735_DrawFastVLine(X, j, 159-j, ST7735_BLACK);                       
+; 1437 | ST7735_DrawFastVLine(X, j, 159-j, ST7735_BLACK);                       
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1440| 
-        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1440| 
-        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1440| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1440| 
-        MOVS      A4, #0                ; [DPU_V7M3_PIPE] |1440| 
-        RSB       A3, A3, #159          ; [DPU_V7M3_PIPE] |1440| 
-        SXTH      A3, A3                ; [DPU_V7M3_PIPE] |1440| 
+        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1437| 
+        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1437| 
+        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1437| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1437| 
+        MOVS      A4, #0                ; [DPU_V7M3_PIPE] |1437| 
+        RSB       A3, A3, #159          ; [DPU_V7M3_PIPE] |1437| 
+        SXTH      A3, A3                ; [DPU_V7M3_PIPE] |1437| 
 $C$DW$362	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$362, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$362, DW_AT_name("ST7735_DrawFastVLine")
 	.dwattr $C$DW$362, DW_AT_TI_call
 
-        BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1440| 
-        ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1440| 
-	.dwpsn	file "../ST7735.c",line 1442,column 1,is_stmt,isa 1
+        BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1437| 
+        ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1437| 
+	.dwpsn	file "../ST7735.c",line 1439,column 1,is_stmt,isa 1
 $C$DW$363	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$363, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$363, DW_AT_TI_return
@@ -11482,7 +11480,7 @@ $C$DW$363	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$358, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$358, DW_AT_TI_end_line(0x5a2)
+	.dwattr $C$DW$358, DW_AT_TI_end_line(0x59f)
 	.dwattr $C$DW$358, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$358
@@ -11500,13 +11498,13 @@ $C$DW$364	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$364, DW_AT_TI_symbol_name("ST7735_PlotdBfs")
 	.dwattr $C$DW$364, DW_AT_external
 	.dwattr $C$DW$364, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$364, DW_AT_TI_begin_line(0x5c7)
+	.dwattr $C$DW$364, DW_AT_TI_begin_line(0x5c4)
 	.dwattr $C$DW$364, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$364, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$364, DW_AT_decl_line(0x5c7)
+	.dwattr $C$DW$364, DW_AT_decl_line(0x5c4)
 	.dwattr $C$DW$364, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$364, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 1479,column 32,is_stmt,address ST7735_PlotdBfs,isa 1
+	.dwpsn	file "../ST7735.c",line 1476,column 32,is_stmt,address ST7735_PlotdBfs,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotdBfs
 $C$DW$365	.dwtag  DW_TAG_formal_parameter
@@ -11549,80 +11547,80 @@ $C$DW$367	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$367, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
-; 1479 | void ST7735_PlotdBfs(int32_t y){                                       
-; 1480 | int32_t j;                                                             
+; 1476 | void ST7735_PlotdBfs(int32_t y){                                       
+; 1477 | int32_t j;                                                             
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1479| 
-	.dwpsn	file "../ST7735.c",line 1481,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1476| 
+	.dwpsn	file "../ST7735.c",line 1478,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1481 | y = y/2; // 0 to 2047                                                  
+; 1478 | y = y/2; // 0 to 2047                                                  
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1481| 
-        ADD       A1, A1, A1, LSR #31   ; [DPU_V7M3_PIPE] |1481| 
-        ASRS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1481| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1481| 
-	.dwpsn	file "../ST7735.c",line 1482,column 3,is_stmt,isa 1
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1478| 
+        ADD       A1, A1, A1, LSR #31   ; [DPU_V7M3_PIPE] |1478| 
+        ASRS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1478| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1478| 
+	.dwpsn	file "../ST7735.c",line 1479,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1482 | if(y<0) y=0;                                                           
+; 1479 | if(y<0) y=0;                                                           
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1482| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1482| 
-        BPL       ||$C$L122||           ; [DPU_V7M3_PIPE] |1482| 
-        ; BRANCHCC OCCURS {||$C$L122||}  ; [] |1482| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1479| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1479| 
+        BPL       ||$C$L122||           ; [DPU_V7M3_PIPE] |1479| 
+        ; BRANCHCC OCCURS {||$C$L122||}  ; [] |1479| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1482,column 11,is_stmt,isa 1
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1482| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1482| 
+	.dwpsn	file "../ST7735.c",line 1479,column 11,is_stmt,isa 1
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1479| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1479| 
 ;* --------------------------------------------------------------------------*
 ||$C$L122||:    
-	.dwpsn	file "../ST7735.c",line 1483,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1480,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1483 | if(y>511) y=511;                                                       
+; 1480 | if(y>511) y=511;                                                       
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1483| 
-        MOV       A2, #511              ; [DPU_V7M3_PIPE] |1483| 
-        CMP       A2, A1                ; [DPU_V7M3_PIPE] |1483| 
-        BGE       ||$C$L123||           ; [DPU_V7M3_PIPE] |1483| 
-        ; BRANCHCC OCCURS {||$C$L123||}  ; [] |1483| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1480| 
+        MOV       A2, #511              ; [DPU_V7M3_PIPE] |1480| 
+        CMP       A2, A1                ; [DPU_V7M3_PIPE] |1480| 
+        BGE       ||$C$L123||           ; [DPU_V7M3_PIPE] |1480| 
+        ; BRANCHCC OCCURS {||$C$L123||}  ; [] |1480| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1483,column 13,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1480,column 13,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1484 | // X goes from 0 to 127                                                
-; 1485 | // j goes from 159 to 32                                               
-; 1486 | // y=511 maps to j=32                                                  
-; 1487 | // y=0 maps to j=159                                                   
+; 1481 | // X goes from 0 to 127                                                
+; 1482 | // j goes from 159 to 32                                               
+; 1483 | // y=511 maps to j=32                                                  
+; 1484 | // y=0 maps to j=159                                                   
 ;----------------------------------------------------------------------
-        MOV       A1, #511              ; [DPU_V7M3_PIPE] |1483| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1483| 
+        MOV       A1, #511              ; [DPU_V7M3_PIPE] |1480| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1480| 
 ;* --------------------------------------------------------------------------*
 ||$C$L123||:    
-	.dwpsn	file "../ST7735.c",line 1488,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1485,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1488 | j = dBfs[y];                                                           
+; 1485 | j = dBfs[y];                                                           
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1488| 
-        LDR       A2, $C$CON45          ; [DPU_V7M3_PIPE] |1488| 
-        LDRB      A1, [A2, +A1]         ; [DPU_V7M3_PIPE] |1488| 
-        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1488| 
-	.dwpsn	file "../ST7735.c",line 1489,column 3,is_stmt,isa 1
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1485| 
+        LDR       A2, $C$CON45          ; [DPU_V7M3_PIPE] |1485| 
+        LDRB      A1, [A2, +A1]         ; [DPU_V7M3_PIPE] |1485| 
+        STR       A1, [SP, #4]          ; [DPU_V7M3_PIPE] |1485| 
+	.dwpsn	file "../ST7735.c",line 1486,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1489 | ST7735_DrawFastVLine(X, j, 159-j, ST7735_BLACK);                       
+; 1486 | ST7735_DrawFastVLine(X, j, 159-j, ST7735_BLACK);                       
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1489| 
-        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1489| 
-        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1489| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1489| 
-        MOVS      A4, #0                ; [DPU_V7M3_PIPE] |1489| 
-        RSB       A3, A3, #159          ; [DPU_V7M3_PIPE] |1489| 
-        SXTH      A3, A3                ; [DPU_V7M3_PIPE] |1489| 
+        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1486| 
+        LDR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1486| 
+        LDRSH     A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1486| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1486| 
+        MOVS      A4, #0                ; [DPU_V7M3_PIPE] |1486| 
+        RSB       A3, A3, #159          ; [DPU_V7M3_PIPE] |1486| 
+        SXTH      A3, A3                ; [DPU_V7M3_PIPE] |1486| 
 $C$DW$368	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$368, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$368, DW_AT_name("ST7735_DrawFastVLine")
 	.dwattr $C$DW$368, DW_AT_TI_call
 
-        BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1489| 
-        ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1489| 
-	.dwpsn	file "../ST7735.c",line 1491,column 1,is_stmt,isa 1
+        BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1486| 
+        ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1486| 
+	.dwpsn	file "../ST7735.c",line 1488,column 1,is_stmt,isa 1
 $C$DW$369	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$369, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$369, DW_AT_TI_return
@@ -11634,7 +11632,7 @@ $C$DW$369	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$364, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$364, DW_AT_TI_end_line(0x5d3)
+	.dwattr $C$DW$364, DW_AT_TI_end_line(0x5d0)
 	.dwattr $C$DW$364, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$364
@@ -11652,17 +11650,17 @@ $C$DW$370	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$370, DW_AT_TI_symbol_name("ST7735_PlotNext")
 	.dwattr $C$DW$370, DW_AT_external
 	.dwattr $C$DW$370, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$370, DW_AT_TI_begin_line(0x5db)
+	.dwattr $C$DW$370, DW_AT_TI_begin_line(0x5d8)
 	.dwattr $C$DW$370, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$370, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$370, DW_AT_decl_line(0x5db)
+	.dwattr $C$DW$370, DW_AT_decl_line(0x5d8)
 	.dwattr $C$DW$370, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$370, DW_AT_TI_max_frame_size(0x00)
-	.dwpsn	file "../ST7735.c",line 1499,column 27,is_stmt,address ST7735_PlotNext,isa 1
+	.dwpsn	file "../ST7735.c",line 1496,column 27,is_stmt,address ST7735_PlotNext,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotNext
 ;----------------------------------------------------------------------
-; 1499 | void ST7735_PlotNext(void){                                            
+; 1496 | void ST7735_PlotNext(void){                                            
 ;----------------------------------------------------------------------
 
 ;*****************************************************************************
@@ -11675,40 +11673,40 @@ $C$DW$370	.dwtag  DW_TAG_subprogram
 ST7735_PlotNext:
 ;* --------------------------------------------------------------------------*
 	.dwcfi	cfa_offset, 0
-	.dwpsn	file "../ST7735.c",line 1500,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1497,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1500 | if(X==127){                                                            
+; 1497 | if(X==127){                                                            
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1500| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1500| 
-        CMP       A1, #127              ; [DPU_V7M3_PIPE] |1500| 
-        BNE       ||$C$L124||           ; [DPU_V7M3_PIPE] |1500| 
-        ; BRANCHCC OCCURS {||$C$L124||}  ; [] |1500| 
+        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1497| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1497| 
+        CMP       A1, #127              ; [DPU_V7M3_PIPE] |1497| 
+        BNE       ||$C$L124||           ; [DPU_V7M3_PIPE] |1497| 
+        ; BRANCHCC OCCURS {||$C$L124||}  ; [] |1497| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1501,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1498,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1501 | X = 0;                                                                 
+; 1498 | X = 0;                                                                 
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON43          ; [DPU_V7M3_PIPE] |1501| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1501| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1501| 
-	.dwpsn	file "../ST7735.c",line 1502,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON43          ; [DPU_V7M3_PIPE] |1498| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1498| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1498| 
+	.dwpsn	file "../ST7735.c",line 1499,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1502 | } else{                                                                
+; 1499 | } else{                                                                
 ;----------------------------------------------------------------------
-        B         ||$C$L125||           ; [DPU_V7M3_PIPE] |1502| 
-        ; BRANCH OCCURS {||$C$L125||}    ; [] |1502| 
+        B         ||$C$L125||           ; [DPU_V7M3_PIPE] |1499| 
+        ; BRANCH OCCURS {||$C$L125||}    ; [] |1499| 
 ;* --------------------------------------------------------------------------*
 ||$C$L124||:    
-	.dwpsn	file "../ST7735.c",line 1503,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1500,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1503 | X++;                                                                   
+; 1500 | X++;                                                                   
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON43          ; [DPU_V7M3_PIPE] |1503| 
-        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1503| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1503| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1503| 
-	.dwpsn	file "../ST7735.c",line 1505,column 1,is_stmt,isa 1
+        LDR       A2, $C$CON43          ; [DPU_V7M3_PIPE] |1500| 
+        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1500| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1500| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1500| 
+	.dwpsn	file "../ST7735.c",line 1502,column 1,is_stmt,isa 1
 ;* --------------------------------------------------------------------------*
 ||$C$L125||:    
 $C$DW$371	.dwtag  DW_TAG_TI_branch
@@ -11718,7 +11716,7 @@ $C$DW$371	.dwtag  DW_TAG_TI_branch
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$370, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$370, DW_AT_TI_end_line(0x5e1)
+	.dwattr $C$DW$370, DW_AT_TI_end_line(0x5de)
 	.dwattr $C$DW$370, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$370
@@ -11736,17 +11734,17 @@ $C$DW$372	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$372, DW_AT_TI_symbol_name("ST7735_PlotNextErase")
 	.dwattr $C$DW$372, DW_AT_external
 	.dwattr $C$DW$372, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$372, DW_AT_TI_begin_line(0x5e9)
+	.dwattr $C$DW$372, DW_AT_TI_begin_line(0x5e6)
 	.dwattr $C$DW$372, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$372, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$372, DW_AT_decl_line(0x5e9)
+	.dwattr $C$DW$372, DW_AT_decl_line(0x5e6)
 	.dwattr $C$DW$372, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$372, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1513,column 32,is_stmt,address ST7735_PlotNextErase,isa 1
+	.dwpsn	file "../ST7735.c",line 1510,column 32,is_stmt,address ST7735_PlotNextErase,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_PlotNextErase
 ;----------------------------------------------------------------------
-; 1513 | void ST7735_PlotNextErase(void){                                       
+; 1510 | void ST7735_PlotNextErase(void){                                       
 ;----------------------------------------------------------------------
 
 ;*****************************************************************************
@@ -11767,68 +11765,68 @@ ST7735_PlotNextErase:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-	.dwpsn	file "../ST7735.c",line 1514,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1511,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1514 | if(X==127){                                                            
+; 1511 | if(X==127){                                                            
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1514| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1514| 
-        CMP       A1, #127              ; [DPU_V7M3_PIPE] |1514| 
-        BNE       ||$C$L126||           ; [DPU_V7M3_PIPE] |1514| 
-        ; BRANCHCC OCCURS {||$C$L126||}  ; [] |1514| 
+        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1511| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1511| 
+        CMP       A1, #127              ; [DPU_V7M3_PIPE] |1511| 
+        BNE       ||$C$L126||           ; [DPU_V7M3_PIPE] |1511| 
+        ; BRANCHCC OCCURS {||$C$L126||}  ; [] |1511| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1515,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1512,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1515 | X = 0;                                                                 
+; 1512 | X = 0;                                                                 
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON43          ; [DPU_V7M3_PIPE] |1515| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1515| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1515| 
-	.dwpsn	file "../ST7735.c",line 1516,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON43          ; [DPU_V7M3_PIPE] |1512| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1512| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1512| 
+	.dwpsn	file "../ST7735.c",line 1513,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1516 | } else{                                                                
+; 1513 | } else{                                                                
 ;----------------------------------------------------------------------
-        B         ||$C$L127||           ; [DPU_V7M3_PIPE] |1516| 
-        ; BRANCH OCCURS {||$C$L127||}    ; [] |1516| 
+        B         ||$C$L127||           ; [DPU_V7M3_PIPE] |1513| 
+        ; BRANCH OCCURS {||$C$L127||}    ; [] |1513| 
 ;* --------------------------------------------------------------------------*
 ||$C$L126||:    
-	.dwpsn	file "../ST7735.c",line 1517,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1514,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1517 | X++;                                                                   
+; 1514 | X++;                                                                   
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON43          ; [DPU_V7M3_PIPE] |1517| 
-        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1517| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1517| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1517| 
+        LDR       A2, $C$CON43          ; [DPU_V7M3_PIPE] |1514| 
+        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1514| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1514| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1514| 
 ;* --------------------------------------------------------------------------*
 ||$C$L127||:    
-	.dwpsn	file "../ST7735.c",line 1519,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1516,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1519 | ST7735_DrawFastVLine(X,32,128,ST7735_Color565(228,228,228));           
+; 1516 | ST7735_DrawFastVLine(X,32,128,ST7735_Color565(228,228,228));           
 ;----------------------------------------------------------------------
-        MOVS      A1, #228              ; [DPU_V7M3_PIPE] |1519| 
-        MOVS      A2, #228              ; [DPU_V7M3_PIPE] |1519| 
-        MOVS      A3, #228              ; [DPU_V7M3_PIPE] |1519| 
+        MOVS      A1, #228              ; [DPU_V7M3_PIPE] |1516| 
+        MOVS      A2, #228              ; [DPU_V7M3_PIPE] |1516| 
+        MOVS      A3, #228              ; [DPU_V7M3_PIPE] |1516| 
 $C$DW$373	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$373, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$373, DW_AT_name("ST7735_Color565")
 	.dwattr $C$DW$373, DW_AT_TI_call
 
-        BL        ST7735_Color565       ; [DPU_V7M3_PIPE] |1519| 
-        ; CALL OCCURS {ST7735_Color565 }  ; [] |1519| 
-        MOV       A4, A1                ; [DPU_V7M3_PIPE] |1519| 
-        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1519| 
-        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1519| 
-        MOVS      A2, #32               ; [DPU_V7M3_PIPE] |1519| 
-        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |1519| 
+        BL        ST7735_Color565       ; [DPU_V7M3_PIPE] |1516| 
+        ; CALL OCCURS {ST7735_Color565 }  ; [] |1516| 
+        MOV       A4, A1                ; [DPU_V7M3_PIPE] |1516| 
+        LDR       A1, $C$CON43          ; [DPU_V7M3_PIPE] |1516| 
+        LDRSH     A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1516| 
+        MOVS      A2, #32               ; [DPU_V7M3_PIPE] |1516| 
+        MOVS      A3, #128              ; [DPU_V7M3_PIPE] |1516| 
 $C$DW$374	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$374, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$374, DW_AT_name("ST7735_DrawFastVLine")
 	.dwattr $C$DW$374, DW_AT_TI_call
 
-        BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1519| 
-        ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1519| 
-	.dwpsn	file "../ST7735.c",line 1520,column 1,is_stmt,isa 1
+        BL        ST7735_DrawFastVLine  ; [DPU_V7M3_PIPE] |1516| 
+        ; CALL OCCURS {ST7735_DrawFastVLine }  ; [] |1516| 
+	.dwpsn	file "../ST7735.c",line 1517,column 1,is_stmt,isa 1
 $C$DW$375	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$375, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$375, DW_AT_TI_return
@@ -11838,7 +11836,7 @@ $C$DW$375	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$372, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$372, DW_AT_TI_end_line(0x5f0)
+	.dwattr $C$DW$372, DW_AT_TI_end_line(0x5ed)
 	.dwattr $C$DW$372, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$372
@@ -11862,13 +11860,13 @@ $C$DW$376	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$376, DW_AT_TI_symbol_name("ST7735_OutChar")
 	.dwattr $C$DW$376, DW_AT_external
 	.dwattr $C$DW$376, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$376, DW_AT_TI_begin_line(0x623)
+	.dwattr $C$DW$376, DW_AT_TI_begin_line(0x620)
 	.dwattr $C$DW$376, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$376, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$376, DW_AT_decl_line(0x623)
+	.dwattr $C$DW$376, DW_AT_decl_line(0x620)
 	.dwattr $C$DW$376, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$376, DW_AT_TI_max_frame_size(0x18)
-	.dwpsn	file "../ST7735.c",line 1571,column 29,is_stmt,address ST7735_OutChar,isa 1
+	.dwpsn	file "../ST7735.c",line 1568,column 29,is_stmt,address ST7735_OutChar,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_OutChar
 $C$DW$377	.dwtag  DW_TAG_formal_parameter
@@ -11907,171 +11905,171 @@ $C$DW$378	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$378, DW_AT_location[DW_OP_breg13 8]
 
 ;----------------------------------------------------------------------
-; 1571 | void ST7735_OutChar(char ch){                                          
+; 1568 | void ST7735_OutChar(char ch){                                          
 ;----------------------------------------------------------------------
-        STRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1571| 
-	.dwpsn	file "../ST7735.c",line 1572,column 3,is_stmt,isa 1
+        STRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1568| 
+	.dwpsn	file "../ST7735.c",line 1569,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1572 | if((ch == 10) || (ch == 13) || (ch == 27)){                            
+; 1569 | if((ch == 10) || (ch == 13) || (ch == 27)){                            
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1572| 
-        CMP       A1, #10               ; [DPU_V7M3_PIPE] |1572| 
-        BEQ       ||$C$L128||           ; [DPU_V7M3_PIPE] |1572| 
-        ; BRANCHCC OCCURS {||$C$L128||}  ; [] |1572| 
+        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1569| 
+        CMP       A1, #10               ; [DPU_V7M3_PIPE] |1569| 
+        BEQ       ||$C$L128||           ; [DPU_V7M3_PIPE] |1569| 
+        ; BRANCHCC OCCURS {||$C$L128||}  ; [] |1569| 
 ;* --------------------------------------------------------------------------*
-        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1572| 
-        CMP       A1, #13               ; [DPU_V7M3_PIPE] |1572| 
-        BEQ       ||$C$L128||           ; [DPU_V7M3_PIPE] |1572| 
-        ; BRANCHCC OCCURS {||$C$L128||}  ; [] |1572| 
+        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1569| 
+        CMP       A1, #13               ; [DPU_V7M3_PIPE] |1569| 
+        BEQ       ||$C$L128||           ; [DPU_V7M3_PIPE] |1569| 
+        ; BRANCHCC OCCURS {||$C$L128||}  ; [] |1569| 
 ;* --------------------------------------------------------------------------*
-        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1572| 
-        CMP       A1, #27               ; [DPU_V7M3_PIPE] |1572| 
-        BNE       ||$C$L130||           ; [DPU_V7M3_PIPE] |1572| 
-        ; BRANCHCC OCCURS {||$C$L130||}  ; [] |1572| 
+        LDRB      A1, [SP, #8]          ; [DPU_V7M3_PIPE] |1569| 
+        CMP       A1, #27               ; [DPU_V7M3_PIPE] |1569| 
+        BNE       ||$C$L130||           ; [DPU_V7M3_PIPE] |1569| 
+        ; BRANCHCC OCCURS {||$C$L130||}  ; [] |1569| 
 ;* --------------------------------------------------------------------------*
 ||$C$L128||:    
-	.dwpsn	file "../ST7735.c",line 1573,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1570,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1573 | StY++; StX=0;                                                          
+; 1570 | StY++; StX=0;                                                          
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON46          ; [DPU_V7M3_PIPE] |1573| 
-        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1573| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1573| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1573| 
-	.dwpsn	file "../ST7735.c",line 1573,column 12,is_stmt,isa 1
-        LDR       A2, $C$CON47          ; [DPU_V7M3_PIPE] |1573| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1573| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1573| 
-	.dwpsn	file "../ST7735.c",line 1574,column 5,is_stmt,isa 1
+        LDR       A2, $C$CON46          ; [DPU_V7M3_PIPE] |1570| 
+        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1570| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1570| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1570| 
+	.dwpsn	file "../ST7735.c",line 1570,column 12,is_stmt,isa 1
+        LDR       A2, $C$CON47          ; [DPU_V7M3_PIPE] |1570| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1570| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1570| 
+	.dwpsn	file "../ST7735.c",line 1571,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1574 | if(StY>15){                                                            
+; 1571 | if(StY>15){                                                            
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON46          ; [DPU_V7M3_PIPE] |1574| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1574| 
-        CMP       A1, #15               ; [DPU_V7M3_PIPE] |1574| 
-        BLS       ||$C$L129||           ; [DPU_V7M3_PIPE] |1574| 
-        ; BRANCHCC OCCURS {||$C$L129||}  ; [] |1574| 
+        LDR       A1, $C$CON46          ; [DPU_V7M3_PIPE] |1571| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1571| 
+        CMP       A1, #15               ; [DPU_V7M3_PIPE] |1571| 
+        BLS       ||$C$L129||           ; [DPU_V7M3_PIPE] |1571| 
+        ; BRANCHCC OCCURS {||$C$L129||}  ; [] |1571| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1575,column 7,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1572,column 7,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1575 | StY = 0;                                                               
+; 1572 | StY = 0;                                                               
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON46          ; [DPU_V7M3_PIPE] |1575| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1575| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1575| 
+        LDR       A2, $C$CON46          ; [DPU_V7M3_PIPE] |1572| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1572| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1572| 
 ;* --------------------------------------------------------------------------*
 ||$C$L129||:    
-	.dwpsn	file "../ST7735.c",line 1577,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1574,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1577 | ST7735_DrawString(0,StY,"                     ",StTextColor);          
+; 1574 | ST7735_DrawString(0,StY,"                     ",StTextColor);          
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON46          ; [DPU_V7M3_PIPE] |1577| 
-        LDR       A3, $C$CON48          ; [DPU_V7M3_PIPE] |1577| 
-        LDRH      A2, [A1, #0]          ; [DPU_V7M3_PIPE] |1577| 
-        LDRSH     A4, [A3, #0]          ; [DPU_V7M3_PIPE] |1577| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1577| 
-        ADR       A3, $C$SL1            ; [DPU_V7M3_PIPE] |1577| 
+        LDR       A1, $C$CON46          ; [DPU_V7M3_PIPE] |1574| 
+        LDR       A3, $C$CON48          ; [DPU_V7M3_PIPE] |1574| 
+        LDRH      A2, [A1, #0]          ; [DPU_V7M3_PIPE] |1574| 
+        LDRSH     A4, [A3, #0]          ; [DPU_V7M3_PIPE] |1574| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1574| 
+        ADR       A3, $C$SL1            ; [DPU_V7M3_PIPE] |1574| 
 $C$DW$379	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$379, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$379, DW_AT_name("ST7735_DrawString")
 	.dwattr $C$DW$379, DW_AT_TI_call
 
-        BL        ST7735_DrawString     ; [DPU_V7M3_PIPE] |1577| 
-        ; CALL OCCURS {ST7735_DrawString }  ; [] |1577| 
-	.dwpsn	file "../ST7735.c",line 1578,column 5,is_stmt,isa 1
+        BL        ST7735_DrawString     ; [DPU_V7M3_PIPE] |1574| 
+        ; CALL OCCURS {ST7735_DrawString }  ; [] |1574| 
+	.dwpsn	file "../ST7735.c",line 1575,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1578 | return;                                                                
+; 1575 | return;                                                                
 ;----------------------------------------------------------------------
-        B         ||$C$L131||           ; [DPU_V7M3_PIPE] |1578| 
-        ; BRANCH OCCURS {||$C$L131||}    ; [] |1578| 
+        B         ||$C$L131||           ; [DPU_V7M3_PIPE] |1575| 
+        ; BRANCH OCCURS {||$C$L131||}    ; [] |1575| 
 ;* --------------------------------------------------------------------------*
 ||$C$L130||:    
-	.dwpsn	file "../ST7735.c",line 1580,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1577,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1580 | ST7735_DrawCharS(StX*6,StY*10,ch,ST7735_YELLOW,ST7735_BLACK, 1);       
+; 1577 | ST7735_DrawCharS(StX*6,StY*10,ch,ST7735_YELLOW,ST7735_BLACK, 1);       
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1580| 
-        MOVS      A3, #1                ; [DPU_V7M3_PIPE] |1580| 
-        LDR       A2, $C$CON47          ; [DPU_V7M3_PIPE] |1580| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1580| 
-        LDR       A1, $C$CON46          ; [DPU_V7M3_PIPE] |1580| 
-        STR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1580| 
-        LDR       V1, [A2, #0]          ; [DPU_V7M3_PIPE] |1580| 
-        LDR       A4, [A1, #0]          ; [DPU_V7M3_PIPE] |1580| 
-        LDRB      A3, [SP, #8]          ; [DPU_V7M3_PIPE] |1580| 
-        LSLS      A2, V1, #1            ; [DPU_V7M3_PIPE] |1580| 
-        LSLS      A1, A4, #1            ; [DPU_V7M3_PIPE] |1580| 
-        ADD       A2, A2, V1, LSL #2    ; [DPU_V7M3_PIPE] |1580| 
-        ADD       A4, A1, A4, LSL #3    ; [DPU_V7M3_PIPE] |1580| 
-        SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1580| 
-        SXTH      A2, A4                ; [DPU_V7M3_PIPE] |1580| 
-        MOV       A4, #2047             ; [DPU_V7M3_PIPE] |1580| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1577| 
+        MOVS      A3, #1                ; [DPU_V7M3_PIPE] |1577| 
+        LDR       A2, $C$CON47          ; [DPU_V7M3_PIPE] |1577| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1577| 
+        LDR       A1, $C$CON46          ; [DPU_V7M3_PIPE] |1577| 
+        STR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1577| 
+        LDR       V1, [A2, #0]          ; [DPU_V7M3_PIPE] |1577| 
+        LDR       A4, [A1, #0]          ; [DPU_V7M3_PIPE] |1577| 
+        LDRB      A3, [SP, #8]          ; [DPU_V7M3_PIPE] |1577| 
+        LSLS      A2, V1, #1            ; [DPU_V7M3_PIPE] |1577| 
+        LSLS      A1, A4, #1            ; [DPU_V7M3_PIPE] |1577| 
+        ADD       A2, A2, V1, LSL #2    ; [DPU_V7M3_PIPE] |1577| 
+        ADD       A4, A1, A4, LSL #3    ; [DPU_V7M3_PIPE] |1577| 
+        SXTH      A1, A2                ; [DPU_V7M3_PIPE] |1577| 
+        SXTH      A2, A4                ; [DPU_V7M3_PIPE] |1577| 
+        MOV       A4, #2047             ; [DPU_V7M3_PIPE] |1577| 
 $C$DW$380	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$380, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$380, DW_AT_name("ST7735_DrawCharS")
 	.dwattr $C$DW$380, DW_AT_TI_call
 
-        BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1580| 
-        ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1580| 
-	.dwpsn	file "../ST7735.c",line 1581,column 3,is_stmt,isa 1
+        BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1577| 
+        ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1577| 
+	.dwpsn	file "../ST7735.c",line 1578,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1581 | StX++;                                                                 
+; 1578 | StX++;                                                                 
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON47          ; [DPU_V7M3_PIPE] |1581| 
-        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1581| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1581| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1581| 
-	.dwpsn	file "../ST7735.c",line 1582,column 3,is_stmt,isa 1
+        LDR       A2, $C$CON47          ; [DPU_V7M3_PIPE] |1578| 
+        LDR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1578| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1578| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1578| 
+	.dwpsn	file "../ST7735.c",line 1579,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1582 | if(StX>20){                                                            
+; 1579 | if(StX>20){                                                            
 ;----------------------------------------------------------------------
-        LDR       A1, $C$CON47          ; [DPU_V7M3_PIPE] |1582| 
-        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1582| 
-        CMP       A1, #20               ; [DPU_V7M3_PIPE] |1582| 
-        BLS       ||$C$L131||           ; [DPU_V7M3_PIPE] |1582| 
-        ; BRANCHCC OCCURS {||$C$L131||}  ; [] |1582| 
+        LDR       A1, $C$CON47          ; [DPU_V7M3_PIPE] |1579| 
+        LDR       A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1579| 
+        CMP       A1, #20               ; [DPU_V7M3_PIPE] |1579| 
+        BLS       ||$C$L131||           ; [DPU_V7M3_PIPE] |1579| 
+        ; BRANCHCC OCCURS {||$C$L131||}  ; [] |1579| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1583,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1580,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1583 | StX = 20;                                                              
+; 1580 | StX = 20;                                                              
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON47          ; [DPU_V7M3_PIPE] |1583| 
-        MOVS      A1, #20               ; [DPU_V7M3_PIPE] |1583| 
-        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1583| 
-	.dwpsn	file "../ST7735.c",line 1584,column 5,is_stmt,isa 1
+        LDR       A2, $C$CON47          ; [DPU_V7M3_PIPE] |1580| 
+        MOVS      A1, #20               ; [DPU_V7M3_PIPE] |1580| 
+        STR       A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1580| 
+	.dwpsn	file "../ST7735.c",line 1581,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1584 | ST7735_DrawCharS(StX*6,StY*10,'*',ST7735_RED,ST7735_BLACK, 1);         
+; 1581 | ST7735_DrawCharS(StX*6,StY*10,'*',ST7735_RED,ST7735_BLACK, 1);         
 ;----------------------------------------------------------------------
-        MOVS      A3, #1                ; [DPU_V7M3_PIPE] |1584| 
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1584| 
-        LDR       A2, $C$CON46          ; [DPU_V7M3_PIPE] |1584| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1584| 
-        LDR       A1, $C$CON47          ; [DPU_V7M3_PIPE] |1584| 
-        STR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1584| 
-        LDR       A4, [A2, #0]          ; [DPU_V7M3_PIPE] |1584| 
-        LDR       A3, [A1, #0]          ; [DPU_V7M3_PIPE] |1584| 
-        LSLS      A1, A4, #1            ; [DPU_V7M3_PIPE] |1584| 
-        LSLS      A2, A3, #1            ; [DPU_V7M3_PIPE] |1584| 
-        ADD       A1, A1, A4, LSL #3    ; [DPU_V7M3_PIPE] |1584| 
-        ADD       A3, A2, A3, LSL #2    ; [DPU_V7M3_PIPE] |1584| 
-        SXTH      A2, A1                ; [DPU_V7M3_PIPE] |1584| 
-        MOVS      A4, #31               ; [DPU_V7M3_PIPE] |1584| 
-        SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1584| 
-        MOVS      A3, #42               ; [DPU_V7M3_PIPE] |1584| 
+        MOVS      A3, #1                ; [DPU_V7M3_PIPE] |1581| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1581| 
+        LDR       A2, $C$CON46          ; [DPU_V7M3_PIPE] |1581| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1581| 
+        LDR       A1, $C$CON47          ; [DPU_V7M3_PIPE] |1581| 
+        STR       A3, [SP, #4]          ; [DPU_V7M3_PIPE] |1581| 
+        LDR       A4, [A2, #0]          ; [DPU_V7M3_PIPE] |1581| 
+        LDR       A3, [A1, #0]          ; [DPU_V7M3_PIPE] |1581| 
+        LSLS      A1, A4, #1            ; [DPU_V7M3_PIPE] |1581| 
+        LSLS      A2, A3, #1            ; [DPU_V7M3_PIPE] |1581| 
+        ADD       A1, A1, A4, LSL #3    ; [DPU_V7M3_PIPE] |1581| 
+        ADD       A3, A2, A3, LSL #2    ; [DPU_V7M3_PIPE] |1581| 
+        SXTH      A2, A1                ; [DPU_V7M3_PIPE] |1581| 
+        MOVS      A4, #31               ; [DPU_V7M3_PIPE] |1581| 
+        SXTH      A1, A3                ; [DPU_V7M3_PIPE] |1581| 
+        MOVS      A3, #42               ; [DPU_V7M3_PIPE] |1581| 
 $C$DW$381	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$381, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$381, DW_AT_name("ST7735_DrawCharS")
 	.dwattr $C$DW$381, DW_AT_TI_call
 
-        BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1584| 
-        ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1584| 
-	.dwpsn	file "../ST7735.c",line 1586,column 3,is_stmt,isa 1
+        BL        ST7735_DrawCharS      ; [DPU_V7M3_PIPE] |1581| 
+        ; CALL OCCURS {ST7735_DrawCharS }  ; [] |1581| 
+	.dwpsn	file "../ST7735.c",line 1583,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1586 | return;                                                                
+; 1583 | return;                                                                
 ;----------------------------------------------------------------------
 ;* --------------------------------------------------------------------------*
 ||$C$L131||:    
-	.dwpsn	file "../ST7735.c",line 1587,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1584,column 1,is_stmt,isa 1
         STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] 
 $C$DW$382	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$382, DW_AT_low_pc(0x00)
@@ -12086,7 +12084,7 @@ $C$DW$382	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 0
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$376, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$376, DW_AT_TI_end_line(0x633)
+	.dwattr $C$DW$376, DW_AT_TI_end_line(0x630)
 	.dwattr $C$DW$376, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$376
@@ -12104,13 +12102,13 @@ $C$DW$383	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$383, DW_AT_TI_symbol_name("ST7735_OutString")
 	.dwattr $C$DW$383, DW_AT_external
 	.dwattr $C$DW$383, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$383, DW_AT_TI_begin_line(0x63b)
+	.dwattr $C$DW$383, DW_AT_TI_begin_line(0x638)
 	.dwattr $C$DW$383, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$383, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$383, DW_AT_decl_line(0x63b)
+	.dwattr $C$DW$383, DW_AT_decl_line(0x638)
 	.dwattr $C$DW$383, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$383, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1595,column 33,is_stmt,address ST7735_OutString,isa 1
+	.dwpsn	file "../ST7735.c",line 1592,column 33,is_stmt,address ST7735_OutString,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_OutString
 $C$DW$384	.dwtag  DW_TAG_formal_parameter
@@ -12145,49 +12143,49 @@ $C$DW$385	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$385, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 1595 | void ST7735_OutString(char *ptr){                                      
+; 1592 | void ST7735_OutString(char *ptr){                                      
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1595| 
-	.dwpsn	file "../ST7735.c",line 1596,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1592| 
+	.dwpsn	file "../ST7735.c",line 1593,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1596 | while(*ptr){                                                           
+; 1593 | while(*ptr){                                                           
 ;----------------------------------------------------------------------
-        B         ||$C$L133||           ; [DPU_V7M3_PIPE] |1596| 
-        ; BRANCH OCCURS {||$C$L133||}    ; [] |1596| 
+        B         ||$C$L133||           ; [DPU_V7M3_PIPE] |1593| 
+        ; BRANCH OCCURS {||$C$L133||}    ; [] |1593| 
 ;* --------------------------------------------------------------------------*
 ||$C$L132||:    
-	.dwpsn	file "../ST7735.c",line 1597,column 5,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1594,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1597 | ST7735_OutChar(*ptr);                                                  
+; 1594 | ST7735_OutChar(*ptr);                                                  
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1597| 
-        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1597| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1594| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1594| 
 $C$DW$386	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$386, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$386, DW_AT_name("ST7735_OutChar")
 	.dwattr $C$DW$386, DW_AT_TI_call
 
-        BL        ST7735_OutChar        ; [DPU_V7M3_PIPE] |1597| 
-        ; CALL OCCURS {ST7735_OutChar }  ; [] |1597| 
-	.dwpsn	file "../ST7735.c",line 1598,column 5,is_stmt,isa 1
+        BL        ST7735_OutChar        ; [DPU_V7M3_PIPE] |1594| 
+        ; CALL OCCURS {ST7735_OutChar }  ; [] |1594| 
+	.dwpsn	file "../ST7735.c",line 1595,column 5,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1598 | ptr = ptr + 1;                                                         
+; 1595 | ptr = ptr + 1;                                                         
 ;----------------------------------------------------------------------
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1598| 
-        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1598| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1598| 
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1595| 
+        ADDS      A1, A1, #1            ; [DPU_V7M3_PIPE] |1595| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1595| 
 ;* --------------------------------------------------------------------------*
 ;*   BEGIN LOOP ||$C$L133||
 ;* --------------------------------------------------------------------------*
 ||$C$L133||:    
-	.dwpsn	file "../ST7735.c",line 1596,column 3,is_stmt,isa 1
-        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1596| 
-        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1596| 
-        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1596| 
-        BNE       ||$C$L132||           ; [DPU_V7M3_PIPE] |1596| 
-        ; BRANCHCC OCCURS {||$C$L132||}  ; [] |1596| 
+	.dwpsn	file "../ST7735.c",line 1593,column 3,is_stmt,isa 1
+        LDR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1593| 
+        LDRB      A1, [A1, #0]          ; [DPU_V7M3_PIPE] |1593| 
+        CMP       A1, #0                ; [DPU_V7M3_PIPE] |1593| 
+        BNE       ||$C$L132||           ; [DPU_V7M3_PIPE] |1593| 
+        ; BRANCHCC OCCURS {||$C$L132||}  ; [] |1593| 
 ;* --------------------------------------------------------------------------*
-	.dwpsn	file "../ST7735.c",line 1600,column 1,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1597,column 1,is_stmt,isa 1
 $C$DW$387	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$387, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$387, DW_AT_TI_return
@@ -12197,7 +12195,7 @@ $C$DW$387	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$383, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$383, DW_AT_TI_end_line(0x640)
+	.dwattr $C$DW$383, DW_AT_TI_end_line(0x63d)
 	.dwattr $C$DW$383, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$383
@@ -12215,13 +12213,13 @@ $C$DW$388	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$388, DW_AT_TI_symbol_name("ST7735_SetTextColor")
 	.dwattr $C$DW$388, DW_AT_external
 	.dwattr $C$DW$388, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$388, DW_AT_TI_begin_line(0x647)
+	.dwattr $C$DW$388, DW_AT_TI_begin_line(0x644)
 	.dwattr $C$DW$388, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$388, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$388, DW_AT_decl_line(0x647)
+	.dwattr $C$DW$388, DW_AT_decl_line(0x644)
 	.dwattr $C$DW$388, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$388, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1607,column 41,is_stmt,address ST7735_SetTextColor,isa 1
+	.dwpsn	file "../ST7735.c",line 1604,column 41,is_stmt,address ST7735_SetTextColor,isa 1
 
 	.dwfde $C$DW$CIE, ST7735_SetTextColor
 $C$DW$389	.dwtag  DW_TAG_formal_parameter
@@ -12250,17 +12248,17 @@ $C$DW$390	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$390, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 1607 | void ST7735_SetTextColor(uint16_t color){                              
+; 1604 | void ST7735_SetTextColor(uint16_t color){                              
 ;----------------------------------------------------------------------
-        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1607| 
-	.dwpsn	file "../ST7735.c",line 1608,column 3,is_stmt,isa 1
+        STRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1604| 
+	.dwpsn	file "../ST7735.c",line 1605,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1608 | StTextColor = color;                                                   
+; 1605 | StTextColor = color;                                                   
 ;----------------------------------------------------------------------
-        LDR       A2, $C$CON48          ; [DPU_V7M3_PIPE] |1608| 
-        LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1608| 
-        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1608| 
-	.dwpsn	file "../ST7735.c",line 1609,column 1,is_stmt,isa 1
+        LDR       A2, $C$CON48          ; [DPU_V7M3_PIPE] |1605| 
+        LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1605| 
+        STRH      A1, [A2, #0]          ; [DPU_V7M3_PIPE] |1605| 
+	.dwpsn	file "../ST7735.c",line 1606,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 $C$DW$391	.dwtag  DW_TAG_TI_branch
@@ -12270,7 +12268,7 @@ $C$DW$391	.dwtag  DW_TAG_TI_branch
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$388, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$388, DW_AT_TI_end_line(0x649)
+	.dwattr $C$DW$388, DW_AT_TI_end_line(0x646)
 	.dwattr $C$DW$388, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$388
@@ -12289,13 +12287,13 @@ $C$DW$392	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$392, DW_AT_external
 	.dwattr $C$DW$392, DW_AT_type(*$C$DW$T$10)
 	.dwattr $C$DW$392, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$392, DW_AT_TI_begin_line(0x64b)
+	.dwattr $C$DW$392, DW_AT_TI_begin_line(0x648)
 	.dwattr $C$DW$392, DW_AT_TI_begin_column(0x05)
 	.dwattr $C$DW$392, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$392, DW_AT_decl_line(0x64b)
+	.dwattr $C$DW$392, DW_AT_decl_line(0x648)
 	.dwattr $C$DW$392, DW_AT_decl_column(0x05)
 	.dwattr $C$DW$392, DW_AT_TI_max_frame_size(0x10)
-	.dwpsn	file "../ST7735.c",line 1611,column 27,is_stmt,address fputc,isa 1
+	.dwpsn	file "../ST7735.c",line 1608,column 27,is_stmt,address fputc,isa 1
 
 	.dwfde $C$DW$CIE, fputc
 $C$DW$393	.dwtag  DW_TAG_formal_parameter
@@ -12344,28 +12342,28 @@ $C$DW$396	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$396, DW_AT_location[DW_OP_breg13 4]
 
 ;----------------------------------------------------------------------
-; 1611 | int fputc(int ch, FILE *f){                                            
+; 1608 | int fputc(int ch, FILE *f){                                            
 ;----------------------------------------------------------------------
-        STR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1611| 
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1611| 
-	.dwpsn	file "../ST7735.c",line 1612,column 3,is_stmt,isa 1
+        STR       A2, [SP, #4]          ; [DPU_V7M3_PIPE] |1608| 
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1608| 
+	.dwpsn	file "../ST7735.c",line 1609,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1612 | ST7735_OutChar(ch);                                                    
+; 1609 | ST7735_OutChar(ch);                                                    
 ;----------------------------------------------------------------------
-        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1612| 
+        LDRB      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1609| 
 $C$DW$397	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$397, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$397, DW_AT_name("ST7735_OutChar")
 	.dwattr $C$DW$397, DW_AT_TI_call
 
-        BL        ST7735_OutChar        ; [DPU_V7M3_PIPE] |1612| 
-        ; CALL OCCURS {ST7735_OutChar }  ; [] |1612| 
-	.dwpsn	file "../ST7735.c",line 1613,column 3,is_stmt,isa 1
+        BL        ST7735_OutChar        ; [DPU_V7M3_PIPE] |1609| 
+        ; CALL OCCURS {ST7735_OutChar }  ; [] |1609| 
+	.dwpsn	file "../ST7735.c",line 1610,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1613 | return 1;                                                              
+; 1610 | return 1;                                                              
 ;----------------------------------------------------------------------
-        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |1613| 
-	.dwpsn	file "../ST7735.c",line 1614,column 1,is_stmt,isa 1
+        MOVS      A1, #1                ; [DPU_V7M3_PIPE] |1610| 
+	.dwpsn	file "../ST7735.c",line 1611,column 1,is_stmt,isa 1
 $C$DW$398	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$398, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$398, DW_AT_TI_return
@@ -12377,7 +12375,7 @@ $C$DW$398	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 1
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$392, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$392, DW_AT_TI_end_line(0x64e)
+	.dwattr $C$DW$392, DW_AT_TI_end_line(0x64b)
 	.dwattr $C$DW$392, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$392
@@ -12396,13 +12394,13 @@ $C$DW$399	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$399, DW_AT_external
 	.dwattr $C$DW$399, DW_AT_type(*$C$DW$T$10)
 	.dwattr $C$DW$399, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$399, DW_AT_TI_begin_line(0x650)
+	.dwattr $C$DW$399, DW_AT_TI_begin_line(0x64d)
 	.dwattr $C$DW$399, DW_AT_TI_begin_column(0x05)
 	.dwattr $C$DW$399, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$399, DW_AT_decl_line(0x650)
+	.dwattr $C$DW$399, DW_AT_decl_line(0x64d)
 	.dwattr $C$DW$399, DW_AT_decl_column(0x05)
 	.dwattr $C$DW$399, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1616,column 20,is_stmt,address fgetc,isa 1
+	.dwpsn	file "../ST7735.c",line 1613,column 20,is_stmt,address fgetc,isa 1
 
 	.dwfde $C$DW$CIE, fgetc
 $C$DW$400	.dwtag  DW_TAG_formal_parameter
@@ -12431,15 +12429,15 @@ $C$DW$401	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$401, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 1616 | int fgetc (FILE *f){                                                   
+; 1613 | int fgetc (FILE *f){                                                   
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1616| 
-	.dwpsn	file "../ST7735.c",line 1617,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1613| 
+	.dwpsn	file "../ST7735.c",line 1614,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1617 | return 0;                                                              
+; 1614 | return 0;                                                              
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1617| 
-	.dwpsn	file "../ST7735.c",line 1618,column 1,is_stmt,isa 1
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1614| 
+	.dwpsn	file "../ST7735.c",line 1615,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 $C$DW$402	.dwtag  DW_TAG_TI_branch
@@ -12449,7 +12447,7 @@ $C$DW$402	.dwtag  DW_TAG_TI_branch
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$399, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$399, DW_AT_TI_end_line(0x652)
+	.dwattr $C$DW$399, DW_AT_TI_end_line(0x64f)
 	.dwattr $C$DW$399, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$399
@@ -12468,13 +12466,13 @@ $C$DW$403	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$403, DW_AT_external
 	.dwattr $C$DW$403, DW_AT_type(*$C$DW$T$10)
 	.dwattr $C$DW$403, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$403, DW_AT_TI_begin_line(0x654)
+	.dwattr $C$DW$403, DW_AT_TI_begin_line(0x651)
 	.dwattr $C$DW$403, DW_AT_TI_begin_column(0x05)
 	.dwattr $C$DW$403, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$403, DW_AT_decl_line(0x654)
+	.dwattr $C$DW$403, DW_AT_decl_line(0x651)
 	.dwattr $C$DW$403, DW_AT_decl_column(0x05)
 	.dwattr $C$DW$403, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1620,column 20,is_stmt,address ferror,isa 1
+	.dwpsn	file "../ST7735.c",line 1617,column 20,is_stmt,address ferror,isa 1
 
 	.dwfde $C$DW$CIE, ferror
 $C$DW$404	.dwtag  DW_TAG_formal_parameter
@@ -12503,15 +12501,15 @@ $C$DW$405	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$405, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 1620 | int ferror(FILE *f){                                                   
+; 1617 | int ferror(FILE *f){                                                   
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1620| 
-	.dwpsn	file "../ST7735.c",line 1622,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1617| 
+	.dwpsn	file "../ST7735.c",line 1619,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1622 | return EOF;                                                            
+; 1619 | return EOF;                                                            
 ;----------------------------------------------------------------------
-        MOV       A1, #-1               ; [DPU_V7M3_PIPE] |1622| 
-	.dwpsn	file "../ST7735.c",line 1623,column 1,is_stmt,isa 1
+        MOV       A1, #-1               ; [DPU_V7M3_PIPE] |1619| 
+	.dwpsn	file "../ST7735.c",line 1620,column 1,is_stmt,isa 1
         ADD       SP, SP, #8            ; [DPU_V7M3_PIPE] 
 	.dwcfi	cfa_offset, 0
 $C$DW$406	.dwtag  DW_TAG_TI_branch
@@ -12521,7 +12519,7 @@ $C$DW$406	.dwtag  DW_TAG_TI_branch
         BX        LR                    ; [DPU_V7M3_PIPE] 
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$403, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$403, DW_AT_TI_end_line(0x657)
+	.dwattr $C$DW$403, DW_AT_TI_end_line(0x654)
 	.dwattr $C$DW$403, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$403
@@ -12539,17 +12537,17 @@ $C$DW$407	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$407, DW_AT_TI_symbol_name("Output_Init")
 	.dwattr $C$DW$407, DW_AT_external
 	.dwattr $C$DW$407, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$407, DW_AT_TI_begin_line(0x660)
+	.dwattr $C$DW$407, DW_AT_TI_begin_line(0x65d)
 	.dwattr $C$DW$407, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$407, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$407, DW_AT_decl_line(0x660)
+	.dwattr $C$DW$407, DW_AT_decl_line(0x65d)
 	.dwattr $C$DW$407, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$407, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1632,column 23,is_stmt,address Output_Init,isa 1
+	.dwpsn	file "../ST7735.c",line 1629,column 23,is_stmt,address Output_Init,isa 1
 
 	.dwfde $C$DW$CIE, Output_Init
 ;----------------------------------------------------------------------
-; 1632 | void Output_Init(void){                                                
+; 1629 | void Output_Init(void){                                                
 ;----------------------------------------------------------------------
 
 ;*****************************************************************************
@@ -12570,31 +12568,31 @@ Output_Init:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-	.dwpsn	file "../ST7735.c",line 1633,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1630,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1633 | ST7735_InitR(INITR_REDTAB);                                            
+; 1630 | ST7735_InitR(INITR_REDTAB);                                            
 ;----------------------------------------------------------------------
-        MOVS      A1, #2                ; [DPU_V7M3_PIPE] |1633| 
+        MOVS      A1, #2                ; [DPU_V7M3_PIPE] |1630| 
 $C$DW$408	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$408, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$408, DW_AT_name("ST7735_InitR")
 	.dwattr $C$DW$408, DW_AT_TI_call
 
-        BL        ST7735_InitR          ; [DPU_V7M3_PIPE] |1633| 
-        ; CALL OCCURS {ST7735_InitR }    ; [] |1633| 
-	.dwpsn	file "../ST7735.c",line 1634,column 3,is_stmt,isa 1
+        BL        ST7735_InitR          ; [DPU_V7M3_PIPE] |1630| 
+        ; CALL OCCURS {ST7735_InitR }    ; [] |1630| 
+	.dwpsn	file "../ST7735.c",line 1631,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1634 | ST7735_FillScreen(0);                 // set screen to black           
+; 1631 | ST7735_FillScreen(0);                 // set screen to black           
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1634| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1631| 
 $C$DW$409	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$409, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$409, DW_AT_name("ST7735_FillScreen")
 	.dwattr $C$DW$409, DW_AT_TI_call
 
-        BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |1634| 
-        ; CALL OCCURS {ST7735_FillScreen }  ; [] |1634| 
-	.dwpsn	file "../ST7735.c",line 1635,column 1,is_stmt,isa 1
+        BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |1631| 
+        ; CALL OCCURS {ST7735_FillScreen }  ; [] |1631| 
+	.dwpsn	file "../ST7735.c",line 1632,column 1,is_stmt,isa 1
 $C$DW$410	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$410, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$410, DW_AT_TI_return
@@ -12604,7 +12602,7 @@ $C$DW$410	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$407, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$407, DW_AT_TI_end_line(0x663)
+	.dwattr $C$DW$407, DW_AT_TI_end_line(0x660)
 	.dwattr $C$DW$407, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$407
@@ -12622,17 +12620,17 @@ $C$DW$411	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$411, DW_AT_TI_symbol_name("Output_Clear")
 	.dwattr $C$DW$411, DW_AT_external
 	.dwattr $C$DW$411, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$411, DW_AT_TI_begin_line(0x666)
+	.dwattr $C$DW$411, DW_AT_TI_begin_line(0x663)
 	.dwattr $C$DW$411, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$411, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$411, DW_AT_decl_line(0x666)
+	.dwattr $C$DW$411, DW_AT_decl_line(0x663)
 	.dwattr $C$DW$411, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$411, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1638,column 24,is_stmt,address Output_Clear,isa 1
+	.dwpsn	file "../ST7735.c",line 1635,column 24,is_stmt,address Output_Clear,isa 1
 
 	.dwfde $C$DW$CIE, Output_Clear
 ;----------------------------------------------------------------------
-; 1638 | void Output_Clear(void){ // Clears the display                         
+; 1635 | void Output_Clear(void){ // Clears the display                         
 ;----------------------------------------------------------------------
 
 ;*****************************************************************************
@@ -12653,19 +12651,19 @@ Output_Clear:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-	.dwpsn	file "../ST7735.c",line 1639,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1636,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1639 | ST7735_FillScreen(0);    // set screen to black                        
+; 1636 | ST7735_FillScreen(0);    // set screen to black                        
 ;----------------------------------------------------------------------
-        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1639| 
+        MOVS      A1, #0                ; [DPU_V7M3_PIPE] |1636| 
 $C$DW$412	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$412, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$412, DW_AT_name("ST7735_FillScreen")
 	.dwattr $C$DW$412, DW_AT_TI_call
 
-        BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |1639| 
-        ; CALL OCCURS {ST7735_FillScreen }  ; [] |1639| 
-	.dwpsn	file "../ST7735.c",line 1640,column 1,is_stmt,isa 1
+        BL        ST7735_FillScreen     ; [DPU_V7M3_PIPE] |1636| 
+        ; CALL OCCURS {ST7735_FillScreen }  ; [] |1636| 
+	.dwpsn	file "../ST7735.c",line 1637,column 1,is_stmt,isa 1
 $C$DW$413	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$413, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$413, DW_AT_TI_return
@@ -12675,7 +12673,7 @@ $C$DW$413	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$411, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$411, DW_AT_TI_end_line(0x668)
+	.dwattr $C$DW$411, DW_AT_TI_end_line(0x665)
 	.dwattr $C$DW$411, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$411
@@ -12693,17 +12691,17 @@ $C$DW$414	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$414, DW_AT_TI_symbol_name("Output_Off")
 	.dwattr $C$DW$414, DW_AT_external
 	.dwattr $C$DW$414, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$414, DW_AT_TI_begin_line(0x66a)
+	.dwattr $C$DW$414, DW_AT_TI_begin_line(0x667)
 	.dwattr $C$DW$414, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$414, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$414, DW_AT_decl_line(0x66a)
+	.dwattr $C$DW$414, DW_AT_decl_line(0x667)
 	.dwattr $C$DW$414, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$414, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1642,column 22,is_stmt,address Output_Off,isa 1
+	.dwpsn	file "../ST7735.c",line 1639,column 22,is_stmt,address Output_Off,isa 1
 
 	.dwfde $C$DW$CIE, Output_Off
 ;----------------------------------------------------------------------
-; 1642 | void Output_Off(void){   // Turns off the display                      
+; 1639 | void Output_Off(void){   // Turns off the display                      
 ;----------------------------------------------------------------------
 
 ;*****************************************************************************
@@ -12724,18 +12722,18 @@ Output_Off:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-	.dwpsn	file "../ST7735.c",line 1643,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1640,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1643 | Output_Clear();  // not implemented                                    
+; 1640 | Output_Clear();  // not implemented                                    
 ;----------------------------------------------------------------------
 $C$DW$415	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$415, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$415, DW_AT_name("Output_Clear")
 	.dwattr $C$DW$415, DW_AT_TI_call
 
-        BL        Output_Clear          ; [DPU_V7M3_PIPE] |1643| 
-        ; CALL OCCURS {Output_Clear }    ; [] |1643| 
-	.dwpsn	file "../ST7735.c",line 1644,column 1,is_stmt,isa 1
+        BL        Output_Clear          ; [DPU_V7M3_PIPE] |1640| 
+        ; CALL OCCURS {Output_Clear }    ; [] |1640| 
+	.dwpsn	file "../ST7735.c",line 1641,column 1,is_stmt,isa 1
 $C$DW$416	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$416, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$416, DW_AT_TI_return
@@ -12745,7 +12743,7 @@ $C$DW$416	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$414, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$414, DW_AT_TI_end_line(0x66c)
+	.dwattr $C$DW$414, DW_AT_TI_end_line(0x669)
 	.dwattr $C$DW$414, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$414
@@ -12763,17 +12761,17 @@ $C$DW$417	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$417, DW_AT_TI_symbol_name("Output_On")
 	.dwattr $C$DW$417, DW_AT_external
 	.dwattr $C$DW$417, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$417, DW_AT_TI_begin_line(0x66e)
+	.dwattr $C$DW$417, DW_AT_TI_begin_line(0x66b)
 	.dwattr $C$DW$417, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$417, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$417, DW_AT_decl_line(0x66e)
+	.dwattr $C$DW$417, DW_AT_decl_line(0x66b)
 	.dwattr $C$DW$417, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$417, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1646,column 21,is_stmt,address Output_On,isa 1
+	.dwpsn	file "../ST7735.c",line 1643,column 21,is_stmt,address Output_On,isa 1
 
 	.dwfde $C$DW$CIE, Output_On
 ;----------------------------------------------------------------------
-; 1646 | void Output_On(void){ // Turns on the display                          
+; 1643 | void Output_On(void){ // Turns on the display                          
 ;----------------------------------------------------------------------
 
 ;*****************************************************************************
@@ -12794,18 +12792,18 @@ Output_On:
 	.dwcfi	cfa_offset, 8
 	.dwcfi	save_reg_to_mem, 14, -4
 	.dwcfi	save_reg_to_mem, 3, -8
-	.dwpsn	file "../ST7735.c",line 1647,column 3,is_stmt,isa 1
+	.dwpsn	file "../ST7735.c",line 1644,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1647 | Output_Init();      // reinitialize                                    
+; 1644 | Output_Init();      // reinitialize                                    
 ;----------------------------------------------------------------------
 $C$DW$418	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$418, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$418, DW_AT_name("Output_Init")
 	.dwattr $C$DW$418, DW_AT_TI_call
 
-        BL        Output_Init           ; [DPU_V7M3_PIPE] |1647| 
-        ; CALL OCCURS {Output_Init }     ; [] |1647| 
-	.dwpsn	file "../ST7735.c",line 1648,column 1,is_stmt,isa 1
+        BL        Output_Init           ; [DPU_V7M3_PIPE] |1644| 
+        ; CALL OCCURS {Output_Init }     ; [] |1644| 
+	.dwpsn	file "../ST7735.c",line 1645,column 1,is_stmt,isa 1
 $C$DW$419	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$419, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$419, DW_AT_TI_return
@@ -12815,7 +12813,7 @@ $C$DW$419	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$417, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$417, DW_AT_TI_end_line(0x670)
+	.dwattr $C$DW$417, DW_AT_TI_end_line(0x66d)
 	.dwattr $C$DW$417, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$417
@@ -12833,13 +12831,13 @@ $C$DW$420	.dwtag  DW_TAG_subprogram
 	.dwattr $C$DW$420, DW_AT_TI_symbol_name("Output_Color")
 	.dwattr $C$DW$420, DW_AT_external
 	.dwattr $C$DW$420, DW_AT_TI_begin_file("../ST7735.c")
-	.dwattr $C$DW$420, DW_AT_TI_begin_line(0x675)
+	.dwattr $C$DW$420, DW_AT_TI_begin_line(0x672)
 	.dwattr $C$DW$420, DW_AT_TI_begin_column(0x06)
 	.dwattr $C$DW$420, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$420, DW_AT_decl_line(0x675)
+	.dwattr $C$DW$420, DW_AT_decl_line(0x672)
 	.dwattr $C$DW$420, DW_AT_decl_column(0x06)
 	.dwattr $C$DW$420, DW_AT_TI_max_frame_size(0x08)
-	.dwpsn	file "../ST7735.c",line 1653,column 37,is_stmt,address Output_Color,isa 1
+	.dwpsn	file "../ST7735.c",line 1650,column 37,is_stmt,address Output_Color,isa 1
 
 	.dwfde $C$DW$CIE, Output_Color
 $C$DW$421	.dwtag  DW_TAG_formal_parameter
@@ -12870,22 +12868,22 @@ $C$DW$422	.dwtag  DW_TAG_variable
 	.dwattr $C$DW$422, DW_AT_location[DW_OP_breg13 0]
 
 ;----------------------------------------------------------------------
-; 1653 | void Output_Color(uint32_t newColor){ // Set color of future output    
+; 1650 | void Output_Color(uint32_t newColor){ // Set color of future output    
 ;----------------------------------------------------------------------
-        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1653| 
-	.dwpsn	file "../ST7735.c",line 1654,column 3,is_stmt,isa 1
+        STR       A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1650| 
+	.dwpsn	file "../ST7735.c",line 1651,column 3,is_stmt,isa 1
 ;----------------------------------------------------------------------
-; 1654 | ST7735_SetTextColor(newColor);                                         
+; 1651 | ST7735_SetTextColor(newColor);                                         
 ;----------------------------------------------------------------------
-        LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1654| 
+        LDRH      A1, [SP, #0]          ; [DPU_V7M3_PIPE] |1651| 
 $C$DW$423	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$423, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$423, DW_AT_name("ST7735_SetTextColor")
 	.dwattr $C$DW$423, DW_AT_TI_call
 
-        BL        ST7735_SetTextColor   ; [DPU_V7M3_PIPE] |1654| 
-        ; CALL OCCURS {ST7735_SetTextColor }  ; [] |1654| 
-	.dwpsn	file "../ST7735.c",line 1655,column 1,is_stmt,isa 1
+        BL        ST7735_SetTextColor   ; [DPU_V7M3_PIPE] |1651| 
+        ; CALL OCCURS {ST7735_SetTextColor }  ; [] |1651| 
+	.dwpsn	file "../ST7735.c",line 1652,column 1,is_stmt,isa 1
 $C$DW$424	.dwtag  DW_TAG_TI_branch
 	.dwattr $C$DW$424, DW_AT_low_pc(0x00)
 	.dwattr $C$DW$424, DW_AT_TI_return
@@ -12895,7 +12893,7 @@ $C$DW$424	.dwtag  DW_TAG_TI_branch
 	.dwcfi	restore_reg, 3
         ; BRANCH OCCURS                  ; [] 
 	.dwattr $C$DW$420, DW_AT_TI_end_file("../ST7735.c")
-	.dwattr $C$DW$420, DW_AT_TI_end_line(0x677)
+	.dwattr $C$DW$420, DW_AT_TI_end_line(0x674)
 	.dwattr $C$DW$420, DW_AT_TI_end_column(0x01)
 	.dwendentry
 	.dwendtag $C$DW$420
@@ -12963,25 +12961,25 @@ $C$DW$425	.dwtag  DW_TAG_enumerator
 	.dwattr $C$DW$425, DW_AT_name("ALIVE")
 	.dwattr $C$DW$425, DW_AT_const_value(0x00)
 	.dwattr $C$DW$425, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$425, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$425, DW_AT_decl_line(0x678)
 	.dwattr $C$DW$425, DW_AT_decl_column(0x0f)
 
 $C$DW$426	.dwtag  DW_TAG_enumerator
 	.dwattr $C$DW$426, DW_AT_name("LOST")
 	.dwattr $C$DW$426, DW_AT_const_value(0x01)
 	.dwattr $C$DW$426, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$426, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$426, DW_AT_decl_line(0x678)
 	.dwattr $C$DW$426, DW_AT_decl_column(0x16)
 
 $C$DW$427	.dwtag  DW_TAG_enumerator
 	.dwattr $C$DW$427, DW_AT_name("DEAD")
 	.dwattr $C$DW$427, DW_AT_const_value(0x02)
 	.dwattr $C$DW$427, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$427, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$427, DW_AT_decl_line(0x678)
 	.dwattr $C$DW$427, DW_AT_decl_column(0x1c)
 
 	.dwattr $C$DW$T$25, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$T$25, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$T$25, DW_AT_decl_line(0x678)
 	.dwattr $C$DW$T$25, DW_AT_decl_column(0x0e)
 	.dwendtag $C$DW$T$25
 
@@ -12990,7 +12988,7 @@ $C$DW$T$26	.dwtag  DW_TAG_typedef
 	.dwattr $C$DW$T$26, DW_AT_type(*$C$DW$T$25)
 	.dwattr $C$DW$T$26, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$26, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$T$26, DW_AT_decl_line(0x67b)
+	.dwattr $C$DW$T$26, DW_AT_decl_line(0x678)
 	.dwattr $C$DW$T$26, DW_AT_decl_column(0x22)
 
 
@@ -13000,32 +12998,32 @@ $C$DW$428	.dwtag  DW_TAG_enumerator
 	.dwattr $C$DW$428, DW_AT_name("MENU")
 	.dwattr $C$DW$428, DW_AT_const_value(0x00)
 	.dwattr $C$DW$428, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$428, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$428, DW_AT_decl_line(0x679)
 	.dwattr $C$DW$428, DW_AT_decl_column(0x0f)
 
 $C$DW$429	.dwtag  DW_TAG_enumerator
 	.dwattr $C$DW$429, DW_AT_name("IDLE")
 	.dwattr $C$DW$429, DW_AT_const_value(0x01)
 	.dwattr $C$DW$429, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$429, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$429, DW_AT_decl_line(0x679)
 	.dwattr $C$DW$429, DW_AT_decl_column(0x15)
 
 $C$DW$430	.dwtag  DW_TAG_enumerator
 	.dwattr $C$DW$430, DW_AT_name("FEEDING")
 	.dwattr $C$DW$430, DW_AT_const_value(0x02)
 	.dwattr $C$DW$430, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$430, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$430, DW_AT_decl_line(0x679)
 	.dwattr $C$DW$430, DW_AT_decl_column(0x1b)
 
 $C$DW$431	.dwtag  DW_TAG_enumerator
 	.dwattr $C$DW$431, DW_AT_name("WALKING")
 	.dwattr $C$DW$431, DW_AT_const_value(0x03)
 	.dwattr $C$DW$431, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$431, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$431, DW_AT_decl_line(0x679)
 	.dwattr $C$DW$431, DW_AT_decl_column(0x24)
 
 	.dwattr $C$DW$T$27, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$T$27, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$T$27, DW_AT_decl_line(0x679)
 	.dwattr $C$DW$T$27, DW_AT_decl_column(0x0e)
 	.dwendtag $C$DW$T$27
 
@@ -13034,7 +13032,7 @@ $C$DW$T$28	.dwtag  DW_TAG_typedef
 	.dwattr $C$DW$T$28, DW_AT_type(*$C$DW$T$27)
 	.dwattr $C$DW$T$28, DW_AT_language(DW_LANG_C)
 	.dwattr $C$DW$T$28, DW_AT_decl_file("../ST7735.c")
-	.dwattr $C$DW$T$28, DW_AT_decl_line(0x67c)
+	.dwattr $C$DW$T$28, DW_AT_decl_line(0x679)
 	.dwattr $C$DW$T$28, DW_AT_decl_column(0x2d)
 
 

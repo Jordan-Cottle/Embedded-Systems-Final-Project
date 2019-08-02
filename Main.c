@@ -29,6 +29,7 @@ typedef enum {MENU, IDLE, FEEDING, WALKING} game_states;
 typedef enum {ALIVE, LOST, DEAD} pet_states;
 typedef enum {BASE, BONUS} image_states;
 typedef enum {TOP, MIDDLE, BOTTOM} menu_states;
+typedef enum {HAPPY, NEUTRAL, SAD, EATING, DEATH} Sprite;
 
 game_states gameState = IDLE;
 pet_states petState = ALIVE;
@@ -49,6 +50,14 @@ menu_states menuSelect = TOP;
 uint8_t hunger = 0;
 uint8_t happiness = 100;
 uint8_t menuIndex = 0;
+Sprite sprite = HAPPY;
+
+void idleState();
+void feedingState();
+void walkingState();
+void menuState();
+void drawStatusHunger();
+void drawStatusHappiness();
 
 uint32_t readADC(uint32_t, uint32_t);
 
@@ -92,18 +101,26 @@ void tickHandler(){
             }else{
                 happiness--;;
             }
-
     }
 
-    if(happiness > 100){
-        happiness = 100;
-    }else if(hunger > MAX_HUNGER){
+    if(hunger > MAX_HUNGER){
         hunger = MAX_HUNGER;
     }
 
     if(hunger >= MAX_HUNGER){
         petState = DEAD;
-    }else if(happiness == 0){
+    }
+
+    if(happiness > 100){
+        happiness = 100;
+        sprite = HAPPY;
+    }else if(happiness > 60){
+        sprite = HAPPY;
+    }else if(happiness > 30){
+        sprite = NEUTRAL;
+    }else if (happiness > 0){
+        sprite = SAD;
+    }else{
         petState = LOST;
     }
 }
@@ -203,16 +220,6 @@ void stickInterruptHandler(){
     }
     GPIOIntClear(STICK_CLICK_PORT, 0xFF); // clear interrupt flag
 }
-//
-//void buttonInterruptHandler(){
-//    SysCtlDelay(DEBOUNCE_DELAY);
-//    if(!GPIOPinRead(BUTTON_PORT, BUTTON_PIN)){
-//        //clearScreen();
-//    }
-//    GPIOIntClear(BUTTON_PORT, 0xFF); // clear interrupt flag
-//}
-
-
 
 void init(){
     // configure clock
@@ -249,8 +256,26 @@ uint32_t readADC(uint32_t adcBase, uint32_t sequencer){
     return value;
 }
 
-void drawSprite(uint16_t image[], uint16_t x, uint16_t y){
-    ST7735_DrawBitmap(x, y, image, 68, 48);
+void drawSprite(Sprite spriteIndex, uint16_t x, uint16_t y){
+
+    switch(spriteIndex){
+        case HAPPY:
+            ST7735_DrawBitmap(x, y, ROCK_HAPPY, 68, 48);
+            break;
+        case NEUTRAL:
+            ST7735_DrawBitmap(x, y, ROCK_IDLE, 68, 48);
+            break;
+        case SAD:
+            ST7735_DrawBitmap(x, y, ROCK_SAD, 68, 48);
+            break;
+        case EATING:
+            ST7735_DrawBitmap(x, y, ROCK_EATING, 68, 48);
+            break;
+        case DEATH:
+            ST7735_DrawBitmap(x, y, ROCK_DEAD, 68, 48);
+            break;
+    }
+
 }
 
 
@@ -273,9 +298,9 @@ void feedingState () {
     switch(petState) {
       case ALIVE:
           if(imageFrame == BASE){
-              drawSprite(ROCK_IDLE, SPRITE_X, SPRITE_Y);
+              drawSprite(sprite, SPRITE_X, SPRITE_Y);
           }else{
-              drawSprite(ROCK_EATING, SPRITE_X, SPRITE_Y);
+              drawSprite(EATING, SPRITE_X, SPRITE_Y);
           }
           break;
       case DEAD:
@@ -306,10 +331,10 @@ void walkingState() {
             if(imageFrame == BASE){
                 // clear last sprite drawn
                 ST7735_FillRect(SPRITE_X-16, SPRITE_Y-IMAGE_HEIGHT+1, 32, IMAGE_HEIGHT, ST7735_Color565(0, 0, 0));
-                drawSprite(ROCK_IDLE, SPRITE_X + 16 , SPRITE_Y);
+                drawSprite(sprite, SPRITE_X + 16 , SPRITE_Y);
             }else{
                 ST7735_FillRect(SPRITE_X+IMAGE_WIDTH-16, SPRITE_Y-IMAGE_HEIGHT+1, 32, IMAGE_HEIGHT, ST7735_Color565(0, 0, 0));
-                drawSprite(ROCK_IDLE, SPRITE_X - 16 , SPRITE_Y);
+                drawSprite(sprite, SPRITE_X - 16 , SPRITE_Y);
             }
 
             break;
@@ -324,7 +349,7 @@ void walkingState() {
 
     // if the idle count gets too high, return to idle state
     if(idleCount > 15){
-        ST7735_FillRect(0, 0, 128, 100, ST7735_Color565(0, 0, 0));
+        clearScreen();
         idleCount = 0;
         gameState = IDLE;
     }
@@ -333,14 +358,14 @@ void walkingState() {
 void idleState(){
     switch(petState){
         case ALIVE:
-            drawSprite(ROCK_IDLE, SPRITE_X, SPRITE_Y);
+            drawSprite(sprite, SPRITE_X, SPRITE_Y);
             break;
         case LOST:
             // clear sprite area
             ST7735_FillRect(0, 0, 128, 100, ST7735_Color565(0, 0, 0));
             break;
         case DEAD:
-            drawSprite(ROCK_DEAD, SPRITE_X, SPRITE_Y);
+            drawSprite(DEATH, SPRITE_X, SPRITE_Y);
             break;
         default: // bad state
             petState = ALIVE;
